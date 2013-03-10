@@ -1,0 +1,50 @@
+---
+layout: help_post
+title: 'How can change the Gmail look?'
+author: Ruben
+category: help
+permalink: /faq/entry/how_can_change_the_gmail_look/index.html
+tags:
+- faq
+---
+
+<p>The best way is to use one of the many Gmail Themes. Just go to <em>Gmail > Settings > Themes </em>and choose a new theme.</p>
+
+<p>If you like to fine tune Gmail's appearance, you can do this by using the Tweak UI settings.</p>
+
+<p>All options to change how Gmail presents itself can be customized in <strong>Preferences->Tweak UI.</strong>  The <strong>Use custom stylesheet </strong>setting allows you to change every aspect of Gmail by specifying a CSS file. <br /><br /></p>
+
+<p><h3>A few tips, if you like to write your own CSS file:</h3><ul class="disc"><li>Visit this wikipedia <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets" rel="external">page</a></li><li>Right click any element in Mailplane and then select "Inspect element" to show the HTML code for the element.</li>
+<li>To reload the stylesheet, turn the "Use stylesheet" setting off and then on again.</li>
+<li>Mailplane injects your CSS into each iframe. This way you can address the elements relative to the iframe.</li>
+<li>The CSS only changes the look of "your" Mailplane, messages are sent without applying the style.</li></ul></p>
+
+<h3>Examples:</h3>
+
+<p>When replying: Make the message text taller</p>
+
+<pre>
+div.ej iframe.editable {
+height: 500px !important;
+}
+</pre>
+
+<p>Change the font when composing in rich text:</p>
+
+<pre>
+body.editable {
+font-family: 'Lucida Sans Typewriter' !important; /* replace Lucida.. with your favorite font */
+}
+</pre>
+
+<p>Change font when composing a plain text message:</p>
+
+<pre>
+/* Read/compose in fixed-width font */
+textarea {
+font-family: 'Lucida Sans Typewriter' !important; /* replace Lucida.. with your favorite font */
+}
+</pre>
+
+<p><strong>Important: A custom CSS file needs to be tweaked every time Gmail gets updated!</strong></p>
+

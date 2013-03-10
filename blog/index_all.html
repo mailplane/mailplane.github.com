@@ -1,0 +1,20 @@
+---
+layout: default
+title: Mailplane Blog
+---
+
+<div class="entry">
+	<article>  
+		<h1>Mailplane Blog</h1>
+		
+		<p>Read news, tips and tricks related to Mailplane and Gmail.</p>
+		<table>
+			{% for post in site.categories.blog %}
+				<tr><td width="100px">{{ post.date | date_to_string }}</td><td><a href="{{ post.permalink }}">{{ post.title }}</a></td></tr>
+			{% endfor %}
+		</table>
+		<br/>
+	</article>
+
+	<div class="clear"></div>
+</div>

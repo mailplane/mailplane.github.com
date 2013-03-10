@@ -1,0 +1,30 @@
+---
+layout: blog_post
+title: 'Tip: Send mail from another address without &#8220;on behalf of&#8221;'
+author: Ruben
+category: blog
+permalink: /blog/entry/tip_send_mail_from_another_address_without_on_behalf_of/index.html
+---
+
+<p>Google now offers a way to remove the "on behalf of" message your messages.</p>
+
+<p>Here's the problem:</p>
+
+<blockquote>
+<p> Quite a few of you use Gmail's custom "From:" to send messages with one of your other email addresses listed in place of your Gmail address. Since these messages are sent by Gmail's servers but "from" a non-Gmail address, we have to include your original Gmail username in the "Sender" field of the message header to comply with mail delivery protocols and help prevent your mail from being marked as spam. Most email programs just display the "From" address and not the "Sender" field, but some (including versions of Microsoft Outlook) show these messages as coming "From username@gmail.com On Behalf Of customaddress@mydomain.com" which really annoyed people.</p>
+<p>We heard your request for another option that wouldn't show the "on behalf of" text loud and clear, and now there's a new option that does just that. Instead of using Gmail's servers to send the message, we'll use the servers where your other email address lives. Since Gmail isn't the originating domain, we don't have to include "Sender" info in the header. No more "on behalf of."</p>
+<p>All custom "From:" addresses used to work like this:</p>
+<img src="http://mailplaneapp.com/files/blog/custom_from_old.jpg" width="525" height="135" alt="The old way." />
+</blockquote>
+
+<p>The solution:</p>
+
+<pre><code>&lt;p&gt;Now, if your other email provider supports &lt;strike&gt;POP and/or IMAP access&lt;/strike&gt; authenticated SMTP, you can choose to send your message like this instead:&lt;/p&gt;
+&lt;img src="http://mailplaneapp.com/files/blog/ZZ2F4DEF86.png" width="525" height="138" alt="The new way." /&gt;
+</code></pre>
+
+<p> To switch to this new method, go to the Accounts page under Settings, and click "edit info" from the "Send mail as" section. Then choose the option to "Use your other email provider's SMTP servers."
+</p>
+
+<p><a target="_blank" href="http://gmailblog.blogspot.com/2009/07/send-mail-from-another-address-without.html">Read full blog post at the official Gmail blog.</a></p>
+

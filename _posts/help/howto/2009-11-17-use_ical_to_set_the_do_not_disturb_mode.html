@@ -1,0 +1,61 @@
+---
+layout: help_post
+title: 'Use iCal to set the &#8220;Do not Disturb&#8221; mode'
+author: Ruben
+category: help
+permalink: /howto/entry/use_ical_to_set_the_do_not_disturb_mode/index.html
+tags:
+- howto
+---
+
+<div>
+<p>You can use a simple AppleScript from iCal to work uninterrupted.</p>
+
+</div>
+<div>
+<p>The "Do not disturb" mode allows you turn off all sound, Growl, or counter notifications in a central place. The menu item can be found in the <em>Mailplane</em> menu.</p>
+
+<p>You can also use iCal to automatically turn Mailplane's "Do not disturb" mode ON or OFF. Here's how:</p>
+
+<h3>1. Create two AppleScript files</h3>
+
+<p>Open the AppleScript Editor application (Leopard users: Use Script Editor) and paste in this piece of text and save the file as <em>MailplaneDoNotDisturbON</em>:</p>
+
+<pre>
+tell application "Mailplane"
+set doNotDisturb to true
+end tell
+</pre>
+
+<p>Create a second AppleScript and call it <em>MailplaneDoNotDisturbOFF</em>:</p>
+
+<pre>
+tell application "Mailplane"
+set doNotDisturb to false
+end tell
+</pre>
+
+<div class="bbox"><div class="tip"></div><p class="title">Tip: Try the script</p><p>
+You can try the script by using the "Run" toolbar item and watch Mailplane's menu bar item (the letterbox) change. The envelope icon will be upside down when the <em>Do not disturb mode</em> is turned on. </p></div>
+
+<h3>2. Create an iCal Event</h3>
+
+<p><img style="float:none;" src="http://mailplaneapp.com/files/howto/iCal.png" alt="iCal.png" border="0" width="438" height="395" /></p>
+
+<ol>
+<li>Open iCal and create a new event</li>
+<li>Under "Alarm" select "Run Script"</li>
+<li>Choose either the <em>MailplaneDoNotDisturbON</em> or <em>MailplaneDoNotDisturbOFF</em> AppleScript file.</li>
+</ol>
+
+<div class="bbox"><div class="tip"></div><p class="title">Tip: Add more actions to your AppleScript</p>
+
+
+<p>
+You could add more steps to your AppleScript or use another AppleScript aware application to execute the AppleScript files.
+</p>
+
+
+</div>
+
+</div>

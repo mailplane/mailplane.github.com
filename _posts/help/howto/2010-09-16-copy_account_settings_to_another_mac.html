@@ -1,0 +1,30 @@
+---
+layout: help_post
+title: 'Copy account settings to another Mac'
+author: Ruben
+category: help
+permalink: /howto/entry/copy_account_settings_to_another_mac/index.html
+tags:
+- howto
+---
+
+<div>
+<p>How to copy all account settings like signatures, text snippets to another Mac.</p>
+
+</div>
+<div>
+<p>Mailplane stores are its accounts settings in a single file. The file contains text snippets, signatures and the account options. If you use Mailplane on multiple Macs, you can avoid reentering the account information:</p>
+
+<ol>
+<li>Open the <code>HOME/Library/Application Support/Mailplane</code> folder </li>
+<li>Copy the <code>Accounts_2.xml</code> file to the other Mac (Do not copy the other files, as they contain "session" data)</li>
+</ol>
+
+<p>Other settings:</p>
+
+<ul>
+<li><strong>Passwords:</strong> Are stored in the login keychain.</li>
+<li><strong>General Preferences:</strong> Are stored in <code>HOME/Library/Preferences/com.mailplaneapp.Mailplane.plist</code></li>
+</ul>
+
+</div>

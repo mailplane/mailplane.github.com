@@ -1,0 +1,7 @@
+---
+---
+[
+{% for post in site.categories.help %}
+{"title":"{{ post.title | cgi_escape }}","url":"{{ post.url }}","date":"{{ post.date | date_to_xmlschema }}","content":"{{ post.title | downcase | cgi_escape }}+{{ post.content | strip_html | strip_newlines | downcase | cgi_escape }}"},
+{% endfor %}
+]

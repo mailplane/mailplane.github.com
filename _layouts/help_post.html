@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="entry">
+	<article>  
+		<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+	
+		<p class="main">
+			{{ content }}
+		</p>
+
+	  <p class="meta">
+	    Published on {{ page.date | date_to_string }} by <a href="mailto:support@mailplaneapp.com">{{ page.author }}</a>.
+	  </p>        
+	</article>
+	
+	<div class="clear"></div>
+</div>

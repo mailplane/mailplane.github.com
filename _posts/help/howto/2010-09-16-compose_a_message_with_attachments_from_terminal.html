@@ -1,0 +1,43 @@
+---
+layout: help_post
+title: 'Compose a message (with attachments) from Terminal'
+author: Ruben
+category: help
+permalink: /howto/entry/compose_a_message_with_attachments_from_terminal/index.html
+tags:
+- howto
+---
+
+<div>
+<p>How to compose a new message and attach one or more files from the command line (Mac OS X <code>Terminal</code> application). </p>
+
+</div>
+<div>
+<p><img style="float:none;" src="http://mailplaneapp.com/files/howto/command_line-1.png" alt="command_line-1.png" border="0" width="600" height="294" /></p>
+
+<ol>
+<li><p>Enter the "open" command and add the "-a Mailplane" option to tell open the listed files in Mailplane</p>
+
+<p><code>open -a Mailplane file1 [file 2] [...]</code></p>
+
+<p>example:
+<code>open -a Mailplane mypicture.jpg anotherfile.doc</code></p></li>
+<li><p>As a result Mailplane will open a new window and attach all listed files. Attachment optimization will work as usual (folder get zipped, pictures are displayed in the optimization window).</p></li>
+</ol>
+
+<div class="bbox"><div class="tip"></div><p class="title">Tip: Create a shell alias</p><p>You can create a custom 'mailplane' command for easier use:
+
+
+
+<ol>
+<li>Open your shell login script in your favorite editor (for example <code>~/.bash_login</code>)</li>
+<li>enter <code>alias mailplane='open -a Mailplane'</code></li>
+<li>open a new Terminal window and try <em>mailplane thefile.jpeg</em></li>
+</ol>
+
+
+
+</p>
+</div>
+
+</div>

@@ -1,0 +1,79 @@
+---
+layout: help_post
+title: 'Compose email using AppleScript'
+author: Ruben
+category: help
+permalink: /howto/entry/compose_email_using_applescript/index.html
+tags:
+- howto
+---
+
+<div>
+<p>Sample script which can be used to compose and directly send emails.</p>
+
+</div>
+<div>
+<p>This script compose a new email and sets the subject to <code>Hello from Mailplane</code> and send the TO address field to <code>ruben@bakkker.net</code> and <code>m@mac.com</code>. The body content is set to <code>This is the body text</code>. The message is presented in a separate window and the user has the chance to add more content before manually sending it.</p>
+
+<pre><code>    tell application "Mailplane"
+set m to make new outgoing message with properties &#123;directlySend:false, optimizeAttachments:true&#125;
+tell m
+set r to make new to recipient at end
+tell r
+set address to "ruben@bakkker.net"
+set name to "Ruben"
+end tell
+set r to make new to recipient at end
+tell r
+set address to "m@mac.com"
+set name to "Monique"
+end tell
+set subject to "Hello from Mailplane"
+set content to "This is the body text!"
+make new mail attachment with properties &#123;path:"Macintosh HD:Users:ruben:Desktop:china.png"&#125;
+end tell
+compose m
+end tell
+</code></pre>
+
+<ul>
+<li>To directly send a message, change the <code>directlySend</code> option to <code>true</code>.</li>
+<li>To prevent the picture optimization to kick in, set the <code>optimizeAttachments</code> property to <code>false</code>.</li>
+<li>Add CC and BCC addresses use the following two commands: <code>set r to make new cc recipent at end</code> or <code>set r to make bcc recipient at end</code>.</li>
+</ul>
+
+<h3>Example to send all files in a folder</h3>
+
+<p>This compose and send a new message and attaches all files found in the <code>Desktop/Stuff/test</code> folder:</p>
+
+<pre><code>     tell application "Finder"
+set desktopFolder to "Macintosh HD:Users:ruben:Desktop:Stuff:test" as alias
+
+set a_list to every file in desktopFolder
+
+end tell
+
+tell application "Mailplane"
+set m to make new outgoing message with properties &#123;directlySend:true&#125;
+tell m
+set sender to "ruben@uncomplex.net"
+set r to make new to recipient at end
+tell r
+set address to "ruben@bakkker.net"
+set name to "Ruben"
+end tell
+
+set subject to "test subject"
+set content to "This is the body text!"
+repeat with i from 1 to number of items in a_list
+set a_file to (item i of a_list)
+set file_name to a_file as rich text
+make new mail attachment with properties &#123;path:file_name&#125;
+
+end repeat
+end tell
+compose m
+end tell
+</code></pre>
+
+</div>

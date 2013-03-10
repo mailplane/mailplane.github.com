@@ -1,0 +1,93 @@
+---
+layout: default
+title: Mailplane Help
+---
+
+<script>
+	$(function() {
+	    $("#search_query").keypress(function (e) {
+	    if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+	        $("#search_button").click();
+	        return false;
+	    } else {
+	        return true;
+	    }
+	    });
+	});
+
+	function search() {
+		$("#search_results").empty();
+		
+		$.ajax({
+		  dataType: "json",
+		  url: "search.json",
+		  cache: false,
+		  success: function(posts) {
+			  var queryTokens = $("#search_query").val().toLowerCase().split(" ");
+			
+			  var found = false;
+			  for(var i=0; i < posts.length; i++) {
+				  var title = decodeURIComponent(posts[i].title);
+				  var date = posts[i].date;
+				  var url = posts[i].url;
+				  var content = decodeURIComponent(posts[i].content);
+
+					for(var j=0; j < queryTokens.length; j++) {
+						if(content.indexOf(queryTokens[j]) !== -1) {
+							found = true;
+							$("#search_results").append("<li><a href=\"" +url+ "\">"+title.replace(/\+/g, ' ')+"</a></li>");
+							break;
+						}
+					}
+				}
+				
+				if(!found) {
+					$("#search_results").append("<li>Nothing found.</li>");
+				}
+		  }
+		});
+	}
+</script>
+
+<div class="entry">
+  <article id="post-{id}" class="{@|item-classes}">
+   
+		<h1>Mailplane Help</h1>
+
+		<h2>FAQ</h2>
+		<p>
+			<ul class="posts">
+				{% for post in site.tags.faq %}
+					<li>
+						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<p class="entry">{{ post.content | strip_html | truncatewords:15 }}</p>
+					</li>
+				{% endfor %}
+			</ul>
+		</p>
+		<p><br/></p>
+
+		<h2>Knowledge Base</h2>
+		<p>
+			<p>Search for articles in our Knowledge Base.</p>
+			<input id="search_query" type="text" name="" class="field">&nbsp;
+			<input id="search_button" type="button" class="submit" value="Search" onclick="search()">
+			<ul id="search_results" style="padding-top: 5px">
+			</ul>
+		</p>
+		<p><br/></p>
+
+		<h2>Forum</h2>
+		<p>
+			Talk with us and other Mailplane users in our <a href="http://groups.google.com/group/mailplaneapp" target="_blank">Google Group</a>.
+		</p>
+		<p><br/></p>
+
+		<h2>Write us</h2>
+		<p>
+		Write us to <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#109;&#97;&#105;&#108;&#112;&#108;&#97;&#110;&#101;&#97;&#112;&#112;&#46;&#99;&#111;&#109;">support (at) mailplaneapp.com</a> or tweet <a href="http://twitter.com/mailplane" target="_blank" title="Tweet, tweet!">@mailplane</a> for quick questions.
+		</p>
+  </article>
+
+	<div class="clear"></div>
+</div>

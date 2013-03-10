@@ -1,0 +1,37 @@
+---
+layout: blog_post
+title: 'Snow Leopard and Google Gears'
+author: Ruben
+category: blog
+permalink: /blog/entry/snow_leopard_and_google_gears/index.html
+---
+
+<p><img src="http://mailplaneapp.com/files/blog/ZZ7F649C2C.jpg"width="181" height="53" alt="Google Gears" /></p>
+
+<p>Are you using Mailplane 2.1-beta with Google Gears to get your Gmail offline? Unfortunately, Google Gears for Safari doesn't work with OSX 10.6 Snow Leopard.
+There's no official statement, but I found this comment at the end of <a target="_blank" href="http://code.google.com/p/gears/issues/detail?id=847">Google Gears Issue 847:</a></p>
+
+<blockquote>
+<p>Snow Leopard and Safari 4 introduced some changes which are incompatible with Gears.
+Apple made these changes to improve the security of their OS and of Safari.  While we
+continue to talk to Apple about the issue there is no workaround for us at this time.</p>
+<p>Gears continues to work with Firefox on Mac OS X.</p>
+</blockquote>
+
+<p>The problem seems to the new 64bit Safari version. It doesn't load any InputManagers like Google Gears.</p>
+
+<p>However: Mailplane, Fluid, or even 32bit Safari would still be capable of loading Google Gears, even under Snow Leopard.</p>
+
+<p>I went ahead and tried it:</p>
+
+<ul>
+<li>Checked out the Google Gears code</li>
+<li>Removed the OSX version check</li>
+<li>Built the thing</li>
+<li>Installed the resulting Google Gears</li>
+</ul>
+
+<p>Bingo! My "Offline Gmail" inside <a href="http://mailplaneapp.com/download/beta/">Mailplane 2.1-beta</a> is back! I tried Fluid and 32bit Safari too: Both worked as expected.</p>
+
+<p>A few questions remain: Is the networking code for Snow Leopard still the same? Are there any Snow Leopard related bugs? Will Google offer a solution soon?</p>
+
