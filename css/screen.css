@@ -218,38 +218,6 @@ DIV.slideshow{}
 DIV.slideshow SECTION{padding:359px 0 0 90px;}
 DIV.slideshow SECTION H3{font:normal 24px 'jesaya_freeregular',arial, helvetica, sans-serif;color:#343d4f;margin:0 0 8px 0;text-transform:uppercase;}
 DIV.slideshow SECTION P{font-size:16px;width:380px;padding:0 88px 0 0;}
-SECTION.slide1{background-image:url('../images/macbook.png');background-color:transparent;background-repeat:no-repeat;background-position:0 53px;}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5)
-{
-SECTION.slide1{background-image: url('../images/macbook@2x.png');background-size:539px;}
-}
-SECTION.slide2{background-image:url('../images/macbook.png');background-color:transparent;background-repeat:no-repeat;background-position:0 53px;}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5)
-{
-SECTION.slide2{background-image: url('../images/macbook@2x.png');background-size:539px;}
-}
-SECTION.slide3{background-image:url('../images/macbook.png');background-color:transparent;background-repeat:no-repeat;background-position:0 53px;}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5)
-{
-SECTION.slide3{background-image: url('../images/macbook@2x.png');background-size:539px;}
-}
-SECTION.slide4{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('../images/browser.png');background-repeat:no-repeat;}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5)
-{
-SECTION.slide4{background-image: url('../images/browser@2x.png');background-size:475px;}
-}
 
 /* ----------- Form Controls ------------ */
 INPUT.field{padding-left: 5px; font-size: 14px;width:248px;height:26px;border:1px solid #a6b2c9;}
