@@ -1,0 +1,33 @@
+---
+layout: default
+title: Mailplane Releases
+---
+
+<style>
+.entry img.left {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.entry img {
+	background-color: #efefef;
+	border: 1px solid #bdcdff;
+	padding: 4px;
+	max-width: 100%;
+}
+</style>
+
+<h1>Recent Mailplane 3 Releases</h1>
+{% for post in site.categories.release_mailplane3 limit:5 %}
+<div class="entry spacing">
+	<article class="left">  
+		<h2>{{ post.title }}</h2>
+		<p/>
+		<p class="entry">{{ post.content }}</p>
+	</article>
+	
+	<div class="clear"></div>
+	<div class="midfold"></div>
+</div>
+{% endfor %}
+
+</div>
