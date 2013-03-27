@@ -79,13 +79,29 @@ only screen and (min-device-pixel-ratio: 1.5)
 SECTION.slide_integration_mail_pdf{background-image: url('/assets/tour_integration_mail_pdf@2x.png');background-size:475px;}
 }
 
-SECTION.slide_enhance_gmail{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/browser.png');background-repeat:no-repeat;}
+SECTION.slide_enhancegmail_pluginlogos{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/tour_enhancegmail_pluginlogos.png');background-repeat:no-repeat;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5)
 {
-SECTION.slide_enhance_gmail{background-image: url('/assets/browser@2x.png');background-size:475px;}
+SECTION.slide_enhancegmail_pluginlogos{background-image: url('/assets/tour_enhancegmail_pluginlogos@2x.png');background-size:475px;}
+}
+SECTION.slide_enhancegmail_preferencesplugins{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/tour_enhancegmail_preferencesplugins.png');background-repeat:no-repeat;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5)
+{
+SECTION.slide_enhancegmail_preferencesplugins{background-image: url('/assets/tour_enhancegmail_preferencesplugins@2x.png');background-size:475px;}
+}
+SECTION.slide_enhancegmail_preferencesstyle{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/tour_enhancegmail_preferencesstyle.png');background-repeat:no-repeat;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5)
+{
+SECTION.slide_enhancegmail_preferencesstyle{background-image: url('/assets/tour_enhancegmail_preferencesstyle@2x.png');background-size:475px;}
 }
 
 SECTION.slide_attachments_resize_images{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/tour_attachments_resize_images.png');background-repeat:no-repeat;}
@@ -167,7 +183,7 @@ $(function() {
 });
 
 $(function() {
-	$('#slide_enhance_gmail')
+	$('#slide_enhancegmail')
 	.cycle({
 		fx:     'scrollHorz',
 		delay:  -2000,
@@ -290,12 +306,12 @@ $(function() {
 
 <div class="features spacing ptopmg">
 	<aside class="left">
-		<div id="slide_enhance_gmail">
-			<section class="slide_enhance_gmail">
+		<div id="slide_enhancegmail">
+			<section class="slide_enhancegmail_pluginlogos">
 			</section>
-			<section class="slide_enhance_gmail">
+			<section class="slide_enhancegmail_preferencesplugins">
 			</section>
-			<section class="slide_enhance_gmail">
+			<section class="slide_enhancegmail_preferencesstyle">
 			</section>
 		</div>
 		<a id="prev8" class="prev pstthree" href="#"></a>
@@ -304,7 +320,7 @@ $(function() {
 
 	<article>  
 		<h1 class="title">Enhance Gmail</h1>
-		<p class="tour">Enable great plug-ins (Rapportive, Boomerang, AwayFind, ToutApp), hide ads or apply a custom stylesheet easily.</p>
+		<p class="tour">Enable out-of-the-box plug-ins per account, hide ads or apply a custom stylesheet.</p>
 	</article>
 	
 	<div class="midfold"></div>
