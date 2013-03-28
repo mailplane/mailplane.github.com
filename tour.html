@@ -129,22 +129,38 @@ only screen and (min-device-pixel-ratio: 1.5)
 SECTION.slide_attachments_quicklook_preview{background-image: url('/assets/tour_attachments_quicklook_preview@2x.png');background-size:475px;}
 }
 
-SECTION.slide_notifier{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/browser.png');background-repeat:no-repeat;}
+SECTION.slide_notifier_statusbar{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/tour_notifier_statusbar.png');background-repeat:no-repeat;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5)
 {
-SECTION.slide_notifier{background-image: url('/assets/browser@2x.png');background-size:475px;}
+SECTION.slide_notifier_statusbar{background-image: url('/assets/tour_notifier_statusbar@2x.png');background-size:475px;}
+}
+SECTION.slide_notifier_donotdisturb{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/tour_notifier_donotdisturb.png');background-repeat:no-repeat;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5)
+{
+SECTION.slide_notifier_donotdisturb{background-image: url('/assets/tour_notifier_donotdisturb@2x.png');background-size:475px;}
+}
+SECTION.slide_notifier_notificationcenter{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/tour_notifier_notificationcenter.png');background-repeat:no-repeat;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5)
+{
+SECTION.slide_notifier_notificationcenter{background-image: url('/assets/tour_notifier_notificationcenter@2x.png');background-size:475px;}
 }
 
-SECTION.slide_social_animal{width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-image:url('/assets/browser.png');background-repeat:no-repeat;}
+SECTION.slide_socialanimal{width:475px;height:334px;margin:0 0 0 0;background-color:transparent;background-image:url('/assets/tour_socialanimal.png');background-repeat:no-repeat;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5)
 {
-SECTION.slide_social_animal{background-image: url('/assets/browser@2x.png');background-size:475px;}
+SECTION.slide_socialanimal{background-image: url('/assets/tour_socialanimal@2x.png');background-size:475px;}
 }
 </style>
 
@@ -216,7 +232,7 @@ $(function() {
 });
 
 $(function() {
-	$('#slide_social_animal')
+	$('#slide_socialanimal')
 	.cycle({
 		fx:     'scrollHorz',
 		delay:  -2000,
@@ -360,11 +376,11 @@ $(function() {
 <div class="features spacing ptopmg">
 	<aside class="left">
 		<div id="slide_notifier">
-			<section class="slide_notifier">
+			<section class="slide_notifier_statusbar">
 			</section>
-			<section class="slide_notifier">
+			<section class="slide_notifier_donotdisturb">
 			</section>
-			<section class="slide_notifier">
+			<section class="slide_notifier_notificationcenter">
 			</section>
 		</div>
 		<a id="prev12" class="prev pstthree" href="#"></a>
@@ -395,17 +411,11 @@ $(function() {
 		</p>
 	</article>
 	
-	<aside>
-		<div id="slide_social_animal">
-			<section class="slide_social_animal">
-			</section>
-			<section class="slide_social_animal">
-			</section>
-			<section class="slide_social_animal">
+	<aside style="padding:0 0 0 0">
+		<div id="slide_socialanimal">
+			<section class="slide_socialanimal">
 			</section>
 		</div>
-		<a id="prev14" class="prev pstthree" href="#"></a>
-		<a id="next13" class="next pstfour" href="#"></a>
 	</aside>
 	
 	<div class="clear"></div>
