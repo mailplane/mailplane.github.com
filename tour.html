@@ -8,9 +8,9 @@ title: Mailplane Tour
 	width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-repeat:no-repeat;
 }
 
-.slide_accounts_1{ background-image:url('/assets/tour_accounts_1.png') }
-.slide_accounts_2{ background-image:url('/assets/tour_accounts_2.png') }
-.slide_accounts_3{ background-image:url('/assets/tour_accounts_3.png') }
+.slide_accounts_1 { background-image:url('/assets/tour_accounts_1.png') }
+.slide_accounts_2 { background-image:url('/assets/tour_accounts_2.png') }
+.slide_accounts_3 { background-image:url('/assets/tour_accounts_3.png') }
 
 .slide_calendar_1 { background-image:url('/assets/tour_calendar_1.png') }
 .slide_calendar_2 { background-image:url('/assets/tour_calendar_2.png') }
@@ -69,8 +69,12 @@ only screen and (min-device-pixel-ratio: 1.5)
 }
 </style>
 
+<script src="/assets/FancyZoom.js" type="text/javascript"></script>
+<script src="/assets/FancyZoomHTML.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(function() {
+	setupZoom();
+	
 	$('#slide_accounts')
 	.cycle({
 		fx:     'scrollHorz',
@@ -141,17 +145,18 @@ $(function() {
 <div class="features spacing">
 	<article class="left">  
 		<h1 class="title">Accounts</h1>
-		<p class="tour">Up to 10 simultaneous accounts are supported. Switch between them instantly.</p>
+		<p class="tour">
+			Switch between accounts instantly.<br/>
+			<br/>
+			Up to 10 simultaneous accounts are supported.
+		</p>
 	</article>
 	
 	<aside>
 		<div id="slide_accounts">
-			<section class="slide_accounts_1">
-			</section>
-			<section class="slide_accounts_2">
-			</section>
-			<section class="slide_accounts_3">
-			</section>
+			<a href="/assets/tour_accounts_1_zoom.png"><section class="slide_accounts_1"></section></a>
+			<a href="/assets/tour_accounts_2_zoom.png"><section class="slide_accounts_2"></section></a>
+			<a href="/assets/tour_accounts_3_zoom.png"><section class="slide_accounts_3"></section></a>
 		</div>
 		<a id="prev2" class="prev pstthree" href="#"></a>
 		<a id="next1" class="next pstfour" href="#"></a>
@@ -166,12 +171,9 @@ $(function() {
 <div class="features spacing ptopmg">
 	<aside class="left">
 		<div id="slide_calendar">
-			<section class="slide_calendar_1">
-			</section>
-			<section class="slide_calendar_2">
-			</section>
-			<section class="slide_calendar_3">
-			</section>
+			<a href="/assets/tour_calendar_1_zoom.png"><section class="slide_calendar_1"></section></a>
+			<a href="/assets/tour_calendar_2_zoom.png"><section class="slide_calendar_2"></section></a>
+			<a href="/assets/tour_calendar_3_zoom.png"><section class="slide_calendar_3"></section></a>
 		</div>
 		<a id="prev4" class="prev pstthree" href="#"></a>
 		<a id="next3" class="next pstfour" href="#"></a>
@@ -179,7 +181,9 @@ $(function() {
 
 	<article>  
 		<h1 class="title">Calendar</h1>
-		<p class="tour">Google Calendar is a perfect match for Gmail. Mailplane combines them in one app. No calendar set-up required.</p>
+		<p class="tour">
+			Google Calendar is a perfect match for Gmail. Mailplane combines them in one app.<br/>
+			<br/>No separate calendar set-up required and accepting and invitation intuitively switches to the correct calendar tab.</p>
 	</article>
 	
 	<div class="midfold"></div>
@@ -191,17 +195,18 @@ $(function() {
 <div class="features spacing ptopmg">
 	<article class="left">  
 		<h1 class="title">Integration</h1>
-		<p class="tour">Mail.app like keyboard shortcuts, default Mail Client, Mail PDF from Print Dialog, OSX Services and much more.</p>
+		<p class="tour">
+			Mailplane is a native Mac OSX application and thus, integrates naturally into Mac OSX.<br/>
+			<br/>
+			Mail App like keyboard shortcuts, acting as default Mail Client, Mail PDF from Print Dialog, OSX Services and much more.
+		</p>
 	</article>
 	
 	<aside>
 		<div id="slide_integration">
-			<section class="slide_integration_keyboard_shortcuts">
-			</section>
-			<section class="slide_integration_default_mail_client">
-			</section>
-			<section class="slide_integration_mail_pdf">
-			</section>
+			<a href="/assets/tour_integration_keyboard_shortcuts_zoom.png"><section class="slide_integration_keyboard_shortcuts"></section></a>
+			<a href="/assets/tour_integration_default_mail_client_zoom.png"><section class="slide_integration_default_mail_client"></section></a>
+			<a href="/assets/tour_integration_mail_pdf_zoom.png"><section class="slide_integration_mail_pdf"></section></a>
 		</div>
 		<a id="prev6" class="prev pstthree" href="#"></a>
 		<a id="next5" class="next pstfour" href="#"></a>
@@ -216,12 +221,9 @@ $(function() {
 <div class="features spacing ptopmg">
 	<aside class="left">
 		<div id="slide_enhancegmail">
-			<section class="slide_enhancegmail_pluginlogos">
-			</section>
-			<section class="slide_enhancegmail_preferencesplugins">
-			</section>
-			<section class="slide_enhancegmail_preferencesstyle">
-			</section>
+			<a href="/assets/tour_enhancegmail_pluginlogos_zoom.png"><section class="slide_enhancegmail_pluginlogos"></section></a>
+			<a href="/assets/tour_enhancegmail_preferencesplugins_zoom.png"><section class="slide_enhancegmail_preferencesplugins"></section></a>
+			<a href="/assets/tour_enhancegmail_preferencesstyle_zoom.png"><section class="slide_enhancegmail_preferencesstyle"></section></a>
 		</div>
 		<a id="prev8" class="prev pstthree" href="#"></a>
 		<a id="next7" class="next pstfour" href="#"></a>
@@ -229,7 +231,10 @@ $(function() {
 
 	<article>  
 		<h1 class="title">Enhance Gmail</h1>
-		<p class="tour">Enable out-of-the-box plug-ins per account, hide ads or apply a custom stylesheet.</p>
+		<p class="tour">
+			Enable Gmail plug-ins (Rapportive, Boomerang, etc.) on account basis with a single click.<br/>
+			<br/>
+			And hide ads or apply a custom stylesheet.</p>
 	</article>
 	
 	<div class="midfold"></div>
@@ -249,12 +254,9 @@ $(function() {
 	
 	<aside>
 		<div id="slide_attachments">
-			<section class="slide_attachments_resize_images">
-			</section>
-			<section class="slide_attachments_drag_and_drop">
-			</section>
-			<section class="slide_attachments_quicklook_preview">
-			</section>
+			<a href="/assets/tour_attachments_resize_images_zoom.png"><section class="slide_attachments_resize_images"></section></a>
+			<a href="/assets/tour_attachments_drag_and_drop_zoom.png"><section class="slide_attachments_drag_and_drop"></section></a>
+			<a href="/assets/tour_attachments_quicklook_preview_zoom.png"><section class="slide_attachments_quicklook_preview"></section></a>
 		</div>
 		<a id="prev10" class="prev pstthree" href="#"></a>
 		<a id="next9" class="next pstfour" href="#"></a>
@@ -269,12 +271,9 @@ $(function() {
 <div class="features spacing ptopmg">
 	<aside class="left">
 		<div id="slide_notifier">
-			<section class="slide_notifier_statusbar">
-			</section>
-			<section class="slide_notifier_donotdisturb">
-			</section>
-			<section class="slide_notifier_notificationcenter">
-			</section>
+			<a href="/assets/tour_notifier_statusbar_zoom.png"><section class="slide_notifier_statusbar"></section></a>
+			<a href="/assets/tour_notifier_donotdisturb_zoom.png"><section class="slide_notifier_donotdisturb"></section></a>
+			<a href="/assets/tour_notifier_notificationcenter_zoom.png"><section class="slide_notifier_notificationcenter"></section></a>
 		</div>
 		<a id="prev12" class="prev pstthree" href="#"></a>
 		<a id="next11" class="next pstfour" href="#"></a>
@@ -283,7 +282,7 @@ $(function() {
 	<article>  
 		<h1 class="title">Notifier</h1>
 		<p class="tour">
-			Out-of-the box notifier which tells you everything about unread messages.<br/>
+			Mailplane's notifier tells you everything about unread messages.<br/>
 			<br/>
 			It integrates with Mac OSX notification center and the 'Do&nbsp;Not&nbsp;Disturb' mode allows you to stay focused.
 		</p>
@@ -299,15 +298,15 @@ $(function() {
 	<article class="left">  
 		<h1 class="title">Social animal</h1>
 		<p class="tour">
-			Mailplane provides an AppleScript interface and talks to other apps like Evernote, OmniFocus, iWork suite, Safari, iPhoto, Contacts.<br/>
-			See a full list <a href="#">here</a>.
+			Mailplane talks to apps like Safari, iWork suite, iPhoto, Contacts, Evernote, Things, OmniFocus, Alfred and Lyn.<br/>
+			<br/>
+			Mailplane has also an AppleScript interface to automate some of your daily workflows. More <a href="/howto/entry/compose_email_using_applescript">here</a>.
 		</p>
 	</article>
 	
 	<aside style="padding:0 0 0 0">
 		<div id="slide_socialanimal">
-			<section class="slide_socialanimal">
-			</section>
+			<a href="/assets/tour_socialanimal_zoom.png"><section class="slide_socialanimal"></section></a>
 		</div>
 	</aside>
 	
