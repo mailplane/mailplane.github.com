@@ -82,7 +82,7 @@ A.green{background-image: url('btn@2x.png');background-size: 194px;}
 }
 A.green:hover{background-position:0 -244px;}
 A.green:active{background-position:0 -305px;}
-A SPAN{display:block;font:normal 24px 'jesaya_freeregular',arial, helvetica, sans-serif;color:#fff;text-transform:uppercase;text-align:right;}
+A.btn SPAN{display:block;font:normal 24px 'jesaya_freeregular',arial, helvetica, sans-serif;color:#fff;text-transform:uppercase;text-align:right;}
 SPAN.get{padding:19px 19px 4px 0;width:175px;text-shadow: 1px 1px 1px #2991d7;filter: dropshadow(color=#2991d7, offx=1, offy=1);background-image:url('icons.png');background-repeat:no-repeat;background-position:15px 12px;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -220,15 +220,15 @@ DIV.slideshow SECTION H3{font:normal 24px 'jesaya_freeregular',arial, helvetica,
 DIV.slideshow SECTION P{font-size:16px;width:380px;padding:0 88px 0 0;}
 
 /* ----------- Form Controls ------------ */
-INPUT.field{padding-left: 5px; font-size: 14px;width:248px;height:26px;border:1px solid #a6b2c9;}
-INPUT.submit{color:#fff;font:normal 15px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-transform:uppercase;text-shadow: 1px 1px 1px #2991d7;filter: dropshadow(color=#2991d7, offx=1, offy=1);border:none;width:119px;height:32px;background-color:transparent;background-image:url('sml_btn.png');background-repeat:no-repeat;background-position:0 0;}
+INPUT[type='text']{padding-left: 5px; font-size: 14px; height:26px; border:1px solid #a6b2c9;}
+INPUT[type='submit']{color:#fff;font:normal 15px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-transform:uppercase;text-shadow: 1px 1px 1px #2991d7;filter: dropshadow(color=#2991d7, offx=1, offy=1);border:none;width:119px;height:32px;background-color:transparent;background-image:url('sml_btn.png');background-repeat:no-repeat;background-position:0 0;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 240dpi)
 {
-INPUT.submit{background-image: url('../sml_btn@2x.png');background-size:119px;}
+INPUT[type='submit']{background-image: url('sml_btn@2x.png');background-size:119px;}
 }
-INPUT.submit:active{background-position:0 -32px;}
-INPUT.submit:disabled{background-position:0 -32px;}
+INPUT[type='submit']:active{background-position:0 -32px;}
+INPUT[type='submit']:disabled{background-position:0 -32px;}
 
 /* Localized */
