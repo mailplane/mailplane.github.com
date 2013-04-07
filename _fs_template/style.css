@@ -1,0 +1,9 @@
+.core-window { font-size: 20px !important; }
+.store-product-detail { display: none; }
+.store-page-navigation { border: none; }
+.store-product-option { padding-top: 25px; }
+.store-product-option-title { font-weight: bold; font-size: 24px; }
+.store-product-option-description { padding-left: 1.3em; }
+.core-js-disabled-inline { display: inline !important; }
+.core-js-enabled-inline { display: none !important; }
+.site-license .store-product-option-display { padding-left: 0 !important; }
