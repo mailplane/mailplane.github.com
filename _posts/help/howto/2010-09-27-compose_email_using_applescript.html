@@ -15,7 +15,7 @@ tags:
 <div>
 <p>This script compose a new email and sets the subject to <code>Hello from Mailplane</code> and send the TO address field to <code>ruben@bakkker.net</code> and <code>m@mac.com</code>. The body content is set to <code>This is the body text</code>. The message is presented in a separate window and the user has the chance to add more content before manually sending it.</p>
 
-<pre><code>    tell application "Mailplane"
+<pre><code>    tell application "Mailplane" (*Please note that for Mailplane 3, you need to specify "Mailplane 3" instead of just 'Mailplane')
 set m to make new outgoing message with properties &#123;directlySend:false, optimizeAttachments:true&#125;
 tell m
 set r to make new to recipient at end
