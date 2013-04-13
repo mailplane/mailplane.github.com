@@ -122,6 +122,7 @@ UL.middle LI.midleft{background-image: url('signatures@2x.png');background-size:
 UL.middle LI.midleft H1{margin:0 0 20px 0;}
 UL.middle LI.midleft P{font-size:20px;margin:0 0 28px 0;}
 UL.middle LI.midright{width:558px;position:relative;}
+UL.posts{list-style:none}
 SECTION.bottom{padding-top:45px}
 NAV{padding:8px 0 6px 20px;text-align:center;width:318px;border-top:1px solid #b3c0d4;border-bottom:1px solid #b3c0d4;margin-left:auto;margin-right:auto;left:0;right:0;margin-bottom:6px;}
 NAV.pagination {padding:0 0 0 20px;border:0px}
