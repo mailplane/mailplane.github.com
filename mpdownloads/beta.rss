@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Mailplane 3</title>
+    <link>http://update.mailplaneapp.com/appcast.php?appName=Mailplane+3&amp;osVersion=</link>
+    <description>The best way to use Gmail on your Mac.</description>
+    <language>en</language>
+    <item>
+      <title>Release 3.0 Beta</title>
+      <description><![CDATA[Go to <a href="http://beta.mailplaneapp.com/kb/release-notes/3_0">Release Notes</a> if you'd like to know more about this update.]]></description>
+      <pubDate>Thu, 24 Jan 2013 19:08:34</pubDate>
+      <enclosure url="http://update.mailplaneapp.com/appcast_download.php?build=Mailplane_3_587.tbz"
+                 type="application/octet-stream"
+                 sparkle:version="587"
+                 sparkle:shortVersionString="3.0 Beta"
+                 sparkle:dsaSignature="MC0CFCgTn5a/wgqekmCerM4s+c368CNJAhUAjIv3pMW4+6t+H1OH9p5+A1Vpirw="
+      />
+    </item>
+  </channel>
+</rss>
