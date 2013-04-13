@@ -3,11 +3,13 @@ layout: default
 title: Mailplane Blog
 ---
 
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://mailplaneapp.com/blog/rss_2.0"/>
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://mailplaneapp.com/blog/atom"/>
 <div class="entry">
 	<article>  
 		<h1>Mailplane Blog</h1>
 		
-		<p>Read news, tips and tricks related to Mailplane and Gmail.</p>
+		<p>Read news, tips and tricks related to Mailplane and Gmail. Subscribe it with your favorite RSS Reader <a href="http://mailplaneapp.com/blog/rss_2.0">here</a>.</p>
 		<table class="posts">
 			{% for post in site.categories.blog limit:25 %}
 				<tr><td width="100px">{{ post.date | date_to_string }}</td><td><a href="{{ post.permalink }}">{{ post.title }}</a></td></tr>
