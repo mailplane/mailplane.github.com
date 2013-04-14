@@ -36,7 +36,7 @@ Send us your AppStore/iTunes receipt to <a href="mailto:support@mailplaneapp.com
 
 ### Mailplane 2 is not installed anymore
 
-* Get your Mailplane 2 license handy or request it [here](http://behemoth.mailplaneapp.com/support/resend_license).
+* Get your Mailplane 2 license handy or request it [here](http://behemoth.mailplaneapp.com/isv/licenses/resend/).
 * Open Mailplane 3 and choose menu Mailplane 3 > License...
 * Paste the license code and press 'OK'
 * Press 'Discounted Upgrade'.
