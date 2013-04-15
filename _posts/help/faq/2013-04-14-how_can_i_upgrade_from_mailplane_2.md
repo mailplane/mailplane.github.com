@@ -16,7 +16,7 @@ The license dialog will take care of everything else. Below is a detailed guide 
 
 ### Before October 1 2012
 
-1. Install Mailplane 2 from AppStore
+1. Install Mailplane 2 from AppStore if you haven't already. (Open AppStore, go to Purchases and press 'Install')
 2. Open Mailplane 3 and choose menu Mailplane 3 > License...
 3. Mailplane 3 will automatically detect Mailplane 2. Press '20% Update Discount' on the right.
 
