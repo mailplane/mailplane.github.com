@@ -41,3 +41,5 @@ Send us your AppStore/iTunes receipt to <a href="mailto:support@mailplaneapp.com
 * Choose your Mailplane 2 license file (YourLicense.mailplanelicense). You can also request it [here](http://behemoth.mailplaneapp.com/support/resend_license).
 * Press '20% Update Discount' if you bought Mailplane 2 before October 1 2012
 * Press 'Upgrade for Free' if you bought Mailplane 2 on or after October 1 2012
+
+[See video](/assets/faq/2013-04-14-how_can_i_upgrade_from_mailplane_2/upgrade_mp2_not_installed.mp4)
