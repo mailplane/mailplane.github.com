@@ -1,193 +1,34 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+---
+layout: default
+title: Mailplane 3 Releases
+---
 
-<head>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<meta charset="utf-8"/>
-	<title>Mailplane Releases</title>
-	
-	<link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />	
-
-	<link rel="stylesheet" href="/assets/reset.css" />
-	<link rel="stylesheet" href="/assets/screen.css" />
-	
-	<!--[if IE]>  
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>  
-	<![endif]--> 
-	<script type="text/javascript" src="/assets/jquery.min.js"></script>
-	<script type="text/javascript" src="/assets/jquery.cycle.all.2.72.js"></script>
-</head>
-
-<body>
-
-	<div class="top">
-		<div class="wrapper">
-			<section class="minitop">
-				<a class="logo" href="/">Mailplane</a>
-			</section>
-		</div>
-	</div>
-	
-	<div class="wrapper">
-		<section class="cnt">
-    	<style>
-.entry img.left {
-	float: left;
-	margin: 0 15px 15px 0;
-}
-.entry img {
-	background-color: #efefef;
-	border: 1px solid #d1d1d1;
-	padding: 4px;
-	max-width: 100%;
-}
+<style>
+	.entry img.left {
+		float: left;
+		margin: 0 15px 15px 0;
+	}
+	.entry img {
+		background-color: #efefef;
+		border: 1px solid #d1d1d1;
+		padding: 4px;
+		max-width: 100%;
+	}
+	.entry p.item {
+		padding: 0 0 20px 0;
+	}
 </style>
 
 <h1>Recent Mailplane 3 Releases</h1>
 
+{% for post in site.categories.release_mailplane3 %}
 <div class="entry spacing">
 	<article class="left">  
-		<h2>April 10, 2013 (#646)</h2>
-		<p/>
-		<p class="entry">
-			<p>
-				<img width="100px" class="left" src="/assets/release/mailplane3/2013-04-10-646/taskforce_rightinbox.png"/><strong>TaskForce &amp; RightInbox</strong><br>
-				TaskForce plug-in is back in Mailplane 3 and we added RightInbox. RightInbox was kind enough to give Mailplane users a <a href="https://sites.fastspring.com/rightinbox/instant/rightinbox-subscription?coupon=MAILPLANE3" target="_blank">30% discount until May 15th</a>. We urge you to check them out!
-			</p>
-			<p style="clear:both"/>
-
-			<p>
-				<img width="100px" class="left" src="/assets/release/mailplane3/2013-04-10-646/compose_message_with.png"/><strong>Compose Message With...</strong><br>
-				Compose messages with different accounts directly from the Dock. Close the main window (Command-W) and you're able to send email without having to look at email. Thanks to John and <a href="http://www.kungfugrippe.com/post/45763194525/compose-gmail-message" target="_blank">Merlin Mann</a> for the idea!
-			</p>
-			<p style="clear:both"/>
-
-			<p>
-				<img width="100px" class="left" src="/assets/release/mailplane3/2013-04-10-646/reset_mailplane.png"/><strong>Reset Mailplane</strong><br>
-				Some of you might already know it. "Reset Mailplane" is our secret weapon :) Next to removing Cookies, it does now also clear Caches, close all windows and tabs and restarts Mailplane.
-			</p>
-			<p style="clear:both"/>
-
-			<p>
-				<img width="100px" class="left" src="/assets/release/mailplane3/2013-04-10-646/lets_move.png"/><strong>LetsMove Integration</strong><br>
-				LetsMove is a tiny but very helpful addition. If it's not already in the Application folder, Mailplane ask you now on start-up if it should move itself to the Applications folder.
-			</p>
-			<p style="clear:both"/>
-
-
-			<p>
-				<img width="100px" class="left" src="/assets/release/mailplane3/2013-04-10-646/add_cc_recipients_shortcut.png"/><strong>'Add Cc Recipients' Shortcut</strong><br>
-				Gmail's new <a href="http://support.google.com/mail/answer/6594?hl=en" target="_blank">'Add Cc recipients' Shortcut</a> happened to conflict with 'Format > Font > Show Colors'. Thus, we changed Show Colors to Command-Option-C. Thanks to Daniel for the idea!
-			</p>
-			<p style="clear:both"/>
-
-			<p>
-				<img width="100px" class="left" src="/assets/release/mailplane3/clean_normal.png"><strong>Fixes</strong><br>
-				* Viewing Excel sheets in QuickLook caused connection problems<br/>
-				* Toolbar buttons look now crisp on Retina screens<br/>
-				* Attempt to make Notifier more responsive and fixed a crash<br/>
-				* Gmail doesn't steal focus anymore<br/>
-			</p>
-		</p>
+		<h2>{{ post.title }}</h2>
+		<p class="entry">{{ post.content }}</p>
 	</article>
-	
+
 	<div class="clear"></div>
 	<div class="midfold"></div>
 </div>
-
-<div class="entry spacing">
-	<article class="left">  
-		<h2>March 16, 2013 (#622)</h2>
-		<p/>
-		<p class="entry"><p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/2013-03-16-622/image_scale_dialog.png"/><strong>Image Resize Dialog</strong><br>
-	Mailplane 3 doesn't show the resize dialog anymore if the image is below a minimum file size. Go to Mailplane 3 > Preferences... > Attachments to define it.</p>
-<p style="clear:both"/>
-
-<p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/2013-03-16-622/copy_paste.png"><strong>Copy/Paste to Attach Files</strong><br>
-	Open Finder, select some files, copy them to the clipboard and paste them into a new message inside Mailplane.
-</p>
-<p style="clear:both"/>
-
-<p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/2013-03-16-622/page_orientation.png"><strong>Print Dialog</strong><br>
-	The print dialog does now include page orientation.
-</p>
-<p style="clear:both"/>
-
-<p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/clean_normal.png"><strong>Fixes</strong><br>
-	* FIX: Mailplane was holding back from sleep after downloading a file<br/>
-	* FIX: Crash while creating a message with an attachment<br/>
-	* FIX: Mailplane quits unexpectedly after opening an external link<br/>
-	* FIX: Crash while closing tabs on Mac OSX 10.7.5<br/>
-</p></p>
-	</article>
-	
-	<div class="clear"></div>
-	<div class="midfold"></div>
-</div>
-
-<div class="entry spacing">
-	<article class="left">  
-		<h2>February 15, 2013 (#598)</h2>
-		<p/>
-		<p class="entry"><p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/2013-02-15-598/release_notes_folder_alias_normal.png"/><strong>Alias in Download Location</strong><br>
-	Supports Aliases as download location (Preferences &gt; General &gt; Save attachments to).
-</p>
-<p style="clear:both"/>
-
-<p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/2013-02-15-598/release_notes_crash_reporter_normal.png"><strong>Crash Reporter</strong><br>
-	Mailplane 3 has now a crash reporter which appears on start up after a crash. Don't hesitate to send us your crash reports.
-</p>
-<p style="clear:both"/>
-
-<p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/clean_normal.png"><strong>Fixes</strong><br>
-	* Supports Evernote 5.0.5<br>
-	* <a href="http://apple.wikia.com/wiki/Dialog_sheet">Sheets</a> do not block the whole application anymore.
-</p>
-</p>
-	</article>
-	
-	<div class="clear"></div>
-	<div class="midfold"></div>
-</div>
-
-<div class="entry spacing">
-	<article class="left">  
-		<h2>January 24, 2013 (#587)</h2>
-		<p/>
-		<p class="entry"><p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/2013-01-24-587/release_notes_scale_images_dialog_normal.png"><strong>Scale Images Dialog</strong><br>
-	Scale image dialog doesn't appear anymore if the image is smaller than the lowest option (1024 x 768 px).
-</p>
-<p style="clear:both"/>
-
-<p>
-	<img width="100px" class="left" src="/assets/release/mailplane3/clean_normal.png"><strong>Fixes</strong><br>
-	Attachments didn't work anymore within the new compose mode due to a recent Google change.
-</p>
-</p>
-	</article>
-	
-	<div class="clear"></div>
-	<div class="midfold"></div>
-</div>
-
-
-</div>
-		</section>
-
-	</div>
-
-</body>
-</html>
+{% endfor %}
