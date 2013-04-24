@@ -31,7 +31,7 @@ Send us your AppStore/iTunes receipt to <a href="mailto:support@mailplaneapp.com
 * Press '20% Update Discount' if you bought Mailplane 2 before October 1 2012
 * Press 'Upgrade for Free' if you bought Mailplane 2 on or after October 1 2012
 
-### Mailplane 2 is not installed anymore (--> [Watch video](/assets/faq/2013-04-14-how_can_i_upgrade_from_mailplane_2/upgrade_mp2_not_installed.mp4))
+### Mailplane 2 is not installed anymore (--> [Watch video](/assets/help/faq/2013-04-14-how_can_i_upgrade_from_mailplane_2/upgrade_mp2_not_installed.mp4))
 
 * Open Mailplane 3 and choose menu Mailplane 3 > License...
 * Press 'Discounted Upgrade'.
