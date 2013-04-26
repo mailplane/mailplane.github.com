@@ -32,7 +32,7 @@ It's very easy to create a new to-dos based on email conversations. Most importa
 
 3. Select some text inside the conversation, it'll be added as Things to-do note:
 
-	![screen3](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen3.jpg) 
+	![screen3](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen3.png) 
 
 4. Select `Mailplane 3 > Services > New To-Do Containing Selection as Note` or press the hotkey. As a result you'll get the Things Quick Entry dialog:
 
@@ -40,4 +40,4 @@ It's very easy to create a new to-dos based on email conversations. Most importa
 
 5. Make your changes and press Save to add the to-do. After the dialog closes, the to-do can be found in your Things inbox. Just click the email link and your conversation will magically open inside Mailplane 3.
 
-	![screen5](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen5.jpg)
+	![screen5](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen5.png)
