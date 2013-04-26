@@ -17,11 +17,11 @@ It's very easy to create a new to-dos based on email conversations. Most importa
 
 2. Uncheck the *Enable shortcut for Quick Entry with Autofill* checkbox and then check it again. 
 
-	![screen1](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen1.jpg) 
+	![screen1](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen1.png) 
  
 3. When prompted, download a fresh copy of the Things Helper and run it — it’ll be automatically installed into the right location and the feature will be fully functional again.
 
-	![screen2](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen2.jpg)
+	![screen2](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen2.png)
 
 
 ## How it works
