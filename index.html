@@ -52,6 +52,7 @@
 
 		/* -------- Who's using Mailplane -------- */
 
+		UL.companies{list-style:none;}
 		UL.companies{background-color:#fff;width:58%;height:72px;padding:0 30px;-webkit-border-radius:3px;border-radius:3px;margin-left:auto;margin-right:auto;left:0;right:0;margin-bottom:43px;}
 		UL.companies LI{float:left;margin:0 0 0 28px;}
 		UL.companies A.evernote_logo{width:104px;height:72px;display:block;background-image:url('/assets/evernote_logo.png');background-repeat:no-repeat;}
@@ -61,6 +62,14 @@
 		only screen and (min-device-pixel-ratio: 1.5)
 		{
 		UL.companies A.evernote_logo{background-image: url('/assets/evernote_logo@2x.png');background-size:104px;}
+		}
+		UL.companies A.safaribooksonline_logo{width:104px;height:72px;display:block;background-image:url('/assets/safaribooksonline_logo.png');background-repeat:no-repeat;}
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		only screen and (min--moz-device-pixel-ratio: 1.5),
+		only screen and (-o-min-device-pixel-ratio: 3/2),
+		only screen and (min-device-pixel-ratio: 1.5)
+		{
+		UL.companies A.safaribooksonline_logo{background-image: url('/assets/safaribooksonline_logo@2x.png');background-size:104px;}
 		}
 		UL.companies A.instinct_logo{width:104px;height:72px;display:block;background-image:url('/assets/instinct_logo.png');background-repeat:no-repeat;}
 		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -164,6 +173,15 @@
 	
 	<div class="wrapper">
 		<section class="bottom">
+			<!--
+			<h2>Who is using Mailplane?</h2>
+			<ul class="companies">
+				<li><a class="evernote_logo" href="http://www.evernote.com" target="_blank"></a></li>
+				<li><a class="test_logo" href="#"></a></li>
+				<li><a class="safaribooksonline_logo" href="http://www.safaribooksonline.com" target="_blank"></a></li>
+				<li><a class="instinct_logo" href="http://www.getinstinct.com" target="_blank"></a></li>
+			</ul>
+			-->
 			<div style="padding: 10px">&nbsp;</div>
 			<footer>
 				<nav id="main-navigation" data-content-field="navigation-mainNav">
