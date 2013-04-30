@@ -217,9 +217,9 @@ A.psttwo{position:absolute;top:210px;right:0;}
 A.pstthree{position:absolute;bottom:0px;left:197px;}
 A.pstfour{position:absolute;bottom:0px;right:198px;}
 DIV.slideshow{ }
-DIV.slideshow SECTION{padding:359px 0 0 90px;}
-DIV.slideshow SECTION H3{font:normal 24px 'jesaya_freeregular',arial, helvetica, sans-serif;color:#343d4f;margin:0 0 8px 0;text-transform:uppercase;}
-DIV.slideshow SECTION P{font-size:16px;width:380px;padding:0 88px 0 0;}
+DIV.slideshow SECTION{padding:359px 0 0 0;width:558px;}
+DIV.slideshow SECTION H3{font:normal 24px 'jesaya_freeregular',arial, helvetica, sans-serif;color:#343d4f;margin:0 0 8px 90px;text-transform:uppercase;}
+DIV.slideshow SECTION P{font-size:16px;width:380px;padding:0 88px 0 90px;}
 
 /* ----------- Form Controls ------------ */
 INPUT[type='text']{padding-left: 5px; font-size: 14px; height:26px; border:1px solid #a6b2c9;}
