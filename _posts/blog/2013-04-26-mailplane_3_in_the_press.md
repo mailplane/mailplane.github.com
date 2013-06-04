@@ -11,6 +11,7 @@ The last two weeks were pretty exciting and we received a lot of great responses
 Here are some articles about Mailplane 3:
 
 * [TUAW](http://www.tuaw.com/2013/04/15/mailplane-3-now-available)
+* [MacVoices](http://www.macvoices.com/wordpress/macvoices-13132-lars-steiger-of-mailplane-talks-about-the-newest-version-of-their-gmail-client/)
 * [Cult of Mac](http://www.cultofmac.com/223806/mailplane-puts-gmail-and-google-calendar-on-your-mac-desktop)
 * [TidBits](http://tidbits.com/article/13708)
 * [Chris Messina](https://plus.google.com/+ChrisMessina/posts/X6LmZ7jjB3F)
