@@ -105,6 +105,16 @@
 			prev:   '#prev'
 		});
 	});
+	
+	function downloadAndShowSignupDialog() {
+		document.getElementById('download_frame').src='http://update.mailplaneapp.com/mailplane_3.php';
+		document.getElementById('overlay').style.display='block';
+		document.getElementById('signup').style.display='block';
+	}
+	function closeSignupDialog() {
+		document.getElementById('overlay').style.display='none';
+		document.getElementById('signup').style.display='none';
+	}
 	</script>
 </head>
 
@@ -117,7 +127,7 @@
 				<h1 class="big">The best way to use Gmail on your Mac</h1>
 				<ul class="btn">
 					<li class="left">
-						<a class="btn blue" href="http://update.mailplaneapp.com/mailplane_3.php">
+						<a class="btn blue" href="http://update.mailplaneapp.com/mailplane_3.php" onclick="downloadAndShowSignupDialog(); return false;">
 							<span class="get">Get it Now</span>
 						</a>
 						<p class="caption">MAC OS X 10.7 +</p>
@@ -194,6 +204,25 @@
 				<p class="copy">2013 &copy; <a href="/about.html">uncomplex gmbh</a></p>
 			</footer>
 		</section>
+	</div>
+	
+	<iframe id="download_frame" style="display:none"></iframe>
+	<div id="overlay" onclick="closeSignupDialog()"></div>
+	<div id="signup">
+		<h1>Thanks!</h1>
+		<p>Join our newsletter for periodic updates:</p>
+		<form method="post" action="http://uncomplex.net/lists/form.php?form=1" onsubmit="return CheckForm1(this);">
+			<input type="text" name="email" placeholder="your@email.com" class="field_lg">
+			<p class="bottom">No Spam. Each email will contain a link to unregister.</p>
+			<ul>
+				<li>
+					<a class="modal_close" href="javascript:void" onclick="closeSignupDialog()">Cancel</a>
+				</li>
+				<li>
+					<input type="submit" class="submit" value="Subscribe">
+				</li>
+			</ul>	
+		</form>
 	</div>
 	
 	<script src="//static.getclicky.com/js" type="text/javascript"></script>

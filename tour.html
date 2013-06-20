@@ -330,8 +330,19 @@ $(function() {
 		</li>
 		<div class="clear"></div>
 	</ul>
-	<center style="padding-top: 20px">
-		<p style="margin-bottom:0">Or join our newsletter for periodic updates:</p>
-		<form method="post" style="display:inline" action="http://uncomplex.net/lists/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);"><input class="field" type="text" name="email" size="40" value="">&nbsp;<input class="submit" type="submit" value="Subscribe"></form>
-	</center>
+	<div class="newsletter">
+		<h3>Or join our newsletter for periodic updates:</h3>
+		<ul>
+		<form method="post" action="http://uncomplex.net/lists/form.php?form=1" onsubmit="return CheckForm1(this);">
+			<li class="first">
+				<input type="text" name="email" placeholder="your@email.com" class="field">
+			</li>
+			<li>
+				<input type="submit" class="submit" value="Subscribe">
+			</li>
+		</form>
+		</ul>
+		<div class="clear"></div>
+		<p class="bottom">No Spam. Each email will contain a link to unregister.</p>		
+	</div>
 </footer>

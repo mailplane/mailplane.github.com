@@ -234,3 +234,39 @@ INPUT[type='submit']:active{background-position:0 -32px;}
 INPUT[type='submit']:disabled{background-position:0 -32px;}
 
 /* Localized */
+
+/* -------- Newsletter -------- */
+DIV.newsletter{width:434px;padding:17px 0 17px 0;margin:0 auto;background-color:#e9e9e9;-webkit-border-radius:3px;border-radius:3px;}
+DIV.newsletter H3{font:normal 17px 'corehumanistsansregularRg',arial, helvetica, sans-serif;margin:0 0 10px 0;text-align:center;color:#343d4f;text-shadow: 1px 1px 1px #fff;filter: dropshadow(color=#fff, offx=1, offy=1);}
+DIV.newsletter P.bottom{font-size:13px;margin:0 0 10px 0;padding:6px 0 0 0;text-align:center;color:#6c768a;text-shadow: 1px 1px 1px #fff;filter: dropshadow(color=#fff, offx=1, offy=1);}
+DIV.newsletter UL LI{float:left;list-style:none;}
+DIV.newsletter UL LI.first{margin:0 5px 0 0;}
+FORM{margin:0 0 0 30px;}
+INPUT.field{width:248px;height:26px;border:1px solid #a6b2c9;font:normal 16px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-align:center;color:#343d4f;}
+INPUT.submit{color:#fff;font:normal 15px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-transform:uppercase;text-shadow: 1px 1px 1px #2991d7;filter: dropshadow(color=#2991d7, offx=1, offy=1);border:none;width:119px;height:32px;background-color:transparent;background-image:url('sml_btn.png');background-repeat:no-repeat;background-position:0 0;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 240dpi)
+{
+INPUT.submit{background-image: url('sml_btn@2x.png');background-size:119px;}
+}
+INPUT.submit:hover{background-position:0 -32px;cursor:pointer;}
+
+/* -------- Modal Box -------- */
+#overlay {position:fixed;z-index:100;top:0px;left:0px;height:100%;width:100%;background: #000;display:none;opacity:0.6;}
+#signup{display:none;z-index:105;position:fixed;top:200px;left:50%;margin-left:-161px;leftdisplay:none;width:322px;padding:38px 56px;background-color:#fcfcfc;-webkit-border-radius:3px;border-radius:3px; -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.35);box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.35);}
+#signup H1{font-size:30px;text-align:center;margin:0 0 20px 0;}
+#signup  P{font:normal 16px 'corehumanistsansregularRg',arial, helvetica, sans-serif;margin:0 0 10px 0;text-align:center;color:#343d4f;}
+#signup  P.bottom{font-size:13px;margin:0 0 30px 0;padding:6px 0 0 0;text-align:center;color:#6c768a;text-shadow: 1px 1px 1px #fff;filter: dropshadow(color=#fff, offx=1, offy=1);}
+#signup UL{margin:0;padding:0 0 0 39px;}
+#signup UL LI{float:left;margin:0 9px 0 0;list-style:none;}
+#signup FORM{margin:0;}
+#signup  INPUT.field_lg{width:320px;height:26px;border:1px solid #a6b2c9;font:normal 16px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-align:center;color:#343d4f;}
+A.modal_close{text-align:center;text-decoration:none;padding:7px 0 0 0;width:119px;height:25px;display:block;color:#fff;font:normal 15px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-transform:uppercase;text-shadow: 1px 1px 1px #2991d7;filter: dropshadow(color=#2991d7, offx=1, offy=1);background-color:transparent;background-image:url('sml_btn.png');background-repeat:no-repeat;background-position:0 0;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 240dpi)
+{
+A.modal_close{background-image: url('sml_btn@2x.png');background-size:119px;}
+}
+A.modal_close:hover{background-position:0 -32px;}
