@@ -241,7 +241,7 @@ DIV.newsletter H3{font:normal 17px 'corehumanistsansregularRg',arial, helvetica,
 DIV.newsletter P.bottom{font-size:13px;margin:0 0 10px 0;padding:6px 0 0 0;text-align:center;color:#6c768a;text-shadow: 1px 1px 1px #fff;filter: dropshadow(color=#fff, offx=1, offy=1);}
 DIV.newsletter UL LI{float:left;list-style:none;}
 DIV.newsletter UL LI.first{margin:0 5px 0 0;}
-FORM{margin:0 0 0 30px;}
+DIV.newsletter FORM{margin:0 0 0 30px;}
 INPUT.field{width:248px;height:26px;border:1px solid #a6b2c9;font:normal 16px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-align:center;color:#343d4f;}
 INPUT.submit{color:#fff;font:normal 15px 'corehumanistsansregularRg',arial, helvetica, sans-serif;text-transform:uppercase;text-shadow: 1px 1px 1px #2991d7;filter: dropshadow(color=#2991d7, offx=1, offy=1);border:none;width:119px;height:32px;background-color:transparent;background-image:url('sml_btn.png');background-repeat:no-repeat;background-position:0 0;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
