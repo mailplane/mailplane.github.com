@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Mailplane</title>
+    <link>http://update.mailplaneapp.com/appcast.php?appName=Mailplane&amp;osVersion=10.5</link>
+    <description>The best way to use Gmail on your Mac.</description>
+    <language>en</language>
+    <item>
+      <title>Release 2.5.10</title>
+      <description>http://mailplaneapp.com/releases/app_entry/2_5_10</description>
+      <pubDate>Fri, 14 Dec 2012 15:00:05</pubDate>
+      <enclosure url="http://update.mailplaneapp.com/appcast_download.php?build=Mailplane_2_1050_4005.tbz"
+                 type="application/octet-stream"
+                 sparkle:version="4005"
+                 sparkle:shortVersionString="2.5.10"
+                 sparkle:dsaSignature="MCwCFBv8fDyUmdQxDn4HCRV5CHwgfoM0AhQMmI9Illiw2JbnM73aSf1Ivz1/Vw=="
+      />
+    </item>
+  </channel>
+</rss>
