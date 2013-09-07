@@ -3,6 +3,7 @@ layout: help_post
 title: 'How can I register Mailplane 3?'
 author: Gor
 category: help
+permalink: /faq/entry/how_can_i_register_mailplane/index.html
 tags:
 - faq
 ---
