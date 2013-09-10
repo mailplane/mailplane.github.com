@@ -24,7 +24,7 @@ title: Mailplane 3 Releases
 
 {% for post in site.categories.release_mailplane3 %}
 <div class="entry spacing">
-	<article class="left">  
+	<article id="{{ post.build_number }}" class="left">  
 		<h2>{{ post.title }}</h2>
 		<p class="entry">{{ post.content }}</p>
 	</article>
