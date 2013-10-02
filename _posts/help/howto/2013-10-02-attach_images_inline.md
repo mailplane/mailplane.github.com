@@ -26,6 +26,6 @@ tags:
 
 ![screen3](/assets/howto/2013-10-02-attach_images_inline/screen3.png)
 
-8) Press OK to attach your image inline
+7) Press OK to attach your image inline
 
 ![screen3](/assets/howto/2013-10-02-attach_images_inline/screen4.png)
