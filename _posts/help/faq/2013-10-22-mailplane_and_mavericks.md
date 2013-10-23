@@ -10,6 +10,6 @@ tags:
 
 We’re really excited about today’s release of OS X Mavericks. It received some nice additional features but most importantly it is much more efficient when it comes to memory and CPU usage. And hey, it's free! Learn more [here](http://www.apple.com/osx).
 
-Mailplane 3.0.3 is ready for Mavericks. Go to `Mailplane 3 > Check for Updates...` or download it from our [download page](http://mailplaneapp.com/download).
+And yes, Mailplane 3.0.3 is ready for Mavericks. Go to `Mailplane 3 > Check for Updates...` or download it from our [download page](http://mailplaneapp.com/download).
 
 Enjoy!
