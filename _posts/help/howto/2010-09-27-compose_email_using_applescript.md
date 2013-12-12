@@ -10,9 +10,6 @@ tags:
 
 AppleScript is a scripting language built into MacOS. It is primarily designed to exchange data between applications in order to automate repetitive tasks. See more [here](http://en.wikipedia.org/wiki/AppleScript).
 
-
-## Compose email using AppleScript
-
 This is a sample script which can be used to compose and directly send emails.
 
 This script composes a new email message, sets the subject to "Hello from Mailplane" and send the TO address field to ruben@mailplaneapp.com and lars@mailplaneapp.com. The body will be "This is the body text". The message is presented in a separate window and the user has the chance to add more content before manually sending it.
