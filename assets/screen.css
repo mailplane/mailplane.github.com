@@ -104,10 +104,10 @@ SPAN.tour{background-image: url('icons@2x.png');background-size:40px;}
 .ie7 SPAN.tour{padding:19px 19px 4px 0;width:175px;background-image:url('icons.png');background-repeat:no-repeat;background-position:15px -45px;text-shadow:none;filter:none;}
 .ie8 SPAN.tour{padding:19px 19px 4px 0;width:175px;background-image:url('icons.png');background-repeat:no-repeat;background-position:15px -45px;text-shadow:none;filter:none;}
 .ie9 SPAN.tour{padding:19px 19px 4px 0;width:175px;background-image:url('icons.png');background-repeat:no-repeat;background-position:15px -45px;text-shadow:none;filter:none;}
-P.caption{padding:8px 0 0 0;text-align:center;text-shadow: 1px 1px 1px #fff;filter: dropshadow(color=#fff, offx=1, offy=1);}
-.ie7 P.caption{padding:8px 0 0 0;text-align:center;text-shadow:none;filter:none;}
-.ie8 P.caption{padding:8px 0 0 0;text-align:center;text-shadow:none;filter:none;}
-.ie9 P.caption{padding:8px 0 0 0;text-align:center;text-shadow:none;filter:none;}
+P.caption{padding:8px 0 0 0;text-align:center;font-size:16px;text-shadow: 1px 1px 1px #fff;filter: dropshadow(color=#fff, offx=1, offy=1);}
+.ie7 P.caption{padding:8px 0 0 0;text-align:center;font-size:16px;text-shadow:none;filter:none;}
+.ie8 P.caption{padding:8px 0 0 0;text-align:center;font-size:16px;text-shadow:none;filter:none;}
+.ie9 P.caption{padding:8px 0 0 0;text-align:center;font-size:16px;text-shadow:none;filter:none;}
 DIV.middle{width:100%;background:#fafafa url('squarept.png') repeat;position:relative;}
 UL.middle{list-style:none;padding:0 0 45px 40px;}
 UL.middle LI{float:left;}
