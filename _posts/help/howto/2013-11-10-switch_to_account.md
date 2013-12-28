@@ -8,7 +8,7 @@ tags:
 - howto
 ---
 
-The new 'Switch to account' functionality of Mailplane 3 allows to switch between an unlimited number of accounts. It unifies tabs with the switch functionality of Mailplane 2.
+The 'Switch to account' functionality of Mailplane 3 allows you to switch between an unlimited number of accounts. It unifies tabs with the switch functionality of Mailplane 2. Simply go to Mailplane 3 > Switch to account... or press `Control-Command-A`.
 
 To be correct we're switching between workspaces instead of just accounts. A workspace contains a number of tabs and a cookie storage. Switching means changing to another workspace with a separate cookie storage and thus you won't be logged-in to the same accounts anymore.
 
@@ -23,5 +23,3 @@ We have three cases in the example below:
 2) Ruben (Email), Ruben (Calendar) and Lars are three tabs in the same workspace. Switching to one of them might take a bit longer because it loads the two other tabs as well. But afterwards it's very quick to switch between those tabs. That's what we've been used in Mailplane 3 so far.
 
 3) Girs Inc. is colored in gray and represents an account which hasn't been loaded so far. Switching to such an account opens Gmail in a separate workspace and performs a sign-in.
-
-We hope you like that new feature as we do. As always, don't hesitate to let us know if you like/dislike something.
