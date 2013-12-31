@@ -52,41 +52,9 @@
 
 		/* -------- Who's using Mailplane -------- */
 
-		UL.companies{list-style:none;}
-		UL.companies{background-color:#fff;width:58%;height:72px;padding:0 30px;-webkit-border-radius:3px;border-radius:3px;margin-left:auto;margin-right:auto;left:0;right:0;margin-bottom:43px;}
-		UL.companies LI{float:left;margin:0 0 0 28px;}
-		UL.companies A.evernote_logo{width:104px;height:72px;display:block;background-image:url('/assets/evernote_logo.png');background-repeat:no-repeat;}
-		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-		only screen and (min--moz-device-pixel-ratio: 1.5),
-		only screen and (-o-min-device-pixel-ratio: 3/2),
-		only screen and (min-device-pixel-ratio: 1.5)
-		{
-		UL.companies A.evernote_logo{background-image: url('/assets/evernote_logo@2x.png');background-size:104px;}
-		}
-		UL.companies A.safaribooksonline_logo{width:104px;height:72px;display:block;background-image:url('/assets/safaribooksonline_logo.png');background-repeat:no-repeat;}
-		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-		only screen and (min--moz-device-pixel-ratio: 1.5),
-		only screen and (-o-min-device-pixel-ratio: 3/2),
-		only screen and (min-device-pixel-ratio: 1.5)
-		{
-		UL.companies A.safaribooksonline_logo{background-image: url('/assets/safaribooksonline_logo@2x.png');background-size:104px;}
-		}
-		UL.companies A.instinct_logo{width:104px;height:72px;display:block;background-image:url('/assets/instinct_logo.png');background-repeat:no-repeat;}
-		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-		only screen and (min--moz-device-pixel-ratio: 1.5),
-		only screen and (-o-min-device-pixel-ratio: 3/2),
-		only screen and (min-device-pixel-ratio: 1.5)
-		{
-		UL.companies A.instinct_logo{background-image: url('/assets/instinct_logo@2x.png');background-size:104px;}
-		}
-		UL.companies A.test_logo{width:104px;height:72px;display:block;background-image:url('/assets/test_logo.png');background-repeat:no-repeat;}
-		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-		only screen and (min--moz-device-pixel-ratio: 1.5),
-		only screen and (-o-min-device-pixel-ratio: 3/2),
-		only screen and (min-device-pixel-ratio: 1.5)
-		{
-		UL.companies A.test_logo{background-image: url('/assets/test_logo@2x.png');background-size:104px;}
-		}
+		UL.testimonials{list-style:none;}
+		UL.testimonials{ display: table; background-color:#fff;width:58%;height:84px;padding:0 30px;-webkit-border-radius:3px;border-radius:3px;margin-left:auto;margin-right:auto;left:0;right:0;margin-bottom:43px;}
+		UL.testimonials LI{ display: none; vertical-align: middle; font-size: 16px }
 	</style>
 
 	<!--[if IE]>  
@@ -104,7 +72,26 @@
 			next:   '#next',
 			prev:   '#prev'
 		});
+
+		testimonials();
+		setInterval(function() {
+			testimonials();
+		}, 8000);
 	});
+
+  function testimonials() {
+		$(".testimonials li").css("display", "none");
+		
+		var min = 0;
+		var max = $(".testimonials li").size() - 1;
+		var newIndex = Math.floor(Math.random() * (max - min + 1) + min);
+		
+		$(".testimonials li").each(function(index, value) {
+			if(index == newIndex) {
+				$(value).css("display", "table-cell");
+			}
+		});
+	}
 	
 	function downloadAndShowSignupDialog() {
 		document.getElementById('download_frame').src='http://update.mailplaneapp.com/mailplane_3.php';
@@ -155,7 +142,7 @@
 				<li class="midleft">
 					<p>Mailplane 3 is still based on the same core values, but we redesigned and reconsidered it from the ground up.</p>
 					<p>All customers are eligible for a 20% upgrade discount and everyone who bought Mailplane 2 in or after October 2012 will get it for free.</p>
-					<p><a href="http://update.mailplaneapp.com/mailplane_3.php">Download Mailplane 3</a> and test drive it 15 days for free. It requires Mac OS X 10.7+ and runs perfectly next to Mailplane 2. Enjoy!</p>
+					<p><a href="http://update.mailplaneapp.com/mailplane_3.php">Free test drive for 15 days.</a> It requires Mac OS X 10.7+ and runs perfectly next to Mailplane 2.</p>
 				</li>
 				<li class="midright">
 					<a id="prev" class="prev pstone" href="#"></a>
@@ -186,16 +173,28 @@
 	
 	<div class="wrapper">
 		<section class="bottom">
-			<!--
-			<h2>Who is using Mailplane?</h2>
-			<ul class="companies">
-				<li><a class="evernote_logo" href="http://www.evernote.com" target="_blank"></a></li>
-				<li><a class="test_logo" href="#"></a></li>
-				<li><a class="safaribooksonline_logo" href="http://www.safaribooksonline.com" target="_blank"></a></li>
-				<li><a class="instinct_logo" href="http://www.getinstinct.com" target="_blank"></a></li>
+			<ul class="testimonials">
+				<li>
+					I keep trying different #Mac mail apps, but nothing is as efficient as @Mailplane, #fast #elegant #efficient
+					<div style="text-align:right">@FarazRabbani</div>
+				</li>
+				<li>
+					MacTech uses Mailplane internally and wholeheartedly recommends it for your Gmail and Google Calendar experience.
+					<div style="text-align:right"><a href="http://www.macnews.com/2013/11/26/kool-tools-mailplane-311" target="_blank">MacNews 11/26/2013</a></div>
+				</li>
+				<li>
+					Love Gmail, use Mailplane. Apple's Mail is an email workhorse, and handles multiple accounts well, but is not Gmail centric. MailPlane is.
+					<div style="text-align:right"><a href="http://mac360.com/2013/11/love-gmail-more-than-mail-use-mailplane" target="_blank">Mac360 11/20/2013</a></div>
+				</li>
+				<li>
+					I admire the hard work its creators put into the new version. It's definitely the most polished and useful Gmail client I've yet tested.
+						<div style="text-align:right"><a href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank">MacWorld 06/12/2013</a></div>
+				</li>
+				<li>
+					I like Mailplane so much that I abandoned Mail.app as my default email client on my desktop computer a couple of years ago.
+					<div style="text-align:right">Kerry Graham</div>
+				</li>
 			</ul>
-			-->
-			<div style="padding: 10px">&nbsp;</div>
 			<footer>
 				<nav id="main-navigation" data-content-field="navigation-mainNav">
 					<a href="/index.html">Home</a>
