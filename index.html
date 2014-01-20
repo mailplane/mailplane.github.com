@@ -52,9 +52,10 @@
 
 		/* -------- Who's using Mailplane -------- */
 
-		UL.testimonials{ list-style:none; }
-		UL.testimonials{ display: table; background-color:#fff; width:80%;height:105px; padding:0 30px; -webkit-border-radius:3px; border-radius:3px; margin-left:auto; margin-right:auto; left:0; right:0; margin-bottom:43px; }
-		UL.testimonials LI{ display: none; vertical-align: middle }
+		A.testimonialsPrev { position: absolute; top: 35px; left: 30px; }
+		A.testimonialsNext { position: absolute; top: 35px; right: 30px; }
+		UL.testimonials { list-style:none; display: table; background-color:#fff; width:80%;height:105px; padding:0 30px; -webkit-border-radius:3px; border-radius:3px; margin-left:auto; margin-right:auto; left:0; right:0; margin-bottom:43px; }
+		UL.testimonials LI{ display:table-cell; padding: 15px 30px 0 30px; }
 		A.testimonialLogo { display:table-cell; vertical-align:middle; padding-right: 25px; }
 		DIV.testimonialBody { display:table-cell; width: 100% }
 		DIV.testimonialText:before { content: open-quote; }
@@ -112,30 +113,18 @@
 		.cycle({
 			fx:     'scrollHorz',
 			delay:  -2000,
-			timeout: 6000,
+			timeout: 12000,
 			next:   '#next',
 			prev:   '#prev'
 		});
 
-		testimonials();
-		setInterval(function() {
-			testimonials();
-		}, 8000);
-	});
-	
-	function testimonials() {
-		$(".testimonials li").css("display", "none");
-		
-		var min = 0;
-		var max = $(".testimonials li").size() - 1;
-		var newIndex = Math.floor(Math.random() * (max - min + 1) + min);
-		
-		$(".testimonials li").each(function(index, value) {
-			if(index == newIndex) {
-				$(value).css("display", "table-cell");
-			}
+		$('#testimonials').cycle({
+			fx:     'fade',
+			timeout: 12000,
+			random: true,
+			next:   '#testimonialsNext',
 		});
-	}
+	});
   
 	function downloadAndShowSignupDialog() {
 		document.getElementById('download_frame').src='http://update.mailplaneapp.com/mailplane_3.php';
@@ -226,133 +215,136 @@
 				<li><a class="instinct_logo" href="http://www.getinstinct.com" target="_blank"></a></li>
 			</ul>
 			-->
-			<ul class="testimonials">
-				<!-- Blog Posts -->
-				<li>
-					<a class="testimonialLogo" href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank"><img src="/assets/macworld_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">I admire the hard work its creators put into the new version. It's definitely the most polished and useful Gmail client I've yet tested.</div>
-						<div class="testimonialAuthor">Nathan Alderman, <a href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank">MacWorld</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://mac360.com/2013/11/love-gmail-more-than-mail-use-mailplane" target="_blank"><img src="/assets/mac360_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">Love Gmail, use Mailplane. Apple's Mail is an email workhorse, and handles multiple accounts well, but is not Gmail centric. MailPlane is.</div>
-						<div class="testimonialAuthor">Wil Gomez, <a href="http://mac360.com/2013/11/love-gmail-more-than-mail-use-mailplane" target="_blank">Mac360</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://www.macnews.com/2013/11/26/kool-tools-mailplane-311" target="_blank"><img src="/assets/macnews_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">MacTech uses Mailplane internally and wholeheartedly recommends it for your Gmail and Google Calendar experience.</div>
-						<div class="testimonialAuthor"><a href="http://www.macnews.com/2013/11/26/kool-tools-mailplane-311" target="_blank">MacNews</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://mac.appstorm.net/general/competitions/win-a-copy-of-the-new-mailplane-3" target="_blank"><img src="/assets/appstorm_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">It makes it simple to keep up with your Google Calendar in the same semi-native interface that gives you the best of the Mac and the web.</div>
-						<div class="testimonialAuthor">Matthew Guay, <a href="http://mac.appstorm.net/general/competitions/win-a-copy-of-the-new-mailplane-3" target="_blank">AppStorm</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://appleinsider.com/articles/13/12/26/apps-for-your-new-mac-best-email-clients" target="_blank"><img src="/assets/appleinsider_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">Best for Gmail power users. Mailplane will win over Gmail diehards with its multi-account support alone.</div>
-						<div class="testimonialAuthor">Shane Cole, <a href="http://appleinsider.com/articles/13/12/26/apps-for-your-new-mac-best-email-clients" target="_blank">Apple Insider</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://www.tuaw.com/2013/04/15/mailplane-3-now-available" target="_blank"><img src="/assets/tuaw_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText" style="padding-top: 20px">Mailplane 3 is a must-have upgrade if you live in Gmail.</div>
-						<div class="testimonialAuthor">Victor Agreda Jr., <a href="http://www.tuaw.com/2013/04/15/mailplane-3-now-available" target="_blank">TUAW</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://www.cultofmac.com/223806/mailplane-puts-gmail-and-google-calendar-on-your-mac-desktop/" target="_blank"><img src="/assets/cultofmac_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">Interested? I am – it’s perfect for my minimal MacBook Air setup as it uses almost no space on my SSD.</div>
-						<div class="testimonialAuthor">Charlie Sorrel, <a href="http://www.cultofmac.com/223806/mailplane-puts-gmail-and-google-calendar-on-your-mac-desktop/" target="_blank">Cult of Mac</a></div>
-					</div>
-				</li>
-				<!--
-				<li>
-					<a class="testimonialLogo" href="http://tidbits.com/article/12039" target="_blank"><img src="/assets/tidbits_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">Mailplane provides so many features that I never end up using Gmail in a normal Web browser for more than testing.</div>
-						<div class="testimonialAuthor">Adam C. Engst, <a href="http://tidbits.com/article/12039" target="_blank">Tidbits</a></div>
-					</div>
-				</li>
-				-->
-				<li>
-					<a class="testimonialLogo" href="http://brettterpstra.com/2013/12/23/a-few-of-my-favorite-mac-apps-in-2013" target="_blank"><img src="/assets/brettterpstra_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">If you use Gmail and want to keep your email in the cloud instead of on your Mac, this is the best tool for it.</div>
-						<div class="testimonialAuthor">Brett Terpstra, <a href="http://brettterpstra.com/2013/12/23/a-few-of-my-favorite-mac-apps-in-2013" target="_blank">brettterpstra.com</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://www.engadget.com/2013/08/26/irl-sony-nex-5n-mailplane-3" target="_blank"><img src="/assets/engadget_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText" style="padding-top: 20px">Give it a try if you're a Mac loyalist and swear by Gmail.</div>
-						<div class="testimonialAuthor">Darren Murph, <a href="http://www.engadget.com/2013/08/26/irl-sony-nex-5n-mailplane-3" target="_blank">Engadget</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://www.theverge.com/2012/8/17/3247680/sparrow-fades-where-are-mac-mail-apps" target="_blank"><img src="/assets/theverge_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">Mailplane relies on Gmail but incorporates many features you'd find in Sparrow or Apple's own Mail app.</div>
-						<div class="testimonialAuthor">Ellis Hamburger, <a href="http://www.theverge.com/2012/8/17/3247680/sparrow-fades-where-are-mac-mail-apps" target="_blank">The Verge</a></div>
-					</div>
-				</li>
-				<li>
-					<a class="testimonialLogo" href="http://download.cnet.com/8301-2007_4-57580167-12/mailplane-3-takes-off" target="_blank"><img src="/assets/cnet_logo.png"/></a>
-					<div class="testimonialBody">
-						<div class="testimonialText">If you want to navigate your personal or professional Gmail inbox (or both) at the speed of flight, give Mailplane a try.</div>
-						<div class="testimonialAuthor">Josh Rotter, <a href="http://download.cnet.com/8301-2007_4-57580167-12/mailplane-3-takes-off" target="_blank">c|net</a></div>
-					</div>
-				</li>
+			<div style="position: relative">
+				<a id="testimonialsNext" class="testimonialsNext next" href="#"></a>
+				<ul class="testimonials" id="testimonials">
+					<!-- Blog Posts -->
+					<li>
+						<a class="testimonialLogo" href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank"><img src="/assets/macworld_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">I admire the hard work its creators put into the new version. It's definitely the most polished and useful Gmail client I've yet tested.</div>
+							<div class="testimonialAuthor">Nathan Alderman, <a href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank">MacWorld</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://mac360.com/2013/11/love-gmail-more-than-mail-use-mailplane" target="_blank"><img src="/assets/mac360_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">Love Gmail, use Mailplane. Apple's Mail is an email workhorse, and handles multiple accounts well, but is not Gmail centric. MailPlane is.</div>
+							<div class="testimonialAuthor">Wil Gomez, <a href="http://mac360.com/2013/11/love-gmail-more-than-mail-use-mailplane" target="_blank">Mac360</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://www.macnews.com/2013/11/26/kool-tools-mailplane-311" target="_blank"><img src="/assets/macnews_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">MacTech uses Mailplane internally and wholeheartedly recommends it for your Gmail and Google Calendar experience.</div>
+							<div class="testimonialAuthor"><a href="http://www.macnews.com/2013/11/26/kool-tools-mailplane-311" target="_blank">MacNews</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://mac.appstorm.net/general/competitions/win-a-copy-of-the-new-mailplane-3" target="_blank"><img src="/assets/appstorm_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">It makes it simple to keep up with your Google Calendar in the same semi-native interface that gives you the best of the Mac and the web.</div>
+							<div class="testimonialAuthor">Matthew Guay, <a href="http://mac.appstorm.net/general/competitions/win-a-copy-of-the-new-mailplane-3" target="_blank">AppStorm</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://appleinsider.com/articles/13/12/26/apps-for-your-new-mac-best-email-clients" target="_blank"><img src="/assets/appleinsider_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">Best for Gmail power users. Mailplane will win over Gmail diehards with its multi-account support alone.</div>
+							<div class="testimonialAuthor">Shane Cole, <a href="http://appleinsider.com/articles/13/12/26/apps-for-your-new-mac-best-email-clients" target="_blank">Apple Insider</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://www.tuaw.com/2013/04/15/mailplane-3-now-available" target="_blank"><img src="/assets/tuaw_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText" style="padding-top: 20px">Mailplane 3 is a must-have upgrade if you live in Gmail.</div>
+							<div class="testimonialAuthor">Victor Agreda Jr., <a href="http://www.tuaw.com/2013/04/15/mailplane-3-now-available" target="_blank">TUAW</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://www.cultofmac.com/223806/mailplane-puts-gmail-and-google-calendar-on-your-mac-desktop/" target="_blank"><img src="/assets/cultofmac_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">Interested? I am – it’s perfect for my minimal MacBook Air setup as it uses almost no space on my SSD.</div>
+							<div class="testimonialAuthor">Charlie Sorrel, <a href="http://www.cultofmac.com/223806/mailplane-puts-gmail-and-google-calendar-on-your-mac-desktop/" target="_blank">Cult of Mac</a></div>
+						</div>
+					</li>
+					<!--
+					<li>
+						<a class="testimonialLogo" href="http://tidbits.com/article/12039" target="_blank"><img src="/assets/tidbits_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">Mailplane provides so many features that I never end up using Gmail in a normal Web browser for more than testing.</div>
+							<div class="testimonialAuthor">Adam C. Engst, <a href="http://tidbits.com/article/12039" target="_blank">Tidbits</a></div>
+						</div>
+					</li>
+					-->
+					<li>
+						<a class="testimonialLogo" href="http://brettterpstra.com/2013/12/23/a-few-of-my-favorite-mac-apps-in-2013" target="_blank"><img src="/assets/brettterpstra_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">If you use Gmail and want to keep your email in the cloud instead of on your Mac, this is the best tool for it.</div>
+							<div class="testimonialAuthor">Brett Terpstra, <a href="http://brettterpstra.com/2013/12/23/a-few-of-my-favorite-mac-apps-in-2013" target="_blank">brettterpstra.com</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://www.engadget.com/2013/08/26/irl-sony-nex-5n-mailplane-3" target="_blank"><img src="/assets/engadget_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText" style="padding-top: 20px">Give it a try if you're a Mac loyalist and swear by Gmail.</div>
+							<div class="testimonialAuthor">Darren Murph, <a href="http://www.engadget.com/2013/08/26/irl-sony-nex-5n-mailplane-3" target="_blank">Engadget</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://www.theverge.com/2012/8/17/3247680/sparrow-fades-where-are-mac-mail-apps" target="_blank"><img src="/assets/theverge_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">Mailplane relies on Gmail but incorporates many features you'd find in Sparrow or Apple's own Mail app.</div>
+							<div class="testimonialAuthor">Ellis Hamburger, <a href="http://www.theverge.com/2012/8/17/3247680/sparrow-fades-where-are-mac-mail-apps" target="_blank">The Verge</a></div>
+						</div>
+					</li>
+					<li>
+						<a class="testimonialLogo" href="http://download.cnet.com/8301-2007_4-57580167-12/mailplane-3-takes-off" target="_blank"><img src="/assets/cnet_logo.png"/></a>
+						<div class="testimonialBody">
+							<div class="testimonialText">If you want to navigate your personal or professional Gmail inbox (or both) at the speed of flight, give Mailplane a try.</div>
+							<div class="testimonialAuthor">Josh Rotter, <a href="http://download.cnet.com/8301-2007_4-57580167-12/mailplane-3-takes-off" target="_blank">c|net</a></div>
+						</div>
+					</li>
 
-				<!-- Customer Testimonials -->
-				<li>
-					<div class="testimonialBody">
-						<div class="testimonialText">If you use a Mac and use Gmail — it really does provide a great desktop experience. Certainly worth trying out for a week!</div>
-						<div class="testimonialAuthor">Chris Messina (<a target="_blank" href="https://plus.google.com/+ChrisMessina/posts/X6LmZ7jjB3F">via Google+</a>)</div>
-					</div>
-				</li>
-				<li>
-					<div class="testimonialBody">
-						<div class="testimonialText">I like Mailplane so much that I abandoned Mail.app as my default email client on my desktop computer a couple of years ago.</div>
-						<div class="testimonialAuthor">Kerry Graham, Tucson, AZ</div>
-					</div>
-				</li>
-				<li>
-					<div class="testimonialBody">
-						<div class="testimonialText">I keep trying different #Mac mail apps, but nothing is as efficient as @Mailplane, #fast #elegant #efficient</div>
-						<div class="testimonialAuthor">Faraz Rabbani, Toronto, ON</div>
-					</div>
-				</li>
-				<li>
-					<div class="testimonialBody">
-						<div class="testimonialText">I have used other programs to manage my gmail accounts and Mailplane is by far superior to any program out there. The attention to detail is amazing.</div>
-						<div class="testimonialAuthor">Chad Malone, Rochester, NY</div>
-					</div>
-				</li>
-				<li>
-					<div class="testimonialBody">
-						<div class="testimonialText">I was skeptical of how much of a difference Mailplane would make over just using Gmail and Mail. Well, it makes all the difference in the world.</div>
-						<div class="testimonialAuthor">Jess J., New York, NY</div>
-					</div>
-				</li>
-				<li>
-					<div class="testimonialBody">
-						<div class="testimonialText">I have been using Mailplane 3 since April and have not looked back since. This is the app you need to do e-mail better and faster than ever.</div>
-						<div class="testimonialAuthor">asl, Texas, USA</div>
-					</div>
-				</li>
-			</ul>
+					<!-- Customer Testimonials -->
+					<li>
+						<div class="testimonialBody">
+							<div class="testimonialText">If you use a Mac and use Gmail — it really does provide a great desktop experience. Certainly worth trying out for a week!</div>
+							<div class="testimonialAuthor">Chris Messina (<a target="_blank" href="https://plus.google.com/+ChrisMessina/posts/X6LmZ7jjB3F">via Google+</a>)</div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonialBody">
+							<div class="testimonialText">I like Mailplane so much that I abandoned Mail.app as my default email client on my desktop computer a couple of years ago.</div>
+							<div class="testimonialAuthor">Kerry Graham, Tucson, AZ</div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonialBody">
+							<div class="testimonialText">I keep trying different #Mac mail apps, but nothing is as efficient as @Mailplane, #fast #elegant #efficient</div>
+							<div class="testimonialAuthor">Faraz Rabbani, Toronto, ON</div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonialBody">
+							<div class="testimonialText">I have used other programs to manage my gmail accounts and Mailplane is by far superior to any program out there. The attention to detail is amazing.</div>
+							<div class="testimonialAuthor">Chad Malone, Rochester, NY</div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonialBody">
+							<div class="testimonialText">I was skeptical of how much of a difference Mailplane would make over just using Gmail and Mail. Well, it makes all the difference in the world.</div>
+							<div class="testimonialAuthor">Jess J., New York, NY</div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonialBody">
+							<div class="testimonialText">I have been using Mailplane 3 since April and have not looked back since. This is the app you need to do e-mail better and faster than ever.</div>
+							<div class="testimonialAuthor">asl, Texas, USA</div>
+						</div>
+					</li>
+				</ul>
+			</div>
 			<footer>
 				<nav id="main-navigation" data-content-field="navigation-mainNav">
 					<a href="/index.html">Home</a>
