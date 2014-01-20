@@ -57,13 +57,10 @@
 		UL.testimonials LI{ display: none; vertical-align: middle }
 		A.testimonialLogo { display:table-cell; vertical-align:middle; padding-right: 25px; }
 		DIV.testimonialBody { display:table-cell; }
-		DIV.testimonialText:before {
-	    content: open-quote;
-		}
-		DIV.testimonialText:after {
-		  content: close-quote;
-		}
+		DIV.testimonialText:before { content: open-quote; }
+		DIV.testimonialText:after { content: close-quote; }
 		DIV.testimonialAuthor { text-align:right; font-size: 16px; padding-top: 5px; }
+		DIV.testimonialAuthor:before { content: '- ' };
 
 /**
 		UL.companies{list-style:none;}
@@ -235,14 +232,14 @@
 					<a class="testimonialLogo" href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank"><img src="/assets/macworld_logo.png"/></a>
 					<div class="testimonialBody">
 						<div class="testimonialText">I admire the hard work its creators put into the new version. It's definitely the most polished and useful Gmail client I've yet tested.</div>
-						<div class="testimonialAuthor">- Nathan Alderman, MacWorld</div>
+						<div class="testimonialAuthor">Nathan Alderman, MacWorld</div>
 					</div>
 				</li>
 				<li>
 					<a class="testimonialLogo" href="http://mac360.com/2013/11/love-gmail-more-than-mail-use-mailplane" target="_blank"><img src="/assets/mac360_logo.png"/></a>
 					<div class="testimonialBody">
 						<div class="testimonialText">Love Gmail, use Mailplane. Apple's Mail is an email workhorse, and handles multiple accounts well, but is not Gmail centric. MailPlane is.</div>
-						<div class="testimonialAuthor">- Wil Gomez, Mac360</div>
+						<div class="testimonialAuthor">Wil Gomez, Mac360</div>
 					</div>
 				</li>
 				<li>
@@ -255,14 +252,14 @@
 					<a class="testimonialLogo" href="http://mac.appstorm.net/general/competitions/win-a-copy-of-the-new-mailplane-3" target="_blank"><img src="/assets/appstorm_logo.png"/></a>
 					<div class="testimonialBody">
 						<div class="testimonialText">It makes it simple to keep up with your Google Calendar in the same semi-native interface that gives you the best of the Mac and the web.</div>
-						<div class="testimonialAuthor">- Matthew Guay, AppStorm</div>
+						<div class="testimonialAuthor">Matthew Guay, AppStorm</div>
 					</div>
 				</li>
 				<li>
 					<a class="testimonialLogo" href="http://appleinsider.com/articles/13/12/26/apps-for-your-new-mac-best-email-clients" target="_blank"><img src="/assets/appleinsider_logo.png"/></a>
 					<div class="testimonialBody">
 						<div class="testimonialText">Best for Gmail power users. Mailplane will win over Gmail diehards with its multi-account support alone.</div>
-						<div class="testimonialAuthor">- Shane Cole, Apple Insider</div>
+						<div class="testimonialAuthor">Shane Cole, Apple Insider</div>
 					</div>
 				</li>
 
