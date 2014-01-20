@@ -121,8 +121,8 @@
 		$('#testimonials').cycle({
 			fx:     'fade',
 			timeout: 12000,
-			random: true,
 			next:   '#testimonialsNext',
+			prev:   '#testimonialsPrev'
 		});
 	});
   
@@ -216,6 +216,7 @@
 			</ul>
 			-->
 			<div style="position: relative">
+				<a id="testimonialsPrev" class="testimonialsPrev prev" href="#"></a>
 				<a id="testimonialsNext" class="testimonialsNext next" href="#"></a>
 				<ul class="testimonials" id="testimonials">
 					<!-- Blog Posts -->
