@@ -11,14 +11,10 @@ tags:
 
 ## Installation
 
-1. Download the Clippings Plugin ([Mailplane 3](/assets/howto/2013-04-14-omnifocus-clippings-plugin/Mailplane3ClippingHandler.plugin.zip) | [Mailplane 2](/assets/howto/2013-04-14-omnifocus-clippings-plugin/MailplaneClippingHandler.plugin.zip)) and extract it
-2. Open Finder
-3. Hold the option key while pressing the `Go` menu and select the `Library` item
-4. Open the folder `Application Support` and then `OmniFocus`
-5. Create a folder named Plug-Ins (if not already available)
-6. Move the plugin to the Plug-Ins folder
-7. Restart OmniFocus
-8. Open preferences and go to the Clippings tab. Mailplane3 should be selected inside the list.
+1. Launch Mailplane 3
+2. Go to `Mailplane 3 > About Mailplane` and verify if you have 3.1.3 or higher. If not, update via `Mailplane 3 > Check for Updates...`
+3. Restart OmniFocus
+4. Go to `OmniFocus > Preferences...` and go to the Clippings tab. Mailplane 3 should be selected.
 
 ## Plugin in action
 
