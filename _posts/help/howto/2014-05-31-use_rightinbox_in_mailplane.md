@@ -16,7 +16,7 @@ Here are the steps to enable Right Inbox in Mailplane:
 
 1. Go to **Mailplane 3 > Preferences**
 2. Go to **Accounts** tab
-3. Select the account for which you want to enable Right Inbox
+3. Select the account which you want to enable Right Inbox for
 4. Go to **Plug-Ins** tab
 5. Check **Right Inbox**
 
