@@ -52,10 +52,10 @@ This compose and send a new message and attaches all files found in the Desktop/
 	tell application "Mailplane 3"
 	  set m to make new outgoing message with properties {directlySend:true}
 	  tell m
-	   set sender to "ruben@uncomplex.net"
+	   set sender to "lars@mailplaneapp.com"
 	   set r to make new to recipient at end
 	   tell r
-	    set address to "ruben@bakkker.net"
+	    set address to "ruben@mailplaneapp.com"
 	    set name to "Ruben"
 	   end tell
 
