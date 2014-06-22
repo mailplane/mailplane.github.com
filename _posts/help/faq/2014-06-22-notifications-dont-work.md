@@ -12,4 +12,6 @@ Notifications don't work in Mailplane 3 at the moment if [2-step verification](h
 
 ![](/assets/help/faq/2014-06-22-notifications-dont-work/status_bar_menu.png){.shadowed}
 
-Google made some changes on their end which broke how we're fetching new messages in the background. We're currently working on a solution and are very sorry for that interruption.
+Google made some changes on their end which broke how we're fetching new messages in the background. We don't like to encourage you turning off 2-step verification but it's the only way to bring notifications back at the moment.
+
+We're currently working on a solution and are very sorry for that interruption.
