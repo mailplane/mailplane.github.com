@@ -12,7 +12,7 @@ Mailplane has no specific font-size adjustment functionality but you can easily 
 
 You can access that feature via Mailplane's `View` menu...
 
-![screen1](/assets/howto/2014-02-10-adjust_font_size/screen1.png){.shadowed}
+![screen1](/assets/howto/2014-02-10-adjust_font_size/screen1.png){: .shadowed}
 
 ...or by using the shortcuts `Command =` and `Command -`.
 
