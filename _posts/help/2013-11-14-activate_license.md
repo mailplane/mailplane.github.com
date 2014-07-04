@@ -1,11 +1,11 @@
 ---
 layout: help_post
-title: 'Activate License'
+title: 'Activate a License'
 author: Gor
 category: help
 permalink: /howto/entry/register_mailplane/index.html
 tags:
-- howto
+- faq
 ---
 
 Follow the instructions below to activate your Mailplane 3 license and don't hesitate to [contact us](mailto:support@mailplaneapp.com) if you need any further assistance.
