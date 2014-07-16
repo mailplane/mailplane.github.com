@@ -12,7 +12,7 @@ Over the last few days we have had reports of Mailplane beach balling and needin
 
 Apple accidentally released it in the Mac App Store (available to everyone) and your system probably applied the update automatically. To check to see if you are indeed running 7.1, open Safari > Click Safari > About Safari. You will see your version number there.
 
-We suggest using Gmail through Safari or Chrome at the moment. We see if we can do something on our end, though we are hoping Apple will issue an update which will correct the troubles, as we are not the only ones suffering with the issue.
+We suggest using Gmail through Safari or Chrome at the moment. We will see if we can do something on our end, though we are hoping Apple will issue an update which will correct the troubles, as we are not the only ones suffering with the issue.
 
 If you are NOT running Safari 7.1 and are having some troubles, please email us either through the Help > Support & Feedback menu item or at [support@mailplaneapp.com](mailto:support@mailplaneapp.com).
 
