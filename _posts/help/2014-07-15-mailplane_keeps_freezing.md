@@ -18,4 +18,4 @@ If you are NOT running Safari 7.1 and are having some troubles, please email us 
 
 Thanks so much for your understanding and patience.
 
-`UPDATE June 16 2014: Apple issued an update in the Mac App Store that you revert back to Safari 7.0.5. Make sure to restart your Mac after running the update.`
+`UPDATE June 16 2014: Apple issued an update through Mac App Store that reverts you back to Safari 7.0.5. Make sure to restart your Mac after running the update.`
