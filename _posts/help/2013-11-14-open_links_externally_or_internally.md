@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/open_links_externally_or_internally/index.html
 tags:
-- howto
+- email
 ---
 
 With the exception of Google and Plug-in (e.g. Rapportive, Boomerang, etc.) Mailplane opens links externally in your default browser. You can override the default by either holding the `Command` key (= force internally) or the `Command and Shift` key (= force externally) while clicking the link.

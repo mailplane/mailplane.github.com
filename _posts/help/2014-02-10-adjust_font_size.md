@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/adjust_font_size/index.html
 tags:
-- howto
+- appearance
 ---
 
 Mailplane has no specific font-size adjustment functionality but you can easily zoom-in and zoom-out.

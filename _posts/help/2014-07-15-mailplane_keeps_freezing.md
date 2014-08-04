@@ -5,7 +5,7 @@ author: Jessica
 category: help
 permalink: /help/mailplane_keeps_freezing.html
 tags:
-- faq
+- troubleshoot
 ---
 
 Over the last few days we have had reports of Mailplane beach balling and needing to be force quit. We have found that the cause seems to be due to an incompatibility for users who downloaded the developer preview version of Safari (7.1).

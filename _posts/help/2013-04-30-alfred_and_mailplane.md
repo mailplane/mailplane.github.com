@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /help/alfred_and_mailplane.html
 tags:
-- howto
+- integration
 ---
 
 [Alfred (v.2.0.3)](http://www.alfredapp.com/changelog#2.0.3) and later supports Mailplane 3 out of the box.

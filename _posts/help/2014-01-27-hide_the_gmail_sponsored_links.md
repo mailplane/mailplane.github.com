@@ -5,7 +5,7 @@ author: Ruben
 category: help
 permalink: /howto/entry/hide_the_gmail_sponsored_links/index.html
 tags:
-- howto
+- appearance
 ---
 
 There are three different ways to remove the "sponsored links" at the right hand side of a conversation.

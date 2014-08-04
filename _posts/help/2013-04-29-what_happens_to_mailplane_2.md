@@ -4,7 +4,7 @@ title: 'What happens to Mailplane 2?'
 author: Lars
 category: help
 tags:
-- faq
+- licensing
 ---
 
 Existing customers can continue using it but due to our limited resources we need to shift our focus to Mailplane 3 to give you the best Gmail experience. That means we won't add new features and we can't guarantee that it will run on newer OSX versions or with newer functionalities of Gmail. But we give our best to keep it alive.

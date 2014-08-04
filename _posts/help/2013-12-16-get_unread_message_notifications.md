@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/notification_preferences/index.html
 tags:
-- howto
+- email
 ---
 
 

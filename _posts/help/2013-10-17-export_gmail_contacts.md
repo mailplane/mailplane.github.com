@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/export_gmail_contacts/index.html
 tags:
-- howto
+- email
 ---
 
 Follow the steps below to export Gmail contacts.

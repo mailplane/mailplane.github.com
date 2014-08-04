@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/create_a_to-do_entry_in_things_app/index.html
 tags:
-- howto
+- integration
 ---
 
 It's very easy to create a new to-dos based on email conversations. Most importantly, Things creates a to-do that links back to the Gmail conversation.

@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/mail_pdf_from_print_dialog/index.html
 tags:
-- howto
+- integration
 ---
 
 Mailplane provides a print dialog action to send a PDF from any application.

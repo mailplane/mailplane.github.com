@@ -3,77 +3,132 @@ layout: default
 title: Mailplane Help
 ---
 
-<script>
-	$(function() {
-	    $("#search_query").keypress(function (e) {
-	    if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
-	        $("#search_button").click();
-	        return false;
-	    } else {
-	        return true;
-	    }
-	    });
-	});
-
-	function search() {
-		$("#search_results").empty();
-		
-		$.ajax({
-		  dataType: "json",
-		  url: "search.json",
-		  cache: false,
-		  success: function(posts) {
-			  var queryTokens = $("#search_query").val().toLowerCase().split(" ");
-			
-			  var found = false;
-			  for(var i=0; i < posts.length; i++) {
-				  var title = decodeURIComponent(posts[i].title);
-				  var date = posts[i].date;
-				  var url = posts[i].url;
-				  var content = decodeURIComponent(posts[i].content);
-
-					for(var j=0; j < queryTokens.length; j++) {
-						if(content.indexOf(queryTokens[j]) !== -1) {
-							found = true;
-							$("#search_results").append("<li><a href=\"" +url+ "\">"+title.replace(/\+/g, ' ')+"</a></li>");
-							break;
-						}
-					}
-				}
-				
-				if(!found) {
-					$("#search_results").append("<li>Nothing found.</li>");
-				}
-		  }
-		});
-	}
-</script>
+<style>
+.topics {
+	display: table-row;
+}
+.topics-column {
+	display: table-cell;
+	width: 50%;
+}
+.topic {
+	padding-bottom: 20px;
+}
+</style>
 
 <div class="entry">
   <article id="post-{id}" class="{@|item-classes}">
    
 		<h1>Mailplane Help</h1>
 
-		<h2>FAQ</h2>
-		<p>
-			<ul class="posts">
-				{% for post in site.tags.faq %}
-					<li>
-						<a href="{{ post.url }}">{{ post.title }}</a>
-					</li>
-				{% endfor %}
-			</ul>
-		</p>
-		<p><br/></p>
+		<div class="topics">
+			<div style="topics-column">
+				<div class="topic">
+					<h3>FAQ</h3>
+					<ul class="posts">
+						{% for post in site.tags.faq %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Accounts</h3>
+					<ul class="posts">
+						{% for post in site.tags.accounts %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Email</h3>
+					<ul class="posts">
+						{% for post in site.tags.email %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Calendar</h3>
+					<ul class="posts">
+						{% for post in site.tags.calendar %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Appearance</h3>
+					<ul class="posts">
+						{% for post in site.tags.appearance %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Plug-Ins</h3>
+					<ul class="posts">
+						{% for post in site.tags.plugins %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+			</div>
 
-		<h2>Knowledge Base</h2>
-		<p>Search for articles in our Knowledge Base.</p>
-		<div>
-			<input id="search_query" type="text" name="" size="40">&nbsp;
-			<input id="search_button" type="submit" value="Search" onclick="search()">
-			<ul id="search_results" style="list-style:none;padding-top: 5px">
-			</ul>
+			<div class="topics-column">
+				<div class="topic">
+					<h3>Licensing</h3>
+					<ul class="posts">
+						{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Integration</h3>
+					<ul class="posts">
+						{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Tips &amp; Tricks</h3>
+					<ul class="posts">
+						{% for post in site.tags.tricks %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+				<div class="topic">
+					<h3>Troubleshoot</h3>
+					<ul class="posts">
+						{% for post in site.tags.troubleshoot %}{% if post.categories contains 'help' %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+							</li>
+						{% endif %}{% endfor %}
+					</ul>
+				</div>
+			</div>
 		</div>
+
 		<p><br/></p>
 
 		<h2>Google Help Center</h2>

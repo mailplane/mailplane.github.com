@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/drag_and_drop_to_create_attachments/index.html
 tags:
-- howto
+- email
 ---
 
 Drag and drop is the easiest and most intuitive way to attach files or images to a new message.

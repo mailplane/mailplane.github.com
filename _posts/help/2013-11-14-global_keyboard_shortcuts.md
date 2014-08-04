@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/global_keyboard_shortcuts/index.html
 tags:
-- howto
+- email
 ---
 
 Mailplane 3 allows you to assign a global keyboard shortcut for composing a new message. Pressing that shortcut will compose a message independently where you're standing.

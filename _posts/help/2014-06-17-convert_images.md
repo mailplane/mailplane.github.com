@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/convert_images/index.html
 tags:
-- howto
+- email
 ---
 
 Mailplane allows you to convert image files to PNG, JPEG, GIF, TIFF and BMP. There are three ways to attach images:

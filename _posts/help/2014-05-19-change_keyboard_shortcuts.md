@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/change_keyboard_shortcuts/index.html
 tags:
-- howto
+- tricks
 ---
 
 Use System Preferences to change Mailplane keyboard shortcuts or assign new ones.

@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/hide_the_spam_label/index.html
 tags:
-- howto
+- appearance
 ---
 
 Gmail offers an option to organize the sidebar and hide the Spam label. Follow those steps to hide the Spam counter in your sidebar:

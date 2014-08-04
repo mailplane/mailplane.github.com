@@ -5,7 +5,7 @@ author: Lars
 category: help
 permalink: /faq/entry/can_i_buy_mailplane_in_the_mac_app_store/index.html
 tags:
-- howto
+- licensing
 ---
 
 Unfortunately, no. We’ll never say never, but we don't have plans yet to sell Mailplane 3 via the App Store.

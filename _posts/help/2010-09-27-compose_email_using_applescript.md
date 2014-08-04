@@ -5,7 +5,7 @@ author: Ruben
 category: help
 permalink: /howto/entry/compose_email_using_applescript/index.html
 tags:
-- howto
+- integration
 ---
 
 AppleScript is a scripting language built into MacOS. It is primarily designed to exchange data between applications in order to automate repetitive tasks. See more [here](http://en.wikipedia.org/wiki/AppleScript).

@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/add_custom_sounds/index.html
 tags:
-- howto
+- tricks
 ---
 
 In order to choose a custom notification sound in Mailplane 3, you need to add it to your system sounds first.

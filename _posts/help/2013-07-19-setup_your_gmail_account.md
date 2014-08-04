@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/setup_your_gmail_account/index.html
 tags:
-- howto
+- accounts
 ---
 
 Learn how to setup and sign-in your "normal" Gmail or Google Apps account.

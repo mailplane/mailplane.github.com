@@ -5,7 +5,7 @@ author: Lars
 category: help
 permalink: /howto/entry/change_mailplanes_language/index.html
 tags:
-- howto
+- tricks
 ---
 
 All Mailplane languages are included in the same download. Mailplane is available in English, French, German and Japanese.

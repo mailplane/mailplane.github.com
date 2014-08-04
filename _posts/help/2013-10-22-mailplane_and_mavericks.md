@@ -5,7 +5,7 @@ author: Lars
 category: help
 permalink: /faq/entry/mailplane_and_mavericks/index.html
 tags:
-- howto
+- faq
 ---
 
 We’re really excited about today’s release of OS X Mavericks. It received some nice additional features but most importantly it is much more efficient when it comes to memory and CPU usage. And hey, it's free! Learn more [here](http://www.apple.com/osx).

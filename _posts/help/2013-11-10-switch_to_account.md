@@ -5,7 +5,7 @@ author: Lars
 category: help
 permalink: /howto/entry/switch_to_account/index.html
 tags:
-- howto
+- accounts
 ---
 
 The 'Switch to account' functionality of Mailplane 3 allows you to switch between an unlimited number of accounts. It unifies tabs with the switch functionality of Mailplane 2. Simply go to Mailplane 3 > Switch to account... or press `Control-Command-A`.

@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/open_mailplane_at_login/index.html
 tags:
-- howto
+- email
 ---
 
 Follow these steps, if you like to open Mailplane when you start your Mac or sign into to your Mac account.

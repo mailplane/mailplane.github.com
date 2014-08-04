@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/empty_trash_containing_cache_files/index.html
 tags:
-- howto
+- troubleshoot
 ---
 
 Mailplane marks cache files as readonly which prevents them from being modified. This might prevent you from emptying the Trash if you move them manually (or via an app remover) into the Trash.

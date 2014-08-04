@@ -5,7 +5,7 @@ author: Jessica
 category: help
 permalink: /howto/entry/two_factor_authentication/index.html
 tags:
-- howto
+- tricks
 ---
 
 2-step verification adds an extra layer of security to your account. In addition to your username and password, you'll enter a code that Google will send you via text, voice call, or our mobile app.

@@ -1,11 +1,11 @@
 ---
 layout: help_post
-title: 'Use RightInbox In Mailplane'
+title: 'RightInbox'
 author: Gor
 category: help
 permalink: /howto/entry/use_rightinbox_in_mailplane/index.html
 tags:
-- howto
+- plugins
 ---
 
 Right Inbox integrates seamlessly with Gmail and lets you schedule emails to send later and adding reminders to conversations.

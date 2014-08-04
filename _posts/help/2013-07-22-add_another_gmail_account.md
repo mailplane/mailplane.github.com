@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/add_another_gmail_account/index.html
 tags:
-- howto
+- accounts
 ---
 
 Open different Gmail, Google Apps and Calendar accounts at the same time. Mailplane has Safari-like tabs to switch between them without reentering your Gmail username and password.

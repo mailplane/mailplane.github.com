@@ -5,7 +5,7 @@ author: Jessica
 category: help
 permalink: /howto/entry/setup_your_first_html_signature/index.html
 tags:
-- howto
+- email
 ---
 
 In this post, I'll show you how you can add a signature to your Gmail. Though we don't offer our own signatures in Mailplane 3, Gmail has updated theirs and should be a good option for most users.

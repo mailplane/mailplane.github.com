@@ -5,7 +5,7 @@ author: Ruben
 category: help
 permalink: /howto/entry/integrate_with_other_mac_applications/index.html
 tags:
-- howto
+- integration
 ---
 
 A lists of Mac applications, which integrate with Mailplane.

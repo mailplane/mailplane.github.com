@@ -5,7 +5,7 @@ author: Lars
 category: help
 parmalink: /help/2013/04/14/omnifocus-clippings-plugin.html
 tags:
-- howto
+- integration
 ---
 
 Clippings Plugin isn't supported anymore. [Read here](/help/omnifocus_2.html) how to create task in OmniFocus.

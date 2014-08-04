@@ -5,7 +5,7 @@ author: Gor
 category: help
 permalink: /howto/entry/iwork_share_with_email/index.html
 tags:
-- howto
+- integration
 ---
 
 Unfortunately, 3rd party applications like Mailplane aren't allowed to support the Share > Email functionality in iWork/MS Office anymore. Below you'll find a short description how you can work around it and still share iWork / Office documents easily via Email.

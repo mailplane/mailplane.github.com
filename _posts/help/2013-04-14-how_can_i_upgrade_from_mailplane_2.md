@@ -4,7 +4,7 @@ title: 'How can I upgrade from Mailplane 2?'
 author: Lars
 category: help
 tags:
-- faq
+- licensing
 ---
 
 Simply [download Mailplane 3](http://update.mailplaneapp.com/mailplane_3.php) and go to **'Mailplane 3 > License...'**. The license dialog will take care of everything else. Below is a detailed guide if you need some help along the way.
