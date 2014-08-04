@@ -11,20 +11,16 @@ tags:
 Follow the instructions below to activate your Mailplane 3 license and don't hesitate to [contact us](mailto:support@mailplaneapp.com) if you need any further assistance.
 
 
-1. Start Mailplane 3 and go to `Mailplane 3 > License...`
-
+1. Start Mailplane 3 and go to `Mailplane 3 > License...`<br/>
 	![screen1](/assets/howto/2013-11-14-activate_license/screen1.png){: .shadowed}
 
-2. Use the license information you received by email.
-
+2. Use the license information you received by email.<br/>
 	![screen2](/assets/howto/2013-11-14-activate_license/screen2.png){: .shadowed}
 
-3. Copy and paste your license information to the appropriate fields and press Activate.
-
+3. Copy and paste your license information to the appropriate fields and press Activate.<br/>
 	![screen3](/assets/howto/2013-11-14-activate_license/screen3.png){: .shadowed}
 
-4. A pop-up dialog will confirm the activation.
-
+4. A pop-up dialog will confirm the activation.<br/>
 	![screen4](/assets/howto/2013-11-14-activate_license/screen4.png)
 
 

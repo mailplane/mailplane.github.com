@@ -15,12 +15,10 @@ It's very easy to create a new to-dos based on email conversations. Most importa
 
 1. In Thing app go to *Things > Preferences > Quick Entry*.
 
-2. Uncheck the *Enable shortcut for Quick Entry with Autofill* checkbox and then check it again. 
-
+2. Uncheck the *Enable shortcut for Quick Entry with Autofill* checkbox and then check it again.<br/>
 	![screenshot](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen1.png) 
  
-3. When prompted, download a fresh copy of the Things Helper and run it — it’ll be automatically installed into the right location and the feature will be fully functional again.
-
+3. When prompted, download a fresh copy of the Things Helper and run it — it’ll be automatically installed into the right location and the feature will be fully functional again.<br/>
 	![screenshot](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen2.png)
 
 
@@ -30,14 +28,11 @@ It's very easy to create a new to-dos based on email conversations. Most importa
 
 2. In Mailplane 3: open a Gmail conversation.
 
-3. Select some text inside the conversation, it'll be added as Things to-do note:
-
+3. Select some text inside the conversation, it'll be added as Things to-do note:<br/>
 	![screenshot](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen3.png) 
 
-4. Select `Mailplane 3 > Services > New To-Do Containing Selection as Note` or press the hotkey. As a result you'll get the Things Quick Entry dialog:
-
+4. Select `Mailplane 3 > Services > New To-Do Containing Selection as Note` or press the hotkey. As a result you'll get the Things Quick Entry dialog:<br/>
  	![screenshot](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen4.png)
 
-5. Make your changes and press Save to add the to-do. After the dialog closes, the to-do can be found in your Things inbox. Just click the email link and your conversation will magically open inside Mailplane 3.
-
+5. Make your changes and press Save to add the to-do. After the dialog closes, the to-do can be found in your Things inbox. Just click the email link and your conversation will magically open inside Mailplane 3.<br/>
 	![screenshot](/assets/howto/2013-04-25-create_a_to-do_entry_in_things_app/screen5.png)

@@ -11,16 +11,13 @@ tags:
 
 ## Set-Up
 
-1. To set-up Mailplane 3's unread message notifications, please open `Preferences... > Accounts > Notifications`.
-
+1. To set-up Mailplane 3's unread message notifications, please open `Preferences... > Accounts > Notifications`.<br/>
 	![screen1](/assets/howto/2013-12-16-get_unread_message_notifications/screen1.png)
 
-2. Check the `Enable Notifications` box to enable notifications. In some cases Mailplane might not be able to fetch unread messages due to communications problems or because 2-step-verification is enabled. Simply press the `Fix it` button to resolve such kind of problems.
-
+2. Check the `Enable Notifications` box to enable notifications. In some cases Mailplane might not be able to fetch unread messages due to communications problems or because 2-step-verification is enabled. Simply press the `Fix it` button to resolve such kind of problems.<br/>
 	![screen2](/assets/howto/2013-12-16-get_unread_message_notifications/screen2.png)
 
-3. Press `Accept` if the authorization dialog appears.
-
+3. Press `Accept` if the authorization dialog appears.<br/>
 	![screen3](/assets/howto/2013-12-16-get_unread_message_notifications/screen3.png)
 
 

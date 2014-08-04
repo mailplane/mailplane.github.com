@@ -14,15 +14,11 @@ Unfortunately, 3rd party applications like Mailplane aren't allowed to support t
 
 2. Make sure it is saved.
 
-3. Drag and drop the title bar icon to Mailplane dock icon.
-	
-	![screen1](/assets/howto/2013-10-17-iwork_share_with_email/screen1.png)
-
+3. Drag and drop the title bar icon to Mailplane dock icon.<br/>
+	![screen1](/assets/howto/2013-10-17-iwork_share_with_email/screen1.png)<br/>
 	![screen2](/assets/howto/2013-10-17-iwork_share_with_email/screen2.png)
 
 4. A new message will be composed with the selected document attached.
-
 	![screen3](/assets/howto/2013-10-17-iwork_share_with_email/screen3.png)
-
 
 **Tip:** This method works for Microsoft Office, iWork, Preview, Adobe Reader, etc.

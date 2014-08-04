@@ -18,9 +18,8 @@ Plain text signature
 
 2. Under the General tab, scroll about half way down the page. You will see a box called Signatures with a couple of options. If you have not set up your signature before, it will be set to 'No signature'.
 
-3. Click the box under 'No signature' and begin to compose what you would like it to say, in the compose box.
-
-	![screen1](/assets/howto/2013-10-17-setup_signature/screen1.jpg)
+3. Click the box under 'No signature' and begin to compose what you would like it to say, in the compose box.<br/>
+	![screen1](/assets/howto/2013-10-17-setup_signature/screen1.jpg){: .shadowed}
 
 4. You get a few options to customize your signature with the basic compose window features (Font, bold & italic, color). You can even hyperlink if you need to.
 Save your changes and your new basic signature is ready to go!
@@ -41,9 +40,8 @@ If you don't have one created, there are a ton of generators if you don't know m
 
 4. Open your Gmail Settings (Click the `Cog > Settings`)
 
-5. Scroll down within the General Menu to the Signature box and click the button under 'No signature' to enter your Signature into the compose box.
-
-	![screen2](/assets/howto/2013-10-17-setup_signature/screen2.jpg)
+5. Scroll down within the General Menu to the Signature box and click the button under 'No signature' to enter your Signature into the compose box.<br/>
+	![screen2](/assets/howto/2013-10-17-setup_signature/screen2.jpg){: .shadowed}
 
 6. Paste your Signature into the box (Command + P or Edit > Paste)
 

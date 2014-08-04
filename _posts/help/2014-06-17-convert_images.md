@@ -25,11 +25,9 @@ Mailplane allows you to convert image files to PNG, JPEG, GIF, TIFF and BMP. The
 Hint: You can also do batch image conversions with Mailplane.
 
 1. Choose the images you want to convert and attach them
-2. Select the desired format. You can also reduce the size of your images.
-
+2. Select the desired format. You can also reduce the size of your images.<br/>
 	![screen5](/assets/howto/2014-06-17-convert_images/screen5.png)
 
 3. Send that email to your own email address
-4. Open the message and download all converted images
-
+4. Open the message and download all converted images<br/>
 	![screen6](/assets/howto/2014-06-17-convert_images/screen6.png)

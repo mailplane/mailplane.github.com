@@ -14,24 +14,20 @@ Open different Gmail, Google Apps and Calendar accounts at the same time. Mailpl
 ## Here's how you add an account
 
 1. Go to *Mailplane 3 > Preferences*
-2. Select *Accounts* tab
-
+2. Select *Accounts* tab<br/>
 	![screen1](/assets/howto/2013-07-22-add_another_gmail_account/screen1.png)
 
 3. Press Add… to add another Gmail or Google apps acoount.
-4. Read our [Gmail account setup](http://mailplaneapp.com/howto/entry/setup_your_gmail_account/index.html) article on how to setup Gmail or Google Apps account.
-
+4. Read our [Gmail account setup](http://mailplaneapp.com/howto/entry/setup_your_gmail_account/index.html) article on how to setup Gmail or Google Apps account.<br/>
 	![screen2](/assets/howto/2013-07-22-add_another_gmail_account/screen2.png)
 
 …or you can use the **Plus (+)** button to add a new account. Here is how:
 
 1. Press the Plus (+) button on the tab bar
-2. Select *New…*
+2. Select *New…*<br/>
+	![screen4](/assets/howto/2013-07-22-add_another_gmail_account/screen4.png){: .shadowed}
 
-	![screen4](/assets/howto/2013-07-22-add_another_gmail_account/screen4.png)
-
-3. *Add new account* dialog box will appear. Follow the instructions [here](http://mailplaneapp.com/howto/entry/setup_your_gmail_account/index.html) to setup your new Gmail account.
-
+3. *Add new account* dialog box will appear. Follow the instructions [here](http://mailplaneapp.com/howto/entry/setup_your_gmail_account/index.html) to setup your new Gmail account.<br/>
 	![screen5](/assets/howto/2013-07-22-add_another_gmail_account/screen5.png)
 
 **Tip:** Use drag and drop in the list to reorder the accounts.
@@ -41,7 +37,7 @@ Open different Gmail, Google Apps and Calendar accounts at the same time. Mailpl
 
 You can open your new Gmail account by pressing the **Plus (+)** button and selecting your new Gmail account.
 
-![screen3](/assets/howto/2013-07-22-add_another_gmail_account/screen3.png)
+![screen3](/assets/howto/2013-07-22-add_another_gmail_account/screen3.png){: .shadowed}
 
 Now you can use your Gmail, Google apps or Calendar accounts at the same time.
 

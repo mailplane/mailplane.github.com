@@ -12,12 +12,10 @@ With the exception of Google and Plug-in (e.g. Rapportive, Boomerang, etc.) Mail
 
 Here are the steps:
 
-1. Click a link (e.g. Evernote Market link)
-
+1. Click a link (e.g. Evernote Market link)<br/>
 	![screen1](/assets/howto/2013-11-14-open_links_externally_or_internally/screen1.png)
 
-2. It will open the page in your default browser (Chrome, Safari or Firefox).
-
+2. It will open the page in your default browser (Chrome, Safari or Firefox).<br/>
 	![screen2](/assets/howto/2013-11-14-open_links_externally_or_internally/screen2.png)
 
 3. Hold `Command` (internally) or `Command-Shift` (externally) if you want to override the default behavior.
