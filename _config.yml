@@ -1,8 +1,8 @@
 # Github default settings
-markdown: kramdown
-safe:     true
-lsi:      false
-pygments: true
+markdown:    kramdown
+safe:        true
+lsi:         false
+highlighter: pygments
 
 # See sitemap.xml
 production_url: http://mailplaneapp.com
