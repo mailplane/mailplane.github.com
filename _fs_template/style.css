@@ -27,8 +27,10 @@ input.store-product-option-input-quantity {
 }
 h2.core-section-header {
 	font-size: 32px;
-	padding-top: 40px;
-	padding-bottom: 10px;
+	padding-left: 255px;
+	padding-top: 20px;
+	padding-bottom: 0;
+	text-align: left;
 }
 .core-form-field-body-note {
 	color: #6C768A;
@@ -43,7 +45,7 @@ h2.core-section-header {
 	padding-top: 10px !important;
 	margin: 0 !important;
 }
-.store-section-payment-details .core-form-field-label
+.store-section-payment-details,.store-section-payment .core-form-field-label
 {
 	display: table-cell;
 	float: left;
@@ -51,7 +53,7 @@ h2.core-section-header {
 	text-align: right;
 	margin: 0;
 }
-.store-section-payment-details .core-form-field-body {
+.store-section-payment-details,.store-section-payment .core-form-field-body {
 	display: table-cell;
 	margin: 0;
 	margin-left: 30%;
@@ -62,4 +64,35 @@ h2.core-section-header {
 .core-form-field-body input[id='confirm:card_security_code']
 {
 	width: 100px !important;
+}
+.store-payment-method-list
+{
+	margin: 0;
+}
+.store-payment-method-list-selection
+{
+	display: table-cell;
+	float: left;
+	width: 30%;
+	text-align: right;
+	margin: 0;
+	padding-top: 5px;
+}
+.store-payment-method-list-description
+{
+	display: table-cell;
+	text-align: left;
+}
+.store-payment-method-list-description .store-payment-types
+{
+	display: none;
+}
+.store-payment-method-list-description .store-payment-method-title
+{
+	margin: -5px;
+}
+.store-payment-method-cc .store-payment-method-content
+{
+	padding: 0;
+	margin: 0;
 }
