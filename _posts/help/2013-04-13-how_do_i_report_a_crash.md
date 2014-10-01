@@ -12,5 +12,7 @@ Crashes shouldn't happen, and we'll do everything to solve them. They can be cau
 
 Mailplane makes it easy to send use the full crash report: When you restart Mailplane after a crash, you'll be asked to submit the crash report.
 
-**Tip:** If you remember which steps led to the crash you can enter this in the comment section.
+Feel free to send us any additional information in the 'Comments' section (e.g. the steps which led to the crash). We'll try our best to respond to every commented crash report.
+
+![Problem Report Dialog](/assets/help/2013-04-13-how_do_i_report_a_crash/problem_report_dialog.png){: .shadowed}
 
