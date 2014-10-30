@@ -96,3 +96,7 @@ h2.core-section-header {
 	padding: 0;
 	margin: 0;
 }
+li.store-payment-method-amazon
+{
+	display: none;
+}
