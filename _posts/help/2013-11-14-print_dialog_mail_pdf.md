@@ -1,6 +1,6 @@
 ---
 layout: help_post
-title: 'Mail PDF from Print Dialog'
+title: 'Print Dialog: Mail PDF'
 author: Gor
 category: help
 permalink: /howto/entry/mail_pdf_from_print_dialog/index.html

@@ -1,6 +1,6 @@
 ---
 layout: help_post
-title: 'Compose email using AppleScript'
+title: 'AppleScript'
 author: Ruben
 category: help
 permalink: /howto/entry/compose_email_using_applescript/index.html

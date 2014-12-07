@@ -1,6 +1,6 @@
 ---
 layout: help_post
-title: 'iWork / Office: Share With Email'
+title: 'iWork / Office'
 author: Gor
 category: help
 permalink: /howto/entry/iwork_share_with_email/index.html
