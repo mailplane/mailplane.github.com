@@ -1,0 +1,36 @@
+---
+layout: default
+title: Mailplane Integration Help
+---
+
+<div class="entry">
+	<article>
+		<h1>Mailplane Integration Help</h1>
+
+		<p>
+			{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
+				<div style="padding-bottom:20px">
+					<h3>{{ post.title }}</h3>
+					<div>{{ post.excerpt | strip_html }} <a href="{{ post.url }}">More...</a></div>
+				</div>
+			{% endif %}{% endfor %}
+
+			<div style="padding-bottom:20px">
+				<h3>GrandTotal</h3>
+				<div><a href="http://www.grandtotal.biz/GrandTotal">GrandTotal</a>, an invoicing application for designers, lets you email your invoices.</div>
+			</div>
+
+			<div style="padding-bottom:20px">
+				<h3>Alarms</h3>
+				<div>Mailplane's URL drag and drop works great with <a href="http://www.alarmsapp.com">Alarmsapp</a></div>
+			</div>
+
+			<div style="padding-bottom:20px">
+				<h3>Lyn</h3>
+				<div><a href="http://www.lynapp.com">Lyn</a>, a fast and lightweight image browser, lets you directly email pictures.</div>
+			</div>
+		</p>
+	</article>
+
+	<div class="clear"></div>
+</div>
