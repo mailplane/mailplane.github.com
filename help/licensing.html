@@ -10,21 +10,11 @@ title: Mailplane Licensing Help
 
 		<p>
 			<ul class="posts">
-				<li>
-					<a href="/faq/entry/is_mailplane_a_subscription_service_are_there_any_recurring_fees_/index.html">Is Mailplane a subscription service? Are there any recurring fees? </a>
-				</li>
-				<li>
-					<a href="/faq/entry/i_cant_find_the_license_email_can_i_get_a_new_one/index.html">I can not find the license. Can I get a new one?</a>
-				</li>
-				<li>
-					<a href="/help/2013/04/14/how_can_i_upgrade_from_mailplane_2.html">How can I upgrade from Mailplane 2?</a>
-				</li>
-				<li>
-					<a href="/faq/entry/can_i_use_mailplane_on_different_macs/index.html">Can I use Mailplane on different Macs?</a>
-				</li>
-				<li>
-					<a href="/howto/entry/register_mailplane">How can I activate a license?</a>
-				</li>
+				{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
+					<li>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</li>
+				{% endif %}{% endfor %}
 			</ul>
 		</p>
 		
