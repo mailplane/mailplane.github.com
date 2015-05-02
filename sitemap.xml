@@ -11,9 +11,9 @@ title : Sitemap
 	      </url>
 	    {% endif %}
 	{% endfor %}
-  {% for post in site.posts %}
-    <url>
-      <loc>{{site.production_url}}{{ post.url }}/</loc>
-    </url>
-  {% endfor %}
+	{% for post in site.posts %}
+	<url>
+	  <loc>{{site.production_url}}{{ post.url }}/</loc>
+	</url>
+	{% endfor %}
 </urlset>
