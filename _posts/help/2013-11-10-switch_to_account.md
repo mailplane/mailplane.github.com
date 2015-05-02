@@ -18,7 +18,7 @@ We have three cases in the example below:
 
 !['Switch to Account...' dialog](/assets/howto/2013-11-10-switch_to_account/dialog.png)
 
-1) Dettel Inc., Hunch & Son and Fries. Bros are single tabs in a separate workspace. Switching between them is fast and feels like switching back in Mailplane 2.
+1) Dettel Inc., Hunch & Son and Fries Bros. are single tabs in a separate workspace. Switching between them is fast and feels like switching back in Mailplane 2.
 
 2) Ruben (Email), Ruben (Calendar) and Lars are three tabs in the same workspace. Switching to one of them might take a bit longer because it loads the two other tabs as well. But afterwards it's very quick to switch between those tabs. That's what we've been used in Mailplane 3 so far.
 
