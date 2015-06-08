@@ -17,3 +17,5 @@ We know that this is a worst case szenario for a lot of long term customers and 
 But keep in mind as Google and Apple stop supporting certain things on their end, we begin to lose functionality. If it's not fixable, it could end up being the end of Mailplane 2. Hopefully that's not the case, but we can't make any promises at the moment.
 
 We're not trying to force anyone to upgrade, but for the moment our only suggestion is to give Mailplane 3 a try. If you like, you can get it [here](http://mailplaneapp.com).
+
+**UPDATE June 8:** Don't hesitate to [let us know](mailto:support@mailplaneapp.com) if you're interested in a preview version of Mailplane 2. According to our tests it should let you sign-in to your Gmail account again.
