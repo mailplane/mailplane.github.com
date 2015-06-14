@@ -18,4 +18,4 @@ But keep in mind as Google and Apple stop supporting certain things on their end
 
 We're not trying to force anyone to upgrade, but for the moment our only suggestion is to give Mailplane 3 a try. If you like, you can get it [here](http://mailplaneapp.com).
 
-**UPDATE June 8:** Don't hesitate to [let us know](mailto:support@mailplaneapp.com) if you're interested in a preview version of Mailplane 2. According to our tests it should let you sign-in to your Gmail account again.
+**UPDATE June 14:** We published an update which fixes that problem. Go to "Mailplane > Check for Updates..." or download it <a href="http://mailplaneapp.com/download">here</a>.
