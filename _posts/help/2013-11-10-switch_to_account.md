@@ -10,7 +10,7 @@ tags:
 
 The 'Switch to account' functionality of Mailplane 3 allows you to switch between a set of accounts. Simply go to Mailplane 3 > Switch to account... or press `Control-Command-A`.
 
-It is helpful for customers with a lot of accounts because it reduces the number of tabs. Having less tabs saves screen-estate and memory.
+This function is useful for customers using many accounts by reducing the amount of tabs open at once. Having less tabs open saves memory and screen-estate.
 
 We have three cases in the example below:
 
