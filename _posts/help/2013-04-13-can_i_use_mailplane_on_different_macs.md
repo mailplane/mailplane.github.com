@@ -5,7 +5,6 @@ author: Lars
 category: help
 permalink: /faq/entry/can_i_use_mailplane_on_different_macs/index.html
 tags:
-- faq
 - licensing
 ---
 

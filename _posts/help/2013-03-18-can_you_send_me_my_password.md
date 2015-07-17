@@ -4,7 +4,7 @@ title: 'Can you send me my Gmail password?'
 author: Jessica
 category: help
 tags:
-- faq
+- accounts
 ---
 
 If you misplace your Mailplane password, we are not able to resend it to you as we do not store any of that information locally.
