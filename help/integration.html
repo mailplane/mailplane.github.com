@@ -4,34 +4,33 @@ title: Integration Help
 description: Learn how Mailplane integrates Gmail on your Mac.
 ---
 
-<div class="entry">
-	<article>
-		<h1>Mailplane Integration Help</h1>
-
-		<p>
+<section class="white help">
+	<ul class="lt">
+		<li>
 			{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
-				<div style="padding-bottom:20px">
-					<h3>{{ post.title }}</h3>
-					<div>{{ post.excerpt | strip_html }} <a href="{{ post.url }}">More...</a></div>
-				</div>
+				<p style="padding-bottom:20px">
+					<a href="{{ post.url }}">{{ post.title }}</a><br/>
+					{{ post.excerpt | strip_html }}
+				</p>
 			{% endif %}{% endfor %}
+		</li>
+	</ul>
+	<ul  class="rt">
+		<li>
+			<p style="padding-bottom:20px">
+				<a href="http://www.grandtotal.biz/GrandTotal">GrandTotal</a><br/>
+				GrandTotal, an invoicing application for designers, lets you email your invoices.
+			</p>
 
-			<div style="padding-bottom:20px">
-				<h3>GrandTotal</h3>
-				<div><a href="http://www.grandtotal.biz/GrandTotal">GrandTotal</a>, an invoicing application for designers, lets you email your invoices.</div>
-			</div>
+			<p style="padding-bottom:20px">
+				<a href="http://www.alarmsapp.com">Alarms</a><br/>
+				Mailplane's URL drag and drop works great with Alarmsapp.
+			</p>
 
-			<div style="padding-bottom:20px">
-				<h3>Alarms</h3>
-				<div>Mailplane's URL drag and drop works great with <a href="http://www.alarmsapp.com">Alarmsapp</a></div>
-			</div>
-
-			<div style="padding-bottom:20px">
-				<h3>Lyn</h3>
-				<div><a href="http://www.lynapp.com">Lyn</a>, a fast and lightweight image browser, lets you directly email pictures.</div>
-			</div>
-		</p>
-	</article>
-
-	<div class="clear"></div>
-</div>
+			<p style="padding-bottom:20px">
+				<a href="http://www.lynapp.com">Lyn</a><br/>
+				Lyn, a fast and lightweight image browser, lets you directly email pictures.
+			</p>
+		</li>
+	</ul>
+</section>

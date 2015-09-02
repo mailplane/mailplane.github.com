@@ -1,23 +1,39 @@
 ---
 layout: default
-title: Blog (All Posts)
-description: Read all our news, tips and tricks related to Mailplane and Gmail.
+title: Blog
+description: Read news, tips and tricks related to Mailplane and Gmail.
 ---
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://mailplaneapp.com/blog/rss_2.0"/>
 <link rel="alternate" type="application/atom+xml" title="Atom" href="http://mailplaneapp.com/blog/atom"/>
-<div class="entry">
-	<article>  
-		<h1>Mailplane Blog</h1>
-		
-		<p>Read news, tips and tricks related to Mailplane and Gmail. Subscribe it with your favorite RSS Reader <a href="http://mailplaneapp.com/blog/rss_2.0">here</a>.</p>
-		<table>
-			{% for post in site.categories.blog %}
-				<tr><td width="100px">{{ post.date | date_to_string }}</td><td><a href="{{ post.permalink }}">{{ post.title }}</a></td></tr>
-			{% endfor %}
-		</table>
-		<br/>
-	</article>
 
-	<div class="clear"></div>
-</div>
+<section class="white post">
+	<div class="wrapper">
+		{% for post in site.categories.blog %}
+		<article>
+			<span class="date">{{ post.date | date_to_string }}</span>
+			<h2 class="post-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+			<p>{{ post.excerpt | strip_html }}</p>
+		</article>
+		{% endfor %}
+	</div>
+</section>
+
+<section clasS="lightblue newsletter">
+	<div class="wrapper">
+		<h3>Join our newsletter</h3>
+		<h4>For periodic updates about Mailplane.</h4>
+		<ul>
+			<form action="http://buzzardch.createsend.com/t/j/s/btdlji/" method="post">
+				<input type="hidden" value="mailplaneapp.com/tour.html" name="cm-f-hthlul">
+			<li class="form-field">
+				<input class="field" type="email" placeholder="your@email.com" name="cm-btdlji-btdlji">
+			</li>
+			<li class="form-btn">
+				<input class="bluebtn" type="submit" value="Subscribe">
+			</li>
+			</form>
+		<ul>
+		<p>No Spam. Each email will contain a link to unregister.</p>
+	</div>
+</section>

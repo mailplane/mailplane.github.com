@@ -4,25 +4,22 @@ title: Licensing Help
 description: Answers to Mailplane licensing related questions.
 ---
 
-<div class="entry">
-  <article>
-   
-		<h1>Mailplane Licensing Help</h1>
-
-		<p>
-			<ul class="posts">
-				{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
-					<li>
-						<a href="{{ post.url }}">{{ post.title }}</a>
-					</li>
-				{% endif %}{% endfor %}
-			</ul>
-		</p>
-		
-		<p>
-			Write us to <a href="mailto:support@mailplaneapp.com">support (at) mailplaneapp.com</a> or tweet <a href="http://twitter.com/mailplane" target="_blank" title="Tweet, tweet!">@mailplane</a> for quick questions.
-		</p>
-  </article>
-
-	<div class="clear"></div>
-</div>
+<section class="white help">
+	<ul class="lt">
+		<li>
+			{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
+				<p style="padding-bottom:20px">
+					<a href="{{ post.url }}">{{ post.title }}</a><br/>
+					{{ post.excerpt | strip_html }}
+				</p>
+			{% endif %}{% endfor %}
+		</li>
+	</ul>
+	<ul  class="rt">
+		<li>
+			<p style="padding-bottom:20px">
+				Write us to <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#109;&#97;&#105;&#108;&#112;&#108;&#97;&#110;&#101;&#97;&#112;&#112;&#46;&#99;&#111;&#109;">support (at) mailplaneapp.com</a> or tweet <a href="http://twitter.com/mailplane" target="_blank" title="Tweet, tweet!">@mailplane</a> for quick questions.
+			</p>
+		</li>
+	</ul>
+</section>

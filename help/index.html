@@ -1,168 +1,117 @@
 ---
 layout: default
-title: Help
+title: How can we help?
 description: We're here for you. Contact us if you have questions about Gmail on your Mac.
 ---
 
-<style>
-.topics {
-	display: table-row;
-}
-.topics-column {
-	display: table-cell;
-	width: 50%;
-}
-.topic {
-	padding-bottom: 20px;
-}
-</style>
+<section class="white help">
+	<ul class="lt">
+		<li>
+			<h2>FAQ</h2>
+			{% for post in site.tags.faq %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Accounts</h2>
+			{% for post in site.tags.accounts %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Email</h2>
+			{% for post in site.tags.email %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Calendar</h2>
+			{% for post in site.tags.calendar %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Appearance</h2>
+			{% for post in site.tags.appearance %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Plug-Ins</h2>
+			{% for post in site.tags.plugins %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+	</ul>
+	<ul  class="rt">
+		<li>
+			<h2>Licensing</h2>
+			{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Integration</h2>
+			{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Tips &amp; Tricks</h2>
+			{% for post in site.tags.tricks %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+		<li>
+			<h2>Troubleshoot</h2>
+			{% for post in site.tags.troubleshoot %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+		</li>
+	</ul>
+</section>
 
-<div class="entry">
-  <article id="post-{id}" class="{@|item-classes}">
-   
-		<h1>Mailplane Help</h1>
+<section class="notes white">
+	<ul>
+		<li>
+			<h3>Updates</h3>
+			<p>Mailplane has been around since 2007 and is constantly improving. Read our <a href="/releases/mailplane3.html">Release Notes</a> and ensure you're up to date by clicking 'Mailplane 3 > Check for Updates...'.</p>
+		</li>
+		<li>
+			<h3>Google Help Center</h3>
+			<p>Learn more about Gmail, Google Calendar and Google Contacts.</p>
+			<p>
+				<a href="http://mail.google.com/support">Gmail Help Center</a><br/>
+				<a href="http://calendar.google.com/support">Google Calendar Help Center</a><br/>
+				<a href="http://support.google.com/mail/answer/6164066">Google Contacts Help Center</a>
+			</p>
+		</li>
+		<li>
+			<h3>Forum</h3>
+			<p>Talk with us and other Mailplane users in our <a href="http://groups.google.com/group/mailplaneapp" target="_blank">Google Group</a>.</p>
+		</li>
+		<li>
+			<h3>Write Us</h3>
+			<p>Write us to <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#109;&#97;&#105;&#108;&#112;&#108;&#97;&#110;&#101;&#97;&#112;&#112;&#46;&#99;&#111;&#109;">support (at) mailplaneapp.com</a> or tweet <a href="http://twitter.com/mailplane" target="_blank" title="Tweet, tweet!">@mailplane</a> for quick questions.</p>
+		</li>
+	</ul>
+</section>
 
-		<div class="topics">
-			<div style="topics-column">
-				<div class="topic">
-					<h3>FAQ</h3>
-					<ul class="posts">
-						{% for post in site.tags.faq %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Accounts</h3>
-					<ul class="posts">
-						{% for post in site.tags.accounts %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Email</h3>
-					<ul class="posts">
-						{% for post in site.tags.email %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Calendar</h3>
-					<ul class="posts">
-						{% for post in site.tags.calendar %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Appearance</h3>
-					<ul class="posts">
-						{% for post in site.tags.appearance %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Plug-Ins</h3>
-					<ul class="posts">
-						{% for post in site.tags.plugins %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-			</div>
-
-			<div class="topics-column">
-				<div class="topic">
-					<h3>Licensing</h3>
-					<ul class="posts">
-						{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Integration</h3>
-					<ul class="posts">
-						{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Tips &amp; Tricks</h3>
-					<ul class="posts">
-						{% for post in site.tags.tricks %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-				<div class="topic">
-					<h3>Troubleshoot</h3>
-					<ul class="posts">
-						{% for post in site.tags.troubleshoot %}{% if post.categories contains 'help' %}
-							<li>
-								<a href="{{ post.url }}">{{ post.title }}</a>
-							</li>
-						{% endif %}{% endfor %}
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<p><br/></p>
-
-		<h2>Updates</h2>
-		<p>Mailplane has been around since 2007 and is constantly improving. Read our <a href="/releases/mailplane3.html">Release Notes</a> and ensure you're up to date by clicking 'Mailplane 3 > Check for Updates...'.</p>
-		<p><br/></p>
-
-		<h2>Google Help Center</h2>
-		<p>Learn more about Gmail and Google Calendar.</p>
-		<p>
-			<a href="http://mail.google.com/support">Gmail Help Center</a><br/>
-			<a href="http://mail.google.com/support">Google Calendar Help Center</a>
-		</p>
-		<p><br/></p>
-
-		<h2>Forum</h2>
-		<p>
-			Talk with us and other Mailplane users in our <a href="http://groups.google.com/group/mailplaneapp" target="_blank">Google Group</a>.
-		</p>
-		<p><br/></p>
-
-		<h2>Write us</h2>
-		<p>
-		Write us to <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#109;&#97;&#105;&#108;&#112;&#108;&#97;&#110;&#101;&#97;&#112;&#112;&#46;&#99;&#111;&#109;">support (at) mailplaneapp.com</a> or tweet <a href="http://twitter.com/mailplane" target="_blank" title="Tweet, tweet!">@mailplane</a> for quick questions.
-		</p>
-		<p><br/></p>
-
-		<h2>Join our newsletter</h2>
-		<p>For periodic updates about Mailplane.</p>
-		<div>
-			<form method="post" style="display:inline" action="http://buzzardch.createsend.com/t/j/s/btdlji/" id="frmSS1"><input name="cm-f-hthlul" type="hidden" value="mailplaneapp.com/help/index.html"/><input type="email" name="cm-btdlji-btdlji" required placeholder="your@email.com" class="field" size="40">&nbsp;<input class="submit" type="submit" value="Subscribe"></form>
-			<div style="padding-top: 3px">No Spam. Each email will contain a link to unregister.</div>
-		</div>
-  </article>
-
-	<div class="clear"></div>
-</div>
+<section clasS="lightblue newsletter">
+	<div class="wrapper">
+		<h3>Join our newsletter</h3>
+		<h4>For periodic updates about Mailplane.</h4>
+		<ul>
+			<form action="http://buzzardch.createsend.com/t/j/s/btdlji/" method="post">
+				<input type="hidden" value="mailplaneapp.com/help/index.html" name="cm-f-hthlul">
+			<li class="form-field">
+				<input class="field" type="email" placeholder="your@email.com" name="cm-btdlji-btdlji">
+			</li>
+			<li class="form-btn">
+				<input class="bluebtn" type="submit" value="Subscribe">
+			</li>
+			</form>
+		<ul>
+		<p>No Spam. Each email will contain a link to unregister.</p>
+	</div>
+</section>

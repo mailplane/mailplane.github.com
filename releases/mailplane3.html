@@ -4,48 +4,24 @@ title: Release Notes
 description: Mailplane 3 Release Notes
 ---
 
-<style>
-	ul { margin: 0 0 20px 0; list-style-position:outside; }
-	ol { margin: 0 0 20px 0; list-style-position:outside; }
-	h2 { padding-top: 50px;}
-	pre, code {
-		background-color: #efefef;
-		border-color: #d6d6d6 !important;
-	}
-	pre {
-		width: 95%;
-		overflow: auto;
-		font-size: 14px;
-		margin: 0 0 20px 0;
-		padding: 10px 2%;
-		border: 1px solid;
-	}
-	.entry img.left {
-		float: left;
-		margin: 0 15px 15px 0;
-	}
-	.entry img {
-		background-color: #efefef;
-		border: 1px solid #d1d1d1;
-		padding: 4px;
-		max-width: 100%;
-	}
-	.entry .item {
-		clear: both;
-		min-height: 120px;
-	}
-</style>
-
-<h1>Release Notes</h1>
-
-{% for post in site.categories.release_mailplane3 %}
 <div class="entry spacing">
-	<article id="{{ post.build_number }}" class="left">  
-		<h2>{{ post.title }}</h2>
+	<article class="left">  
+		<h2></h2>
 		<p class="entry">{{ post.content }}</p>
 	</article>
 
 	<div class="clear"></div>
 	<div class="midfold"></div>
 </div>
-{% endfor %}
+
+<section class="white post">
+	<div class="wrapper">
+		{% for post in site.categories.release_mailplane3 %}
+		<article id="{{ post.build_number }}">
+			<span class="date">{{ post.date | date_to_string }}</span>
+			<h2 class="post-title">Mailplane {{ post.title }}</h2>
+			{{ post.content }}
+		</article>
+		{% endfor %}
+	</div>
+</section>
