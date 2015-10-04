@@ -110,6 +110,8 @@ UL.columns{width:951px;list-style:none;}
 UL.columns LI{float:left;width:317px;min-height:225px;text-align:center;margin:0 0 75px 0;}
 UL.columns LI P{margin:0 20px;}
 IMG.plug{display:block;margin:0 0 60px 0;width:317px;height:115px;}
+.integration-illo{max-width:514px;}
+.integration-illo IMG{width:100%;margin:40px 0 40px 0;}
 
 
 /* -------- Testimonials -------- */
