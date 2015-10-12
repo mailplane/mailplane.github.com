@@ -20,9 +20,6 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	
 	<script src="assets/js/jquery-2.0.0.min.js"></script>
-	<script src="assets/js/slippry.min.js"></script>
-
-    <link rel="stylesheet" href="assets/css/slippry.css">
 	
 	<link rel="icon" href="assets/images/favicon.ico" />
 </head>
@@ -89,10 +86,8 @@
 				<p>Use an unlimited amount of accounts separately from the usually cluttered browser experience.</p>
 				<p>All in one app with Apple-like keyboard shortcuts. No separate set-up required.</p>
 			</div>
-			<div class="rt slider">
-				<ul id="feat1">
-					<li><img src="http://mailplaneapp.com/assets/tour_accounts_1_zoom.png" alt=""></li>
-				</ul>
+			<div class="rt illo">
+				<img src="http://mailplaneapp.com/assets/tour_accounts_1_zoom.png" alt="Gmail, Calendar &amp; Contacts">
 			</div>
 		</div>
 	</section>
@@ -104,10 +99,8 @@
 				<p>Mailplane's notifier tells you how many unread messages are in your inboxes, right from your Mac menu bar.</p>
 				<p>And it notifies you if new emails arrive or keeps quiet in 'Do Not Disturb' mode.</p>
 			</div>
-			<div class="lt slider">
-				<ul id="feat3">
-					<li><img src="http://mailplaneapp.com/assets/tour_notifier_statusbar_zoom.png" alt=""></li>
-				</ul>
+			<div class="lt illo">
+				<img src="http://mailplaneapp.com/assets/tour_notifier_statusbar_zoom.png" alt="Notifier">
 			</div>
 		</div>
 	</section>
@@ -119,10 +112,8 @@
 				<p>A huge drop area which you can't miss.</p>
 				<p>It triggers actions like composing a new message, resizing images, zipping directories, etc.</p>
 			</div>
-			<div class="rt slider">
-				<ul id="feat4">
-					<li><img src="http://mailplaneapp.com/assets/tour_attachments_drag_and_drop_zoom.png" alt=""></li>
-				</ul>
+			<div class="rt illo">
+				<img src="http://mailplaneapp.com/assets/tour_attachments_drag_and_drop_zoom.png" alt="Huge Drop Area">
 			</div>
 		</div>
 	</section>
@@ -134,10 +125,8 @@
 				<p>Preview and annotate attachments directly from within Mailplane.</p>
 				<p>If you like, it uses your favorite Mac apps instead of Google's third-party apps.</p>
 			</div>
-			<div class="lt slider">
-				<ul id="feat5">
-					<li><img src="http://mailplaneapp.com/assets/tour_attachments_quicklook_preview_zoom.png" alt=""></li>
-				</ul>
+			<div class="lt illo">
+				<img src="http://mailplaneapp.com/assets/tour_attachments_quicklook_preview_zoom.png" alt="Preview &amp; Annotate">
 			</div>
 		</div>
 	</section>
@@ -152,10 +141,8 @@
 					<p>Export image attachments (Photos, iPhoto).</p>
 					<p>Write AppleScript to automate daily workflows.</p>
 			</div>
-			<div class="rt">
-				<figure class="integration-illo" >
-					<img src="assets/images/envelope_exploding@2x.png" alt="">
-				</figure>
+			<div class="rt illo integration">
+				<img src="assets/images/envelope_exploding@2x.png" alt="Integration">
 			</div>
 		</div>
 	</section>
@@ -164,7 +151,7 @@
 		<div class="wrapper">
 			<div class="plugins features">
 				<h1>Gmail Plugins</h1>
-				<p>Third-party plugins magically enhance Gmail in various ways.</p>
+				<p>Third-party plugins magically enhance Gmail.</p>
 				<p>Give them a try with a single click. Nothing to download or install.</p>
 			</div>
 			<ul class="columns">
@@ -264,82 +251,6 @@
 			$('#modal').addClass('modal');
 		});
 	
-		<!-- Slippry -->
-		$(function() {
-			var demo1 = $("#feat1").slippry({
-				// transition: 'fade',
-				// useCSS: true,
-				speed: 2000,
-				// pause: 3000,
-				// auto: true,
-				// preload: 'visible',
-				// autoHover: false,
-				caption: false,
-				pager: false,
-				controls: false
-			});
-		});
-		
-		$(function() {
-			var demo1 = $("#feat2").slippry({
-				// transition: 'fade',
-				// useCSS: true,
-				speed: 2000,
-				// pause: 3000,
-				// auto: true,
-				// preload: 'visible',
-				// autoHover: false,
-				caption: false,
-				pager: false,
-				controls: false
-			});
-		});
-		
-		$(function() {
-			var demo1 = $("#feat3").slippry({
-				// transition: 'fade',
-				// useCSS: true,
-				speed: 2000,
-				// pause: 3000,
-				// auto: true,
-				// preload: 'visible',
-				// autoHover: false,
-				caption: false,
-				pager: false,
-				controls: false
-			});
-		});
-		
-		$(function() {
-			var demo1 = $("#feat4").slippry({
-				// transition: 'fade',
-				// useCSS: true,
-				speed: 2000,
-				// pause: 3000,
-				// auto: true,
-				// preload: 'visible',
-				// autoHover: false,
-				caption: false,
-				pager: false,
-				controls: false
-			});
-		});
-		
-		$(function() {
-			var demo1 = $("#feat5").slippry({
-				// transition: 'fade',
-				// useCSS: true,
-				speed: 2000,
-				// pause: 3000,
-				// auto: true,
-				// preload: 'visible',
-				// autoHover: false,
-				caption: false,
-				pager: false,
-				controls: false
-			});
-		});
-		
 		$(function() {
 			var birthOfMailplane = new Date(2007, 2, 8); // March 8, 2007
 			var ageInMs = new Date().getTime() - birthOfMailplane.getTime();

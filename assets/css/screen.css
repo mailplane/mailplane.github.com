@@ -101,7 +101,6 @@ only screen and (min-device-pixel-ratio: 1.5)
 .lightblue{background-color:#f6fcff;}
 .rt{float:right;}
 .lt{float:left;}
-.slider{width:454px;padding:45px 0 50px 0;}
 .cnt{width:405px;padding:75px 0 50px 0;}
 .features H1{margin:0 0 35px 0;font:normal 42px 'latolight', arial, helvetica, sans-serif;color:#2a9efc;}
 .features P{margin:0 0 20px 0;line-height:24px;}
@@ -110,8 +109,8 @@ UL.columns{width:951px;list-style:none;}
 UL.columns LI{float:left;width:317px;min-height:225px;text-align:center;margin:0 0 55px 0;}
 UL.columns LI P{margin:0 20px;}
 IMG.plug{display:block;margin:0 0 30px 0;width:317px;height:115px;}
-.integration-illo{max-width:509px;}
-.integration-illo IMG{width:100%;margin:40px 0 40px 0;}
+.illo{max-width:509px;}
+.illo IMG{width:100%;margin:40px 0 40px 0;}
 
 
 /* -------- Testimonials -------- */

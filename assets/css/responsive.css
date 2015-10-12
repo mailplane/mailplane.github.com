@@ -15,10 +15,12 @@ DIV.wrapper{width:100%;padding:0 20px;}
 .rt{float:none;}
 .lt{float:none;}
 .cnt{width:100%;padding:75px 0 0 0;}
-.slider{margin:0 auto;}
 .features H1{text-align:center;}
 .features P{text-align:center;}
 UL.columns{width:634px;margin:0 auto;}
+.illo{margin:0 auto;}
+.illo.integration IMG {display:none}
+.illo.integration {padding-bottom:60px}
 
 /* -------- Testimonials -------- */
 .three{display:none}
@@ -84,7 +86,6 @@ HEADER.top{min-height:200px;padding:30px 0 50px 0;background:#d0ddf0 url('../ima
 
 /* -------- Features -------- */
 .cnt{padding:70px 0 0 0;}
-.slider{width:100%;padding:10px 0 40px 0;}
 .features H1{font:normal 38px 'latolight', arial, helvetica, sans-serif;}
 .features P{font-size:18px;}
 .plugins{text-align:center;width:100%;padding:75px 0 30px 0;}
