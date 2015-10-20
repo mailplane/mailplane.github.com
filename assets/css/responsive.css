@@ -25,6 +25,9 @@ UL.columns{width:634px;margin:0 auto;}
 /* -------- Testimonials -------- */
 .three{display:none}
 
+/* -------- Updates -------- */
+.upd-info H2{font-size:80px}
+
 /* -------- Help -------- */
 .help{width:80%;padding:40px 12px 0 12px;}
 .help UL{width:100%;padding:0;}
