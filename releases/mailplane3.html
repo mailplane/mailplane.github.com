@@ -41,7 +41,7 @@ description: Mailplane 3 Release Notes
 {% for post in site.categories.release_mailplane3 %}
 <div class="entry spacing">
 	<article id="{{ post.build_number }}" class="left">  
-		<h2>{{ post.title }}</h2>
+		<h2>Mailplane {{ post.title }} ({{ post.date | date_to_string }})</h2>
 		<p class="entry">{{ post.content }}</p>
 	</article>
 
