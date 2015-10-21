@@ -217,7 +217,7 @@ SPAN.language{position:absolute;top:12px;right:0;font-size:15px;text-align:right
 /* -------- Sml notes -------- */
 .smlnotes UL{list-style:none;}
 .smlnotes UL LI{margin:0 0 30px 0;}
-.smlnotes H4{color#6c768a;font:normal 16px 'latoheavy', arial, helvetica, sans-serif;margin:0 0 10px 0;}
+.smlnotes H4{color:#6c768a;font:normal 16px 'latoheavy', arial, helvetica, sans-serif;margin:0 0 10px 0;}
 .smlnotes P{font:normal 16px 'latolight', arial, helvetica, sans-serif;margin:0 0 10px 0;}
 
 /* -------- Footer -------- */
