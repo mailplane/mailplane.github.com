@@ -1,355 +1,272 @@
 ---
-layout: default
-title: Tour
-description: Take a quick tour to get most out of Gmail on your Mac.
 ---
 
-<style>
-.features SECTION {
-	width:475px;height:334px;margin:0 0 20px 0;background-color:transparent;background-repeat:no-repeat;
-}
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.js"></script>
+<![endif]-->
+<html lang="en">
 
-.slide_accounts_1 { background-image:url('/assets/tour_accounts_1.png') }
-.slide_accounts_2 { background-image:url('/assets/tour_accounts_2.png') }
-.slide_accounts_3 { background-image:url('/assets/tour_accounts_3.png') }
-
-.slide_calendar_1 { background-image:url('/assets/tour_calendar_1.png') }
-.slide_calendar_2 { background-image:url('/assets/tour_calendar_2.png') }
-.slide_calendar_3 { background-image:url('/assets/tour_calendar_3.png') }
-
-.slide_integration_keyboard_shortcuts { background-image:url('/assets/tour_integration_keyboard_shortcuts.png') }
-.slide_integration_default_mail_client { background-image:url('/assets/tour_integration_default_mail_client.png') }
-.slide_integration_mail_pdf { background-image:url('/assets/tour_integration_mail_pdf.png') }
-
-.slide_enhancegmail_pluginlogos { background-image:url('/assets/tour_enhancegmail_pluginlogos.png') }
-.slide_enhancegmail_preferencesplugins { background-image:url('/assets/tour_enhancegmail_preferencesplugins.png') }
-.slide_enhancegmail_preferencesstyle { background-image:url('/assets/tour_enhancegmail_preferencesstyle.png') }
-
-.slide_attachments_resize_images { background-image:url('/assets/tour_attachments_resize_images.png') }
-.slide_attachments_drag_and_drop { background-image:url('/assets/tour_attachments_drag_and_drop.png') }
-.slide_attachments_quicklook_preview { background-image:url('/assets/tour_attachments_quicklook_preview.png') }
-
-.slide_notifier_statusbar { background-image:url('/assets/tour_notifier_statusbar.png') }
-.slide_notifier_donotdisturb { background-image:url('/assets/tour_notifier_donotdisturb.png') }
-.slide_notifier_notificationcenter { background-image:url('/assets/tour_notifier_notificationcenter.png') }
-
-.slide_socialanimal { background-image:url('/assets/tour_socialanimal.png') }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5)
-{
-	.features	SECTION { background-size:475px }
-
-	.slide_accounts_1 { background-image: url('/assets/tour_accounts_1@2x.png') }
-	.slide_accounts_2 { background-image: url('/assets/tour_accounts_2@2x.png') }
-	.slide_accounts_3 { background-image: url('/assets/tour_accounts_3@2x.png') }
-
-	.slide_calendar_1 { background-image: url('/assets/tour_calendar_1@2x.png') }
-	.slide_calendar_2 { background-image: url('/assets/tour_calendar_2@2x.png') }
-	.slide_calendar_3 { background-image: url('/assets/tour_calendar_3@2x.png') }
+<head>
+	<meta name="keywords" content="gmail mac, gmail for mac, gmail mac file attachments, google mail mac, mac email google">
+	<meta name="description" content="Mailplane is the best way to use Gmail on your Mac. Easily attach pictures, screenshots, files, and folders; get new mail notifications; control multiple gmail accounts; and much more.">
+	<meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" name="viewport">
+	<meta charset="utf-8"/>
+	<title>Mailplane</title>
 	
-	.slide_integration_keyboard_shortcuts { background-image: url('/assets/tour_integration_keyboard_shortcuts@2x.png') }
-	.slide_integration_default_mail_client { background-image: url('/assets/tour_integration_default_mail_client@2x.png') }
-	.slide_integration_mail_pdf { background-image: url('/assets/tour_integration_mail_pdf@2x.png') }
+	<link rel="stylesheet" href="assets/css/html5reset-1.6.1.css" />
+	<link rel="stylesheet" href="assets/css/screen.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
 	
-	.slide_enhancegmail_pluginlogos { background-image: url('/assets/tour_enhancegmail_pluginlogos@2x.png') }
-	.slide_enhancegmail_preferencesplugins { background-image: url('/assets/tour_enhancegmail_preferencesplugins@2x.png') }
-	.slide_enhancegmail_preferencesstyle { background-image: url('/assets/tour_enhancegmail_preferencesstyle@2x.png') }
+	<script src="assets/js/jquery-2.0.0.min.js"></script>
 	
-	.slide_attachments_resize_images { background-image: url('/assets/tour_attachments_resize_images@2x.png') }
-	.slide_attachments_drag_and_drop { background-image: url('/assets/tour_attachments_drag_and_drop@2x.png') }
-	.slide_attachments_quicklook_preview { background-image: url('/assets/tour_attachments_quicklook_preview@2x.png') }
-	
-	.slide_notifier_statusbar { background-image: url('/assets/tour_notifier_statusbar@2x.png') }
-	.slide_notifier_donotdisturb { background-image: url('/assets/tour_notifier_donotdisturb@2x.png') }
-	.slide_notifier_notificationcenter { background-image: url('/assets/tour_notifier_notificationcenter@2x.png') }
-	
-	.slide_socialanimal { background-image: url('/assets/tour_socialanimal@2x.png') }
-}
-</style>
+	<link rel="icon" href="assets/images/favicon.ico" />
+</head>
 
-<script src="/assets/FancyZoom.js" type="text/javascript"></script>
-<script src="/assets/FancyZoomHTML.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(function() {
-	setupZoom();
-	
-	$('#slide_accounts')
-	.cycle({
-		fx:     'scrollHorz',
-		delay:  -2000,
-		timeout: 0,
-		next:   '#next1',
-		prev:   '#prev2'
-	});
+<body>
 
-	$('#slide_calendar')
-	.cycle({
-		fx:     'scrollHorz',
-		delay:  -2000,
-		timeout: 0,
-		next:   '#next3',
-		prev:   '#prev4'
-	});
-
-	$('#slide_integration')
-	.cycle({
-		fx:     'scrollHorz',
-		delay:  -2000,
-		timeout: 0,
-		next:   '#next5',
-		prev:   '#prev6'
-	});
-
-	$('#slide_enhancegmail')
-	.cycle({
-		fx:     'scrollHorz',
-		delay:  -2000,
-		timeout: 0,
-		next:   '#next7',
-		prev:   '#prev8'
-	});
-
-	$('#slide_attachments')
-	.cycle({
-		fx:     'scrollHorz',
-		delay:  -2000,
-		timeout: 0,
-		next:   '#next9',
-		prev:   '#prev10'
-	});
-
-	$('#slide_notifier')
-	.cycle({
-		fx:     'scrollHorz',
-		delay:  -2000,
-		timeout: 0,
-		next:   '#next11',
-		prev:   '#prev12'
-	});
-
-	$('#slide_socialanimal')
-	.cycle({
-		fx:     'scrollHorz',
-		delay:  -2000,
-		timeout: 0,
-		next:   '#next13',
-		prev:   '#prev14'
-	});
-});
-</script>
-
-<!--slider start-->
-
-<div class="features spacing">
-	<article class="left">  
-		<h1 class="title">Accounts</h1>
-		<p class="tour">
-			Switch between an unlimited number of accounts. No need to sign-out and sign-in anymore.
-		</p>
-	</article>
-	
-	<aside>
-		<div id="slide_accounts">
-			<a href="/assets/tour_accounts_1_zoom.png"><section class="slide_accounts_1"></section></a>
-			<a href="/assets/tour_accounts_2_zoom.png"><section class="slide_accounts_2"></section></a>
-			<a href="/assets/tour_accounts_3_zoom.png"><section class="slide_accounts_3"></section></a>
+	<!-- Modal box -->
+	<section class="modal" id="modal">
+		
+		<div class="modaldialog smlnews">
+			<h3>Download has started</h3>
+			<h4>Join our newsletter for periodic updates about Mailplane.</h4>
+			<ul>
+				<form action="http://buzzardch.createsend.com/t/j/s/btdlji/" method="post">
+					<input type="hidden" value="mailplaneapp.com/tour.html" name="cm-f-hthlul">
+				<li class="form-field">
+					<input class="field" type="email" placeholder="your@email.com" name="cm-btdlji-btdlji">
+				</li>
+				<li class="form-btn">
+					<input class="bluebtn" type="submit" value="Subscribe">
+				</li>
+				</form>
+			<ul>
+			<p>No Spam. Each email will contain a link to unregister.</p>
 		</div>
-		<a id="prev2" class="prev pstthree" href="#"></a>
-		<a id="next1" class="next pstfour" href="#"></a>
-	</aside>
-	
-	<div class="clear"></div>
-	<div class="midfold"></div>
-</div>
-
-<!--slider start-->
-
-<div class="features spacing ptopmg">
-	<aside class="left">
-		<div id="slide_calendar">
-			<a href="/assets/tour_calendar_1_zoom.png"><section class="slide_calendar_1"></section></a>
-			<a href="/assets/tour_calendar_2_zoom.png"><section class="slide_calendar_2"></section></a>
-			<a href="/assets/tour_calendar_3_zoom.png"><section class="slide_calendar_3"></section></a>
+		
+		<div class="modalbg" id="modalbg">
 		</div>
-		<a id="prev4" class="prev pstthree" href="#"></a>
-		<a id="next3" class="next pstfour" href="#"></a>
-	</aside>
+		
+	</section>
+	<!-- End modal box -->
 
-	<article>  
-		<h1 class="title">Calendar &amp; Contacts</h1>
-		<p class="tour">
-			Google Calendar and Contacts are perfect complements for Gmail.<br/>
-			<br/>
-			Mailplane combines both of them in one app. No separate set-up required.
-	</article>
-	
-	<div class="midfold"></div>
-	<div class="clear"></div>
-</div>
-
-<!--slider start-->
-
-<div class="features spacing ptopmg">
-	<article class="left">  
-		<h1 class="title">Notifier</h1>
-		<p class="tour">
-			Mailplane's notifier tells you how many unread messages are in your inboxes, right from your Mac menu bar.<br/>
-			<br/>
-			Mailplane also integrates with <a href="http://support.apple.com/kb/ht5362">Apple's notification center</a> and the 'Do&nbsp;Not&nbsp;Disturb' mode allows you to stay focused.
-		</p>
-	</article>
-
-	<aside>
-		<div id="slide_notifier">
-			<a href="/assets/tour_notifier_statusbar_zoom.png"><section class="slide_notifier_statusbar"></section></a>
-			<a href="/assets/tour_notifier_donotdisturb_zoom.png"><section class="slide_notifier_donotdisturb"></section></a>
-			<a href="/assets/tour_notifier_notificationcenter_zoom.png"><section class="slide_notifier_notificationcenter"></section></a>
+	<header class="top">
+		<div class="wrapper">
+			<div class="main-logo">
+				<a href="index.html">Mailplane</a>
+			</div>
+			<section class="main-cta">
+				<div class="plane-box">
+				</div>
+				<div class="main-heading">
+					<h1>The best way to use<br/>Gmail on your Mac</h1>
+					<ul>
+						<!--
+						<li class="buy">
+							<a href="http://sites.fastspring.com/uncomplex/product/mailplane3" class="main-btns buy-btn">Buy it</a>
+						</li>
+						-->
+						<li class="try">
+							<a id="openmodal" href="http://update.mailplaneapp.com/mailplane_3.php" class="main-btns try-btn">Try it for free</a>
+							<p>
+								Free test drive for 15 days<br/>
+								OS X 10.9+ (<a href="/download/index.html">Older?</a>)
+							</p>
+						</li>	
+					</ul>
+				</div>
+			</section>
 		</div>
-		<a id="prev12" class="prev pstthree" href="#"></a>
-		<a id="next11" class="next pstfour" href="#"></a>
-	</aside>
+	</header>
 	
-	<div class="midfold"></div>
-	<div class="clear"></div>
-</div>
-
-<!--slider start-->
-
-<div class="features spacing ptopmg">
-	<aside class="left">
-		<div id="slide_enhancegmail">
-			<a href="/assets/tour_enhancegmail_pluginlogos_zoom.png"><section class="slide_enhancegmail_pluginlogos"></section></a>
-			<a href="/assets/tour_enhancegmail_preferencesplugins_zoom.png"><section class="slide_enhancegmail_preferencesplugins"></section></a>
-			<a href="/assets/tour_enhancegmail_preferencesstyle_zoom.png"><section class="slide_enhancegmail_preferencesstyle"></section></a>
+	<section class="white">
+		<div class="wrapper">
+			<div class="lt cnt features">
+				<h1>Gmail, Calendar &amp; Contacts</h1>
+				<p>Use an unlimited number of accounts separately from the typical cluttered browser window.</p>
+				<p>All in one app with Apple-like keyboard shortcuts. No separate set-up required.</p>
+			</div>
+			<div class="rt illo">
+				<img src="assets/images/tour_gmail_calendar_contacts@2x.png" alt="Gmail, Calendar &amp; Contacts">
+			</div>
 		</div>
-		<a id="prev8" class="prev pstthree" href="#"></a>
-		<a id="next7" class="next pstfour" href="#"></a>
-	</aside>
-
-	<article>  
-		<h1 class="title">Enhance Gmail</h1>
-		<div class="tour">
-			<p style="margin-bottom: 5px">Hides ads and comes with an amazing set of productivity tools.</p>
-			<ul style="margin-left: 20px">
-				<li style="padding-top: 10px">Remind of emails later and send scheduled emails</li>
-				<li style="padding-top: 10px">Get a full "social snapshot" into the person you're talking to</li>
-				<li style="padding-top: 10px">Send a text message when someone important writes you</li>
-				<li style="padding-top: 10px">Keep track of deals and manage customer information</li>
+	</section>
+	
+	<section class="lightblue">
+		<div class="wrapper">
+			<div class="rt cnt features">
+				<h1>Notifier</h1>
+				<p>Mailplane's notifier tells you how many unread messages are in your inboxes, right from your Mac menu bar.</p>
+				<p>And it notifies you if new emails arrive or keeps quiet in 'Do Not Disturb' mode.</p>
+			</div>
+			<div class="lt illo">
+				<img src="assets/images/tour_notifier@2x.png" alt="Notifier">
+			</div>
+		</div>
+	</section>
+	
+	<section class="white">
+		<div class="wrapper">
+			<div class="lt cnt features">
+				<h1>Huge Drop Area</h1>
+				<p>A huge drop area which you can't miss.</p>
+				<p>It triggers actions like composing a new message, resizing images, zipping directories, etc.</p>
+			</div>
+			<div class="rt illo">
+				<img src="assets/images/tour_drop_area@2x.png" alt="Huge Drop Area">
+			</div>
+		</div>
+	</section>
+	
+	<section class="lightblue">
+		<div class="wrapper">
+			<div class="rt cnt features">
+				<h1>Preview &amp; Annotate</h1>
+				<p>Preview and annotate attachments directly from within Mailplane.</p>
+				<p>If you like, it uses your favorite Mac apps instead of Google's third-party apps.</p>
+			</div>
+			<div class="lt illo">
+				<img src="assets/images/tour_preview_annotate@2x.png" alt="Preview &amp; Annotate">
+			</div>
+		</div>
+	</section>
+	
+	<section class="white">
+		<div class="wrapper">
+			<div class="lt cnt features">
+				<h1>Integration</h1>
+				<p>Compose new messages via our <strong>Share Extension</strong> (e.g. Pages, Safari, etc.).</p>
+				<p>Export message as to-do item to <strong>OmniFocus</strong>, <strong>Things</strong> and <strong>Todoist</strong>.</p>
+				<p>Archive messages to <strong>Evernote</strong>.</p>
+				<p>Export image attachments to <strong>Photos</strong>.</p>
+				<p>Write <strong>AppleScript</strong> to automate daily workflows.</p>
+			</div>
+			<div class="rt illo integration">
+				<img src="assets/images/envelope_exploding@2x.png" alt="Integration">
+			</div>
+		</div>
+	</section>
+	
+	<section class="lightblue">
+		<div class="wrapper">
+			<div class="plugins features">
+				<h1>Gmail Plugins</h1>
+				<p>Third-party plugins magically enhance Gmail.</p>
+				<p>Give them a try with a single click. Nothing to download or install.</p>
+			</div>
+			<ul class="columns">
+				<li>
+					<img class="plug" alt="Rapportive logo" src="assets/images/rapportive@2x.png"/>
+					<p>Get a full "social snapshot" into the person you're talking to</p>
+				</li>
+				<li>
+					<img class="plug" alt="RightInbox logo" src="assets/images/rightinbox@2x.png"/>
+					<p>Remind of emails later and send scheduled emails</p>
+				</li>
+				<li>
+					<img class="plug" alt="Boomerang logo" src="assets/images/boomerang@2x.png"/>
+					<p>Remind of emails later and send scheduled emails</p>
+				</li>
+				<li>
+					<img class="plug" alt="Streak logo" src="assets/images/streak@2x.png"/>
+					<p>Keep track of deals and manage customer information</p>
+				</li>
+				<li>
+					<img class="plug" alt="AwayFind logo" src="assets/images/away@2x.png"/>
+					<p>Send a text message when someone important writes you</p>
+				</li>
 			</ul>
 		</div>
-	</article>
+	</section>
 	
-	<div class="midfold"></div>
-	<div class="clear"></div>
-</div>
-
-<!--slider start-->
-
-<div class="features spacing ptopmg">
-	<article class="left">  
-		<h1 class="title">Integration</h1>
-		<p class="tour">
-			Mailplane is a native Mac OSX application and integrates naturally into Mac OSX.<br/>
-			<br/>
-			Apple Mail like keyboard shortcuts, acting as default Mail Client, Mail PDF from Print Dialog, OSX Services and much more.
-		</p>
-	</article>
-	
-	<aside>
-		<div id="slide_integration">
-			<a href="/assets/tour_integration_keyboard_shortcuts_zoom.png"><section class="slide_integration_keyboard_shortcuts"></section></a>
-			<a href="/assets/tour_integration_default_mail_client_zoom.png"><section class="slide_integration_default_mail_client"></section></a>
-			<a href="/assets/tour_integration_mail_pdf_zoom.png"><section class="slide_integration_mail_pdf"></section></a>
+	<section class="white updates">
+		<div class="wrapper">
+			<div class="upd-title features">
+				<h1>The Long Run</h1>
+				<p style="max-width: 550px; margin: 0 auto;">Thanks to our loyal customer base, Mailplane has been around for ages and we love to continuously improve it!</p>
+			</div>
+			<ul class="upd-info">
+				<li class="upd-box-lt">
+					<h2 id="numberOfMailplaneUpdates"></h2>
+					<p>Updates</p>
+				</li>
+				<li class="upd-box-rt">
+					<h2 id="ageOfMailplaneInYears"></h2>
+					<p>Years</p>
+				</li>
+			</ul>
 		</div>
-		<a id="prev6" class="prev pstthree" href="#"></a>
-		<a id="next5" class="next pstfour" href="#"></a>
-	</aside>
-	
-	<div class="clear"></div>
-	<div class="midfold"></div>
-</div>
-
-<!--slider start-->
-
-<div class="features spacing ptopmg">
-	<aside class="left">
-		<div id="slide_attachments">
-			<a href="/assets/tour_attachments_resize_images_zoom.png"><section class="slide_attachments_resize_images"></section></a>
-			<a href="/assets/tour_attachments_drag_and_drop_zoom.png"><section class="slide_attachments_drag_and_drop"></section></a>
-			<a href="/assets/tour_attachments_quicklook_preview_zoom.png"><section class="slide_attachments_quicklook_preview"></section></a>
+	</section>
+		
+	<section class="white testimonials">
+		<div class="wrapper">
+			<ul class="columns">
+				<li class="one">
+					<p class="quote">"I admire the hard work its creators put into the new version. It's definitely the most polished and useful Gmail client I've yet tested."</p>
+					<figure>
+						<img class="quoter" alt="Macworld logo" src="assets/images/macworld@2x.png"/>
+						<figcaption>Nathan Alderman, <a href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank">MacWorld</a></figcaption>
+					</figure>
+				</li>
+				<li class="two">
+					<p class="quote">"Mailplane 3 is a must-have upgrade if you live in Gmail."</p>
+					<figure>
+						<img class="quoter" alt="Tuaw logo" src="assets/images/tuaw@2x.png"/>
+						<figcaption>Victor Agreda Jr., <a href="http://www.engadget.com/2013/04/15/mailplane-3-now-available/" target="_blank">TUAW</a></figcaption>
+					</figure>
+				</li>
+				<li class="three">
+					<p class="quote">"Best for Gmail power users. Mailplane will win over Gmail diehards with its multi-account support alone."</p>
+					<figure>
+						<img class="quoter" alt="Appleinsider logo" src="assets/images/appleinsider@2x.png"/>
+						<figcaption>Shane Cole, <a href="http://appleinsider.com/articles/13/12/26/apps-for-your-new-mac-best-email-clients" target="_blank">Apple Insider</a></figcaption>
+					</figure>
+				</li>
+			</ul>
 		</div>
-		<a id="prev10" class="prev pstthree" href="#"></a>
-		<a id="next9" class="next pstfour" href="#"></a>
-	</aside>
-
-	<article>  
-		<h1 class="title">Attachments</h1>
-		<p class="tour">
-			Re­sizes images and zips directories automatically. No need to start another app.<br/>
-			<br/>
-			No need to download. Preview and <a href="/help/edit_attachments.html">edit attachments</a> directly in Mailplane.</p>
-	</article>
+	</section>
 	
-	<div class="clear"></div>
-	<div class="midfold"></div>
-</div>
-
-<!--slider start-->
-
-<div class="features ptopmg">
-	<article class="left">  
-		<h1 class="title">Social animal</h1>
-		<p class="tour">
-			<a href="/help/edit_attachments.html">Sign PDF attachments</a> with PDFPen, save emails <a href="/howto/entry/evernote">directly to Evernote</a>, download images directly to iPhoto, and much much <a href="/help/integration.html">more</a>.<br/>
-			<br/>
-			Mailplane has also an AppleScript interface to automate some of your daily workflows. More <a href="/howto/entry/compose_email_using_applescript">here</a>.
-		</p>
-	</article>
-	
-	<aside style="padding:0 0 0 0">
-		<div id="slide_socialanimal">
-			<a href="/assets/tour_socialanimal_zoom.png"><section class="slide_socialanimal"></section></a>
+	<footer class="main-footer white">
+		<div class="footer-wrap">
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="http://sites.fastspring.com/uncomplex/product/mailplane3">Buy</a></li>
+				<li><a href="/help">Help</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ul>
+			<p class="copy">2015 &copy; <a href="/about.html">Buzzard AG</a></p>
 		</div>
-	</aside>
+	</footer>
 	
-	<div class="clear"></div>
-</div>
-
-<!--sliders end-->
-
-<div class="clear"></div>
-
-<footer>
-	<div class="fold"></div>
-	<ul class="footer">
-		<li class="left">
-			<h2>Test drive Mailplane now for 15 Days.</h2>
-		</li>
-		<li>
-			<a class="btn blue" href="http://update.mailplaneapp.com/mailplane_3.php">
-				<span class="get">Get it Now</span>
-			</a>
-			<p class="caption">OS X 10.9+ (<a href="/download" style="color:inherit">Older?</a>)</p>
-		</li>
-		<div class="clear"></div>
-	</ul>
-	<div class="newsletter">
-		<h3>Or join our newsletter for periodic updates:</h3>
-		<ul>
-		<form method="post" action="http://buzzardch.createsend.com/t/j/s/btdlji/">
-			<input name="cm-f-hthlul" type="hidden" value="mailplaneapp.com/tour.html"/>
-			<li class="first">
-				<input type="email" name="cm-btdlji-btdlji" placeholder="your@email.com" class="field">
-			</li>
-			<li>
-				<input type="submit" class="submit" value="Subscribe">
-			</li>
-		</form>
-		</ul>
-		<div class="clear"></div>
-		<p class="bottom">No Spam. Each email will contain a link to unregister.</p>		
-	</div>
-</footer>
+	<script>
+		<!-- Modal -->
+		$('#openmodal').click(function() {
+			$('#modal').removeClass('modal');
+			$('#modal').addClass('modalon');
+		});
+		$('#modalbg').click(function() {
+			$('#modal').removeClass('modalon');
+			$('#modal').addClass('modal');
+		});
+	
+		$(function() {
+			var birthOfMailplane = new Date(2007, 2, 8); // March 8, 2007
+			var ageInMs = new Date().getTime() - birthOfMailplane.getTime();
+			var ageInYears = ageInMs / 1000 / 60 / 60 / 24 / 365;
+			$("#ageOfMailplaneInYears").text(Math.round(ageInYears * 10) / 10);
+			
+			var nbrOfUpdates = 0;
+			nbrOfUpdates += 50; // Mailplane 1 (Estimate)
+			nbrOfUpdates += 47; // Mailplane 2 (2.5.12, 2.4.1, 2.3.1, 2.2.1, 2.1.11, 2.0.15)
+			nbrOfUpdates += {{ site.categories.release_mailplane3 | size }}; // Mailplane 3
+			$("#numberOfMailplaneUpdates").text(nbrOfUpdates);
+		});
+	</script>
+	
+	<script src="//static.getclicky.com/js" type="text/javascript"></script>
+	<script type="text/javascript">try{ clicky.init(100554681); }catch(e){}</script>
+	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100554681ns.gif" /></p></noscript>
+</body>
+</html>

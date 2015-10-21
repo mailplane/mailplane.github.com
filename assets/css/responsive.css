@@ -1,0 +1,98 @@
+/* -------- MEDIA QUERIES -------- */
+
+@media screen and (max-width: 975px) {
+/* -------- Global -------- */
+DIV.wrapper{width:100%;padding:0 20px;}
+
+/* -------- Top -------- */
+.main-logo{margin:0 0 25px 0;}
+.main-cta .plane-box{width:140px;height:140px;background-size:140px;margin:0 auto;float:none;}
+.main-cta .main-heading{float:none;width:100%;padding:20px 0 0 0;}
+.main-cta .main-heading H1{text-align:center;}
+.main-cta .main-heading UL{margin:0 auto;width:480px;}
+
+/* -------- Features -------- */
+.rt{float:none;}
+.lt{float:none;}
+.cnt{width:100%;padding:75px 0 0 0;}
+.features H1{text-align:center;}
+.features P{text-align:center;}
+UL.columns{width:634px;margin:0 auto;}
+.illo{margin:0 auto;}
+.illo.integration IMG {display:none}
+.illo.integration {padding-bottom:60px}
+
+/* -------- Testimonials -------- */
+.three{display:none}
+
+/* -------- Updates -------- */
+.upd-info H2{font-size:80px}
+
+/* -------- Help -------- */
+.help{width:80%;padding:40px 12px 0 12px;}
+.help UL{width:100%;padding:0;}
+
+/* -------- Notes -------- */
+.notes{width:80%;}
+.notes UL{width:100%;}
+.notes UL LI H3{font-size:38px;line-height:38px;}
+.notes UL LI P{font-size:18px;}
+
+/* -------- Newsletter -------- */
+.newsletter H3{font-size:34px;line-height:34px;margin:0 0 15px 0;}
+.newsletter H4{font-size:22px;line-height:24px;}
+
+/* -------- Post -------- */
+.post{padding:50px 0;}
+.post ARTICLE{padding:50px 0 0 0;margin:0 0 50px 0;}
+.post ARTICLE H2.post-title{font-size:38px;line-height:38px;}
+
+.photos{margin:-20px 0 50px 0;}
+.photos UL{width:100%;margin:0 auto;}
+.photos UL LI{float:none;margin:0 auto;}
+.photos UL LI.midimg{margin:0 auto;padding:25px 0;}
+.photos UL LI IMG{margin:0 0 10px 0;}
+.photos H2{font:normal 34px 'latolight', arial, helvetica, sans-serif;color:#2a9efc;text-align:center;}
+}
+
+@media screen and (max-width: 634px) {
+/* -------- Features -------- */
+UL.columns{width:317px;margin:0 auto;}
+.plugins{text-align:center;width:100%;padding:75px 0 30px 0;}
+UL.columns LI{margin:0 0 30px 0;}
+IMG.plug{margin:0 0 30px 0;}
+
+/* -------- Testimonials -------- */
+.two{display:none}
+
+/* -------- Newsletter -------- */
+.newsletter UL LI.form-field{width:100%;}
+.newsletter UL LI.form-btn{width:100%;}
+
+/* -------- Sml notes -------- */
+.smlnotes UL{width:100%;margin:0 auto;}
+.smlnotes UL LI{margin:0 0 34px 0;}
+.smlnotes H4{text-align:center;}
+.smlnotes P{text-align:center;}
+}
+
+@media screen and (max-width: 520px) {
+/* -------- Top -------- */
+HEADER.top{min-height:200px;padding:30px 0 50px 0;background:#d0ddf0 url('../images/light_rays.png') no-repeat top center;}
+.main-logo{margin:0 0 10px 0;}
+.main-logo A{font:normal 32px 'latosemibold', arial, helvetica, sans-serif;}
+.main-cta .main-heading{padding:20px 0 0 0;}
+.main-cta .main-heading H1{text-align:center;font:normal 38px 'latosemibold', arial, helvetica, sans-serif;line-height:120%;margin:0 0 40px 0;}
+.main-cta .main-heading UL{margin:0 auto;width:230px;}
+.main-cta .main-heading UL LI.try{float:left;}
+.main-cta .main-heading UL LI.buy{float:right;margin:0 0 20px 0;}
+
+/* -------- Features -------- */
+.cnt{padding:70px 0 0 0;}
+.features H1{font:normal 38px 'latolight', arial, helvetica, sans-serif;}
+.features P{font-size:18px;}
+.plugins{text-align:center;width:100%;padding:75px 0 30px 0;}
+UL.columns{width:280px;margin:0 auto;}
+UL.columns LI{width:280px;margin:0 0 20px 0;}
+IMG.plug{margin:0 0 20px 0;width:280px;height:102px;}
+}

@@ -3,9 +3,6 @@ layout: default
 ---
 
 <style>
-	ul { margin: 0 0 20px 0; list-style-position:inside; }
-	ol { margin: 0 0 20px 0; list-style-position:inside; }
-	h2 { padding-top: 50px;}
 	pre, code {
 		background-color: #efefef;
 		border-color: #d6d6d6 !important;
@@ -18,20 +15,35 @@ layout: default
 		padding: 10px 2%;
 		border: 1px solid;
 	}
+	.page-title { display: none; }
 </style>
 
-<div class="entry">
-	<article>  
-		<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-	
-		<p class="main">
+<section class="white post">
+	<div class="wrapper">
+		<!-- Article -->
+		<article>
+			<span class="date">{{ page.date | date_to_string }}</span>
+			<h2 class="post-title">{{ page.title }}</h2>
 			{{ content }}
-		</p>
+		</article>
+	</div>
+</section>
 
-	  <p class="meta">
-	    Published on {{ page.date | date_to_string }} by <a href="mailto:support@mailplaneapp.com">{{ page.author }}</a>.
-	  </p>        
-	</article>
-	
-	<div class="clear"></div>
-</div>
+<section clasS="lightblue newsletter">
+	<div class="wrapper">
+		<h3>Join our newsletter</h3>
+		<h4>For periodic updates about Mailplane.</h4>
+		<ul>
+			<form action="http://buzzardch.createsend.com/t/j/s/btdlji/" method="post">
+				<input type="hidden" value="mailplaneapp.com/tour.html" name="cm-f-hthlul">
+			<li class="form-field">
+				<input class="field" type="email" placeholder="your@email.com" name="cm-btdlji-btdlji">
+			</li>
+			<li class="form-btn">
+				<input class="bluebtn" type="submit" value="Subscribe">
+			</li>
+			</form>
+		<ul>
+		<p>No Spam. Each email will contain a link to unregister.</p>
+	</div>
+</section>
