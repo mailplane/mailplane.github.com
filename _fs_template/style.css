@@ -2,6 +2,9 @@
 	font-size: 20px !important;
 	border-top:1px solid #f8f8f8;
 }
+#store-variation-selection-variations {
+	height: 15.5em;
+}
 .store-product-detail {
 	display: none;
 }
@@ -84,33 +87,36 @@ h2.core-section-header {
 	padding-top: 10px !important;
 	margin: 0 !important;
 }
-
-.store-product-detail-action-order .store-action-command .store-action-title {
+.store-action-next .store-action-command .store-action-title { /* Next Button for PayPal */
+	padding-left: 92px;
+}
+.store-product-detail-action-order .store-action-command .store-action-title { /* Order Button */
 	padding-left: 65px;
 }
-.store-action-complete .store-action-command .store-action-title {
+.store-action-complete .store-action-command .store-action-title { /* Complete Order Button */
 	padding-left: 40px;
 }
 .store-page-navigation .store-action-list .store-action-command .store-action-title {
 	display: block !important;
 	text-align: left !important;
 	padding-top: 3px;
-	font:normal 16px 'latoheavy', arial, helvetica, sans-serif !important;
-	letter-spacing:0.5px !important;
-	text-transform:uppercase !important;
-	text-shadow:0 2px 1px #248adc !important;
-	color:#fff !important;
+    font:normal 16px 'latoheavy', arial, helvetica, sans-serif !important;
+    letter-spacing:0.5px !important;
+    text-transform:uppercase !important;
+    text-shadow:0 2px 1px #248adc !important;
+    color:#fff !important;
 }
 .store-page-navigation .store-action-list .store-action-command {
-	width:100% !important;
-	height:43px !important;
-	background-color:#2a9efc !important;
-	-webkit-box-shadow:0 2px 0 0 #2486d6 !important;
-	box-shadow:0 2px 0 0 #2486d6 !important;
-	border:none !important;
-	-webkit-border-radius:4px !important;
-	border-radius:4px !important;
-	cursor:pointer !important;
+    width:100% !important;
+    height:43px !important;
+    background-color:#2a9efc !important;
+    -webkit-box-shadow:0 2px 0 0 #2486d6 !important;
+    box-shadow:0 2px 0 0 #2486d6 !important;
+    border:none !important;
+    -webkit-border-radius:4px !important;
+    border-radius:4px !important;
+    cursor:pointer !important;
+    -webkit-appearance:none !important;
 }
 .store-page-navigation .store-action-list .store-action-command:hover {
 	background-color:#41aaff !important;
