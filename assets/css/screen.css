@@ -235,7 +235,16 @@ SPAN.language{position:absolute;top:12px;right:0;font-size:15px;text-align:right
 .modal{opacity:0;display:none;-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-ms-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
 .modalon{opacity:1;display:block;position:fixed;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding:100px 0 0 0;background:rgba(0,0,0,0.8);z-index:99900;-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-ms-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
 .modalbg{cursor:pointer;width:100%;height:100%;position:absolute;top:0;right:0;bottom:0;left:0;opacity:0;z-index:-1;}
-.modaldialog{max-width:400px;width:80%;margin:0 auto;padding:40px;-webkit-border-radius:2px;border-radius:2px;background-color:#fff;z-index:99999;}
+.modaldialog{max-width:400px;width:80%;margin:0 auto;padding:40px;-webkit-border-radius:2px;border-radius:2px;background-color:#fff;z-index: 99999;position: relative;}
+.modalclose{display:block;width:12px;height:12px;position:absolute;top:10px;right:10px;background:transparent url('../images/icons.png') no-repeat 0 -69px;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) 
+{
+ .modalclose{background:transparent url('../images/icons@2x.png') no-repeat 0 -69px;background-size:12px;}
+}
+.modalclose:hover{cursor:pointer;}
 .smlnews H3{margin:0 0 10px 0;text-align:center;font:normal 32px 'latosemibold', arial, helvetica, sans-serif;color:#242834;}
 .smlnews H4{margin:0 0 20px 0;text-align:center;font:normal 18px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
 .smlnews P{text-align:center;font:normal 16px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}

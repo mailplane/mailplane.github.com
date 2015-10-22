@@ -30,6 +30,7 @@
 	<section class="modal" id="modal">
 		
 		<div class="modaldialog smlnews">
+			<span class="modalclose" id="modalclose"></span>
 			<h3>Download has started</h3>
 			<h4>Join our newsletter for periodic updates about Mailplane.</h4>
 			<ul>
@@ -250,7 +251,11 @@
 			$('#modal').removeClass('modalon');
 			$('#modal').addClass('modal');
 		});
-	
+		$('#modalclose').click(function() {
+            $('#modal').removeClass('modalon');
+            $('#modal').addClass('modal');
+        });
+
 		$(function() {
 			var birthOfMailplane = new Date(2007, 2, 8); // March 8, 2007
 			var ageInMs = new Date().getTime() - birthOfMailplane.getTime();
