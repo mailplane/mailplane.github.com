@@ -16,7 +16,7 @@ A little post about some features that perhaps you are not aware of.
 
 **Do you send a lot of emails to yourself?** We have a Hotkey feature to do so easily. Go to Preferences > Shortcuts to set up "Compose Note to Self".
 
-**Close the main window**: You can close the main window with File > Close Window (or Command-W) and bring it back with Window > Main Window (or Command-0). Closing helps to save resources, get your mails out of sight but it's still quick to bring it back again.
+**Close the main window**: You can close the main window with File > Close Window (or Command-W) and bring it back with Window > Main Window (or Command-0). Closing helps to save resources, get your inbox out of sight but it’s still quick to bring it back again.
 
 **Custom Sounds**: Would you like to add custom sounds into Mailplane? Read our tutorial [here](/howto/entry/add_custom_sounds).
 
