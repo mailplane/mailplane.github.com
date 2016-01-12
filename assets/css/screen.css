@@ -132,7 +132,7 @@ FIGCAPTION A:hover{text-decoration:underline;}
 .upd-box-lt{width:50%;float:left;border-right:1px solid #eeeeee;}
 .upd-box-lt a {text-decoration:none;}
 .upd-box-lt a:hover {text-decoration:underline;}
-.upd-info H2{text-align:center;font:normal 120px 'latoheavy', arial, helvetica, sans-serif;color:#2a9efc;}
+.upd-info H2{text-align:center;font:normal 100px 'latoheavy', arial, helvetica, sans-serif;color:#2a9efc;}
 .upd-info P{text-align:center;font:normal 20px 'latolight', arial, helvetica, sans-serif;color:#6c768a;margin:0 0 30px 0;}
 
 /* -------- Help -------- */
