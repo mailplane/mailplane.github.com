@@ -180,7 +180,7 @@ only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) 
 {
-  .post ARTICLE UL LI{background:transparent url('../images/icons@2x.png') no-repeat 7px 12px;background-size:40px;}
+  .post ARTICLE UL LI{background:transparent url('../images/icons@2x.png') no-repeat -36px 12px;background-size:40px;}
 }
 .post IMG{max-width:100%;margin:0 0 20px 0;display:block;}
 .post IMG.left{float:left;padding:9px;margin:0 30px 0 0;-webkit-border-radius:2px;border-radius:2px;border:1px solid #e2edf3;}
