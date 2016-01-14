@@ -17,7 +17,7 @@ You can open Google Inbox within its own tab. Just make sure you're using Mailpl
 
 **Known Issues:**
 
-Unfortunately, trying to open an attachment will still cause a freeze. According to our investigations, it seems to be caused by an Google Inbox error in the background. We <a href="https://productforums.google.com/forum/#!topic/inbox/Got2HCzvL2I;context-place=topicsearchin/inbox/freeze">reported it to Google</a> an hope to get a resolution anytime soon.
+Unfortunately, trying to open an attachment will still cause a freeze. According to our investigations, it seems to be caused by an Google Inbox error in the background. We <a href="https://productforums.google.com/forum/#!topic/inbox/Got2HCzvL2I;context-place=topicsearchin/inbox/freeze">reported it to Google</a> and hope to get a resolution anytime soon.
 
 If you don't mind, please report it via 'Help & Feedback' at the bottom of the Google Inbox sidebar as well. It might help to increase its priority.
 
