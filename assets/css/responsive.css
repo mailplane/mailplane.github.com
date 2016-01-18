@@ -17,12 +17,15 @@ DIV.wrapper{width:100%;padding:0 20px;}
 .cnt{width:100%;padding:75px 0 0 0;}
 .features H1{text-align:center;}
 .features P{text-align:center;}
-UL.columns{width:634px;margin:0 auto;}
 .illo{margin:0 auto;}
 .illo.integration IMG {display:none}
 .illo.integration {padding-bottom:60px}
 
+/* -------- Plugins --------- */
+.plugins UL.columns{width:634px;margin:0 auto;}
+
 /* -------- Testimonials -------- */
+.testimonials UL.columns{width:634px;margin:0 auto;}
 .three{display:none}
 
 /* -------- Updates -------- */
@@ -57,12 +60,16 @@ UL.columns{width:634px;margin:0 auto;}
 
 @media screen and (max-width: 634px) {
 /* -------- Features -------- */
-UL.columns{width:317px;margin:0 auto;}
-.plugins{text-align:center;width:100%;padding:75px 0 30px 0;}
 UL.columns LI{margin:0 0 30px 0;}
+
+/* -------- Plugins --------- */
+
+.plugins{text-align:center;width:100%;padding:75px 0 30px 0;}
+.plugins UL.columns{width:317px;margin:0 auto;}
 IMG.plug{margin:0 0 30px 0;}
 
 /* -------- Testimonials -------- */
+.testimonials UL.columns{width:317px;margin:0 auto;}
 .two{display:none}
 
 /* -------- Newsletter -------- */
@@ -91,8 +98,14 @@ HEADER.top{min-height:200px;padding:30px 0 50px 0;background:#d0ddf0 url('../ima
 .cnt{padding:70px 0 0 0;}
 .features H1{font:normal 38px 'latolight', arial, helvetica, sans-serif;}
 .features P{font-size:18px;}
-.plugins{text-align:center;width:100%;padding:75px 0 30px 0;}
-UL.columns{width:280px;margin:0 auto;}
 UL.columns LI{width:280px;margin:0 0 20px 0;}
+
+/* -------- Plugins --------- */
+.plugins{text-align:center;width:100%;padding:75px 0 30px 0;}
+.plugins UL.columns{width:280px;margin:0 auto;}
 IMG.plug{margin:0 0 20px 0;width:280px;height:102px;}
+
+/* -------- Testimonials -------- */
+.testimonials UL.columns{width:280px;margin:0 auto;}
+
 }

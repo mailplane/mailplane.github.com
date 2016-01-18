@@ -104,18 +104,22 @@ only screen and (min-device-pixel-ratio: 1.5)
 .cnt{width:405px;padding:75px 0 50px 0;}
 .features H1{margin:0 0 35px 0;font:normal 42px 'latolight', arial, helvetica, sans-serif;color:#2a9efc;}
 .features P{margin:0 0 20px 0;line-height:24px;}
-.plugins{text-align:center;width:100%;padding:75px 0 75px 0;}
-UL.columns{width:951px;list-style:none;}
 UL.columns LI{float:left;width:317px;min-height:225px;text-align:center;margin:0 0 55px 0;}
 UL.columns LI P{margin:0 20px;}
-IMG.plug{display:block;margin:0 0 30px 0;width:317px;height:115px;}
 .illo{max-width:510px;}
 .illo IMG{width:100%;margin:40px 0 90px 0;}
 .illo.integration IMG{width:100%;margin:90px 0 90px 0;}
 
 
+/* -------- Plugins --------- */
+
+.plugins{text-align:center;width:100%;padding:75px 0 0 0;}
+.plugins UL.columns{margin:0 auto; width:634px;list-style:none;}
+IMG.plug{display:block;margin:0 0 30px 0;width:317px;height:115px;}
+
 /* -------- Testimonials -------- */
 .testimonials{padding:75px 0 0 0;}
+.testimonials UL.columns{width:951px;list-style:none;}
 .quote{font-size:16px;min-height:120px;margin:0 20px 20px 20px;}
 IMG.quoter{display:block;margin:0 0 15px 0;max-width:317px;max-height:55px;width:100%;}
 FIGCAPTION{font:normal 12px 'latoheavy', arial, helvetica, sans-serif;text-transform:uppercase;}
