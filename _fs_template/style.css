@@ -171,15 +171,14 @@ h2.core-section-header {
 }
 .store-payment-method-list-description .store-payment-method-title
 {
-	margin: -5px;
+	margin: 4px;
 }
 .store-payment-method-cc .store-payment-method-content
 {
 	padding: 0;
 	margin: 0;
 }
-li.store-payment-method-amazon
-{
+ul.store-payment-method-list-later {
 	display: none;
 }
 .store-page-navigation #store-processing-element {
