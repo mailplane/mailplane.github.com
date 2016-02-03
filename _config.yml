@@ -2,7 +2,7 @@
 markdown:    kramdown
 safe:        true
 lsi:         false
-highlighter: pygments
+highlighter: rouge
 
 # See sitemap.xml
 production_url: http://mailplaneapp.com
