@@ -2,6 +2,9 @@
 	font-size: 20px !important;
 	border-top:1px solid #f8f8f8;
 }
+.buysection {
+	margin: 0 0 0 0;
+}
 #store-variation-selection-variations {
 	height: 15.5em;
 }
@@ -15,7 +18,7 @@
 	padding-top: 25px;
 }
 .store-product-option-display {
-	padding:0 150px 0 10px;
+	padding:0 10px 0 10px;
 	font-size: 30px;
 	color:#242834;
 }
