@@ -18,6 +18,6 @@ Features include:
 
 The complete feature list may be found at [http://mailplaneapp.com](http://mailplaneapp.com).
 
-Private beta registration is now open. Becoming a test pilot has never been easier. Just visit [http://mailplaneapp.com/beta](/download).
+Private beta registration is now open. Becoming a test pilot has never been easier. Just visit http://mailplaneapp.com/beta. (**Update:** Private beta is closed. This is a blog post from March 2007.)
 
 ![Man On Plane](/assets/blog/page5_blog_entry0_1.jpg)
