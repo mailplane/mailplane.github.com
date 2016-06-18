@@ -16,7 +16,8 @@ description: Mailplane 3 Release Notes
 
 <section class="white post">
 	<div class="wrapper">
-		{% for post in site.categories.release_mailplane3 %}
+		{% assign sorted_posts = site.categories.release_mailplane3 | sort: "title" %}
+		{% for post in sorted_posts reversed %}
 		<article id="{{ post.build_number }}">
 			<span class="date">{{ post.date | date_to_string }}</span>
 			<h2 class="post-title">Mailplane {{ post.title }}</h2>
