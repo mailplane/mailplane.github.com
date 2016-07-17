@@ -106,10 +106,16 @@ only screen and (min-device-pixel-ratio: 1.5)
 .features P{margin:0 0 20px 0;line-height:24px;}
 UL.columns LI{float:left;width:317px;min-height:225px;text-align:center;margin:0 0 55px 0;}
 UL.columns LI P{margin:0 20px;}
-.illo{max-width:510px;}
+.illo{max-width:520px;}
 .illo IMG{width:100%;margin:40px 0 90px 0;}
 .illo.integration IMG{width:100%;margin:90px 0 90px 0;}
 
+/* -------- Languages --------- */
+.languages{padding:75px 0 35px 0;border-top:1px solid #f8f8f8;}
+.lang-title{text-align:center;width:100%;padding:0 0 40px 0;}
+.lang-title P{max-width:600px;margin:0 auto;}
+.lang-illo{max-width:539px;margin:0 auto;}
+.lang-illo IMG{width:100%;padding:0 0 40px 0;}
 
 /* -------- Plugins --------- */
 
