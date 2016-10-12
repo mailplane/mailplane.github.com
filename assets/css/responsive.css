@@ -108,4 +108,9 @@ IMG.plug{margin:0 0 20px 0;width:280px;height:102px;}
 /* -------- Testimonials -------- */
 .testimonials UL.columns{width:280px;margin:0 auto;}
 
+/* -------- Modal -------- */
+.smlnews H3{font-size: 24px;}
+.smlnews H4{font-size: 15px;}
+.smlnews P{font-size: 13px;}
+.smlnews UL LI.form-field .field{height:42px; font-size: 16px;}
 }
