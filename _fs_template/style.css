@@ -1,134 +1,104 @@
+body {
+	font: -webkit-control;
+	font-family: "Lucida Grande", helvetica, sans-serif;
+	background-color: #e8e8e8;
+	color: -webkit-text;
+	margin: 0;
+    padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
 .core-window {
-	font-size: 20px !important;
-	border-top:1px solid #f8f8f8;
+    padding: 20px;
 }
-.buysection {
-	margin: 0 0 0 0;
+
+
+/* Product Selection Page */
+
+.mp3ProductSelection {
+	background-color: white;
+	padding: 1px 20px 20px 20px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px hsla(0,0%,0%,0.1) !important;
+	font-size: 16px;
 }
-#store-variation-selection-variations {
-	height: 15.5em;
+.mp3ProductSelection .store-product-option-description {
+	padding-left: 17px;
+	color: gray;
+	font-size: 12px;
 }
-.store-product-detail {
+
+.store-product-detail-image img, 
+.store-product-list-item-image img  {
 	display: none;
 }
-.store-page-navigation {
-	border: none;
-}
-.store-product-option {
-	padding-top: 25px;
+.store-product-list-item-description-short {
+	margin-top: .5em;
 }
 .store-product-option-display {
-	padding:0 10px 0 10px;
-	font-size: 30px;
-	color:#242834;
+	padding-left: 8px;
+	font-weight: bold;
 }
-@media screen and (max-width: 634px) {
-	.store-product-option-display {
-		padding:0 100px 0 10px;
-		font-size: 22px;
-	}
+
+div.mp3Hints p {
+	color: gray;
+	font-size: 11px !important;
 }
-.store-product-price .store-value-money
-{
-	float: right;
-	font-size: 30px;
-	color:#242834;
+h1,h2,h3,h4 {
+	font-weight: 400;
 }
-@media screen and (max-width: 634px) {
-	.store-product-price .store-value-money
-	{
-		font-size: 24px;
-	}
-}
-.store-product-option-description {
-	padding: 0 150px 0 13px;
-}
-@media screen and (max-width: 634px) {
-	.store-product-option-description {
-		padding: 0 120px 0 13px;
-	}
-}
-.store-product-option-display input[name*=quantity_] {
-	margin-left: 10px;
-	font:normal 20px 'latosemibold', arial, helvetica, sans-serif;
-	color:#2a9efc;
-	text-align:center;
-	border:1px solid #b3bfd1;
-	-webkit-border-radius:2px;border-radius:2px;
-	padding:4px;
-	width:50px;
-}
-.store-section-order-contents h2.core-section-header {
+
+
+/* Order Detail Page */
+
+.core-section-header {
 	display: none;
 }
-h2.core-section-header {
-	font-size: 32px;
-	padding-left: 255px;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	text-align: left;
+
+.store-section-order-contents {
+	background-color: white;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px hsla(0,0%,0%,0.1) !important;
 }
-.core-form-field-body-note {
-	color: #6C768A;
-	font-size: 14px;
-	width: 500px !important;
+
+.store-section-vat-exemption .store-order-price-label {
+    float: none;
+    display: inline;
 }
-.core-form-field-label {
-	padding: 5px;
+.store-section-vat-exemption .store-order-price-value {
+    display: inline;
+    margin-left: inherit;
 }
-.store-order-action-coupon-li input {
-	margin-left: 10px !important;
-	padding: 5px;
-	width: 140px !important;
+
+/** CCV and VAT **/
+.store-action-view-help .store-action-command {
+    display: none;
 }
-.core-form-field-body input[type="text"] {
-	font-size: 18px !important;
-	width: 500px !important;
-	padding: 5px;
-}
+
 .core-form-field {
 	padding-top: 10px !important;
 	margin: 0 !important;
 }
-.store-action-next .store-action-command .store-action-title { /* Next Button for PayPal */
-	padding-left: 92px;
+.core-form-field-label {
+	padding-top: 4px;	
 }
-.store-product-detail-action-order .store-action-command .store-action-title { /* Order Button */
-	padding-left: 65px;
+.store-field-address-country .core-form-field-label {
+	padding-top: 0 !important;
 }
-.store-action-complete .store-action-command .store-action-title { /* Complete Order Button */
-	padding-left: 40px;
+.store-field-cc-expire .core-form-field-label {
+	padding-top: 1px !important;
 }
-.store-page-navigation .store-action-list .store-action-command .store-action-title {
-	display: block !important;
-	text-align: left !important;
+.core-form-field-body-note {
+    color: #555;
 	padding-top: 3px;
-    font:normal 16px 'latoheavy', arial, helvetica, sans-serif !important;
-    letter-spacing:0.5px !important;
-    text-transform:uppercase !important;
-    text-shadow:0 2px 1px #248adc !important;
-    color:#fff !important;
+	width: 280px !important;
 }
-.store-page-navigation .store-action-list .store-action-command {
-    width:100% !important;
-    height:43px !important;
-    background-color:#2a9efc !important;
-    -webkit-box-shadow:0 2px 0 0 #2486d6 !important;
-    box-shadow:0 2px 0 0 #2486d6 !important;
-    border:none !important;
-    -webkit-border-radius:4px !important;
-    border-radius:4px !important;
-    cursor:pointer !important;
-    -webkit-appearance:none !important;
-}
-.store-page-navigation .store-action-list .store-action-command:hover {
-	background-color:#41aaff !important;
-}
-.store-page-navigation .store-action-list .store-action-command:active {
-	background-color:#1e90ec;-webkit-box-shadow:inset 0 2px 0 0 #2486d6;box-shadow:inset 0 2px 0 0 #2486d6 !important;
-}
-.store-page-navigation .store-action-list {
-	width:250px;margin:0 auto !important;
+.core-form-field-body input[type="text"] {
+	width: 280px !important;
 }
 .store-section-payment-details,.store-section-payment .core-form-field-label
 {
@@ -161,7 +131,7 @@ h2.core-section-header {
 	width: 30%;
 	text-align: right;
 	margin: 0;
-	padding-top: 5px;
+	padding-top: 1px;
 }
 .store-payment-method-list-description
 {
@@ -174,7 +144,7 @@ h2.core-section-header {
 }
 .store-payment-method-list-description .store-payment-method-title
 {
-	margin: 4px;
+	margin: -2px;
 }
 .store-payment-method-cc .store-payment-method-content
 {
@@ -184,6 +154,121 @@ h2.core-section-header {
 ul.store-payment-method-list-later {
 	display: none;
 }
-.store-page-navigation #store-processing-element {
+
+
+/* Messages */
+
+.core-messages {
+	padding: 0;
+	margin: 0 0 10px 0;
+	text-align: center;
+	border: none;
+	box-shadow: 0px 2px 3px hsla(0,0%,0%,0.2);
+}
+.core-message-info {
+	padding: 2px 5px 2px 5px;
+	background-color: gray;
+	color: white;
+}
+.core-message-error {
+	padding: 2px 0 2px 0;
+	background-color: red;
+	color: white;
+}
+
+
+/* Country / Language Selector */
+
+.store-tools {
+	margin-top: 0;
+}
+#store-variation-selector-command {
+	color: black;
+}
+#store-variation-selection-body {
+	margin-top: 2px;
+	padding: 0;
+	box-shadow: 0px 2px 3px hsla(0,0%,0%,0.2);
+}
+.store-variation-select-item-list {
+	background-color: #f9f9f9;
+	padding: 5px;
+	margin: 0;
+}
+#store-variation-selection-variations li {
+}
+#store-variation-selection-variations li a {
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	color: black;
+}
+#store-variation-selection-variations li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* Navigation */
+
+.store-page-navigation {
+	padding:0;
+	margin-bottom:0;
+	border-top: 0;
+}
+
+#store-processing-element {
+    display: none !important;
+}
+
+/* Fields and Buttons */
+
+input[type=text], input[type=password] {
+	-webkit-appearance: textfield;
+	font: -webkit-control;
+	padding: 2px 1px 2px 2px;
+}
+select {
+	font: -webkit-control;
+	font-size: 16px;
+}
+
+a.store-action-command {
+	background: -webkit-linear-gradient(hsla(0,0%,100%,1) 0%, hsla(0,0%,95%,1) 50%, hsla(0,0%,93%,1) 50%, hsla(0,0%,95%,1) 100%) !important;
+	box-shadow: 0px 1px 1px hsla(0,0%,0%,0.1) !important;
+	border: 1px solid hsla(210,2%,60%,1) !important;
+	color: #333 !important;
+    text-decoration: none;
+	border-radius: 4px;
+	min-width: 60px;
+	text-align: center;
+	height: 17px;
+	padding: 1px 9px 1px 9px !important;
+	-webkit-user-drag: none !important;
+	-webkit-user-select: none !important;
+	cursor: default;
+}
+a.store-action-command:active {
+	background: -webkit-linear-gradient(hsla(220,67%,80%,1) 0%, hsla(217,72%,68%,1) 50%, hsla(217,76%,63%,1) 50%, hsla(206,65%,81%,1) 100%) !important;
+	box-shadow: 0px 1px 1px hsla(0,0%,0%,0.1) !important;
+	border: 1px solid hsla(210,2%,60%,1) !important;
+	color: #333 !important;
+    text-decoration: none;
+	border-radius: 4px;
+	min-width: 60px;
+	text-align: center;
+	height: 17px;
+	padding: 1px 9px 1px 9px !important;
+	-webkit-user-drag: none !important;
+	-webkit-user-select: none !important;
+	cursor: default;
+}
+.store-action-title {
+	font: -webkit-control;
+	color: -webkit-text;
+	font-size: small; // Fixes weird size in Safari 7.1 WebKit
+}
+
+/* Continue Shopping button */
+.store-order-action-more {
 	display: none;
 }
