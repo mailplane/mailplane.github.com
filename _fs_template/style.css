@@ -93,6 +93,7 @@ h1,h2,h3,h4 {
 	padding-top: 1px !important;
 }
 .core-form-field-body-note {
+	font-size: .7em;
     color: #555;
 	padding-top: 3px;
 	width: 280px !important;
@@ -271,4 +272,9 @@ a.store-action-command:active {
 /* Continue Shopping button */
 .store-order-action-more {
 	display: none;
+}
+
+/* Coupon field container */
+.store-order-action-list {
+	margin-top: 0;
 }
