@@ -71,7 +71,7 @@ description: We're here for you. Contact us if you have questions about Gmail on
 	</ul>
 </section>
 
-<section class="notes white" style="margin-bottom:0">
+<section class="notes white">
 	<ul>
 		<li>
 			<h3>Updates</h3>
@@ -90,9 +90,25 @@ description: We're here for you. Contact us if you have questions about Gmail on
 			<h3>Forum</h3>
 			<p>Talk with us and other Mailplane users in our <a href="http://groups.google.com/group/mailplaneapp" target="_blank">Google Group</a>.</p>
 		</li>
-		<li>
+		<li style="margin-bottom:0">
 			<h3>Write Us</h3>
-			<p>Write us to <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#109;&#97;&#105;&#108;&#112;&#108;&#97;&#110;&#101;&#97;&#112;&#112;&#46;&#99;&#111;&#109;">support (at) mailplaneapp.com</a> or tweet <a href="http://twitter.com/mailplane" target="_blank" title="Tweet, tweet!">@mailplane</a> for quick questions.</p>
+  <form id="ioreplies_contactForm" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" action="https://1b.replies.io/api/contact_forms/m8v0luaedv27htd643kbv9d7qs">
+				<div style="font-size: 13px; text-align: right">Powered by <a href="http://replies.io">replies.io</a></div>
+				<textarea class="field" name="body" rows="5" required="true" style="width: 100%; height: inherit; text-align: inherit; padding: 10px"></textarea>
+
+				<div id="ioreplies_suggestions"></div>
+
+				<input class="field" type="email" placeholder="your@email.com" name="email">
+				<input class="field" type="name" placeholder="Your Name" name="name" />
+
+				<input type="hidden" name="product_name" value="Mailplane"/>
+				<input type="hidden" name="metadata" value="{}" />
+				<input type="hidden" name="language" value="en" />
+				<input type="hidden" name="success_url" value="http://mailplaneapp.com/help/request_success.html" />
+				<input class="bluebtn" type="submit" value="Send">
+			</form>
 		</li>
 	</ul>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://1b.replies.io/api-js/contact_form_3.min.js"></script>

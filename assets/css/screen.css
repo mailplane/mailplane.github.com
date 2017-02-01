@@ -261,3 +261,32 @@ only screen and (min-device-pixel-ratio: 1.5)
 .smlnews UL{list-style:none;width:100%;}
 .smlnews UL LI.form-field{margin:0 auto;width:100%;}
 .smlnews UL LI.form-btn{margin:0 auto;width:100%;}
+
+/* -------- replies.io Contact Form -------- */
+#ioreplies_suggestions {
+	margin: 0 0 17px 0;
+}
+.ioreplies_suggestion {
+	padding: 20px;
+	cursor: pointer;
+}
+.ioreplies_suggestion_body_shown {
+    cursor: inherit;
+}
+.ioreplies_suggestion_question {
+    font-weight: bold;
+	display: inline;
+}
+.ioreplies_suggestion_more_button:after {
+	content: "MORE";
+}
+.ioreplies_suggestion_more_button {
+	display: inline;
+	background-color: #41aaff;
+	margin-left: 10px;
+	padding: 4px 12px;
+	border-radius: 4px;
+	color: white;
+	text-shadow: 0 2px 1px #248adc;
+	font: normal 14px 'latoheavy', arial, helvetica, sans-serif;
+}
