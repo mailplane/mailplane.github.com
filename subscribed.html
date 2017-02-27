@@ -283,7 +283,7 @@
 			var birthOfMailplane = new Date(2007, 2, 8); // March 8, 2007
 			var ageInMs = new Date().getTime() - birthOfMailplane.getTime();
 			var ageInYears = ageInMs / 1000 / 60 / 60 / 24 / 365;
-			$("#ageOfMailplaneInYears").text(Math.round(ageInYears * 10) / 10);
+			$("#ageOfMailplaneInYears").text(Math.floor(ageInYears * 10) / 10);
 			
 			var nbrOfUpdates = 0;
 			nbrOfUpdates += 50; // Mailplane 1 (Estimate)
