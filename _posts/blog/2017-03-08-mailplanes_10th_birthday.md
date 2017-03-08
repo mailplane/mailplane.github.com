@@ -14,6 +14,6 @@ In 2010, Lars joined Ruben to build Mailplane 3. It was a complete rewrite but s
 
 We want to say thank you! Ten years and 167 updates sound like incredible numbers to us. We wouldn’t have been able to do it without the support from our loyal customer base.
 
-Looking ahead, 2017 will become an exciting year. We're working hard to come up with some surprises for you. [Join our newsletter](/#join_newsletter) if you haven't done it already. Stay tuned!
+Looking ahead, 2017 will become an exciting year. We're working hard to come up with some surprises for you. Stay tuned and [join our newsletter](/#join_newsletter) if you haven't done it already.
 
 Lars & Ruben
