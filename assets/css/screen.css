@@ -83,7 +83,7 @@ only screen and (min-device-pixel-ratio: 1.5)
   .main-cta .plane-box{background-image: url('../images/plane@2x.png');background-size:374px;}
 }
 .main-cta .aniversary-box{float:left;width:415px;-webkit-border-radius:2px;border-radius:2px;padding:70px 30px 35px 30px;margin:95px 0 0 0;text-align:center;background-color:#fff;position:relative;}
-.main-cta .aniversary-box H2{font:normal 60px 'latoheavy', arial, helvetica, sans-serif;color:#2a9efc;margin:0 0 10px 0;line-height:40px;margin:0 0 25px 0;}
+.main-cta .aniversary-box H2{font:normal 55px 'latoheavy', arial, helvetica, sans-serif;color:#2a9efc;margin:0 0 10px 0;line-height:40px;margin:0 0 25px 0;}
 .main-cta .aniversary-box H3{font:normal 45px 'latolight', arial, helvetica, sans-serif;color:#242834;margin:0 0 -10px 0;line-height:52px;margin:0 0 15px 0;}
 .main-cta .aniversary-box A{font:normal 15px 'latoheavy', arial, helvetica, sans-serif;color:#242834;text-transform:uppercase;text-decoration:none;letter-spacing:2px;}
 .main-cta .aniversary-box:hover{cursor:pointer; color:#2a9efc;}
