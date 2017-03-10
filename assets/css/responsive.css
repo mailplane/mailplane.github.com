@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 975px) {
 /* -------- Global -------- */
-DIV.wrapper{width:100%;padding:0 20px;overflow: hidden;}
+DIV.wrapper{width:100%;padding:0 20px;overflow:hidden;}
 
 /* -------- Top -------- */
 .main-logo {margin: 0 0 25px 0;}
@@ -11,9 +11,9 @@ DIV.wrapper{width:100%;padding:0 20px;overflow: hidden;}
 .main-cta .main-heading {float: none;width: 100%;padding: 20px 0 0 0;}
 .main-cta .main-heading H1 {text-align: center;}
 .main-cta .main-heading UL {margin: 0 auto;width: 480px;}
-.main-cta .aniversary-box {float: none;margin: 0 auto;}
-.main-cta .aniversary-box H2 {font-size: 55px;margin: 0 0 15px 0;}
-.main-cta .aniversary-box H3 {font-size: 40px;line-height: 48px;}
+.main-cta .aniversary-box {float: none;margin: 0 auto;margin-bottom: 30px;margin-top: 30px;}
+.main-cta .aniversary-box H2 {font-size:50px;margin:0 0 15px 0;}
+.main-cta .aniversary-box H3 {font-size:40px;line-height:48px;}
 
 /* -------- Features -------- */
 .rt {float: none;}
@@ -64,12 +64,20 @@ DIV.wrapper{width:100%;padding:0 20px;overflow: hidden;}
 
 @media screen and (max-width: 634px) {
 /* -------- Top -------- */
-.main-logo {margin: 0 0 20px 0;text-align: center;}
+.main-logo {margin: 0 0 20px 0;text-align:center;}
 .main-logo A {float: none;}
-.main-cta .aniversary-box {width: 90%;}
-.main-cta .aniversary-box H2 {font-size: 52px;}
-.main-cta .aniversary-box H3 {font-size: 38px;line-height: 45px;}
-.confetti {left: -10px;}
+.main-cta .aniversary-box {width:100%;}
+.main-cta .aniversary-box H2 {font-size:46px;margin:0 0 12px 0;}
+.main-cta .aniversary-box H3 {font-size:38px;line-height:45px;}
+.miniplane{width:100%;}
+.circle-blue-one{top:120px;left:-4px;}
+.circle-blue-two{top:-24px;right:110px;}
+.circle-yellow-one{top:33px;left:65px;}
+.circle-yellow-two{top:38px;right:23px;}
+.circle-red-one{bottom:-10px;left:158px;}
+.circle-red-two{bottom:81px;right:40px;}
+.semicircle-blue-one{bottom:-12px;right:60px;}
+.semicircle-yellow-one{bottom:46px;left:50px;}
 
 /* -------- Features -------- */
 UL.columns LI {margin: 0 0 30px 0;}
@@ -105,7 +113,10 @@ HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('..
 .main-cta .main-heading UL {margin: 0 auto;width: 230px;}
 .main-cta .main-heading UL LI.try {float: left;}
 .main-cta .main-heading UL LI.buy {float: right;margin: 0 0 20px 0;}
-.confetti {left: -45px;}
+.main-cta .aniversary-box{padding:60px 20px 25px 20px;margin-bottom: 30px;margin-top: 30px;}
+.main-cta .aniversary-box H2 {font-size:38px;}
+.main-cta .aniversary-box H3 {font-size:28px;line-height:34px;margin:0 0 5px 0;}
+.main-cta .aniversary-box A {font-size:12px;}
 
 /* -------- Features -------- */
 .cnt {padding: 70px 0 0 0;}
@@ -126,9 +137,4 @@ IMG.plug {margin: 0 0 20px 0;width: 280px;height: 102px;}
 .smlnews H4 {font-size: 15px;}
 .smlnews P {font-size: 13px;}
 .smlnews UL LI.form-field .field {height: 42px;font-size: 16px;}
-}
-
-@media screen and (max-width: 450px) {
-/* -------- Top -------- */
-.confetti {left: -80px;}
 }
