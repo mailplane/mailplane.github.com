@@ -74,7 +74,7 @@ HEADER.top{min-height:248px;padding:45px 0 70px 0;background:#d0ddf0 url('../ima
 .main-cta{width:100%;overflow:visible;position:relative;}
 .page-title{padding:35px 0 0 0;margin:0;text-align:center;font:normal 36px 'latolight', arial, helvetica, sans-serif;color:#242834;}
 .page-desc{padding:35px 0 0 0;margin:0;text-align:center;font:normal 26px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
-.main-cta .plane-box{width:405px;height:365px;float:left;background:transparent url('../images/plane.png') no-repeat 0 7px;}
+.main-cta .plane-box{width:405px;height:365px;float:left;background:transparent url('../images/plane.png') no-repeat 0 7px;display:none;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),

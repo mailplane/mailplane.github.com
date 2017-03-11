@@ -6,14 +6,15 @@ DIV.wrapper{width:100%;padding:0 20px;overflow:hidden;}
 
 /* -------- Top -------- */
 .main-logo {margin: 0 0 25px 0;}
-.main-cta {padding: 65px 0 0 0;}
-.main-cta .plane-box {width: 140px;height: 140px;background-size: 140px;margin: 0 auto;float: none;}
-.main-cta .main-heading {float: none;width: 100%;padding: 20px 0 0 0;}
-.main-cta .main-heading H1 {text-align: center;}
-.main-cta .main-heading UL {margin: 0 auto;width: 480px;}
-.main-cta .aniversary-box {float: none;margin: 0 auto;margin-bottom: 30px;margin-top: 30px;}
+.main-cta {padding:5px 0 20px 0;}
+.main-cta .plane-box {width:140px;height:140px;background-size: 140px;margin:0 auto;float:none;display:block;}
+.main-cta .main-heading {float: none;width: 100%;padding:0;}
+.main-cta .main-heading H1 {text-align:center;}
+.main-cta .main-heading UL {margin: 0 auto;width: 480px;padding:0 0 40px 0;}
+.main-cta .aniversary-box {float: none;margin:0 auto;padding:30px;}
 .main-cta .aniversary-box H2 {font-size:50px;margin:0 0 15px 0;}
 .main-cta .aniversary-box H3 {font-size:40px;line-height:48px;}
+.miniplane{display:none;}
 
 /* -------- Features -------- */
 .rt {float: none;}
@@ -113,10 +114,18 @@ HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('..
 .main-cta .main-heading UL {margin: 0 auto;width: 230px;}
 .main-cta .main-heading UL LI.try {float: left;}
 .main-cta .main-heading UL LI.buy {float: right;margin: 0 0 20px 0;}
-.main-cta .aniversary-box{padding:60px 20px 25px 20px;margin-bottom: 30px;margin-top: 30px;}
+.main-cta .aniversary-box{padding:25px 20px;}
 .main-cta .aniversary-box H2 {font-size:38px;}
 .main-cta .aniversary-box H3 {font-size:28px;line-height:34px;margin:0 0 5px 0;}
 .main-cta .aniversary-box A {font-size:12px;}
+.circle-blue-one{top:120px;left:-4px;}
+.circle-blue-two{top:-24px;right:110px;}
+.circle-yellow-one{top:33px;left:15px;}
+.circle-yellow-two{top:38px;right:23px;}
+.circle-red-one{bottom:-10px;left:158px;}
+.circle-red-two{bottom:81px;right:5px;}
+.semicircle-blue-one{bottom:-15px;right:60px;}
+.semicircle-yellow-one{bottom:16px;left:10px;}
 
 /* -------- Features -------- */
 .cnt {padding: 70px 0 0 0;}
@@ -138,3 +147,4 @@ IMG.plug {margin: 0 0 20px 0;width: 280px;height: 102px;}
 .smlnews P {font-size: 13px;}
 .smlnews UL LI.form-field .field {height: 42px;font-size: 16px;}
 }
+
