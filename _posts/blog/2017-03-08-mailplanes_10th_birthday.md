@@ -6,7 +6,7 @@ category: blog
 permalink: /blog/entry/mailplanes_10th_birthday/index.html
 ---
 
-Ten years ago, Ruben published his [very first blog post](http://localhost:4000/blog/entry/would_you_like_to_become_a_mailplane_test_pilot/index.html) hoping to get a handful of test pilots for Mailplane. He started it a few months earlier on the beautiful Island of Corsica as an iPhoto plugin for himself to attach pictures to a Gmail message. From there, Mailplane grew to a site-specific browser for Gmail.
+Ten years ago, Ruben published his [very first blog post](/blog/entry/would_you_like_to_become_a_mailplane_test_pilot/index.html) hoping to get a handful of test pilots for Mailplane. He started it a few months earlier on the beautiful Island of Corsica as an iPhoto plugin for himself to attach pictures to a Gmail message. From there, Mailplane grew to a site-specific browser for Gmail.
 
 To his surprise the first 100 seats were filled within an hour and the website went under heavy load, filling up his waiting list. [MacNN](http://www.macnn.com) was the first blog back then which spread the news and other blogs were hot on their heels. At the end of 2007, Ruben was able to end the beta phase and officially release Mailplane.
 
