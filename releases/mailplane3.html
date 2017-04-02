@@ -20,7 +20,7 @@ description: Mailplane 3 Release Notes
 		{% for post in sorted_posts reversed %}
 		<article id="{{ post.build_number }}">
 			<span class="date">{{ post.date | date_to_string }}</span>
-			<h2 class="post-title">Mailplane {{ post.title }}</h2>
+			<h2 class="post-title">Mailplane {{ post.title | replace: '_', '' }}</h2>
 			{{ post.content }}
 		</article>
 		{% endfor %}
