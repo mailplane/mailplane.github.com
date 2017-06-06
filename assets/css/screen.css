@@ -200,9 +200,12 @@ FIGCAPTION A:hover{text-decoration:underline;}
 .post ARTICLE H2.post-title{font:normal 40px 'latolight', arial, helvetica, sans-serif;color:#242834;margin:0 0 35px 0;}
 .post ARTICLE H2.post-title A{color:#2a9efc;text-decoration:none;}
 .post ARTICLE H2.post-title A:hover{text-decoration:underline;}
+.post ARTICLE H1{color:#6c768a;font:normal 28px 'latosemibold', arial, helvetica, sans-serif;margin:0 0 25px 0;padding:5px 0 0 0;}
+.post ARTICLE H2{color:#6c768a;font:normal 24px 'latosemibold', arial, helvetica, sans-serif;margin:0 0 25px 0;padding:5px 0 0 0;}
 .post ARTICLE H3{color:#6c768a;font:normal 20px 'latosemibold', arial, helvetica, sans-serif;margin:0 0 25px 0;padding:5px 0 0 0;}
 .post ARTICLE STRONG{color:#6c768a;font:normal 20px 'latosemibold', arial, helvetica, sans-serif;}
-.post ARTICLE UL{list-style:none;}
+.post ARTICLE OL{margin: 0 0 20px 0;}
+.post ARTICLE UL{list-style:none; margin: 0 0 20px 0;}
 .post ARTICLE UL LI{padding:0 0 0 25px;background:transparent url('../images/icons.png') no-repeat -36px 12px;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
