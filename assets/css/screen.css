@@ -166,8 +166,8 @@ FIGCAPTION A:hover{text-decoration:underline;}
 
 /* -------- Help -------- */
 .help{margin:0 auto;width:975px;min-width:320px;padding:80px 12px 0 12px;overflow:hidden;border-bottom:1px solid #f8f8f8;}
-.help UL{list-style:none;width:475px;}
-.help UL LI{padding:0 25px 0 0;margin:0 0 70px 0;}
+.help UL.lt, .help UL.rt{list-style:none;width:475px;}
+.help UL LI{padding:0;margin:0 0 70px 0;}
 .help UL LI H2{margin:0 0 25px 0;font:normal 34px 'latolight', arial, helvetica, sans-serif;color:#242834;}
 .help UL LI P{margin:0 0 7px 0;font-size:18px;}
 .help UL LI P A{text-decoration:none;}
