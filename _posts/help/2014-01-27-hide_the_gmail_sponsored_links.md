@@ -3,7 +3,7 @@ layout: help_post
 title: 'Hide the Gmail sponsored links'
 author: Ruben
 category: help
-permalink: /howto/entry/hide_the_gmail_sponsored_links/index.html
+permalink: /howto/entry/hide_the_gmail_sponsored_links.html
 tags:
 - appearance
 ---

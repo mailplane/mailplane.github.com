@@ -8,7 +8,7 @@ tags:
 - appearance
 ---
 
-If you're wanting to customize your inbox beyond the use of [Themes](/blog/entry/gmail_themes/index.html), you might want to venture into the world of using CSS.
+If you're wanting to customize your inbox beyond the use of [Themes](/blog/entry/gmail_themes.html), you might want to venture into the world of using CSS.
 
 If you're new to CSS, there are a lot of resources online to get you started out. A few good ones are [learn.shayhowe.com](http://learn.shayhowe.com/html-css/getting-to-know-css), [blog.postach.io](http://blog.postach.io/how-to-customize-your-blogs-look-with-css-beginner-tutorial), [htmlgoodies.com](http://www.htmlgoodies.com/tutorials/browser_specific/article.php/3478711) and [cssbasics.com](http://www.cssbasics.com).
 
