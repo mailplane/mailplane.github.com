@@ -1,1 +1,1 @@
-Sitemap: http://www.mailplaneapp.com/sitemap.xml
+Sitemap: https://mailplaneapp.com/sitemap.xml
