@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Gmail''s New Inserting Interface'
 author: Jessica
 category: blog
-permalink: /blog/entry/gmails_new_inserting_interface/index.html
+permalink: /blog/entry/gmails_new_inserting_interface.html
 ---
 
 Gmail has introduced a new interface for users to add inline images to messages. Now, when you click the 'Insert Images' icon, Gmail will show all the photos highlighted by Google+. The highlighted photos will be chosen by Google (using "clever algorithms"). These will be displayed by default when you visit your Google+ Photos.

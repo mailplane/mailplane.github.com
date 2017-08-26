@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Always show images'
 author: Jessica
 category: blog
-permalink: /blog/entry/always_show_images/index.html
+permalink: /blog/entry/always_show_images.html
 ---
 
 Gmail is now handling inline images a little differently. Instead of being asked if you want to display the images within a message (which can sometimes contain malware from unknown senders), Gmail will now handle the images on their own secure proxy servers.

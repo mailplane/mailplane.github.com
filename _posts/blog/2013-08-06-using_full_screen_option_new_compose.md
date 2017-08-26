@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Using the Full Screen Option with New Compose'
 author: Jessica
 category: blog
-permalink: /blog/entry/using_full_screen_option_new_compose/index.html
+permalink: /blog/entry/using_full_screen_option_new_compose.html
 ---
 
 The new compose window just got better! Google released a nice little update allowing users to open a larger compose window instead of having to use the tiny chat-like box! You can open the full screen box by clicking the arrow on the inline compose box.

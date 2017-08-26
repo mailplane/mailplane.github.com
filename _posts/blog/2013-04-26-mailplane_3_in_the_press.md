@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Mailplane 3 in the Press'
 author: Lars
 category: blog
-permalink: /blog/entry/mailplane_3_in_the_press/index.html
+permalink: /blog/entry/mailplane_3_in_the_press.html
 ---
 
 The last two weeks were pretty exciting and we received a lot of great responses and we already released an [update](/releases/mailplane3.html). Thanks to all of you for your support and patience if our support responses took a bit longer than usual.

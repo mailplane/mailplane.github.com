@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Gentle notifications lab feature graduated'
 author: Lars
 category: blog
-permalink: /blog/entry/gentle_notifications_lab_feature_graduated/index.html
+permalink: /blog/entry/gentle_notifications_lab_feature_graduated.html
 ---
 
 Gentle Notifications lab became a fully supported feature. Enabling it in Google Calendar lets event notifications appear as desktop notifications instead of interruptive dialog boxes.

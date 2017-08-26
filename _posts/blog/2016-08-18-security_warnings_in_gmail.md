@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Security warnings in Gmail'
 author: Lars
 category: blog
-permalink: /blog/entry/gmail_security_warnings/index.html
+permalink: /blog/entry/gmail_security_warnings.html
 ---
 
 Gmail started to introduce two new security warnings. Not all affected emails will be dangerous but it helps to decide if replying to or clicking on links in messages is safe.

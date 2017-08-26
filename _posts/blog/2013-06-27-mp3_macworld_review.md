@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Mailplane 3 MacWorld Review'
 author: Jessica
 category: blog
-permalink: /blog/entry/mp3_macworld_review/index.html
+permalink: /blog/entry/mp3_macworld_review.html
 ---
 
 We recently received an amazing review from MacWorld. You can [check out the full article](http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html), though here is a little tidbit from their article:

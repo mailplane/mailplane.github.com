@@ -3,7 +3,7 @@ layout: blog_post
 title: 'iLegalPad Review'
 author: Jessica
 category: blog
-permalink: /blog/entry/ilegalpad_review/index.html
+permalink: /blog/entry/ilegalpad_review.html
 ---
 
 Mailplane recently had the opportunity to be reviewed by Ronald Schoedel of [iLegalPad](http://ilegalpad.com) and [Alaska User Group](http://akappleug.org). He wrote up wonderful review and it's well worth the read. I have a feeling you may learn a couple Mailplane related tricks from his write up, as he didn't miss a thing!

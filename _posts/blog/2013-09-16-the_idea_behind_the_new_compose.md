@@ -3,7 +3,7 @@ layout: blog_post
 title: 'The Idea Behind the New Compose'
 author: Jessica
 category: blog
-permalink: /blog/entry/the_idea_behind_the_new_compose/index.html
+permalink: /blog/entry/the_idea_behind_the_new_compose.html
 ---
 
 We have had many emails to us regarding Gmail's new compose window, so I figured I'd take a minute to explain the idea behind Google's change.

@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Mailplane Gets Reviewed'
 author: Jessica
 category: blog
-permalink: /blog/entry/mailplane_gets_reviewed/index.html
+permalink: /blog/entry/mailplane_gets_reviewed.html
 ---
 
 Mailplane has had the pleasure of being reviewed on quite a few sites since our last post and here’s the short and sweet of it!

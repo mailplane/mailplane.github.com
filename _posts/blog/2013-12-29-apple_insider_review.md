@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Apple Insider Review'
 author: Jessica
 category: blog
-permalink: /blog/entry/apple_insider_review/index.html
+permalink: /blog/entry/apple_insider_review.html
 ---
 
 We received yet another fabulous review from Apple Insider for their Apps for your Mac; Best Email Clients article.

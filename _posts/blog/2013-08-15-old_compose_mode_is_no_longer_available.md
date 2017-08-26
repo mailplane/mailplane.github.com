@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Old compose mode is no longer available'
 author: Lars
 category: blog
-permalink: /blog/entry/old_compose_mode_is_no_longer_available/index.html
+permalink: /blog/entry/old_compose_mode_is_no_longer_available.html
 ---
 
 Google has started dropping the old compose mode. Thus, you're no longer able to switch back to the old compose mode. Luckily [Mailplane 2.5.12](/download) and [Mailplane 3](/download) are already supporting the new compose mode.

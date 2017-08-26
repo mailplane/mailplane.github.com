@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Google Contacts Made Easier'
 author: Jessica
 category: blog
-permalink: /blog/entry/google_contacts_made_easier/index.html
+permalink: /blog/entry/google_contacts_made_easier.html
 ---
 
 Google has added some new features that will make finding and handling your contacts much easier; the ability to star your contacts and a simple way to email your Google+ circles.

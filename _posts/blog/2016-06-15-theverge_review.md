@@ -3,7 +3,7 @@ layout: blog_post
 title: 'The Verge Review'
 author: Lars
 category: blog
-permalink: /blog/entry/theverge_review/index.html
+permalink: /blog/entry/theverge_review.html
 ---
 
 Mailplane has had the pleasure of being reviewed by Thomas Ricker from The Verge last month. It's about the plainness of Mailplane in the sense that it gives you an unadulterated Gmail experience.

@@ -3,7 +3,7 @@ layout: blog_post
 title: 'MacNews Mailplane Review'
 author: Jessica
 category: blog
-permalink: /blog/entry/macnews_mailplane_review/index.html
+permalink: /blog/entry/macnews_mailplane_review.html
 ---
 
 We came across an awesome article written on [macnews.com](http://macnews.com) reviewing our most recent release of Mailplane 3 which includes an update to use Google's new attachment experience.

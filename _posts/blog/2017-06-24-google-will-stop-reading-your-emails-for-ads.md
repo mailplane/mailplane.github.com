@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Google will stop reading your emails for ads'
 author: Lars
 category: blog
-permalink: /blog/entry/google_will_stop_reading_your_emails_for_ads/index.html
+permalink: /blog/entry/google_will_stop_reading_your_emails_for_ads.html
 ---
 
 Google will stop reading your email contents for ads inside Gmail. While this is definitively good news, ads will continue to appear inside the free version of Gmail based on information Google already pulls from sources as search and YouTube.

@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Smart scheduling in Google Calendar'
 author: Lars
 category: blog
-permalink: /blog/entry/smart_scheduling_in_google_calendar/index.html
+permalink: /blog/entry/smart_scheduling_in_google_calendar.html
 ---
 
 “Find a time” makes it easier to find a free time slot and room if you're scheduling a meeting.

@@ -3,7 +3,7 @@ layout: blog_post
 title: 'My favorite stuff from 2014 by brettterpstra.com'
 author: Jessica
 category: blog
-permalink: /blog/entry/my-favorite-stuff-from-2014-by-brettterpstra/index.html
+permalink: /blog/entry/my-favorite-stuff-from-2014-by-brettterpstra.html
 ---
 
 Mailplane got a nice little shout out on brettterpstra.com in his article called ["My favorite stuff of 2014"](http://brettterpstra.com/2015/01/05/my-favorite-apps-of-2014-part-1/).

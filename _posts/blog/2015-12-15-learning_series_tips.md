@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Learning Series: Tips'
 author: Jessica
 category: blog
-permalink: /blog/entry/learning_series_tips/index.html
+permalink: /blog/entry/learning_series_tips.html
 ---
 
 A little post about some features that perhaps you are not aware of.

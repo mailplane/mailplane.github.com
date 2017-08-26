@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Love Gmail, Use Mailplane'
 author: Jessica
 category: blog
-permalink: /blog/entry/love_gmail_use_mailplane/index.html
+permalink: /blog/entry/love_gmail_use_mailplane.html
 ---
 
 Today Wil Gomex from [Mac360.com](http://mac360.com) released a great little review article about Mailplane. We always love reading from our customers' perspective!

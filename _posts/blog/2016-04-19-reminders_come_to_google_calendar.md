@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Reminders come to Google Calendar'
 author: Jessica
 category: blog
-permalink: /blog/entry/reminders_come_to_google_calendar/index.html
+permalink: /blog/entry/reminders_come_to_google_calendar.html
 ---
 
 Google is adding the option to give yourself a reminder for your Calendar events! This new functionality will work on both your mobile device and your web based version of Gmail.

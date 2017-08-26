@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Gmail Themes'
 author: Jessica
 category: blog
-permalink: /blog/entry/gmail_themes/index.html
+permalink: /blog/entry/gmail_themes.html
 ---
 
 If you hadn't taken notice yet, Gmail really updated the 'Themes' section within their Settings menu. There were approximately 35 Themes to choose from before and now the possibilities are unlimited. You can choose from one of their Themes, your own photos or even awesome Themes that have been created and shared by other users.

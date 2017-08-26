@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Learning Series: Switch to Account'
 author: Jessica
 category: blog
-permalink: /blog/entry/learning-series-switch-to-account/index.html
+permalink: /blog/entry/learning-series-switch-to-account.html
 ---
 
 Have you ever wondered what features you are missing in Mailplane? Well, we're here to help you with that. We have a short series of blog posts that will introduce you to some features you might have been missing.

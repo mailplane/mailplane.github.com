@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Adding events to Google Calendar'
 author: Jessica
 category: blog
-permalink: /blog/entry/adding_events_to_google_calendar/index.html
+permalink: /blog/entry/adding_events_to_google_calendar.html
 ---
 
 Google has made it even easier to add events to your Calendar directly from your Gmail. You can now see that dates and times are lightly underlined within an email. Please note that the email won't be underlined if you send it to yourself from your own account.

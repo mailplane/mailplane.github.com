@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Gmail Blocks JavaScript Attachments'
 author: Lars
 category: blog
-permalink: /blog/entry/gmail_blocks_javascript_attachments/index.html
+permalink: /blog/entry/gmail_blocks_javascript_attachments.html
 ---
 
 .js has been added to the list of file type that are blocked by Gmail for security reason.

@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Would you like to become a Mailplane test pilot?'
 author: Ruben
 category: blog
-permalink: /blog/entry/would_you_like_to_become_a_mailplane_test_pilot/index.html
+permalink: /blog/entry/would_you_like_to_become_a_mailplane_test_pilot.html
 ---
 
 Mailplane is a brand new Cocoa shareware application that integrates Gmail into your Mac desktop.

@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Undo Send graduates out of Gmail Labs'
 author: Jessica
 category: blog
-permalink: /blog/entry/undo-send-graduates-out-of-google-labs/index.html
+permalink: /blog/entry/undo-send-graduates-out-of-google-labs.html
 ---
 
 After spending an eternity as a Google Lab feature, Google finally added the 'undo send' option to the regular settings menu.

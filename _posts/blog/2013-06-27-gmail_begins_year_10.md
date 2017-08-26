@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Gmail Begins Year 10!'
 author: Jessica
 category: blog
-permalink: /blog/entry/gmail_begins_year_10/index.html
+permalink: /blog/entry/gmail_begins_year_10.html
 ---
 
 Gmail is heading into it's 10th year! How fast time flies! The [Gmail blog posted an interesting article](http://gmailblog.blogspot.ch/2013/04/gmail-9-years-and-counting.html) about the evolution of Gmail over the last 9 years!

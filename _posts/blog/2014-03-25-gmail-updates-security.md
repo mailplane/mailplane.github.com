@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Gmail Updates Security'
 author: Jessica
 category: blog
-permalink: /blog/entry/gmail_updates_security/index.html
+permalink: /blog/entry/gmail_updates_security.html
 ---
 
 Starting last week, Gmail has made your email even more secure. Although Gmail has already used a secure HTTPS connection, the new update makes sure your emails are also encrypted when traveling directly within Google's data centers.

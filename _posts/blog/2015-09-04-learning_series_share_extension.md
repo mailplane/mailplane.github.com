@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Learning Series: Share Extension'
 author: Jessica
 category: blog
-permalink: /blog/entry/learning_series_share_extension/index.html
+permalink: /blog/entry/learning_series_share_extension.html
 ---
 
 Do you find yourself struggling to share files and photos easily within Mailplane?

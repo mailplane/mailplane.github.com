@@ -3,7 +3,7 @@ layout: blog_post
 title: 'New original message UI'
 author: Lars
 category: blog
-permalink: /blog/entry/new_original_message_ui/index.html
+permalink: /blog/entry/new_original_message_ui.html
 ---
 
 Gmail shows now a list of headers and the actual text of the message in the new original message UI.

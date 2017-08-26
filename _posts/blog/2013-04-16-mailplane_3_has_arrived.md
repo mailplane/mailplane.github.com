@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Mailplane 3 Has Arrived!'
 author: Lars
 category: blog
-permalink: /blog/entry/mailplane_3_has_arrived/index.html
+permalink: /blog/entry/mailplane_3_has_arrived.html
 ---
 
 We're very happy to officially announce Mailplane 3 today. This is a major update to our popular Mac OSX application for Gmail.

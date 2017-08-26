@@ -3,7 +3,7 @@ layout: blog_post
 title: 'OS X Mavericks'
 author: Jessica
 category: blog
-permalink: /blog/entry/mavericks/index.html
+permalink: /blog/entry/mavericks.html
 ---
 
 How time flies! [OS X Mavericks](http://www.apple.com/osx) has already been in the wild for three weeks.

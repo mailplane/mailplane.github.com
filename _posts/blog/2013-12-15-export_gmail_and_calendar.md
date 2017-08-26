@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Export Gmail and Calendar'
 author: Jessica
 category: blog
-permalink: /blog/entry/export_gmail_and_calendar/index.html
+permalink: /blog/entry/export_gmail_and_calendar.html
 ---
 
 Gmail is adding another feature, which will be rolling out over the next couple months. This one should give users a bit of peace of mind.

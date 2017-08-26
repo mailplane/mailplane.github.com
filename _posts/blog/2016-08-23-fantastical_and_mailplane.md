@@ -3,7 +3,7 @@ layout: blog_post
 title: 'Fantastical & Mailplane'
 author: Lars
 category: blog
-permalink: /blog/entry/fantastical_and_mailplane/index.html
+permalink: /blog/entry/fantastical_and_mailplane.html
 ---
 
 Fantastical 2.2.5 uses Mailplane to send calendar events when Mailplane is set as your default email application.

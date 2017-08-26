@@ -3,7 +3,7 @@ layout: blog_post
 title: 'End of the year Mailplane reviews'
 author: Jessica
 category: blog
-permalink: /blog/entry/end-of-the-year-mailplane-reviews/index.html
+permalink: /blog/entry/end-of-the-year-mailplane-reviews.html
 ---
 
 "Try The Mac App For Google-holics" is the headline of this witty, easily
