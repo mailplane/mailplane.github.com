@@ -6,7 +6,7 @@ category: blog
 permalink: /blog/entry/my-favorite-stuff-from-2014-by-brettterpstra.html
 ---
 
-Mailplane got a nice little shout out on brettterpstra.com in his article called ["My favorite stuff of 2014"](http://brettterpstra.com/2015/01/05/my-favorite-apps-of-2014-part-1/).
+Mailplane got a nice little shout out on brettterpstra.com in his article called ["My favorite stuff of 2014"](http://brettterpstra.com/2015/01/05/my-favorite-apps-of-2014-part-1).
 
 The quote says: "Mailplane 3 is the only other app I’ve used recently, and it’s an excellent interface directly to Gmail when you want to use more Gmail-style searches."
 
