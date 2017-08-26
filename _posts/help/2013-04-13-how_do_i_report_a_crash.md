@@ -3,7 +3,7 @@ layout: help_post
 title: 'How do I report a crash?'
 author: Lars
 category: help
-permalink: /faq/entry/how_do_i_report_a_crash/index.html
+permalink: /faq/entry/how_do_i_report_a_crash.html
 tags:
 - troubleshoot
 ---

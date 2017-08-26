@@ -3,7 +3,7 @@ layout: help_post
 title: 'AppleScript'
 author: Ruben
 category: help
-permalink: /howto/entry/compose_email_using_applescript/index.html
+permalink: /howto/entry/compose_email_using_applescript.html
 tags:
 - integration
 ---

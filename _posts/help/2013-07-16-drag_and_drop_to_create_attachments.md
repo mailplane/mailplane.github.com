@@ -3,7 +3,7 @@ layout: help_post
 title: 'Drag and drop to create attachments'
 author: Gor
 category: help
-permalink: /howto/entry/drag_and_drop_to_create_attachments/index.html
+permalink: /howto/entry/drag_and_drop_to_create_attachments.html
 tags:
 - email
 ---

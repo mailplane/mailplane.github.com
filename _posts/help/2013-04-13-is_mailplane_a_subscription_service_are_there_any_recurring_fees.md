@@ -3,7 +3,7 @@ layout: help_post
 title: 'Is Mailplane a subscription service? Are there any recurring fees? '
 author: Jessica
 category: help
-permalink: /faq/entry/is_mailplane_a_subscription_service_are_there_any_recurring_fees_/index.html
+permalink: /faq/entry/is_mailplane_a_subscription_service_are_there_any_recurring_fees_.html
 tags:
 - licensing
 ---

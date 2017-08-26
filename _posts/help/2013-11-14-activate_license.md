@@ -3,7 +3,7 @@ layout: help_post
 title: 'Activate a License'
 author: Gor
 category: help
-permalink: /howto/entry/register_mailplane/index.html
+permalink: /howto/entry/register_mailplane.html
 tags:
 - licensing
 ---

@@ -3,7 +3,7 @@ layout: help_post
 title: 'iWork / Office'
 author: Gor
 category: help
-permalink: /howto/entry/iwork_share_with_email/index.html
+permalink: /howto/entry/iwork_share_with_email.html
 tags:
 - integration
 ---

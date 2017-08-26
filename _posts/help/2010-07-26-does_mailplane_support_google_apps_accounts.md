@@ -3,7 +3,7 @@ layout: help_post
 title: 'Does Mailplane support Google Apps accounts?'
 author: Lars
 category: help
-permalink: /faq/entry/does_mailplane_support_google_apps_accounts/index.html
+permalink: /faq/entry/does_mailplane_support_google_apps_accounts.html
 tags:
 - accounts
 ---

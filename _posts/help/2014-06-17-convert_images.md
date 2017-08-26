@@ -3,7 +3,7 @@ layout: help_post
 title: 'Convert Images'
 author: Gor
 category: help
-permalink: /howto/entry/convert_images/index.html
+permalink: /howto/entry/convert_images.html
 tags:
 - email
 ---

@@ -3,7 +3,7 @@ layout: help_post
 title: 'Setup your Gmail account'
 author: Gor
 category: help
-permalink: /howto/entry/setup_your_gmail_account/index.html
+permalink: /howto/entry/setup_your_gmail_account.html
 tags:
 - accounts
 ---

@@ -3,7 +3,7 @@ layout: help_post
 title: 'LaunchBar'
 author: Ruben
 category: help
-permalink: /howto/entry/use_mailplane_with_application_launchers/index.html
+permalink: /howto/entry/use_mailplane_with_application_launchers.html
 tags:
 - integration
 ---

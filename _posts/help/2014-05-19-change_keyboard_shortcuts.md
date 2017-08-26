@@ -3,7 +3,7 @@ layout: help_post
 title: 'Change Keyboard Shortcuts'
 author: Gor
 category: help
-permalink: /howto/entry/change_keyboard_shortcuts/index.html
+permalink: /howto/entry/change_keyboard_shortcuts.html
 tags:
 - tricks
 ---

@@ -3,7 +3,7 @@ layout: help_post
 title: 'RightInbox'
 author: Gor
 category: help
-permalink: /howto/entry/use_rightinbox_in_mailplane/index.html
+permalink: /howto/entry/use_rightinbox_in_mailplane.html
 tags:
 - plugins
 ---

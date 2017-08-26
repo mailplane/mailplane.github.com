@@ -3,7 +3,7 @@ layout: help_post
 title: '2-step verification'
 author: Jessica
 category: help
-permalink: /howto/entry/two_factor_authentication/index.html
+permalink: /howto/entry/two_factor_authentication.html
 tags:
 - tricks
 ---

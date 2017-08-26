@@ -3,7 +3,7 @@ layout: help_post
 title: 'Adjust Font Size'
 author: Gor
 category: help
-permalink: /howto/entry/adjust_font_size/index.html
+permalink: /howto/entry/adjust_font_size.html
 tags:
 - appearance
 ---

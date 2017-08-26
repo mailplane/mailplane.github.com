@@ -3,7 +3,7 @@ layout: help_post
 title: 'Open Mailplane at Login'
 author: Gor
 category: help
-permalink: /howto/entry/open_mailplane_at_login/index.html
+permalink: /howto/entry/open_mailplane_at_login.html
 tags:
 - email
 ---

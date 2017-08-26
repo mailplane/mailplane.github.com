@@ -3,7 +3,7 @@ layout: help_post
 title: 'Can I use Mailplane offline?'
 author: Jessica
 category: help
-permalink: /faq/entry/can_i_use_mailplane_offline/index.html
+permalink: /faq/entry/can_i_use_mailplane_offline.html
 tags:
 - faq
 ---

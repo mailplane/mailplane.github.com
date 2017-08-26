@@ -3,7 +3,7 @@ layout: help_post
 title: 'Add Custom Sounds'
 author: Gor
 category: help
-permalink: /howto/entry/add_custom_sounds/index.html
+permalink: /howto/entry/add_custom_sounds.html
 tags:
 - tricks
 ---

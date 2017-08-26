@@ -3,7 +3,7 @@ layout: help_post
 title: 'Global Keyboard Shortcuts'
 author: Gor
 category: help
-permalink: /howto/entry/global_keyboard_shortcuts/index.html
+permalink: /howto/entry/global_keyboard_shortcuts.html
 tags:
 - email
 ---

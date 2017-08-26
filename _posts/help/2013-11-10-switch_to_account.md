@@ -3,7 +3,7 @@ layout: help_post
 title: 'Switch to account...'
 author: Lars
 category: help
-permalink: /howto/entry/switch_to_account/index.html
+permalink: /howto/entry/switch_to_account.html
 tags:
 - accounts
 ---

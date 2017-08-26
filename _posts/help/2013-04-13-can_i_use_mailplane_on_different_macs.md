@@ -3,7 +3,7 @@ layout: help_post
 title: 'Can I use Mailplane on different Macs?'
 author: Lars
 category: help
-permalink: /faq/entry/can_i_use_mailplane_on_different_macs/index.html
+permalink: /faq/entry/can_i_use_mailplane_on_different_macs.html
 tags:
 - licensing
 ---

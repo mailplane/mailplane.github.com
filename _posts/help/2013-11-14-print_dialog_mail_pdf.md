@@ -3,7 +3,7 @@ layout: help_post
 title: 'Print Dialog: Mail PDF'
 author: Gor
 category: help
-permalink: /howto/entry/mail_pdf_from_print_dialog/index.html
+permalink: /howto/entry/mail_pdf_from_print_dialog.html
 tags:
 - integration
 ---

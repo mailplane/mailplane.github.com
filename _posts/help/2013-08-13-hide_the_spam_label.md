@@ -3,7 +3,7 @@ layout: help_post
 title: 'Hide the Spam label'
 author: Gor
 category: help
-permalink: /howto/entry/hide_the_spam_label/index.html
+permalink: /howto/entry/hide_the_spam_label.html
 tags:
 - appearance
 ---

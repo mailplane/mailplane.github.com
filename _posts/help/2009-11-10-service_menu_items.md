@@ -3,7 +3,7 @@ layout: help_post
 title: 'Service Menu Items'
 author: Ruben
 category: help
-permalink: /howto/entry/use_mailplane_service_menu_items/index.html
+permalink: /howto/entry/use_mailplane_service_menu_items.html
 tags:
 - integration
 ---

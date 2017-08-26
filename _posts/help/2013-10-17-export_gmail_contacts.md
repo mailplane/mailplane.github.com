@@ -3,7 +3,7 @@ layout: help_post
 title: 'Export Gmail Contacts'
 author: Gor
 category: help
-permalink: /howto/entry/export_gmail_contacts/index.html
+permalink: /howto/entry/export_gmail_contacts.html
 tags:
 - email
 ---

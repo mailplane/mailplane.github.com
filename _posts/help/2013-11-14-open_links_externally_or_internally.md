@@ -3,7 +3,7 @@ layout: help_post
 title: 'Open links externally or internally'
 author: Gor
 category: help
-permalink: /howto/entry/open_links_externally_or_internally/index.html
+permalink: /howto/entry/open_links_externally_or_internally.html
 tags:
 - email
 ---

@@ -3,7 +3,7 @@ layout: help_post
 title: 'Copy account settings to another Mac'
 author: Ruben
 category: help
-permalink: /howto/entry/copy_account_settings_to_another_mac/index.html
+permalink: /howto/entry/copy_account_settings_to_another_mac.html
 tags:
 - tricks
 ---

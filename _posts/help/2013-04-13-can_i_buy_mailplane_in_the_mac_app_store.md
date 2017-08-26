@@ -3,7 +3,7 @@ layout: help_post
 title: 'Can I buy Mailplane in the Mac AppStore?'
 author: Lars
 category: help
-permalink: /faq/entry/can_i_buy_mailplane_in_the_mac_app_store/index.html
+permalink: /faq/entry/can_i_buy_mailplane_in_the_mac_app_store.html
 tags:
 - licensing
 ---

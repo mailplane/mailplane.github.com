@@ -3,7 +3,7 @@ layout: help_post
 title: 'Change Mailplane''s language'
 author: Lars
 category: help
-permalink: /howto/entry/change_mailplanes_language/index.html
+permalink: /howto/entry/change_mailplanes_language.html
 tags:
 - tricks
 ---

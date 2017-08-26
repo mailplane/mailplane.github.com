@@ -3,7 +3,7 @@ layout: help_post
 title: 'Empty Trash Containing Cache Files'
 author: Gor
 category: help
-permalink: /howto/entry/empty_trash_containing_cache_files/index.html
+permalink: /howto/entry/empty_trash_containing_cache_files.html
 tags:
 - troubleshoot
 ---

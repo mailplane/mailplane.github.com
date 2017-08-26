@@ -3,7 +3,7 @@ layout: help_post
 title: 'Get unread message notifications'
 author: Gor
 category: help
-permalink: /howto/entry/notification_preferences/index.html
+permalink: /howto/entry/notification_preferences.html
 tags:
 - email
 ---

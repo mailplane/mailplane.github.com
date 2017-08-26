@@ -3,7 +3,7 @@ layout: help_post
 title: 'Setup a signature'
 author: Jessica
 category: help
-permalink: /howto/entry/setup_your_first_html_signature/index.html
+permalink: /howto/entry/setup_your_first_html_signature.html
 tags:
 - email
 ---
