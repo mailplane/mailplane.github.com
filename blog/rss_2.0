@@ -5,7 +5,7 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>Mailplane Blog</title>
-  <link href="http://www.mailplaneapp.com/blog"/>
+  <link href="http://www.mailplaneapp.com/blog.html"/>
   <link type="application/atom+xml" rel="self" href="http://www.mailplaneapp.com/blog/rss_2.0"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://www.mailplaneapp.com/blog</id>
