@@ -18,7 +18,7 @@ Open different Gmail, Google Apps and Calendar accounts at the same time. Mailpl
 	![screen1](/assets/howto/2013-07-22-add_another_gmail_account/screen1.png)
 
 3. Press Add… to add another Gmail or Google apps acoount.
-4. Read our [Gmail account setup](http://mailplaneapp.com/howto/entry/setup_your_gmail_account.html) article on how to setup Gmail or Google Apps account.<br/>
+4. Read our [Gmail account setup](/howto/entry/setup_your_gmail_account) article on how to setup Gmail or Google Apps account.<br/>
 	![screen2](/assets/howto/2013-07-22-add_another_gmail_account/screen2.png)
 
 …or you can use the **Plus (+)** button to add a new account. Here is how:
@@ -27,7 +27,7 @@ Open different Gmail, Google Apps and Calendar accounts at the same time. Mailpl
 2. Select *New…*<br/>
 	![screen4](/assets/howto/2013-07-22-add_another_gmail_account/screen4.png){: .shadowed}
 
-3. *Add new account* dialog box will appear. Follow the instructions [here](http://mailplaneapp.com/howto/entry/setup_your_gmail_account.html) to setup your new Gmail account.<br/>
+3. *Add new account* dialog box will appear. Follow the instructions [here](/howto/entry/setup_your_gmail_account) to setup your new Gmail account.<br/>
 	![screen5](/assets/howto/2013-07-22-add_another_gmail_account/screen5.png)
 
 **Tip:** Use drag and drop in the list to reorder the accounts.

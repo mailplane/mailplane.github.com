@@ -41,7 +41,7 @@ Make sure to always use the full Gmail address. If in doubt, find your Gmail add
 
 ### Does Mailplane support '2-step' verification?
 
-Yes. Set-up your account with '2-step' verification. Read [how-to article](http://mailplaneapp.com/howto/entry/two_factor_authentication/) for more information.
+Yes. Set-up your account with '2-step' verification. Read [how-to article](/howto/entry/two_factor_authentication) for more information.
 
 ### What about Hotmail, MobileMe, POP3, or an IMAP account?
 
@@ -49,8 +49,8 @@ Mailplane does only support Gmail and Google Apps accounts. If you like to use y
 
 ### Does Mailplane work with custom authentication (SAML)?
 
-Yes. Read [our how-to article](http://mailplaneapp.com/howto/entry/saml_authentication/).
+Yes. Read [our how-to article](/howto/entry/saml_authentication).
 
 ### Does Mailplane support multiple Gmail accounts?
 
-Yes. Read [our how-to article](http://mailplaneapp.com/howto/entry/add_another_gmail_account/).
+Yes. Read [our how-to article](/howto/entry/add_another_gmail_account).
