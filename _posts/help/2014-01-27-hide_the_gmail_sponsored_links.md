@@ -14,7 +14,7 @@ There are three different ways to remove the "sponsored links" at the right hand
 Upgrade your Gmail account
 ---
 
-Use Google's [payed Gmail service](http://www.google.com/apps/intl/en/business/index.html) instead of free Gmail.
+Use Google's [payed Gmail service](http://www.google.com/apps/intl/en/business) instead of free Gmail.
 
 
 Turn on the 'Hide Ads' setting
