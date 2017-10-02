@@ -12,3 +12,7 @@ email clients for Mac if Apple Mail isn't going to cut it for you anymore. One o
 ScreenCastsOnline is a membership based service. Their video can be accessed by anyone who has signed up 
 for a no-obligation free trial membership. Or you can also download [SCO Showcase for iOS](https://itunes.apple.com/gb/app/sco-showcase-tutorials-for-iphone-ipad-mac/id1062719677?mt=8)
 if you like to purchase a copy of the full tutorial without having to take out a membership.
+
+<a href="https://screencastsonline.com/magazine" border="0">
+  <img src="/assets/blog/2017-09-29-screencastonline_tutorial/cover@2x.jpg" height="256px">
+</a>
