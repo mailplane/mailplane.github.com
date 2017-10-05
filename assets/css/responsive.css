@@ -117,7 +117,7 @@ HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('..
 .main-cta .aniversary-box{padding:25px 20px;}
 .main-cta .aniversary-box H2 {font-size:38px;margin:0 0 5px 0;}
 .main-cta .aniversary-box H3 {font-size:28px;line-height:34px;margin:0 0 5px 0;}
-.main-cta .aniversary-box A {font-size:12px;}
+.main-cta .aniversary-box LI > A {font-size:12px;}
 .circle-blue-one{top:120px;left:-4px;}
 .circle-blue-two{top:-24px;right:110px;}
 .circle-yellow-one{top:33px;left:15px;}
