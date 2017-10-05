@@ -12,7 +12,7 @@ DIV.wrapper{width:100%;padding:0 20px;overflow:hidden;}
 .main-cta .main-heading H1 {text-align:center;}
 .main-cta .main-heading UL {margin: 0 auto;width: 480px;padding:0 0 40px 0;}
 .main-cta .aniversary-box {float: none;margin:0 auto;padding:30px;}
-.main-cta .aniversary-box H2 {font-size:50px;margin:0 0 15px 0;}
+.main-cta .aniversary-box H2 {font-size:50px;}
 .main-cta .aniversary-box H3 {font-size:40px;line-height:48px;}
 .miniplane{display:none;}
 
@@ -68,7 +68,7 @@ DIV.wrapper{width:100%;padding:0 20px;overflow:hidden;}
 .main-logo {margin: 0 0 20px 0;text-align:center;}
 .main-logo A {float: none;}
 .main-cta .aniversary-box {width:100%;}
-.main-cta .aniversary-box H2 {font-size:46px;margin:0 0 12px 0;}
+.main-cta .aniversary-box H2 {font-size:46px;}
 .main-cta .aniversary-box H3 {font-size:38px;line-height:45px;}
 .miniplane{width:100%;}
 .circle-blue-one{top:120px;left:-4px;}
@@ -115,7 +115,7 @@ HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('..
 .main-cta .main-heading UL LI.try {float: left;}
 .main-cta .main-heading UL LI.buy {float: right;margin: 0 0 20px 0;}
 .main-cta .aniversary-box{padding:25px 20px;}
-.main-cta .aniversary-box H2 {font-size:38px;}
+.main-cta .aniversary-box H2 {font-size:38px;margin:0 0 5px 0;}
 .main-cta .aniversary-box H3 {font-size:28px;line-height:34px;margin:0 0 5px 0;}
 .main-cta .aniversary-box A {font-size:12px;}
 .circle-blue-one{top:120px;left:-4px;}
