@@ -13,7 +13,7 @@ description: Read news, tips and tricks related to Mailplane and Gmail.
 		<article>
 			<span class="date">{{ post.date | date_to_string }}</span>
 			<h2 class="post-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
-			<p>{{ post.excerpt | strip_html }}</p>
+			<p>{{ post.excerpt | strip_html }} <a href="{{ post.permalink }}">Read more...</a></p>
 		</article>
 		{% endfor %}
 	</div>
