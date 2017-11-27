@@ -6,7 +6,7 @@ category: blog
 permalink: /blog/entry/end_of_quick_links_and_quote_selected_text.html
 ---
 
-Google retired the "Quick Links" and "Quote Selected Text" lab features in Gmail. Read more about it [here](https://gsuiteupdates.googleblog.com/2017/03/updates-in-g-suite-to-streamline-hangouts-and-gmail.html).
+[Google retired](https://gsuiteupdates.googleblog.com/2017/03/updates-in-g-suite-to-streamline-hangouts-and-gmail.html) the "Quick Links" and "Quote Selected Text" lab features in Gmail.
 
 We heard a lot of customers complaining and so we went ahead and implemented both features in [Mailplane 3.7.0](/releases/mailplane3.html#3238).
 
