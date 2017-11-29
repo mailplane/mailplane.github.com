@@ -51,9 +51,22 @@
 
 	<header class="top">
 		<div class="wrapper">
-			<div class="main-logo">
-				<a href="index.html">Mailplane</a>
-			</div>
+			<nav class="main">
+				<div class="main-logo">
+					<a href="/index.html">Mailplane</a>
+				</div>
+				<ul>
+					<li>
+						<a href="/help.html">Help</a>
+					</li>
+					<li>
+						<a href="/about.html">About</a>
+					</li>
+					<li>
+						<a href="/blog.html">Blog</a>
+					</li>
+				</ul>
+			</nav>
 			<section class="main-cta">
 				<div class="plane-box">
 				</div>
@@ -279,7 +292,7 @@
 				<li><a href="/help.html">Help</a></li>
 				<li><a href="/blog.html">Blog</a></li>
 			</ul>
-			<p class="copy">{{ site.time | date: '%Y' }} &copy; <a href="/about.html">Buzzard AG</a></p>
+			<p class="copy">&copy; 2007-{{ site.time | date: '%Y' }} <a href="/about.html">Buzzard AG</a></p>
 		</div>
 	</footer>
 	

@@ -52,6 +52,15 @@
 
 }
 
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-black.woff2') format('woff2'),
+         url('../fonts/lato-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* -------- Global -------- */
 HTML{height:100%;width:100%;}
 BODY{height:100%;width:100%;min-width:320px;font:normal 20px 'latolight', arial, helvetica, sans-serif;color:#6c768a;position:relative;}
@@ -67,9 +76,14 @@ P{margin:0 0 20px 0;}
  }
 
 /* -------- Top -------- */
-HEADER.top{min-height:248px;padding:45px 0 70px 0;background:#d0ddf0 url('../images/light_rays.png') no-repeat top center;}
-.main-logo{width:100%;margin:0 0 5px 0;overflow:hidden;}
-.main-logo A{float:right;color:#6c768a;font:normal 40px 'latosemibold', arial, helvetica, sans-serif;letter-spacing:-1px;text-decoration:none;}
+HEADER.top{min-height:200px;padding:45px 0 70px 0;background:#d0ddf0 url('../images/light_rays.png') no-repeat top center;}
+NAV.main, NAV.inner{width:100%;overflow:hidden;}
+NAV.main UL, NAV.inner UL{padding:10px 0 0 0;float:right;font:normal 13px 'latoblack', arial, helvetica, sans-serif;text-transform:uppercase;letter-spacing:3.5px;overflow:hidden;}
+NAV.main UL LI, NAV.inner UL LI{float:left;margin:0 0 0 58px;}
+NAV.main UL LI A, NAV.inner UL LI A{text-decoration:none;color:#8892a6;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-ms-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+NAV.main UL LI A:hover, NAV.main UL LI A.active, NAV.inner UL LI A:hover, NAV.inner UL LI A.active{text-decoration:none;color:#2a9efc;}
+.main-logo{max-width:180px;margin:-1px 0 5px 0;overflow:hidden;float:left;}
+.main-logo A{color:#6c768a;font:normal 40px 'latosemibold', arial, helvetica, sans-serif;letter-spacing:-1px;text-decoration:none;}
 .main-logo A:hover{opacity:0.8;}
 .main-cta{width:100%;overflow:visible;position:relative;}
 .page-title{padding:35px 0 0 0;margin:0;text-align:center;font:normal 36px 'latolight', arial, helvetica, sans-serif;color:#242834;}

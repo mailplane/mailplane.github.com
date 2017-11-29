@@ -23,12 +23,25 @@
 
 	<header class="top">
 		<div class="wrapper">
-			<div class="main-logo">
-				<a href="/index.html">Mailplane</a>
-			</div>
-			<section class="main-cta">
-				<h1 class="page-title">{{ page.title }}</h1>
-			</section>
+			<nav class="inner">
+				<div class="main-logo">
+					<a href="/index.html">Mailplane</a>
+				</div>
+				<ul>
+					<li>
+						<a href="/index.html">Home</a>
+					</li>
+					<li>
+						<a href="/help.html" {% if page.title == 'Help' %}class="active"{% endif %}>Help</a>
+					</li>
+					<li>
+						<a href="/about.html" {% if page.title == 'About' %}class="active"{% endif %}>About</a>
+					</li>
+					<li>
+						<a href="/blog.html" {% if page.title == 'Blog' %}class="active"{% endif %}>Blog</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</header>
 	
@@ -42,7 +55,7 @@
 				<li><a href="/help.html">Help</a></li>
 				<li><a href="/blog.html">Blog</a></li>
 			</ul>
-			<p class="copy">{{ site.time | date: '%Y' }} &copy; <a href="/about.html">Buzzard AG</a></p>
+			<p class="copy">&copy; 2007-{{ site.time | date: '%Y' }} <a href="/about.html">Buzzard AG</a></p>
 		</div>
 	</footer>
 

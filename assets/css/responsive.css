@@ -5,12 +5,17 @@
 DIV.wrapper{width:100%;padding:0 20px;overflow:hidden;}
 
 /* -------- Top -------- */
-.main-logo {margin: 0 0 25px 0;}
+HEADER.top{padding:35px 0 60px 0;}
+NAV.main{display:none;}
+.main-logo{width:180px;float:none;margin-left:auto;margin-right:auto;margin-bottom:15px;text-align:center;}
+NAV.inner UL{float:none;text-align:center;}
+NAV.inner UL LI{display:inline;float:none;margin:0;padding:0 24px;}
+NAV.inner UL LI A{display:inline-block;}
 .main-cta {padding:5px 0 20px 0;}
 .main-cta .plane-box {width:140px;height:140px;background-size: 140px;margin:0 auto;float:none;display:block;}
-.main-cta .main-heading {float: none;width: 100%;padding:0;}
-.main-cta .main-heading H1 {text-align:center;}
-.main-cta .main-heading UL {margin: 0 auto;width: 480px;padding:0 0 40px 0;}
+.main-cta .main-heading {float:none;width:100%;padding:0;}
+.main-cta .main-heading H1 {text-align:center;width:480px;margin-left:auto;margin-right:auto;}
+.main-cta .main-heading UL {margin:0 auto;width:480px;padding:0 0 40px 0;}
 .main-cta .aniversary-box {float: none;margin:0 auto;padding:30px;}
 .main-cta .aniversary-box H2 {font-size:50px;}
 .main-cta .aniversary-box H3 {font-size:40px;line-height:48px;}
@@ -65,8 +70,6 @@ DIV.wrapper{width:100%;padding:0 20px;overflow:hidden;}
 
 @media screen and (max-width: 634px) {
 /* -------- Top -------- */
-.main-logo {margin: 0 0 20px 0;text-align:center;}
-.main-logo A {float: none;}
 .main-cta .aniversary-box {width:100%;}
 .main-cta .aniversary-box H2 {font-size:46px;}
 .main-cta .aniversary-box H3 {font-size:38px;line-height:45px;}
@@ -107,11 +110,11 @@ IMG.plug {margin: 0 0 30px 0;}
 @media screen and (max-width: 520px) {
 /* -------- Top -------- */
 HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('../images/light_rays.png') no-repeat top center;}
-.main-logo{margin:0 0 10px 0;}
-.main-logo A{font:normal 32px 'latosemibold', arial, helvetica, sans-serif;}
+NAV.inner UL{letter-spacing:2.5px;}
+NAV.inner UL LI{padding:0 10px;font-size:11px;}
 .main-cta .main-heading {padding: 20px 0 0 0;}
-.main-cta .main-heading H1 {text-align: center;font: normal 38px 'latosemibold', arial, helvetica, sans-serif;line-height: 120%;margin: 0 0 40px 0;}
-.main-cta .main-heading UL {margin: 0 auto;width: 230px;}
+.main-cta .main-heading H1 {text-align:center;font: normal 38px 'latosemibold', arial, helvetica, sans-serif;line-height: 120%;margin: 0 0 40px 0;width:100%;}
+.main-cta .main-heading UL {margin:0 auto;width:230px;}
 .main-cta .main-heading UL LI.try {float: left;}
 .main-cta .main-heading UL LI.buy {float: right;margin: 0 0 20px 0;}
 .main-cta .aniversary-box{padding:25px 20px;}
