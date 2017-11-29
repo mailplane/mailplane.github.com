@@ -109,7 +109,7 @@ IMG.plug {margin: 0 0 30px 0;}
 
 @media screen and (max-width: 520px) {
 /* -------- Top -------- */
-HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('../images/light_rays.png') no-repeat top center;}
+HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('https://mailplaneapp.com/assets/images/light_rays.png') no-repeat top center;}
 NAV.inner UL{letter-spacing:2.5px;}
 NAV.inner UL LI{padding:0 10px;font-size:11px;}
 .main-cta .main-heading {padding: 20px 0 0 0;}

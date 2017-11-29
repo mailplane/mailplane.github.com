@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'latoregular';
-    src: url('../fonts/lato-regular-webfont.eot');
-    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
-         url('../fonts/lato-regular-webfont.woff') format('woff'),
-         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
-         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-regular-webfont.eot');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('https://mailplaneapp.com/assets/fonts/lato-regular-webfont.woff') format('woff'),
+         url('https://mailplaneapp.com/assets/fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-regular-webfont.svg#latoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -15,12 +15,12 @@
 
 @font-face {
     font-family: 'latosemibold';
-    src: url('../fonts/lato-semibold-webfont.eot');
-    src: url('../fonts/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/lato-semibold-webfont.woff') format('woff'),
-         url('../fonts/lato-semibold-webfont.ttf') format('truetype'),
-         url('../fonts/lato-semibold-webfont.svg#latosemibold') format('svg');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-semibold-webfont.eot');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('https://mailplaneapp.com/assets/fonts/lato-semibold-webfont.woff') format('woff'),
+         url('https://mailplaneapp.com/assets/fonts/lato-semibold-webfont.ttf') format('truetype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-semibold-webfont.svg#latosemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -28,12 +28,12 @@
 
 @font-face {
     font-family: 'latoheavy';
-    src: url('../fonts/lato-heavy-webfont.eot');
-    src: url('../fonts/lato-heavy-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato-heavy-webfont.woff2') format('woff2'),
-         url('../fonts/lato-heavy-webfont.woff') format('woff'),
-         url('../fonts/lato-heavy-webfont.ttf') format('truetype'),
-         url('../fonts/lato-heavy-webfont.svg#latoheavy') format('svg');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-heavy-webfont.eot');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-heavy-webfont.woff2') format('woff2'),
+         url('https://mailplaneapp.com/assets/fonts/lato-heavy-webfont.woff') format('woff'),
+         url('https://mailplaneapp.com/assets/fonts/lato-heavy-webfont.ttf') format('truetype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-heavy-webfont.svg#latoheavy') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -41,12 +41,12 @@
 
 @font-face {
     font-family: 'latolight';
-    src: url('../fonts/lato-light-webfont.eot');
-    src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lato-light-webfont.woff2') format('woff2'),
-         url('../fonts/lato-light-webfont.woff') format('woff'),
-         url('../fonts/lato-light-webfont.ttf') format('truetype'),
-         url('../fonts/lato-light-webfont.svg#latolight') format('svg');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-light-webfont.eot');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-light-webfont.woff2') format('woff2'),
+         url('https://mailplaneapp.com/assets/fonts/lato-light-webfont.woff') format('woff'),
+         url('https://mailplaneapp.com/assets/fonts/lato-light-webfont.ttf') format('truetype'),
+         url('https://mailplaneapp.com/assets/fonts/lato-light-webfont.svg#latolight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -54,8 +54,8 @@
 
 @font-face {
     font-family: 'latoblack';
-    src: url('../fonts/lato-black.woff2') format('woff2'),
-         url('../fonts/lato-black.woff') format('woff');
+    src: url('https://mailplaneapp.com/assets/fonts/lato-black.woff2') format('woff2'),
+         url('https://mailplaneapp.com/assets/fonts/lato-black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -76,7 +76,7 @@ P{margin:0 0 20px 0;}
  }
 
 /* -------- Top -------- */
-HEADER.top{min-height:200px;padding:45px 0 70px 0;background:#d0ddf0 url('../images/light_rays.png') no-repeat top center;}
+HEADER.top{min-height:200px;padding:45px 0 70px 0;background:#d0ddf0 url('https://mailplaneapp.com/assets/images/light_rays.png') no-repeat top center;}
 NAV.main, NAV.inner{width:100%;overflow:hidden;}
 NAV.main UL, NAV.inner UL{padding:10px 0 0 0;float:right;font:normal 13px 'latoblack', arial, helvetica, sans-serif;text-transform:uppercase;letter-spacing:3.5px;overflow:hidden;}
 NAV.main UL LI, NAV.inner UL LI{float:left;margin:0 0 0 58px;}
@@ -88,13 +88,13 @@ NAV.main UL LI A:hover, NAV.main UL LI A.active, NAV.inner UL LI A:hover, NAV.in
 .main-cta{width:100%;overflow:visible;position:relative;}
 .page-title{padding:35px 0 0 0;margin:0;text-align:center;font:normal 36px 'latolight', arial, helvetica, sans-serif;color:#242834;}
 .page-desc{padding:35px 0 0 0;margin:0;text-align:center;font:normal 26px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
-.main-cta .plane-box{width:405px;height:365px;float:left;background:transparent url('../images/plane.png') no-repeat 0 7px;display:none;}
+.main-cta .plane-box{width:405px;height:365px;float:left;background:transparent url('https://mailplaneapp.com/assets/images/plane.png') no-repeat 0 7px;display:none;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) 
 {
-  .main-cta .plane-box{background-image: url('../images/plane@2x.png');background-size:374px;}
+  .main-cta .plane-box{background-image: url('https://mailplaneapp.com/assets/images/plane@2x.png');background-size:374px;}
 }
 .main-cta .aniversary-box{float:left;width:415px;padding:70px 30px 35px 30px;margin:95px 0 0 0;text-align:center;-webkit-border-radius:2px;border-radius:2px;position:relative;background-color:#fff;}
 .main-cta .aniversary-box UL{list-style:none;z-index:100;background-color:transparent;position:relative;}
@@ -104,15 +104,15 @@ only screen and (min-device-pixel-ratio: 1.5)
 .main-cta .aniversary-box H3{font:normal 45px 'latolight', arial, helvetica, sans-serif;color:#242834;line-height:52px;margin:0 0 15px 0;}
 .main-cta .aniversary-box LI > A{font:normal 15px 'latoheavy', arial, helvetica, sans-serif;color:#242834;text-transform:uppercase;text-decoration:none;letter-spacing:2px;}
 .main-cta .aniversary-box LI > A:hover{color:#2a9efc;}
-.miniplane{display:block;width:415px;height:135px;position:absolute;top:-66px;left:0;right:0;margin-left:0;margin-right:0;background:transparent url('../images/plane.png') no-repeat top center;background-size:133px;}
-.confetti-circle{display:block;width:13px;height:13px;position:absolute;background:transparent url('../images/confetti@2x.png') no-repeat;background-size:71px;}
+.miniplane{display:block;width:415px;height:135px;position:absolute;top:-66px;left:0;right:0;margin-left:0;margin-right:0;background:transparent url('https://mailplaneapp.com/assets/images/plane.png') no-repeat top center;background-size:133px;}
+.confetti-circle{display:block;width:13px;height:13px;position:absolute;background:transparent url('https://mailplaneapp.com/assets/images/confetti@2x.png') no-repeat;background-size:71px;}
 .circle-blue-one{top:120px;left:-34px;background-position:-58px 0;}
 .circle-blue-two{top:-24px;right:110px;background-position:-58px 0;}
 .circle-yellow-one{top:33px;left:35px;background-position:-32px 0;}
 .circle-yellow-two{top:108px;right:23px;background-position:-32px 0;}
 .circle-red-one{bottom:-45px;left:158px;background-position:-45px 0;}
 .circle-red-two{bottom:81px;right:-26px;background-position:-45px 0;}
-.confetti-semicircle{display:block;position:absolute;background:transparent url('../images/confetti@2x.png') no-repeat;background-size:71px;}
+.confetti-semicircle{display:block;position:absolute;background:transparent url('https://mailplaneapp.com/assets/images/confetti@2x.png') no-repeat;background-size:71px;}
 .semicircle-blue-one{bottom:-12px;right:60px;background-position:0 0;width:12px;height:22px;}
 .semicircle-yellow-one{bottom:16px;left:50px;background-position:-12px 0;width:20px;height:14px;}
 .main-cta .main-heading{float:right;width:485px;padding:75px 0 0 0;}
@@ -222,34 +222,34 @@ FIGCAPTION A:hover{text-decoration:underline;}
 .post ARTICLE STRONG{color:#6c768a;font:normal 20px 'latosemibold', arial, helvetica, sans-serif;}
 .post ARTICLE OL{margin: 0 0 20px 0;}
 .post ARTICLE UL{list-style:none; margin: 0 0 20px 0;}
-.post ARTICLE UL LI{padding:0 0 0 25px;background:transparent url('../images/icons.png') no-repeat -36px 12px;}
+.post ARTICLE UL LI{padding:0 0 0 25px;background:transparent url('https://mailplaneapp.com/assets/images/icons.png') no-repeat -36px 12px;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) 
 {
-  .post ARTICLE UL LI{background:transparent url('../images/icons@2x.png') no-repeat -36px 12px;background-size:40px;}
+  .post ARTICLE UL LI{background:transparent url('https://mailplaneapp.com/assets/images/icons@2x.png') no-repeat -36px 12px;background-size:40px;}
 }
 .post IMG{max-width:100%;margin:0 0 20px 0;display:block;}
 .post IMG.left{float:left;padding:9px;margin:0 30px 0 0;-webkit-border-radius:2px;border-radius:2px;border:1px solid #e2edf3;}
 .post P{overflow:hidden;}
-SPAN.author{display:block;font-size:15px;padding:0 0 0 25px;margin:60px 0 0 0;background:transparent url('../images/icons.png') no-repeat 0 -15px;}
+SPAN.author{display:block;font-size:15px;padding:0 0 0 25px;margin:60px 0 0 0;background:transparent url('https://mailplaneapp.com/assets/images/icons.png') no-repeat 0 -15px;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) 
 {
-  SPAN.author{background:transparent url('../images/icons@2x.png') no-repeat 7px 12px;background-size:40px;}
+  SPAN.author{background:transparent url('https://mailplaneapp.com/assets/images/icons@2x.png') no-repeat 7px 12px;background-size:40px;}
 }
 SPAN.author A{text-decoration:none;}
 SPAN.author A:hover{text-decoration:underline;}
-SPAN.date{position:absolute;top:12px;right:0;font-size:15px;text-align:right;padding:0 25px 0 0;background:transparent url('../images/icons.png') no-repeat 95px -39px;}
+SPAN.date{position:absolute;top:12px;right:0;font-size:15px;text-align:right;padding:0 25px 0 0;background:transparent url('https://mailplaneapp.com/assets/images/icons.png') no-repeat 95px -39px;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) 
 {
-  SPAN.date{background:transparent url('../images/icons@2x.png') no-repeat right -39px;background-size:40px;}
+  SPAN.date{background:transparent url('https://mailplaneapp.com/assets/images/icons@2x.png') no-repeat right -39px;background-size:40px;}
 }
 SPAN.language{position:absolute;top:12px;right:0;font-size:15px;text-align:right;}
 .buysection{margin:0 0 100px 0;padding:80px 0 0 0;}
@@ -284,13 +284,13 @@ SPAN.language{position:absolute;top:12px;right:0;font-size:15px;text-align:right
 .modalon{opacity:1;display:block;position:fixed;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding:100px 0 0 0;background:rgba(0,0,0,0.8);z-index:99900;-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-ms-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
 .modalbg{cursor:pointer;width:100%;height:100%;position:absolute;top:0;right:0;bottom:0;left:0;opacity:0;z-index:-1;}
 .modaldialog{max-width:400px;width:80%;margin:0 auto;padding:40px;-webkit-border-radius:2px;border-radius:2px;background-color:#fff;z-index: 99999;position: relative;}
-.modalclose{display:block;width:12px;height:12px;position:absolute;top:10px;right:10px;background:transparent url('../images/icons.png') no-repeat 0 -69px;}
+.modalclose{display:block;width:12px;height:12px;position:absolute;top:10px;right:10px;background:transparent url('https://mailplaneapp.com/assets/images/icons.png') no-repeat 0 -69px;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) 
 {
- .modalclose{background:transparent url('../images/icons@2x.png') no-repeat 0 -69px;background-size:12px;}
+ .modalclose{background:transparent url('https://mailplaneapp.com/assets/images/icons@2x.png') no-repeat 0 -69px;background-size:12px;}
 }
 .modalclose:hover{cursor:pointer;}
 .smlnews H3{margin:0 0 10px 0;text-align:center;font:normal 32px 'latosemibold', arial, helvetica, sans-serif;color:#242834;}
