@@ -5,7 +5,7 @@ author: Lars
 category: help
 permalink: /help/google_inbox.html
 tags:
-- faq
+- email
 ---
 
 You can open Google Inbox within its own tab. Just make sure you're using Mailplane 3.6.0. If not, you can get it via 'Mailplane 3 > Check for Updates...'.

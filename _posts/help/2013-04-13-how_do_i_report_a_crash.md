@@ -5,7 +5,7 @@ author: Lars
 category: help
 permalink: /faq/entry/how_do_i_report_a_crash.html
 tags:
-- troubleshoot
+- tricks
 ---
 
 Crashes shouldn't happen, and we'll do everything to solve them. They can be caused by a Mailplane bug, a misconfiguration of the Mac, or other software like InputManagers. The crash report is extremely important for fixing the cause of the crash.

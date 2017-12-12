@@ -7,7 +7,11 @@ description: We're here for you. Contact us if you have questions about Gmail on
 <section class="white help">
 	<ul>
 		<li>
-            <form id="ioreplies_contactForm" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" autocomplete="off" action="https://1b.replies.io/api/contact_forms/m8v0luaedv27htd643kbv9d7qs">
+			<h2 id="ioreplies_faqs_title">FAQ</h2>
+			<div id="ioreplies_faqs"></div>
+
+			<h2>How can we help you?</h2>
+			<form id="ioreplies_contactForm" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" autocomplete="off" action="https://1b.replies.io/api/contact_forms/m8v0luaedv27htd643kbv9d7qs">
 				<div style="font-size: 16px; text-align: right">Powered by <a href="https://replies.io">replies.io</a></div>
 				<textarea class="field" name="body" rows="5" required="true" style="width: 100%; height: inherit; text-align: inherit; padding: 10px"></textarea>
 
@@ -50,12 +54,6 @@ description: We're here for you. Contact us if you have questions about Gmail on
 
 <section class="white help" style="border-bottom: 0">
 	<ul class="lt">
-		<li>
-			<h2>FAQ</h2>
-			{% for post in site.tags.faq %}{% if post.categories contains 'help' %}
-				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-			{% endif %}{% endfor %}
-		</li>
 		<li>
 			<h2>Accounts</h2>
 			{% for post in site.tags.accounts %}{% if post.categories contains 'help' %}
@@ -106,14 +104,8 @@ description: We're here for you. Contact us if you have questions about Gmail on
 				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 			{% endif %}{% endfor %}
 		</li>
-		<li>
-			<h2>Troubleshoot</h2>
-			{% for post in site.tags.troubleshoot %}{% if post.categories contains 'help' %}
-				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-			{% endif %}{% endfor %}
-		</li>
 	</ul>
 </section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script src="https://1b.replies.io/api-js/contact_form_3.min.js"></script>
+<script src="https://1b.replies.io/api-js/contact_form_4.min.js"></script>
