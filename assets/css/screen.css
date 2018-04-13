@@ -249,7 +249,7 @@ only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) 
 {
-  SPAN.date{background:transparent url('https://mailplaneapp.com/assets/images/icons@2x.png') no-repeat right -39px;background-size:40px;}
+  SPAN.date{background:transparent url('https://mailplaneapp.com/assets/images/icons@2x.png') no-repeat 95px -39px;background-size:40px;}
 }
 SPAN.language{position:absolute;top:12px;right:0;font-size:15px;text-align:right;}
 .buysection{margin:0 0 100px 0;padding:80px 0 0 0;}
