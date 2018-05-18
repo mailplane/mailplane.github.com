@@ -156,6 +156,14 @@ ul.store-payment-method-list-later {
 	display: none;
 }
 
+.gdpr-container .core-form-field-label, .gdpr-container .core-form-field-body {
+	float: right !important;
+	width: inherit !important;
+	margin-left: inherit !important;
+}
+.gdpr-container .core-form-field-label:after {
+	content: '' !important;
+}
 
 /* Messages */
 
