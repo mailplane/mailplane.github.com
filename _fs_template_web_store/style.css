@@ -187,3 +187,23 @@ ul.store-payment-method-list-later {
 .store-page-navigation #store-processing-element {
 	display: none;
 }
+
+.gdpr-container {
+	padding-top: 20px;
+}
+.gdpr-container .core-section-header {
+	display: none !important;
+}
+.gdpr-container .core-form-field-label, .gdpr-container .core-form-field-body {
+	float: inherit !important;
+	width: inherit !important;
+	text-align: center !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.gdpr-container .core-form-field-label:after {
+	content: '' !important;
+}
+.gdpr-container .core-form-field-body table {
+	display: inline !important;
+}
