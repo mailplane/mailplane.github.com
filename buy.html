@@ -1,0 +1,257 @@
+---
+layout: default
+title: Mailplane Store
+description:
+---
+
+<style>
+    .buysection {
+        margin: 0 0 0 0;
+    }
+    .store-product-option-display {
+        padding:0 10px 0 10px;
+        font-size: 30px;
+        color:#242834;
+    }
+    @media screen and (max-width: 634px) {
+        .store-product-option-display {
+            padding:0 100px 0 10px;
+            font-size: 22px;
+        }
+    }
+    .store-product-price .store-value-money
+    {
+        float: right;
+        font-size: 30px;
+        color:#242834;
+    }
+    .store-product-option-display input[name=seats] {
+        margin-left: 10px;
+        font:normal 20px 'latosemibold', arial, helvetica, sans-serif;
+        color:#2a9efc;
+        text-align:center;
+        border:1px solid #b3bfd1;
+        -webkit-border-radius:2px;border-radius:2px;
+        padding:4px;
+        width:50px;
+    }
+    @media screen and (max-width: 634px) {
+        .store-product-price .store-value-money
+        {
+            font-size: 24px;
+        }
+    }
+    .store-product-option-description, .store-product-option-description-offers {
+        font-size: .90em;
+        margin-left: 1em;
+        margin-top: .25em;
+    }
+    .store-product-option-description {
+        padding: 0 150px 0 13px;
+    }
+    @media screen and (max-width: 634px) {
+        .store-product-option-description {
+            padding: 0 120px 0 13px;
+        }
+    }
+    .store-product-option-display input[name*=quantity_] {
+        margin-left: 10px;
+        font:normal 20px 'latosemibold', arial, helvetica, sans-serif;
+        color:#2a9efc;
+        text-align:center;
+        border:1px solid #b3bfd1;
+        -webkit-border-radius:2px;border-radius:2px;
+        padding:4px;
+        width:50px;
+    }
+    .store-section-order-contents h2.core-section-header {
+        display: none;
+    }
+    .store-order-action-coupon-li input {
+        margin-left: 10px !important;
+        padding: 5px;
+        width: 140px !important;
+    }
+    .core-form-field-body input[type="text"] {
+        font-size: 18px !important;
+        width: 500px !important;
+        padding: 5px;
+    }
+    .store-product-detail-action-order .store-action-command .store-action-title { /* Order Button */
+        padding-left: 65px;
+    }
+    .store-action-complete .store-action-command .store-action-title { /* Complete Order Button */
+        padding-left: 40px;
+    }
+    .store-page-navigation {
+        text-align: right;
+        padding-top: 1em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        clear: both;
+    }
+    .store-page-navigation .store-action-list .store-action-command .store-action-title {
+        display: block !important;
+        text-align: left !important;
+        padding-top: 3px;
+        font:normal 16px 'latoheavy', arial, helvetica, sans-serif !important;
+        letter-spacing:0.5px !important;
+        text-transform:uppercase !important;
+        text-shadow:0 2px 1px #248adc !important;
+        color:#fff !important;
+    }
+    .store-page-navigation .store-action-list .store-action-command {
+        width:100% !important;
+        height:43px !important;
+        background-color:#2a9efc !important;
+        -webkit-box-shadow:0 2px 0 0 #2486d6 !important;
+        box-shadow:0 2px 0 0 #2486d6 !important;
+        border:none !important;
+        -webkit-border-radius:4px !important;
+        border-radius:4px !important;
+        cursor:pointer !important;
+        -webkit-appearance:none !important;
+    }
+    .core-form-field-body input[id='confirm:card_security_code']
+    {
+        width: 100px !important;
+    }
+    .store-payment-method-list
+    {
+        margin: 0;
+    }
+    .store-payment-method-list-selection
+    {
+        display: table-cell;
+        float: left;
+        width: 30%;
+        text-align: right;
+        margin: 0;
+        padding-top: 5px;
+    }
+    .store-payment-method-list-description
+    {
+        display: table-cell;
+        text-align: left;
+    }
+    .store-payment-method-list-description .store-payment-types
+    {
+        display: none;
+    }
+    .store-payment-method-list-description .store-payment-method-title
+    {
+        margin: 4px;
+    }
+    .store-payment-method-cc .store-payment-method-content
+    {
+        padding: 0;
+        margin: 0;
+    }
+    ul.store-payment-method-list-later {
+        display: none;
+    }
+    .store-page-navigation #store-processing-element {
+        display: none;
+    }
+</style>
+
+<section class="white buysection">
+    <div class="wrapper">
+        <form action="https://store.mailplaneapp.com/checkout.php" method="get">
+            <div>
+                <div class="mp3ProductSelection">
+                    <div>
+                        <div class="store-product-option-title">
+                            <input id="product_name_personal" type="radio" name="product_name" value="Mailplane 3 - Personal" checked/>
+                            <label for="product_name_personal">
+                                <span class="store-product-option-display">Personal License</span>
+                            </label>
+                            <span class="store-product-price">
+                                <span class="store-value-money store-value-money-single">$29.95</span>
+                            </span>
+                        </div>
+                        <div class="store-product-option-description">
+                            Our most popular license. A regular license for Mailplane that you can install on any Mac you personally use.
+                        </div>
+                    </div>
+                    <div style="margin-top: 2em;">
+                        <div class="store-product-option-title">
+                            <input id="product_name_family" type="radio" name="product_name" value="Mailplane 3 - Family">
+                            <label for="product_name_family">
+                                <span class="store-product-option-display">Family License</span>
+                            </label>
+                            <span class="store-product-price"><span class="store-value-money store-value-money-single">$39.95</span></span>
+                        </div>
+                        <div class="store-product-option-description">
+                            License for families. Allows up to five family members living in the same household to use Mailplane on their Macs.
+                        </div>
+                    </div>
+                    <div style="margin-top: 2em;">
+                        <div class="store-product-option-title">
+                            <input id="product_name_site" type="radio" name="product_name" value="Mailplane 3 - Site">
+                            <label for="product_name_site">
+                                <span class="store-product-option-display">Site License for <input size="2" type="text" name="seats" value="2"> Users</span>
+                            </label>
+                        </div>
+                        <div class="store-product-option-description">
+                            The right choice for companies and institutions. Allows a number of users to use Mailplane simultaneously. Volume pricing available for three or more users. Adjust the quantity and proceed to see your discount.
+                        </div>
+                    </div>
+
+                    <div class="store-page-navigation">
+                        <div class="form-btn" style="width:250px;margin:0 auto !important;">
+                            <input class="bluebtn" type="submit" value="Order Now">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mp3Hints" style="margin-top: 2em;">
+                    <p style="font-size: 16px;">
+                        <strong>Mailplane 2 Upgrade</strong><br>
+                        All Mailplane 2 customers will get an upgrade discount for Mailplane 3. Learn more <a href="http://mailplaneapp.com/help/2013/04/14/how_can_i_upgrade_from_mailplane_2.html">here</a> if you don't already see a price reduction above.
+                    </p>
+                    <p style="font-size: 16px;">
+                        <strong>Education Discount</strong><br>
+                        We offer an education discount for <strong>new</strong> Mailplane licenses. Go to our <a href="https://sites.fastspring.com/uncomplex/product/mailplane3?coupon=MP3EDU">Education Store</a> and use your .edu, .edu.au, .ac.jp or .ac.uk email address or <a href="mailto:support@mailplaneapp.com">write us</a> for a quote.
+                    </p>
+                    <p style="font-size: 16px;">
+                        <strong>Non-Profit Discount</strong><br>
+                        We offer a non-profit discount for <strong>new</strong> Mailplane licenses. <a href="mailto:support@mailplaneapp.com">Write us</a> for a quote.
+                    </p>
+                    <p style="font-size: 16px;">
+                        <strong>30-Day Money Back Guarantee</strong><br>
+                        If for any reason you are not satisfied with Mailplane, we will return 100% of your purchase price. No questions asked.
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="white testimonials">
+    <div class="wrapper">
+        <ul class="columns">
+            <li class="one">
+                <p class="quote">"I admire the hard work its creators put into the new version. It's definitely the most polished and useful Gmail client I've yet tested."</p>
+                <figure>
+                    <img class="quoter" alt="Macworld logo" src="https://mailplaneapp.com/assets/images/macworld@2x.png">
+                    <figcaption>Nathan Alderman, <a href="http://www.macworld.com/article/2040658/mac-gems-mailplane-3-melds-gmail-and-your-mac.html" target="_blank" shape="rect">MacWorld</a></figcaption>
+                </figure>
+            </li>
+            <li class="two">
+                <p class="quote">"Mailplane 3 is a must-have upgrade if you live in Gmail."</p>
+                <figure>
+                    <img class="quoter" alt="Tuaw logo" src="https://mailplaneapp.com/assets/images/tuaw@2x.png">
+                    <figcaption>Victor Agreda Jr., <a href="http://www.engadget.com/2013/04/15/mailplane-3-now-available/" target="_blank" shape="rect">TUAW</a></figcaption>
+                </figure>
+            </li>
+            <li class="three">
+                <p class="quote">"Best for Gmail power users. Mailplane will win over Gmail diehards with its multi-account support alone."</p>
+                <figure>
+                    <img class="quoter" alt="Appleinsider logo" src="https://mailplaneapp.com/assets/images/appleinsider@2x.png">
+                    <figcaption>Shane Cole, <a href="http://appleinsider.com/articles/13/12/26/apps-for-your-new-mac-best-email-clients" target="_blank" shape="rect">Apple Insider</a></figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</section>

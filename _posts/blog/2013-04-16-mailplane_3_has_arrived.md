@@ -16,7 +16,7 @@ And with [AwayFind](https://www.awayfind.com) and [RightInbox](http://www.righti
 
 Last but not least, Mailplane 3 integrates Google Calendar and features tabs to switch between accounts in a blink of an eye. Visit our site to learn more.
 
-If you're ready to buy, you can [purchase Mailplane directly from us](https://sites.fastspring.com/uncomplex/product/mailplane3). At the moment, we don't have plans to sell Mailplane via the Mac App Store. [See our FAQ](/faq/entry/can_i_buy_mailplane_in_the_mac_app_store) for more details.
+If you're ready to buy, you can [purchase Mailplane directly from us](https://mailplaneapp.com/buy). At the moment, we don't have plans to sell Mailplane via the Mac App Store. [See our FAQ](/faq/entry/can_i_buy_mailplane_in_the_mac_app_store) for more details.
 
 Our previous customers are eligible for a 20% upgrade discount and all customers who bought it on or after October 1 2012 will get the upgrade for free. Simply [download Mailplane 3](http://update.mailplaneapp.com/mailplane_3.php) and go to 'Mailplane 3 > License...'.
 
