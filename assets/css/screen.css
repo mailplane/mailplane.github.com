@@ -88,7 +88,7 @@ NAV.main UL LI A:hover, NAV.main UL LI A.active, NAV.inner UL LI A:hover, NAV.in
 .main-cta{width:100%;overflow:visible;position:relative;}
 .page-title{padding:35px 0 0 0;margin:0;text-align:center;font:normal 36px 'latolight', arial, helvetica, sans-serif;color:#242834;}
 .page-desc{padding:35px 0 0 0;margin:0;text-align:center;font:normal 26px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
-.main-cta .plane-box{width:405px;height:365px;float:left;background:transparent url('https://mailplaneapp.com/assets/images/plane.png') no-repeat 0 7px;}
+.main-cta .plane-box{width:405px;height:365px;float:left;background:transparent url('https://mailplaneapp.com/assets/images/plane.png') no-repeat 0 7px;display:none;}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
@@ -96,7 +96,7 @@ only screen and (min-device-pixel-ratio: 1.5)
 {
   .main-cta .plane-box{background-image: url('https://mailplaneapp.com/assets/images/plane@2x.png');background-size:374px;}
 }
-.main-cta .aniversary-box{float:left;width:415px;padding:70px 30px 35px 30px;margin:95px 0 0 0;text-align:center;-webkit-border-radius:2px;border-radius:2px;position:relative;background-color:#fff;}
+.main-cta .aniversary-box{float:left;width:415px;padding:50px 30px 50px 30px;margin:95px 0 0 0;text-align:center;-webkit-border-radius:2px;border-radius:2px;position:relative;background-color:#fff;}
 .main-cta .aniversary-box UL{list-style:none;z-index:100;background-color:transparent;position:relative;}
 .main-cta .aniversary-box H2{font:normal 54px 'latoheavy', arial, helvetica, sans-serif;color:#2a9efc;line-height:40px;margin:0 0 15px 0;}
 .main-cta .aniversary-box H2 > A{text-decoration:none;}
@@ -104,7 +104,7 @@ only screen and (min-device-pixel-ratio: 1.5)
 .main-cta .aniversary-box H3{font:normal 45px 'latolight', arial, helvetica, sans-serif;color:#242834;line-height:52px;margin:0 0 15px 0;}
 .main-cta .aniversary-box LI > A{font:normal 15px 'latoheavy', arial, helvetica, sans-serif;color:#242834;text-transform:uppercase;text-decoration:none;letter-spacing:2px;}
 .main-cta .aniversary-box LI > A:hover{color:#2a9efc;}
-.miniplane{display:block;width:415px;height:135px;position:absolute;top:-66px;left:0;right:0;margin-left:0;margin-right:0;background:transparent url('https://mailplaneapp.com/assets/images/plane.png') no-repeat top center;background-size:133px;}
+.miniplane{display:block;width:415px;height:135px;position:absolute;top:-80px;left:0;right:0;margin-left:0;margin-right:0;background:transparent url('https://mailplaneapp.com/assets/images/plane.png') no-repeat top center;background-size:160px;}
 .confetti-circle{display:block;width:13px;height:13px;position:absolute;background:transparent url('https://mailplaneapp.com/assets/images/confetti@2x.png') no-repeat;background-size:71px;}
 .circle-blue-one{top:120px;left:-34px;background-position:-58px 0;}
 .circle-blue-two{top:-24px;right:110px;background-position:-58px 0;}
