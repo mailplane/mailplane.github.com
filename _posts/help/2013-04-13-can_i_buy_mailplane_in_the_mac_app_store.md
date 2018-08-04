@@ -8,7 +8,7 @@ tags:
 - licensing
 ---
 
-Unfortunately, no. We’ll never say never, but we don't have plans yet to sell Mailplane 3 via the App Store.
+Unfortunately, no. We’ll never say never, but we don't have plans to sell Mailplane in the Mac App Store.
 
 We love the App Store, but it's not a perfect fit for every application. Mailplane is a niche application which integrates smoothly with Google services, especially Gmail. To keep our options open, we need as much flexibility as possible, either in terms of technical approaches or in terms of timely updates. And we are a very small team and, thus, we need to keep the complexity as low as possible. Selling through two different channels can be quite time consuming.
 
