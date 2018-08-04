@@ -209,7 +209,7 @@ only screen and (min-device-pixel-ratio: 1.5)
 .smlnews H3{margin:0 0 10px 0;text-align:center;font:normal 32px 'latobold', arial, helvetica, sans-serif;color:#242834;}
 .smlnews H4{margin:0 0 20px 0;text-align:center;font:normal 18px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
 .smlnews P{text-align:center;font:normal 16px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
-.smlnews UL{list-style:none;width:100%;}
+.smlnews UL{list-style:none;margin:0;width:100%;}
 .smlnews UL LI.form-field{margin:0 auto;width:100%;}
 .smlnews UL LI.form-btn{margin:0 auto;width:100%;}
 
