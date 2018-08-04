@@ -1,153 +1,276 @@
 /* -------- MEDIA QUERIES -------- */
 
-@media screen and (max-width: 975px) {
-/* -------- Global -------- */
-DIV.wrapper{width:100%;padding:0 20px;overflow:hidden;}
-
-/* -------- Top -------- */
-HEADER.top{padding:35px 0 60px 0;}
-NAV.main{display:none;}
-.main-logo{width:180px;float:none;margin-left:auto;margin-right:auto;margin-bottom:15px;text-align:center;}
-NAV.inner UL{float:none;text-align:center;}
-NAV.inner UL LI{display:inline;float:none;margin:0;padding:0 24px;}
-NAV.inner UL LI A{display:inline-block;}
-.main-cta {padding:5px 0 20px 0;}
-.main-cta .plane-box {width:140px;height:140px;background-size: 140px;margin:0 auto;float:none;display:block;}
-.main-cta .main-heading {float:none;width:100%;padding:0;}
-.main-cta .main-heading H1 {text-align:center;width:480px;margin-left:auto;margin-right:auto;}
-.main-cta .main-heading UL {margin:0 auto;width:480px;padding:0 0 40px 0;}
-.main-cta .aniversary-box {float: none;margin:0 auto;padding:30px;}
-.main-cta .aniversary-box H2 {font-size:50px;}
-.main-cta .aniversary-box H3 {font-size:40px;line-height:48px;}
-.miniplane{display:none;}
-
-/* -------- Features -------- */
-.rt {float: none;}
-.lt {float: none;}
-.cnt {width: 100%;padding: 75px 0 0 0;}
-.features H1 {text-align: center;}
-.features P {text-align: center;}
-.illo {margin: 0 auto;}
-.illo.integration IMG {display: none}
-.illo.integration {padding-bottom: 60px}
-
-/* -------- Plugins --------- */
-.plugins UL.columns {width: 634px;margin: 0 auto;}
-
-/* -------- Testimonials -------- */
-.testimonials UL.columns {width: 634px;margin: 0 auto;}
-.three {display: none}
-
-/* -------- Updates -------- */
-.upd-info H2 {font-size: 60px}
-
-/* -------- Help -------- */
-.help {width: 80%;padding: 40px 12px 0 12px;}
-.help UL {width: 100%;padding: 0;}
-
-/* -------- Notes -------- */
-.notes {width: 80%;}
-.notes UL {width: 100%;}
-.notes UL LI H3 {font-size: 38px;line-height: 38px;}
-.notes UL LI P {font-size: 18px;}
-
-/* -------- Newsletter -------- */
-.newsletter H3 {font-size: 34px;line-height: 34px;margin: 0 0 15px 0;}
-.newsletter H4 {font-size: 22px;line-height: 24px;}
-
-/* -------- Post -------- */
-.post {padding: 50px 0;}
-.post ARTICLE {padding: 50px 0 0 0;margin: 0 0 50px 0;}
-.post ARTICLE H2.post-title {font-size: 38px;line-height: 38px;}
-
-.photos {margin: -20px 0 50px 0;}
-.photos UL {width: 100%;margin: 0 auto;}
-.photos UL LI {float: none;margin: 0 auto;}
-.photos UL LI.midimg {margin: 0 auto;padding: 25px 0;}
-.photos UL LI IMG {margin: 0 0 10px 0;}
-.photos H2 {font: normal 34px 'latolight', arial, helvetica, sans-serif;color: #2a9efc;text-align: center;}
+@media screen and (max-width: 1200px) {
+	/* -------- Global -------- */
+	.container{margin:0;width:100%;padding:0 30px;}
+	
+	/* -------- Navigation -------- */
+	NAV.main{padding:0 30px;}
+	NAV.main UL{margin:55px 0 30px 0;}
+	.logo{margin:20px 0 0 0;}
+	.logo H3{font-size:34px;margin:20px 0 0 30px;}
+	.logo-icon{width:90px;height:92px;background-size:90px;}
+	
+	/* -------- Banner -------- */
+	SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background:linear-gradient(#eff7ff, #fff);}
+	.banner .clouds{position:absolute;left:0;width:100%;}
+	.banner .cblue{z-index:1;bottom:0;}
+	.banner .cwhite{z-index:10;bottom:-1px;}
+	.a-post{width:35%;margin:0 5% 0 0;}
+	.main-cta{width:60%;}
+	.main-cta H1{font-size:62px;line-height:61px;}
+	.decoration{width:100%;}
+	
+	/* -------- Plugins -------- */
+	SECTION.plugins UL.logos{width:900px;}
+	.plugins-heading{margin:0 0 60px 0;}
+	
+	/* -------- Stats -------- */
+	.stats-heading{margin:0 0 40px 0;}
+	
+	/* -------- Testimonials -------- */
+	SECTION.testimonials UL{width:100%;}
+	SECTION.testimonials UL LI{margin:0 4%;width:25%;}
+	
+	/* -------- Content -------- */
+	SECTION.content{padding:180px 0 0 0;}
+	SECTION.cnt-new{padding:160px 0 0 0;}
+	.cnt-txt{padding:0;}
+	.blog-list > LI{margin:0 0 70px 0;padding:0 0 70px 0;}
+	.two-col > LI{padding:0 15px 0 0;}
 }
 
-@media screen and (max-width: 634px) {
-/* -------- Top -------- */
-.main-cta .aniversary-box {width:100%;}
-.main-cta .aniversary-box H2 {font-size:46px;}
-.main-cta .aniversary-box H3 {font-size:38px;line-height:45px;}
-.miniplane{width:100%;}
-.circle-blue-one{top:120px;left:-4px;}
-.circle-blue-two{top:-24px;right:110px;}
-.circle-yellow-one{top:33px;left:65px;}
-.circle-yellow-two{top:38px;right:23px;}
-.circle-red-one{bottom:-10px;left:158px;}
-.circle-red-two{bottom:81px;right:40px;}
-.semicircle-blue-one{bottom:-12px;right:60px;}
-.semicircle-yellow-one{bottom:46px;left:50px;}
-
-/* -------- Features -------- */
-UL.columns LI {margin: 0 0 30px 0;}
-
-/* -------- Plugins --------- */
-
-.plugins {text-align: center;width: 100%;padding: 75px 0 30px 0;}
-.plugins UL.columns {width: 317px;margin: 0 auto;}
-IMG.plug {margin: 0 0 30px 0;}
-
-/* -------- Testimonials -------- */
-.testimonials UL.columns {width: 317px;margin: 0 auto;}
-.two {display: none}
-
-/* -------- Newsletter -------- */
-.newsletter UL LI.form-field {width: 100%;}
-.newsletter UL LI.form-btn {width: 100%;}
-
-/* -------- Sml notes -------- */
-.smlnotes UL {width: 100%;margin: 0 auto;}
-.smlnotes UL LI {margin: 0 0 34px 0;}
-.smlnotes H4 {text-align: center;}
-.smlnotes P {text-align: center;}
+@media screen and (max-width: 1050px) {
+	.crew{width:100%;padding:80px 0 60px 0;}
+	.crew LI{margin:0 1.5%;width:30%;}
 }
 
-@media screen and (max-width: 520px) {
-/* -------- Top -------- */
-HEADER.top {min-height: 200px;padding: 30px 0 50px 0;background: #d0ddf0 url('https://mailplaneapp.com/assets/images/light_rays.png') no-repeat top center;}
-NAV.inner UL{letter-spacing:2.5px;}
-NAV.inner UL LI{padding:0 10px;font-size:11px;}
-.main-cta .main-heading {padding: 20px 0 0 0;}
-.main-cta .main-heading H1 {text-align:center;font: normal 38px 'latosemibold', arial, helvetica, sans-serif;line-height: 120%;margin: 0 0 40px 0;width:100%;}
-.main-cta .main-heading UL {margin:0 auto;width:230px;}
-.main-cta .main-heading UL LI.try {float: left;}
-.main-cta .main-heading UL LI.buy {float: right;margin: 0 0 20px 0;}
-.main-cta .aniversary-box{padding:25px 20px;}
-.main-cta .aniversary-box H2 {font-size:38px;margin:0 0 5px 0;}
-.main-cta .aniversary-box H3 {font-size:28px;line-height:34px;margin:0 0 5px 0;}
-.main-cta .aniversary-box LI > A {font-size:12px;}
-.circle-blue-one{top:120px;left:-4px;}
-.circle-blue-two{top:-24px;right:110px;}
-.circle-yellow-one{top:33px;left:15px;}
-.circle-yellow-two{top:38px;right:23px;}
-.circle-red-one{bottom:-10px;left:158px;}
-.circle-red-two{bottom:81px;right:5px;}
-.semicircle-blue-one{bottom:-15px;right:60px;}
-.semicircle-yellow-one{bottom:16px;left:10px;}
+@media screen and (max-width: 1020px) {
+	/* -------- Banner -------- */
+	SECTION.banner{text-align:center;}
+	.a-post{width:60%;margin:0 0 30px 0;}
+	.main-cta{width:80%;}
+	.main-cta UL{list-style:none;margin:0}
+	.main-cta UL LI{float:none;display:inline-block;vertical-align:top;margin:0 10px;}
+	.decoration{margin-left:auto;margin-right:auto;left:0;right:0;}
+	.decor-item-one{left:-20px;}
+	.decor-item-two{top:140px;left:-24px;}
+	.decor-item-three{top:245px;left:55%;}
+	.decor-item-four{top:-35px;right:14px;}
+	.decor-item-five{right:-25px;}
 
-/* -------- Features -------- */
-.cnt {padding: 70px 0 0 0;}
-.features H1 {font: normal 38px 'latolight', arial, helvetica, sans-serif;}
-.features P {font-size: 18px;}
-UL.columns LI {width: 280px;margin: 0 0 20px 0;}
-
-/* -------- Plugins --------- */
-.plugins {text-align: center;width: 100%;padding: 75px 0 30px 0;}
-.plugins UL.columns {width: 280px;margin: 0 auto;}
-IMG.plug {margin: 0 0 20px 0;width: 280px;height: 102px;}
-
-/* -------- Testimonials -------- */
-.testimonials UL.columns {width: 280px;margin: 0 auto;}
-
-/* -------- Modal -------- */
-.smlnews H3 {font-size: 24px;}
-.smlnews H4 {font-size: 15px;}
-.smlnews P {font-size: 13px;}
-.smlnews UL LI.form-field .field {height: 42px;font-size: 16px;}
+	/* -------- Tour -------- */
+	SECTION.tour{padding:60px 0 0 0;}
+	.tour-item{margin:0 0 100px 0;}
+	.item-copy{margin:0 0 30px 0;}
+	.item-right, .item-left{width:100%;text-align:center;padding:0;}
+	.item-img{width:100%;text-align:center;}
+	.img-right IMG, .img-left IMG{float:none;width:100%;}
+	.item-center{padding:0;}
+	
+	/* -------- Plugins -------- */
+	SECTION.plugins{padding:80px 0;}
+	
+	/* -------- Stats -------- */
+	SECTION.stats UL LI H1{font-size:100px;}
+	SECTION.stats UL{width:100%;}
+	
+	/* -------- Testimonials -------- */
+	SECTION.testimonials UL{width:100%;}
+	SECTION.testimonials UL LI{margin:0 4%;width:25%;}
+	SECTION.testimonials P{font-size:18px;}
+	
+	/* -------- Content -------- */
+	SECTION.cnt-more{margin:0;}
+	.cnt-txt P{font-size:18px;line-height:28px;margin:0 0 40px 0;}
+	.cnt-txt H2, .crew H2{margin:0 0 32px 0;font-size:28px;}
+	.crew{padding:60px 0;}
+	.blog-list > LI P.date{margin:0 0 5px 0;}
+	.blog-list > LI P.title{font-size:28px;margin:0 0 22px 0;}
+	.blog-list > LI P.desc{font-size:18px;}
+	
+	/* -------- Forms -------- */
+	.mp3Hints{padding:60px 0 0 0;}
+	.mp3ProductSelection LI{padding:20px 10px 20px 25px;margin:0 0 20px 0;}
+	.store-product-option-title H2{margin:0 0 5px 40px;}
+	.store-product-option-title H3{margin:0 0 0 40px;font-size:32px;position:relative;top:0;right:0;text-align:left;width:100%;}
+	.store-product-option-title P{margin:0 0 25px 40px;font-size:17px;line-height:22px;}
+	.store-product-option-title H3 SPAN{width:auto;margin:0;}
+	P.noTaxNote{font-size:15px;line-height:17px;}
 }
 
+@media screen and (max-width: 900px) {
+	/* -------- Plugins -------- */
+	SECTION.plugins{padding:80px 0 60px 0;}
+	SECTION.plugins UL.logos{width:600px;}
+	SECTION.plugins UL.logos LI.logo-min{display:none;}
+	.logo-max{display:block;}
+	
+	/* -------- Testimonials -------- */
+	SECTION.testimonials{padding:70px 0 20px 0;}
+	SECTION.testimonials UL LI{margin:0 0 70px 0;width:100%;}
+	SECTION.testimonials P{min-height:auto;padding:0 40px;}
+	
+	/* -------- Content -------- */
+	.crew H2{margin:0 0 20px 0;font-size:24px;}
+	.two-col > LI{padding:0;width:100%;}
+	.whatsnew H1{font-size:66px;line-height:76px;}
+	.whatsnew P{font-size:26px;line-height:30px;}
+	.whatsnew IMG{margin:25px 0 100px 0;}
+	
+	/* -------- Forms -------- */
+	.form_row UL LI{display:inline-block;float:none;}
+	.form_row UL LI.label{width:100%;padding:0 0 7px 0;}
+	.form_row UL LI.input{width:100%;}
+}
+
+@media screen and (max-width: 720px) {
+	/* -------- Global -------- */
+	P{font-size:18px;}
+	H1{font-size:36px;}
+	H2{font-size:28px;}
+	H3{font-size:24px;}
+	H4{font-size:22px;}
+	H5{font-size:20px;}
+	
+	/* -------- Navigation -------- */
+	.logo H3{display:none;}
+	
+	/* -------- Banner -------- */
+	.a-post{width:100%;}
+	.a-post H2{font-size:44px;line-height:46px;}
+	.a-post H3{font-size:40px;}
+	.main-cta{width:100%;}
+	.main-cta H1{font-size:58px;line-height:57px;}
+	.banner .cblue,.banner .cwhite{min-width:720px;}
+	
+	/* -------- Tour -------- */
+	.item-copy H2{font-size:42px;margin:0 0 46px 0;line-height:44px;}
+	.item-copy P{font-size:18px;margin:18px;}
+	.anim-img{display:none;}
+	.anim-img-sml{display:block;}
+	#integrations{display:none;}
+	#integrations_720px{display:block;}
+	#integrations_540px{display:none;}
+
+	/* -------- Stats -------- */
+	SECTION.stats UL LI{width:60%;padding:0 0 30px 0;margin:0 auto;}
+	#updates{border-bottom:1px solid #f6f9fe;border-right:none;}
+	SECTION.stats H2{font-size:42px;margin:0 0 46px 0;line-height:48px;}
+	SECTION.stats P{font-size:18px;}
+	
+	/* -------- Plugins -------- */
+	SECTION.plugins H2{font-size:42px;margin:0 0 46px 0;line-height:44px;}
+	SECTION.plugins H3{font-size:32px;}
+	SECTION.plugins P{font-size:18px;margin:18px;}
+	SECTION.plugins UL.logos LI P{font-size:18px;line-height:22px;}
+	
+	/* -------- CTA -------- */
+	SECTION.cta H2{font-size:42px;line-height:48px;}
+	SECTION.cta P{font-size:22px;margin:22px;}
+	
+	/* -------- Content -------- */
+	.crew LI IMG{margin:0 0 30px 0;}
+	.crew H2{margin:0 0 20px 0;font-size:22px;}
+	.whatsnew H1{font-size:60px;line-height:70px;}
+	.whatsnew P{font-size:24px;line-height:28px;}
+	.whatsnew IMG{margin:20px 0 70px 0;}
+}
+
+@media screen and (max-width: 600px) {
+	/* -------- Plugins -------- */
+	SECTION.plugins UL.logos{width:300px;}
+	SECTION.plugins UL.logos-list{width:300px;}
+	SECTION.plugins UL.logos-list LI{margin:0 15px 20px 15px;}
+	SECTION.plugins H3{margin-bottom:40px;}
+	
+	/* -------- Content -------- */
+	.crew{padding:30px 0 50px 0;}
+	.crew LI{float:none;display:inline-block;margin:0 0 60px 0;width:100%;text-align:center;}
+	.crew LI IMG{width:100%;max-width:270px;}
+	.whatsnew H1{font-size:50px;line-height:60px;}
+	.whatsnew P{font-size:22px;line-height:26px;}
+}
+
+@media screen and (max-width: 540px) {
+	/* -------- Global -------- */
+	.container{padding:0 25px;}
+	P{font-size:17px;}
+	H1{font-size:35px;}
+	H2{font-size:27px;}
+	H3{font-size:23px;}
+	H4{font-size:21px;}
+	H5{font-size:19px;}
+	
+	/* -------- Navigation -------- */
+	NAV.main{width:100%;padding:0 25px;}
+	NAV.main UL{float:none;width:100%;margin:25px 0 0 0;text-align:center;}
+	NAV.main UL LI{float:none;margin:0 5px;display:inline-block;}
+	.logo{float:none;width:100%;text-align:center;}
+	.logo-icon{display:inline-block;}
+	
+	/* -------- Banner -------- */
+	SECTION.banner{padding:245px 0 100px 0;}
+	.a-post H2{font-size:38px;}
+	.a-post H3{font-size:34px;line-height:38px;}
+	.a-post P{font-size:13px;}
+	.a-post .a-post-unveil{width:150px;top:-55px;}
+	.main-cta H1{font-size:52px;line-height:51px;}
+	.main-cta P{margin:15px 0 25px 0;}
+	.main-cta UL LI{width:100%;margin:0;}
+	
+	/* -------- Tour -------- */
+	.item-copy H2{font-size:38px;margin:0 0 22px 0;line-height:40px;}
+	.item-copy P{font-size:17px;margin:17px;}
+	.anim-img-sml{display:none;}
+	.anim-img-tiny{display:block;}
+	#integrations{display:none;}
+	#integrations_720px{display:none;}
+	#integrations_540px{display:block;}
+
+	/* -------- Stats -------- */
+	SECTION.stats UL LI{width:80%;}
+	SECTION.stats H2{font-size:38px;margin:0 0 42px 0;line-height:44px;}
+	SECTION.stats P{font-size:17px;}
+	
+	/* -------- Plugins -------- */
+	SECTION.plugins H2{font-size:38px;margin:0 0 42px 0;line-height:40px;}
+	SECTION.plugins H3{font-size:28px;}
+	SECTION.plugins P{font-size:17px;margin:17px;}
+	SECTION.plugins UL.logos LI P{font-size:17px;line-height:21px;}
+	
+	/* -------- CTA -------- */
+	SECTION.cta H2{font-size:38px;line-height:44px;}
+	SECTION.cta P{font-size:21px;margin:21px;}
+	
+	/* -------- Content -------- */
+	SECTION.content{padding:215px 0 0 0;}
+	SECTION.cnt-new{padding:195px 0 0 0;}
+	.cnt-txt P{font-size:17px;line-height:27px;margin:0 0 38px 0;}
+	.cnt-txt H2{margin:0 0 30px 0;font-size:27px;}
+	.blog-list > LI P.date{font-size:14px;}
+	.whatsnew H1{font-size:50px;line-height:54px;}
+	.whatsnew P{font-size:22px;line-height:26px;}
+	.whatsnew IMG{margin:10px 20px 60px 20px;}
+	
+	/* -------- Forms -------- */
+	.mp3Hints{padding:40px 0 0 0;}
+	.mp3ProductSelection LI{padding:15px;margin:0 0 20px 0;}
+	.store-product-option-title H2{margin:0 0 5px 25px;}
+	.store-product-option-title H3{margin:0;font-size:30px;text-align:center;}
+	.store-product-option-title P{margin:0 0 20px 25px;font-size:16px;line-height:20px;}
+	.store-product-option-display INPUT{font-size:24px;margin:10px 0 15px 0;}
+	#license_type_site{margin:25px 0 20px 0;}
+	P.noTaxNote{font-size:14px;line-height:16px;margin:10px 0 20px 0;}
+}
+
+@media screen and (max-width: 356px) {
+	/* -------- Forms -------- */
+	.store-product-option-display SPAN{opacity:0;}
+	#license_type_site{margin:15px 0 20px 0;}
+}
+
+@media screen and (max-width: 320px) {
+	/* -------- Banner -------- */
+	.main-cta H1{font-size:45px;line-height:44px;}
+}

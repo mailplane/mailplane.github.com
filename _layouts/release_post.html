@@ -1,9 +1,9 @@
-<html>
-	<head><title>{{ page.title }}</title></head>
-	<body>
-		<h1>{{ page.title }}</h1>
-		<small>Released on {{ page.date | date_to_string }}</small><br/>
-		<br/>
-		{{ content }}
-	</body>
-</html>
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+			<span class="date">Released on {{ page.date | date_to_string }}</span>
+			<h2 class="post-title">{{ page.title }}</h2>
+			{{ content }}
+		</div>
+	</div>
+</section>

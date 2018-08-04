@@ -20,35 +20,14 @@ layout: default
 		-webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 0px 5px);
 		-webkit-box-shadow: none;
 	}
-	.page-title { display: none; }
 </style>
 
-<section class="white post">
-	<div class="wrapper">
-		<!-- Article -->
-		<article>
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
 			<span class="date">{{ page.date | date_to_string }}</span>
 			<h2 class="post-title">{{ page.title }}</h2>
 			{{ content }}
-		</article>
-	</div>
-</section>
-
-<section class="lightblue newsletter" id="join_newsletter">
-	<div class="wrapper">
-		<h3>Join our newsletter</h3>
-		<h4>For periodic updates about Mailplane.</h4>
-		<ul>
-			<form action="https://buzzardch.createsend.com/t/j/s/btdlji/" method="post">
-				<input type="hidden" value="mailplaneapp.com/blog_post.html" name="cm-f-hthlul">
-			<li class="form-field">
-				<input class="field" type="email" placeholder="your@email.com" name="cm-btdlji-btdlji">
-			</li>
-			<li class="form-btn">
-				<input class="bluebtn" type="submit" value="Subscribe">
-			</li>
-			</form>
-		<ul>
-		<p>No Spam. Each email will contain a link to unregister.</p>
+		</div>
 	</div>
 </section>

@@ -23,16 +23,14 @@ layout: default
 		-webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 0px 5px);
 		-webkit-box-shadow: none;
 	}
-	.page-title { display: none; }
 </style>
 
-<section class="white post">
-	<div class="wrapper">
-		<!-- Article -->
-		<article>
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
 			<span class="date">{{ page.date | date_to_string }}</span>
 			<h2 class="post-title">{{ page.title }}</h2>
 			{{ content }}
-		</article>
+		</div>
 	</div>
 </section>

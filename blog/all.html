@@ -7,33 +7,18 @@ description: Read news, tips and tricks related to Mailplane and Gmail.
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://mailplaneapp.com/blog/rss_2.0"/>
 <link rel="alternate" type="application/atom+xml" title="Atom" href="https://mailplaneapp.com/blog/atom"/>
 
-<section class="white post">
-	<div class="wrapper">
-		{% for post in site.categories.blog %}
-		<article>
-			<span class="date">{{ post.date | date_to_string }}</span>
-			<h2 class="post-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
-			<p>{{ post.excerpt | strip_html }} <a href="{{ post.permalink }}">Read more...</a></p>
-		</article>
-		{% endfor %}
-	</div>
-</section>
-
-<section class="lightblue newsletter" id="join_newsletter">
-	<div class="wrapper">
-		<h3>Join our newsletter</h3>
-		<h4>For periodic updates about Mailplane.</h4>
-		<ul>
-			<form action="https://buzzardch.createsend.com/t/j/s/btdlji/" method="post">
-				<input type="hidden" value="mailplaneapp.com/blog/all.html" name="cm-f-hthlul">
-			<li class="form-field">
-				<input class="field" type="email" placeholder="your@email.com" name="cm-btdlji-btdlji">
-			</li>
-			<li class="form-btn">
-				<input class="bluebtn" type="submit" value="Subscribe">
-			</li>
-			</form>
-		<ul>
-		<p>No Spam. Each email will contain a link to unregister.</p>
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+			<ul class="blog-list">
+				{% for post in site.categories.blog %}
+				<li>
+					<p class="date">{{ post.date | date_to_string }}</p>
+					<p class="title"><a href="{{ post.permalink }}">{{ post.title }}</a></p>
+					<p class="desc">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.permalink }}">Read more...</a></p>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </section>

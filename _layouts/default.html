@@ -1,66 +1,63 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
 <!--[if lt IE 9]>
 <script src="/assets/js/html5shiv.js"></script>
 <![endif]-->
 <html lang="en">
-
 <head>
-	<meta name="keywords" content="gmail mac, gmail for mac, gmail mac file attachments, google mail mac, mac email google" />
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | markdownify | strip_html }}{% endif %}">
-	<meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" name="viewport">
-	<meta charset="utf-8"/>
-	<title>Mailplane - {{ page.title }}</title>
-	
-	<link rel="stylesheet" href="/assets/css/html5reset-1.6.1.css" />
-	<link rel="stylesheet" href="/assets/css/screen.css" />
-	<link rel="stylesheet" href="/assets/css/responsive.css" />
-	
-	<link rel="icon" href="/assets/images/favicon@2x.png" />
+    <meta name="keywords" content="gmail mac, gmail for mac, gmail mac file attachments, google mail mac, mac email google" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | markdownify | strip_html }}{% endif %}">
+    <meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" name="viewport">
+    <meta charset="utf-8"/>
+    <title>Mailplane - {% if page.title == 'Home' %}Gmail for Mac{% else %}{{ page.title }}{% endif %}</title>
+
+    <link rel="stylesheet" href="/assets/css/html5reset-1.6.1.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css" />
+
+    <link rel="icon" href="/assets/images/favicon@2x.png" />
+    <script src="/assets/js/jquery-3.2.1.min.js"></script>
 </head>
-
 <body>
+    <nav class="main">
+        <div class="logo">
+            <a href="/index.html">
+                <span class="logo-icon"></span>
+                <h3>Mailplane</h3>
+            </a>
+        </div>
+        <ul>
+            {% if page.title != 'Home' %}
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            {% endif %}
+            <li>
+                <a href="/help.html" {% if page.title == 'Help' %}class="active"{% endif %}>Help</a>
+            </li>
+            <li>
+                <a href="/about.html" {% if page.title == 'About' %}class="active"{% endif %}>About</a>
+            </li>
+            <li>
+                <a href="/blog.html" {% if page.title == 'Blog' %}class="active"{% endif %}>Blog</a>
+            </li>
+        </ul>
+    </nav>
 
-	<header class="top">
-		<div class="wrapper">
-			<nav class="inner">
-				<div class="main-logo">
-					<a href="/index.html">Mailplane</a>
-				</div>
-				<ul>
-					<li>
-						<a href="/index.html">Home</a>
-					</li>
-					<li>
-						<a href="/help.html" {% if page.title == 'Help' %}class="active"{% endif %}>Help</a>
-					</li>
-					<li>
-						<a href="/about.html" {% if page.title == 'About' %}class="active"{% endif %}>About</a>
-					</li>
-					<li>
-						<a href="/blog.html" {% if page.title == 'Blog' %}class="active"{% endif %}>Blog</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	
-	{{ content }}
-	
-	<footer class="main-footer white">
-		<div class="footer-wrap">
-			<ul>
-				<li><a href="/index.html">Home</a></li>
-				<li><a href="https://store.mailplaneapp.com">Buy</a></li>
-				<li><a href="/help.html">Help</a></li>
-				<li><a href="/blog.html">Blog</a></li>
-			</ul>
-			<p class="copy">&copy; 2007-{{ site.time | date: '%Y' }} <a href="/about.html">Mailplane GmbH</a></p>
-		</div>
-	</footer>
+    {{ content }}
 
-	<script src="//static.getclicky.com/js" type="text/javascript"></script>
-	<script type="text/javascript">try{ clicky.init(100554681); }catch(e){}</script>
-	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100554681ns.gif" /></p></noscript>
+    <footer class="main-footer">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="https://store.mailplaneapp.com">Buy</a></li>
+            <li><a href="/help.html">Help</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+        </ul>
+        <p class="copy">&copy; 2007-{{ site.time | date: '%Y' }} <a href="/about.html">Mailplane GmbH</a></p>
+    </footer>
+
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100554681); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100554681ns.gif" /></p></noscript>
 </body>
 </html>

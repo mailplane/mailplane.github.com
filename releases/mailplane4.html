@@ -1,0 +1,22 @@
+---
+layout: default
+title: Release Notes
+description: Mailplane 4 Release Notes
+---
+
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+			<ul class="blog-list">
+				{% assign sorted_posts = site.categories.release_mailplane4 | sort: "build_number" %}
+				{% for post in sorted_posts reversed %}
+				<li id="{{ post.build_number }}">
+					<p class="date">{{ post.date | date_to_string }}</p>
+					<h2>Mailplane {{ post.title }}</h2>
+					{{ post.content }}
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>

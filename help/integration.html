@@ -4,69 +4,67 @@ title: Integration Help
 description: Learn how Mailplane integrates Gmail on your Mac.
 ---
 
-<section class="white help">
-	<ul class="lt">
-		<li>
-			{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
-				<p style="padding-bottom:20px">
-					<a href="{{ post.url }}">{{ post.title }}</a><br/>
-					{{ post.excerpt | strip_html }}
-				</p>
-			{% endif %}{% endfor %}
-		</li>
-	</ul>
-	<ul  class="rt">
-		<li>
-			<p style="padding-bottom:20px">
-				<a href="https://www.grandtotal.biz/GrandTotal">GrandTotal</a><br/>
-				GrandTotal, an invoicing application for designers, lets you email your invoices.
-			</p>
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+            <ul class="two-col">
+				{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
+				<li>
+					<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+					<p>{{ post.excerpt | strip_html }}</p>
+				</li>
+				{% endif %}{% endfor %}
 
-			<p style="padding-bottom:20px">
-				<a href="https://www.receipts-app.com">Receipts</a><br/>
-				Receipts is the perfect companion to Mailplane if you receive a lot of invoices via email. It makes it easy to collect and classify them.
-			</p>
+				<li>
+					<p><a href="https://www.grandtotal.biz/GrandTotal">GrandTotal</a></p>
+                    <p>GrandTotal, an invoicing application for designers, lets you email your invoices.
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="http://www.alarmsapp.com">Alarms</a><br/>
-				Mailplane's URL drag and drop works great with Alarmsapp.
-			</p>
+				<li>
+                    <p><a href="https://www.receipts-app.com">Receipts</a></p>
+                    <p>Receipts is the perfect companion to Mailplane if you receive a lot of invoices via email. It makes it easy to collect and classify them.</p>
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="https://flexibits.com/fantastical">Fantastical 2</a><br/>
-				Fantastical sends events through Mailplane.
-			</p>
+				<li>
+                    <p><a href="http://www.alarmsapp.com">Alarms</a></p>
+                    <p>Mailplane's URL drag and drop works great with Alarmsapp.</p>
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="http://www.devontechnologies.com/products/devonthink/devonthink-pro.html">DEVONthink Pro</a><br/>
-				DEVONthink Pro is the one store for all your documents.
-			</p>
+				<li>
+                    <p><a href="https://flexibits.com/fantastical">Fantastical 2</a></p>
+                    <p>Fantastical sends events through Mailplane.</p>
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="http://www.busymac.com/busycal">BusyCal</a><br/>
-				BusyCal can send meeting invitations through Mailplane.
-			</p>
+				<li>
+                    <p><a href="http://www.devontechnologies.com/products/devonthink/devonthink-pro.html">DEVONthink Pro</a></p>
+                    <p>DEVONthink Pro is the one store for all your documents.</p>
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="http://www.busymac.com/busycontacts">BusyContacts</a><br/>
-				BusyContacts can send messages to contacts or cards through Mailplane.
-			</p>
+				<li>
+                    <p><a href="http://www.busymac.com/busycal">BusyCal</a></p>
+                    <p>BusyCal can send meeting invitations through Mailplane.</p>
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="https://www.apple.com/macos/what-is/">macOS Contacts</a><br/>
-				Use "Edit > Save to Contact" to save the sender to Contacts app and use "Mail > Insert > Email Address..." to lookup email addresses in Contacts app while composing or replying to a message.
-			</p>
+				<li>
+                    <p><a href="http://www.busymac.com/busycontacts">BusyContacts</a></p>
+                    <p>BusyContacts can send messages to contacts or cards through Mailplane.</p>
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="http://www.lynapp.com">Lyn</a><br/>
-				Lyn, a fast and lightweight image browser, lets you directly email pictures.
-			</p>
+				<li>
+                    <p><a href="https://www.apple.com/macos/what-is/">macOS Contacts</a></p>
+                    <p>Use "Edit > Save to Contact" to save the sender to Contacts app and use "Mail > Insert > Email Address..." to lookup email addresses in Contacts app while composing or replying to a message.</p>
+				</li>
 
-			<p style="padding-bottom:20px">
-				<a href="https://www.lemkesoft.de/en/products/graphicconverter/">GraphicConverter</a><br/>
-				GraphicConverter displays and edits raster graphics files. It also converts files between different formats.
-				For example, one can convert a GIF file to a JPEG file.
-			</p>
-		</li>
-	</ul>
+				<li>
+                    <p><a href="http://www.lynapp.com">Lyn</a></p>
+                    <p>Lyn, a fast and lightweight image browser, lets you directly email pictures.</p>
+				</li>
+
+				<li>
+                    <p><a href="https://www.lemkesoft.de/en/products/graphicconverter/">GraphicConverter</a></p>
+                    <p>GraphicConverter displays and edits raster graphics files. It also converts files between different formats. For example, one can convert a GIF file to a JPEG file.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
 </section>
