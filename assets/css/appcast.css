@@ -1,8 +1,19 @@
-@-webkit-keyframes snow {
+@-webkit-keyframes flash {
+    0% {
+        color: white;
+        background-color: #e25252;
+        opacity:1;
+    }
+    50% {
+        color: white;
+        background-color: #f2c213;
+    }
     100% {
-        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        color: white;
+        background-color: #e25252;
     }
 }
+
 body {
     background-color: white;
     font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -11,4 +22,14 @@ body {
 }
 a {
     color: inherit;
+}
+
+.paid_upgrade_flash {
+    color: red;
+    font-weight:bold;
+    background-color: white;
+    -webkit-animation-name: flash;
+    -webkit-animation-duration: 400ms;
+    -webkit-animation-iteration-count: 10;
+    -webkit-animation-timing-function: ease-in-out;
 }
