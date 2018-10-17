@@ -15,7 +15,6 @@
 }
 
 body {
-    background-color: white;
     font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
     color: black;
@@ -23,11 +22,19 @@ body {
 a {
     color: inherit;
 }
+li {
+    padding:5px 0 0 0;
+    margin:0 0 0 5px;
+}
+ul {
+    margin:0 0 0 20px;
+    padding:0;
+}
 
 .paid_upgrade_flash {
     color: red;
     font-weight:bold;
-    background-color: white;
+    background-color: transparent;
     -webkit-animation-name: flash;
     -webkit-animation-duration: 400ms;
     -webkit-animation-iteration-count: 10;
