@@ -41,9 +41,9 @@ function setTheme(theme) {
 
         try {
             var expires = new Date();
-            expires.setTime(+ date + 365 * 24 * 60 * 60 * 1000);
+            expires.setTime(+ expires + 365 * 24 * 60 * 60 * 1000);
 
-          document.cookie = "theme" + "=" + theme + ";expires=" + expires.toGMTString() + ";domain=.example.com;path=/";
+          document.cookie = "theme" + "=" + theme + ";expires=" + expires.toGMTString() + ";domain=.mailplaneapp.com;path=/";
         } catch(ignore) {}
     }
 
