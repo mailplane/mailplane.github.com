@@ -15,11 +15,11 @@ layout: default
         }
 
         if (theme === "dark") {
-            $("#darkThemeButton").attr("style", "color: #4f8bf8");
-            $("#lightThemeButton").attr("style", null);
-        } else {
             $("#darkThemeButton").attr("style", null);
             $("#lightThemeButton").attr("style", "color: #4f8bf8");
+        } else {
+            $("#darkThemeButton").attr("style", "color: #4f8bf8");
+            $("#lightThemeButton").attr("style", null);
         }
     }
     $(updateThemeButtonColor);
