@@ -1,9 +1,18 @@
 function getTheme() {
-    try {
-        return window.localStorage.getItem("theme");
-    } catch(ignore) {
-        return null;
+    var name = "theme" + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+        }
     }
+
+    return "";
 }
 
 function setTheme(theme) {
@@ -31,7 +40,10 @@ function setTheme(theme) {
         }
 
         try {
-            window.localStorage.setItem("theme", theme);
+            var expires = new Date();
+            expires.setTime(+ date + 365 * 24 * 60 * 60 * 1000);
+
+          document.cookie = "theme" + "=" + theme + ";expires=" + expires.toGMTString() + ";domain=.example.com;path=/";
         } catch(ignore) {}
     }
 
