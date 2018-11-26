@@ -2,14 +2,41 @@
 layout: default
 ---
 
+<script>
+    function updateThemeButtonColor() {
+        var theme = getTheme();
+        if (!theme) {
+            // See https://kevinchen.co/blog/support-macos-mojave-dark-mode-on-websites/
+            if (window.matchMedia && window.matchMedia("screen and (prefers-color-scheme: dark)").matches) {
+                theme = "dark";
+            } else {
+                theme = "light";
+            }
+        }
+
+        if (theme === "dark") {
+            $("#darkThemeButton").attr("style", "color: #4f8bf8");
+            $("#lightThemeButton").attr("style", null);
+        } else {
+            $("#darkThemeButton").attr("style", null);
+            $("#lightThemeButton").attr("style", "color: #4f8bf8");
+        }
+    }
+    $(updateThemeButtonColor);
+</script>
 <section class="banner">
     <div class="container">
         <div class="a-post">
             <div class="a-post-wrap">
-                <img src="/assets/images/plane.svg" alt="" class="a-post-unveil"/>
-                <h2>Mailplane 4<br/>has landed!</h2>
-                <p><a href="/mailplane_4_what_is_new.html">Learn what is new</a></p>
+                <h2>Join the<br/>DARK SIDE</h2>
+                <h4>Mailplane supports macOS Mojave Dark Mode<br/><br/></h4>
+                <p>
+                    <a id="darkThemeButton" href="#" onclick="setTheme('dark'); updateThemeButtonColor();">Dark</a>
+                    <span>  |  </span>
+                    <a id="lightThemeButton" href="#" onclick="setTheme('light'); updateThemeButtonColor();">Light</a>
+                </p>
             </div>
+            <!--
             <div class="decoration">
                 <span class="decor-item-one"></span>
                 <span class="decor-item-two"></span>
@@ -17,6 +44,7 @@ layout: default
                 <span class="decor-item-four"></span>
                 <span class="decor-item-five"></span>
             </div>
+            -->
         </div>
         <div class="main-cta">
             <h1>The best way to use Gmail on your Mac</h1>
@@ -33,10 +61,10 @@ layout: default
     </div>
 
     <div class="clouds cwrap">
-        <object type="image/svg+xml" data="/assets/landing_page_en/clouds-blue.svg" class="cblue">
-        </object>
-        <object type="image/svg+xml" data="/assets/landing_page_en/clouds-white.svg" class="clouds cwhite">
-        </object>
+        <img src="/assets/landing_page_en/clouds-blue.svg" class="cblue"
+             data-dark-theme="/assets/landing_page_en/clouds-darker.svg" />
+        <img src="/assets/landing_page_en/clouds-white.svg" class="clouds cwhite"
+             data-dark-theme="/assets/landing_page_en/clouds-dark.svg" />
     </div>
 </section>
 
@@ -61,17 +89,17 @@ layout: default
                 <p>It also notifies you when new emails arrive. You can react directly by archiving a message or writing a quick reply.</p>
             </li>
             <li id="notifier_animation" class="item-img img-left">
-                <img src="/assets/landing_page_en/notifier/01@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/02@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/03@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/04@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/05@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/06@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/07@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/08@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/09@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/10@2x.jpg" alt="Notifier" />
-                <img style="display: none" src="/assets/landing_page_en/notifier/11@2x.jpg" alt="Notifier" />
+                <img src="/assets/landing_page_en/notifier/01@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/01-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/02@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/02-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/03@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/03-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/04@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/04-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/05@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/05-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/06@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/06-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/07@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/07-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/08@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/08-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/09@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/09-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/10@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/10-dark@2x.jpg" alt="Notifier" />
+                <img style="display: none" src="/assets/landing_page_en/notifier/11@2x.jpg" data-dark-theme="/assets/landing_page_en/notifier/11-dark@2x.jpg" alt="Notifier" />
             </li>
         </ul>
         <!--Item-->
@@ -236,7 +264,8 @@ layout: default
                 <p>Fully localized in English, Japanese, German, French, and Spanish.</p>
             </li>
             <li class="img-center-multilang">
-                <img src="/assets/landing_page_en/languages.png" alt="" />
+                <img src="/assets/landing_page_en/languages.png" alt="Fluent in 5 Languages"
+                     data-dark-theme="/assets/landing_page_en/languages-dark.png" />
             </li>
         </ul>
     </div>
