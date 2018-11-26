@@ -87,8 +87,3 @@ SECTION.cnt-new{background:linear-gradient(#272b2f, #575f65 145px);}
 
 .whatsnew H1{color:#fdfdfd;}
 .whatsnew P{color:#ccc;}
-
-/* -------- Shop -------- */
-H2.store-product-option-display{color:#4f8bf8;}
-.mp3ProductSelection LI{background-color:#575f65;border:1px solid #2c2e37;}
-.store-product-option-display INPUT{border:1px solid #2c2e37;background-color:#6c757c;}
