@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: 'Designing Dark Mode for Mailplane'
+title: 'There''s more to Mailplane''s Dark Mode than you think'
 author: Sofie
 category: blog
 permalink: /blog/entry/designing_dark_mode_for_mailplane.html
