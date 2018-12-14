@@ -71,7 +71,7 @@ only screen and (min-device-pixel-ratio: 1.5)
 .smlnews H4{color:#ccc;}
 .smlnews P{color:#ccc;}
 
-.field{border-color:#2c2e37;rgba(0,0,0,0.2);color:#fdfdfd;}
+.field{border-color:#2c2e37;background-color:rgba(0,0,0,0.2);color:#fdfdfd;}
 
 /* -------- Content -------- */
 SECTION.content{background:linear-gradient(#272b2f, #575f65 145px);}
