@@ -170,7 +170,7 @@ SECTION.testimonials{width:100%;background-color:#fff;padding:70px 0;}
 SECTION.testimonials UL{list-style:none;width:1200px;margin:0 auto;font-size:0;text-align:center;}
 SECTION.testimonials UL LI{margin:0 15px;width:370px;display:inline-block;vertical-align:top;}
 SECTION.testimonials UL LI IMG{width:100%;max-width:317px;margin:0 0 15px 0;}
-SECTION.testimonials P{font:normal 20px 'latoregular', helvetica, arial, sans-serif;color:#98a2b8;margin:0 0 20px 0;min-height:120px;}
+SECTION.testimonials P{font:normal 20px 'latoregular', helvetica, arial, sans-serif;color:#98a2b8;margin:0 0 20px 0;}
 SECTION.testimonials P.user{font:normal 13px 'latoblack', helvetica, arial, sans-serif;color:#6c768a;text-transform:uppercase;letter-spacing:1px;min-height:auto;}
 
 /* -------- CTA -------- */
