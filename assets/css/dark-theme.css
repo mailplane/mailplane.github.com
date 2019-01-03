@@ -41,11 +41,16 @@ SECTION.plugins UL.logos LI P{color:#ccc;}
 SECTION.plugins UL.logos-list LI P{color:#fdfdfd;}
 
 /* -------- Stats -------- */
-SECTION.stats{background-color:#575f65;border-bottom-color:#4f575c;}
+SECTION.stats{background-color:#575f65;}
 SECTION.stats H2{color:#fdfdfd;}
 SECTION.stats P{color:#ccc;}
 #updates{border-right-color:#3a3a3a;}
 SECTION.stats UL LI P{color:#ccc;}
+
+/* -------- Testimonials -------- */
+SECTION.testimonials{background-color:#575f65;border-top-color:#4f575c;}
+SECTION.testimonials P{color:#ccc;}
+SECTION.testimonials P.user{color:#fdfdfd;}
 
 /* -------- CTA -------- */
 SECTION.cta{background-color:#3a3a3a;}
