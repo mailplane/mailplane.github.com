@@ -65,6 +65,11 @@ var testimonials = [
         author: "Bernd Rennebeck"
     },
     {
+        pubDate: "2019-01-21",
+        text: "Great product, great support! What else can you ask for?",
+        author: "Don Downs"
+    },
+    {
         pubDate: "2018-08-17",
         text: "Mailplane straddles the web and desktop worlds, filling a need that neither browsers nor native mail clients can fully satisfy.",
         author: "Julio Ojeda-Zapata",
