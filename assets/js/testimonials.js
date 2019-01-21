@@ -86,6 +86,12 @@ var testimonials = [
         text: "If you prefer the Gmail web interface, MailPlane is a great option!",
         author: "Mike Schmitz",
         publication: { name: "The Sweet Setup", href: "https://thesweetsetup.com/apps/favorite-email-client-os-x/" }
+    },
+    {
+        pubDate: "2018-07-02",
+        text: "Mailplane is a solid app if you prefer an interface that looks like the regular ol' Gmail.",
+        author: "David Murphy",
+        publication: { name: "lifehacker", href: "https://lifehacker.com/lifehacker-pack-for-mac-our-list-of-the-essential-mac-635303836" }
     }
 ];
 
