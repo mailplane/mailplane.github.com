@@ -36,7 +36,7 @@ As part of my workflow, I regularly use the task manager Omnifocus. When I need 
 
 I have not encountered another Mac email client that seamlessly integrates this well with Omnifocus to enhance my productivity.
 
-There are eight new integrated Chrome extensions  including: Grammarly, FullContact, LinkedIn, Gmelius, Docsify, Hiver, Salesforce, and Zoom Scheduler. That's on top of the already supported extension for RightInbox, Streak, Boomerang, and Clearbit Connect. Thank goodness that Grammarly is included. Grammarly ensures that my messages are clear, mistake-free, and impactful. I'd feel naked without it when composing email.
+There are eight new integrated Chrome extensions  including: Grammarly, FullContact, LinkedIn, Gmelius, Mixmax, Hiver, Salesforce, and Zoom Scheduler. That's on top of the already supported extension for RightInbox, Streak, Boomerang, and Clearbit Connect. Thank goodness that Grammarly is included. Grammarly ensures that my messages are clear, mistake-free, and impactful. I'd feel naked without it when composing email.
 
 
 You have mail
