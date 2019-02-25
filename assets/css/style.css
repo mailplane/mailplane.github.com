@@ -189,7 +189,7 @@ FOOTER.main-footer A:hover{color:#4f8cf8;}
 FOOTER.main-footer P{font:normal 17px 'latoregular', helvetica, arial, sans-serif;color:#98a2b8;text-align:center;}
 FOOTER.main-footer P A{color:#4f8cf8;}
 FOOTER.main-footer P A:hover{text-decoration:underline;}
-FOOTER.main-footer .copy{font:normal 14px 'latolight';}
+FOOTER.main-footer .copy{font:normal 16px 'latolight';}
 
 /* -------- Modal -------- */
 .modal{opacity:0;display:none;-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-ms-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
