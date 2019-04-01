@@ -16,6 +16,25 @@ description: We're here for you. Contact us if you have questions about Gmail on
 	#ioreplies_contactForm {padding-bottom: 40px}
 </style>
 
+<style>
+	/* --------- Videos --------- */
+	.videos {
+		height: 700px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-column-gap: 8px;
+		grid-row-gap: 8px;
+	}
+	@media only screen and (max-width: 750px) {
+        .videos {
+			display: grid;
+			grid-template-columns: auto;
+            height: 1400px;
+		}
+	}
+</style>
+
 <section class="content">
 	<div class="container">
 		<div class="cnt-txt">
@@ -45,9 +64,9 @@ description: We're here for you. Contact us if you have questions about Gmail on
 			<h2>Google Help Center</h2>
 			<p>Learn more about Gmail, Google Calendar and Google Contacts.</p>
 			<p>
-				<a href="https://mail.google.com/support">Gmail Help Center</a><br/>
-				<a href="https://calendar.google.com/support">Google Calendar Help Center</a><br/>
-				<a href="https://support.google.com/mail/answer/6164066">Google Contacts Help Center</a>
+				<a target="_blank" href="https://mail.google.com/support">Gmail Help Center</a><br/>
+				<a target="_blank" href="https://calendar.google.com/support">Google Calendar Help Center</a><br/>
+				<a target="_blank" href="https://support.google.com/mail/answer/6164066">Google Contacts Help Center</a>
 			</p>
 
 			<!--
@@ -91,6 +110,13 @@ description: We're here for you. Contact us if you have questions about Gmail on
 				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 			{% endif %}{% endfor %}
 			-->
+			<h1>Videos</h1>
+			<div class="videos">
+				<iframe src="https://player.vimeo.com/video/327016873" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/326816197" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/327051262" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="https://player.vimeo.com/video/327074627" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
 </section>
@@ -98,3 +124,5 @@ description: We're here for you. Contact us if you have questions about Gmail on
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="https://1b.replies.io/api-js/contact_form_4.min.js"></script>
 <script>RepliesContactForm.endpoint = "https://1b.replies.io/api/contact_forms/m8v0luaedv27htd643kbv9d7qs";</script>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
