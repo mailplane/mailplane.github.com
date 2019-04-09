@@ -1,0 +1,148 @@
+---
+layout: inapp
+title: Mailplane - Videos
+description: Learn more about Mailplane by watching our Screencast Tutorials
+---
+
+<style>
+    /* --------- Videos --------- */
+    .videos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto 167px;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        justify-items: start;
+        align-items: stretch;
+    }
+
+    .video-player {
+        height: 100%;
+        width: 100%;
+    }
+
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-chooser {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .video-chooser-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-items: start;
+        align-items: start;
+        cursor: pointer;
+    }
+
+    .video-button {
+        margin-right: 8px;
+        min-width: 266px;
+        height: 100%;
+        border-radius: 2px;
+        border: solid 2px transparent;
+    }
+
+    .video-button-playing {
+        border: solid 2px darkgray;
+    }
+
+</style>
+
+<section>
+
+    <div class="videos">
+        <div class="video-player">
+            <div class="video-wrapper">
+                <iframe src="https://player.vimeo.com/video/327016873" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-chooser">
+            <div class="video-chooser-content">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<script>
+    var videos = [
+        {name: "Search Everywhere", videoId: 327016873, thumbnailId: 771180493},
+        {name: "Bookmarks", videoId: 326816197, thumbnailId: 770920150},
+        {name: "Save Clip", videoId: 327051262, thumbnailId: 771222327},
+        {name: "Annotate Image", videoId: 327074627, thumbnailId: 771251595}
+    ];
+
+    function getVideo(videoId) {
+        for (var i in videos) {
+            var video = videos[i];
+            console.log(video, video.videoId, videoId, typeof(videoId));
+            if (video.videoId === videoId) {
+                return video;
+            }
+        }
+        return undefined;
+    }
+
+
+    function fillVideoChooser() {
+        var chooser = $('.video-chooser-content');
+        $(videos).each(function (i) {
+            var video = videos[i];
+            var href = 'https://i.vimeocdn.com/video/' + video.thumbnailId + '?mh=150';
+            var videoElement = $('<div class="video-button"></div>').attr('data-video-id', video.videoId).attr('style', 'background-image: url(' + href + ')');
+            chooser.append(videoElement);
+        });
+
+        $('.video-button').click(function (event) {
+            var videoId = parseInt($(this).attr('data-video-id'));
+            var video = getVideo(videoId);
+            updateVideoPlayer(video, true);
+        });
+    }
+
+    function updateVideoPlayer(video, play) {
+        if (!video) {
+            console.log('no video');
+            return;
+        }
+        var href = 'https://player.vimeo.com/video/' + video.videoId;
+        if (play) {
+            href += '?autoplay=1'
+        }
+        $('.video-player iframe').attr('src', href);
+        $('.video-button').removeClass('video-button-playing');
+        $('.video-button[data-video-id="' + video.videoId + '"]').addClass('video-button-playing');
+
+    }
+
+    fillVideoChooser();
+    updateVideoPlayer(videos[0], false);
+
+</script>
+
