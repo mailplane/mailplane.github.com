@@ -105,7 +105,6 @@ description: Learn more about Mailplane by watching our Screencast Tutorials
     function getVideo(videoId) {
         for (var i in videos) {
             var video = videos[i];
-            console.log(video, video.videoId, videoId, typeof(videoId));
             if (video.videoId === videoId) {
                 return video;
             }
@@ -119,7 +118,10 @@ description: Learn more about Mailplane by watching our Screencast Tutorials
         $(videos).each(function (i) {
             var video = videos[i];
             var href = 'https://i.vimeocdn.com/video/' + video.thumbnailId + '?mh=120';
-            var videoElement = $('<div class="video-button"></div>').attr('data-video-id', video.videoId).attr('style', 'background-image: url(' + href + ')');
+            var videoElement =
+                $('<div class="video-button"></div>')
+                    .attr('data-video-id', video.videoId)
+                    .attr('style', 'background-image: url(' + href + ')');
             chooser.append(videoElement);
         });
 
@@ -132,12 +134,12 @@ description: Learn more about Mailplane by watching our Screencast Tutorials
 
     function updateVideoPlayer(video, play) {
         if (!video) {
-            console.log('no video');
+            console.warn('cannot update video player as there is no video');
             return;
         }
-        var href = 'https://player.vimeo.com/video/' + video.videoId;
+        var href = 'https://player.vimeo.com/video/' + video.videoId + '?byline=false&title=false';
         if (play) {
-            href += '?autoplay=1'
+            href += '&autoplay=1'
         }
         $('.video-player iframe').attr('src', href);
         $('.video-button').removeClass('video-button-playing');
