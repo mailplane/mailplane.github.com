@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if lt IE 9]>
+<script src="/assets/js/html5shiv.js"></script>
+<![endif]-->
+<html lang="en">
+<head>
+    <meta name="keywords" content="gmail mac, gmail for mac, gmail mac file attachments, google mail mac, mac email google" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | markdownify | strip_html }}{% endif %}">
+    <meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" name="viewport">
+    <meta charset="utf-8"/>
+    <title>Mailplane - {% if page.title == 'Home' %}Gmail for Mac{% else %}{{ page.title }}{% endif %}</title>
+
+    <link rel="stylesheet" href="/assets/css/html5reset-1.6.1.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css" />
+    <style id="darkThemeConditionalStyle">@import url("/assets/css/dark-theme.css") screen and (prefers-color-scheme: dark);</style>
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-64x64.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-128x128.png" sizes="128x128">
+
+    <script src="/assets/js/themes.1.js"></script>
+    <script src="/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="/assets/js/testimonials.js"></script>
+    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(100554681);</script>
+    <script async src="//static.getclicky.com/js"></script>
+
+    <style>
+        /* --------- Videos --------- */
+        .videos {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: auto 200px;
+            grid-template-rows: auto;
+            grid-column-gap: 8px;
+            grid-row-gap: 8px;
+            justify-items: start;
+            align-items: stretch;
+            height: 100%;
+        }
+
+        .video-player {
+            height: 100%;
+            width: 100%;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-chooser {
+            max-height: 100vh;
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .video-chooser-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-items: start;
+            align-items: start;
+            cursor: pointer;
+        }
+
+        .video-button {
+            background-position: center;
+            background-size: auto;
+            margin-bottom: 8px;
+            width: 100%;
+            height: 120px;
+            border-radius: 2px;
+            border: solid 2px transparent;
+        }
+
+        .video-button-playing {
+            border: solid 2px darkgray;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<section>
+
+    <div class="videos">
+        <div class="video-player">
+            <div class="video-wrapper">
+                <iframe src="https://player.vimeo.com/video/327016873" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video-chooser">
+            <div class="video-chooser-content">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+
+    var videos = [];
+
+</script>
+
+{{ content }}
+
+<script>
+
+    function getVideo(videoId) {
+        for (var i in videos) {
+            var video = videos[i];
+            if (video.videoId === videoId) {
+                return video;
+            }
+        }
+        return undefined;
+    }
+
+
+    function fillVideoChooser() {
+        var chooser = $('.video-chooser-content');
+        $(videos).each(function (i) {
+            var video = videos[i];
+            var href = 'https://i.vimeocdn.com/video/' + video.thumbnailId + '?mh=120';
+            var videoElement =
+                $('<div class="video-button"></div>')
+                    .attr('data-video-id', video.videoId)
+                    .attr('style', 'background-image: url(' + href + ')');
+            chooser.append(videoElement);
+        });
+
+        $('.video-button').click(function (event) {
+            var videoId = parseInt($(this).attr('data-video-id'));
+            var video = getVideo(videoId);
+            updateVideoPlayer(video, true);
+        });
+    }
+
+    function updateVideoPlayer(video, play) {
+        if (!video) {
+            console.warn('cannot update video player as there is no video');
+            return;
+        }
+        var href = 'https://player.vimeo.com/video/' + video.videoId + '?byline=false&title=false';
+        if (play) {
+            href += '&autoplay=1'
+        }
+        $('.video-player iframe').attr('src', href);
+        $('.video-button').removeClass('video-button-playing');
+        $('.video-button[data-video-id="' + video.videoId + '"]').addClass('video-button-playing');
+
+    }
+
+    fillVideoChooser();
+    updateVideoPlayer(videos[0], false);
+
+</script>
+
+
+</body>
+</html>

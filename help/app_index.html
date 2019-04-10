@@ -1,0 +1,121 @@
+---
+layout: default
+title: Help
+description: We're here for you. Contact us if you have questions about Gmail on your Mac.
+---
+
+<style>
+	/* -------- replies.io Contact Form -------- */
+	#ioreplies_faqs_title {display:none;}
+	#ioreplies_faqs {margin:0 0 30px 0;}
+	.ioreplies_faq {padding-bottom: 10px;}
+	.ioreplies_faq_body {padding-top: 5px; padding-bottom: 20px}
+	#ioreplies_suggestions {margin:0 0 30px 0;}
+	.ioreplies_suggestion {padding-top: 15px;}
+	div.ioreplies_faq_question, .ioreplies_suggestion_question {font-weight:bold;}
+	#ioreplies_contactForm {display:none}
+</style>
+
+<style>
+	/* --------- Videos --------- */
+	.videos {
+		height: 700px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-column-gap: 8px;
+		grid-row-gap: 8px;
+	}
+	@media only screen and (max-width: 750px) {
+        .videos {
+			display: grid;
+			grid-template-columns: auto;
+            height: 1400px;
+		}
+	}
+</style>
+
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+			<h2 id="ioreplies_faqs_title">FAQ</h2>
+			<div id="ioreplies_faqs"></div>
+
+			<form id="ioreplies_contactForm" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" autocomplete="off">
+				<div style="margin-bottom: 20px">
+					<div style="font:normal 16px 'latolight'; text-align: right">Powered by <a href="https://replies.io">replies.io</a></div>
+					<textarea class="field" name="body" rows="5" required="true" style="width: 100%; height: inherit; text-align: inherit; padding: 10px; margin-bottom: 0" placeholder="How can we help?"></textarea>
+					<input type="file" name="attachments" multiple="true" />
+					<div id="ioreplies_suggestions"></div>
+				</div>
+				<input class="field" type="email" placeholder="your@email.com" name="email" required="true">
+				<input class="field" type="text" placeholder="Your Name" name="name" />
+				<input class="bluebtn" style="width:250px;margin:25px auto" type="submit" value="Send" onclick="this.form.action = RepliesContactForm.endpoint">
+
+				<input type="hidden" name="product_name" value="Mailplane" />
+				<input type="hidden" name="metadata" value="{}" />
+				<input type="hidden" name="language" value="en" />
+				<input type="hidden" name="success_url" value="https://mailplaneapp.com/help/request_success.html" />
+			</form>
+
+			<h2>Check for Updates...</h2>
+			<p>Mailplane has been around since 2007 and is constantly improving. <strong>Read our <a href="/releases/mailplane4.html">release notes</a></strong> and ensure you're up to date by clicking <strong>'Mailplane 3 > Check for Updates...'</strong>.</p>
+
+			<h2>Google Help Center</h2>
+			<p>Learn more about Gmail, Google Calendar and Google Contacts.</p>
+			<p>
+				<a target="_blank" href="https://mail.google.com/support">Gmail Help Center</a><br/>
+				<a target="_blank" href="https://calendar.google.com/support">Google Calendar Help Center</a><br/>
+				<a target="_blank" href="https://support.google.com/mail/answer/6164066">Google Contacts Help Center</a>
+			</p>
+
+			<!--
+			<h2>Accounts</h2>
+			{% for post in site.tags.accounts %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Email</h2>
+			{% for post in site.tags.email %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Calendar</h2>
+			{% for post in site.tags.calendar %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Appearance</h2>
+			{% for post in site.tags.appearance %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Plug-Ins</h2>
+			{% for post in site.tags.plugins %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Licensing</h2>
+			{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Integration</h2>
+			{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Tips &amp; Tricks</h2>
+			{% for post in site.tags.tricks %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+			-->
+		</div>
+	</div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://1b.replies.io/api-js/contact_form_4.min.js"></script>
+<script>RepliesContactForm.endpoint = "https://1b.replies.io/api/contact_forms/m8v0luaedv27htd643kbv9d7qs";</script>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
