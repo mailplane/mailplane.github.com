@@ -181,15 +181,15 @@ SECTION.cta P{font:normal 24px 'latoregular', helvetica, arial, sans-serif;color
 SECTION.cta DIV.cta-btn{width:210px;margin:0 auto;}
 
 /* -------- Footer -------- */
-FOOTER.main-footer{padding:50px 0 50px 0;background-color:#fff;width:100%;max-width:770px;margin:0 auto;}
+FOOTER.main-footer{padding:50px 10px;background-color:#fff;width:100%;max-width:770px;margin:0 auto;}
 FOOTER.main-footer UL{list-style:none;text-align:center;margin:0 0 25px 0;}
 FOOTER.main-footer UL LI{display:inline-block;margin:0 12px;font:normal 18px 'latoregular', helvetica, arial, sans-serif;}
 FOOTER.main-footer A{color:#98a2b8;text-decoration:none;}
 FOOTER.main-footer A:hover{color:#4f8cf8;}
-FOOTER.main-footer P{font:normal 17px 'latoregular', helvetica, arial, sans-serif;color:#98a2b8;text-align:center;}
+FOOTER.main-footer P{font:normal 14px 'latolight', helvetica, arial, sans-serif;color:#98a2b8;text-align:center;padding-bottom:10px}
 FOOTER.main-footer P A{color:#4f8cf8;}
 FOOTER.main-footer P A:hover{text-decoration:underline;}
-FOOTER.main-footer .copy{font:normal 16px 'latolight';}
+FOOTER.main-footer .copy{padding-bottom:0;}
 
 /* -------- Modal -------- */
 .modal{opacity:0;display:none;-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out;-ms-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
