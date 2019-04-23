@@ -16,8 +16,8 @@ $(function() {
     var nbrOfUpdates = 0;
     nbrOfUpdates += 50; // Mailplane 1 (Estimate)
     nbrOfUpdates += 47; // Mailplane 2 (2.5.12, 2.4.1, 2.3.1, 2.2.1, 2.1.11, 2.0.15)
-    nbrOfUpdates += {{ site.categories.release_mailplane3 | size }}; // Mailplane 3
-    nbrOfUpdates += {{ site.categories.release_mailplane4 | size }}; // Mailplane 4
+    nbrOfUpdates += $("#numberOfMailplaneUpdates").data("mp3"); // Mailplane 3
+    nbrOfUpdates += $("#numberOfMailplaneUpdates").data("mp4"); // Mailplane 4
     $("#numberOfMailplaneUpdates").text(nbrOfUpdates);
 
     $('#openmodal').click(function() {
