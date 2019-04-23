@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Does Mailplane support Google Apps accounts?'
 author: Lars
 category: help

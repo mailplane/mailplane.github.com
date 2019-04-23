@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Smart scheduling in Google Calendar'
 author: Lars
 category: blog

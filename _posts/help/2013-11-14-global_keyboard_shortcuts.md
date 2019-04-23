@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Global Keyboard Shortcuts'
 author: Gor
 category: help

@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Undo Send graduates out of Gmail Labs'
 author: Jessica
 category: blog

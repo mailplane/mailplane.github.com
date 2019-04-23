@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Can you send me my Gmail password?'
 author: Jessica
 category: help

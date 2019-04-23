@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Mailplane 3 in the Press'
 author: Lars
 category: blog

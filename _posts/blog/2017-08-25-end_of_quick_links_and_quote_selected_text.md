@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'End of "Quick Links" and "Quote Selected Text"'
 author: Lars
 category: blog

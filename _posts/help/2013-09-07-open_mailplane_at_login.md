@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Open Mailplane at Login'
 author: Gor
 category: help

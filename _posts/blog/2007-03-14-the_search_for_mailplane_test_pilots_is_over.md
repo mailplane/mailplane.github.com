@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'The search for Mailplane test pilots is over'
 author: Ruben
 category: blog

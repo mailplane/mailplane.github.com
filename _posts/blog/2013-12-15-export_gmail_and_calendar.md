@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Export Gmail and Calendar'
 author: Jessica
 category: blog

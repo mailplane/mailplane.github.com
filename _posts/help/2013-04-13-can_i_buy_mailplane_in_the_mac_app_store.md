@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Can I buy Mailplane in the Mac AppStore?'
 author: Lars
 category: help

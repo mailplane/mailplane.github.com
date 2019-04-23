@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Mailplane''s 10th Birthday'
 author: Lars
 category: blog

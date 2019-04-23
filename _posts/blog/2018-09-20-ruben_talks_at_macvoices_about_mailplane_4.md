@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Ruben talks at MacVoices about Mailplane 4'
 author: Lars
 category: blog

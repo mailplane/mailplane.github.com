@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Is Mailplane a subscription service? Are there any recurring fees? '
 author: Jessica
 category: help

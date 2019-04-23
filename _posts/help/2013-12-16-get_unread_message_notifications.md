@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Get unread message notifications'
 author: Gor
 category: help

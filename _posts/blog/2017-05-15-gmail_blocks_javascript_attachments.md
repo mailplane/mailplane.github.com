@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Gmail Blocks JavaScript Attachments'
 author: Lars
 category: blog

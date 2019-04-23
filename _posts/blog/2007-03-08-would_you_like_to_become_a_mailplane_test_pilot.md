@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Would you like to become a Mailplane test pilot?'
 author: Ruben
 category: blog

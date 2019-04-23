@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'I can not find my license. Can I get a new one?'
 author: Jessica
 category: help

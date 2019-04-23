@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Hide the Gmail sponsored links'
 author: Ruben
 category: help

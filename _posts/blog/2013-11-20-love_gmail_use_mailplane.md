@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Love Gmail, Use Mailplane'
 author: Jessica
 category: blog

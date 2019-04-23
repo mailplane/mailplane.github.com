@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'The Verge Review'
 author: Lars
 category: blog

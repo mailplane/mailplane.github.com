@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: '2-step verification'
 author: Jessica
 category: help

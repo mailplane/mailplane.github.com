@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Adding events to Google Calendar'
 author: Jessica
 category: blog

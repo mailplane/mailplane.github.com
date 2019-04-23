@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'End of the year Mailplane reviews'
 author: Jessica
 category: blog

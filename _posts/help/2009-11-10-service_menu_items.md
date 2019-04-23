@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Service Menu Items'
 author: Ruben
 category: help

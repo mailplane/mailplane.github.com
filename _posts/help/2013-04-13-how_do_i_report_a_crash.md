@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'How do I report a crash?'
 author: Lars
 category: help

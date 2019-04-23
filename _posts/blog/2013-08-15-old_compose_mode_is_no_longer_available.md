@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Old compose mode is no longer available'
 author: Lars
 category: blog

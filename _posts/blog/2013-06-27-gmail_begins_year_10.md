@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Gmail Begins Year 10!'
 author: Jessica
 category: blog

@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Google will stop reading your emails for ads'
 author: Lars
 category: blog

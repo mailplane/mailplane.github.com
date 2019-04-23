@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: '''!'' in the notifier or dock badge'
 author: Jessica
 category: help

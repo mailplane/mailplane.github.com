@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'ScreenCastsOnline Tutorial'
 author: Lars
 category: blog

@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'The Idea Behind the New Compose'
 author: Jessica
 category: blog

@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Empty Trash Containing Cache Files'
 author: Gor
 category: help

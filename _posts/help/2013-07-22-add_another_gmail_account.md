@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Add another Gmail account'
 author: Gor
 category: help

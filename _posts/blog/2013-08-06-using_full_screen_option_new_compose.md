@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Using the Full Screen Option with New Compose'
 author: Jessica
 category: blog

@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Edit Attachments'
 author: Lars
 category: help

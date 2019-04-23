@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Schedule send in Gmail'
 author: Lars
 category: blog

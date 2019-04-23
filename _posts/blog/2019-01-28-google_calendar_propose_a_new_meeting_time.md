@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Google Calendar: Propose a new meeting time'
 author: Lars
 category: blog

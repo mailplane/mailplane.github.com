@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Adjust Font Size'
 author: Gor
 category: help

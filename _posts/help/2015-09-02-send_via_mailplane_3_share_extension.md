@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: '''Send via Mailplane 3'' Share Extension'
 author: Jessica
 category: help

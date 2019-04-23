@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Open links externally or internally'
 author: Gor
 category: help

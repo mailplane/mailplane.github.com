@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Copy account settings to another Mac'
 author: Ruben
 category: help

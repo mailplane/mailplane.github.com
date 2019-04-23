@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Mailplane 4 has landed!'
 author: Lars
 category: blog

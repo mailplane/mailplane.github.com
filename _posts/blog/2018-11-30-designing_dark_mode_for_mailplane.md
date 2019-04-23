@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'There''s more to Mailplane''s Dark Mode than you think'
 author: Sofie
 category: blog

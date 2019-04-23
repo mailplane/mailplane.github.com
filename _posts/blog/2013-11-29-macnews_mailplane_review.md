@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'MacNews Mailplane Review'
 author: Jessica
 category: blog

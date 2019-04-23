@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'macOS High Sierra (10.13)'
 author: Lars
 category: help

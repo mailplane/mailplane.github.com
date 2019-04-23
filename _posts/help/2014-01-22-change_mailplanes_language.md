@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Change Mailplane''s language'
 author: Lars
 category: help

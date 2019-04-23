@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Can I use Mailplane on different Macs?'
 author: Lars
 category: help

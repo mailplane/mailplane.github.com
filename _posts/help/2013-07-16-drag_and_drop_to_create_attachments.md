@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Drag and drop to create attachments'
 author: Gor
 category: help

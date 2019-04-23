@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Gentle notifications lab feature graduated'
 author: Lars
 category: blog

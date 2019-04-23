@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Add Custom Sounds'
 author: Gor
 category: help

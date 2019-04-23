@@ -3,13 +3,13 @@
 <!--[if lt IE 9]>
 <script src="/assets/js/html5shiv.js"></script>
 <![endif]-->
-<html lang="en">
+<html lang="{{ layout.lang }}">
 <head>
     <meta name="keywords" content="gmail mac, gmail for mac, gmail mac file attachments, google mail mac, mac email google" />
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | markdownify | strip_html }}{% endif %}">
     <meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" name="viewport">
     <meta charset="utf-8"/>
-    <title>Mailplane - {% if page.title == 'Home' %}Gmail for Mac{% else %}{{ page.title }}{% endif %}</title>
+    <title>Mailplane - {{ page.title }}</title>
 
     <link rel="stylesheet" href="/assets/css/html5reset-1.6.1.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
@@ -30,29 +30,23 @@
 <body>
     <nav class="main">
         <div class="logo">
-            <a href="/index.html">
+            <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/index.html">
                 <span class="logo-icon"></span>
                 <h3>Mailplane</h3>
             </a>
         </div>
         <ul>
-            {% if page.title == 'Home' %}
             <li>
-                <a href="/mailplane_4_what_is_new.html">What's New</a>
-            </li>
-            {% else %}
-            <li>
-                <a href="/index.html">Home</a>
-            </li>
-            {% endif %}
-            <li>
-                <a href="/help.html" {% if page.title == 'Help' %}class="active"{% endif %}>Help</a>
+                <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/index.html">{{ layout.navigation_home_label }}</a>
             </li>
             <li>
-                <a href="/about.html" {% if page.title == 'About' %}class="active"{% endif %}>About</a>
+                <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/help.html">{{ layout.navigation_help_label }}</a>
             </li>
             <li>
-                <a href="/blog.html" {% if page.title == 'Blog' %}class="active"{% endif %}>Blog</a>
+                <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/about.html">{{ layout.navigation_about_label }}</a>
+            </li>
+            <li>
+                <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/blog.html">{{ layout.navigation_blog_label }}</a>
             </li>
         </ul>
     </nav>
@@ -61,14 +55,14 @@
 
     <footer class="main-footer">
         <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="https://store.mailplaneapp.com">Buy</a></li>
-            <li><a href="/help.html">Help</a></li>
-            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/index.html">{{ layout.navigation_home_label }}</a></li>
+            <li><a href="https://store.mailplaneapp.com?l={{ layout.lang }}">{{ layout.navigation_store_label }}</a></li>
+            <li><a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/help.html">{{ layout.navigation_help_label }}</a></li>
+            <li><a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/blog.html">{{ layout.navigation_blog_label }}</a></li>
         </ul>
         <p class="copy">
-            &copy; 2007-{{ site.time | date: '%Y' }} <a href="/about.html">Mailplane GmbH</a><br/>
-            <a href="/legal/privacy_policy.html">Privacy Policy</a>&nbsp;|&nbsp;<a href="/legal/eula.html">EULA</a>
+            &copy; 2007-{{ site.time | date: '%Y' }} <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/about.html">Mailplane GmbH</a><br/>
+            <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/legal/privacy_policy.html">Privacy Policy</a>&nbsp;|&nbsp;<a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/legal/eula.html">EULA</a>
         </p>
     </footer>
 </body>

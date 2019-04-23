@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'Receive emails of up to 50MB'
 author: Lars
 category: blog

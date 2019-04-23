@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Customizing Gmail using CSS'
 author: Jessica
 category: help

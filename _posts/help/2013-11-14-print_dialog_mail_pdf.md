@@ -1,5 +1,5 @@
 ---
-layout: help_post
+layout: help_post_en
 title: 'Print Dialog: Mail PDF'
 author: Gor
 category: help

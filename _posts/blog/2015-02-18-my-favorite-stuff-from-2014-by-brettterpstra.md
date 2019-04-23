@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog_post_en
 title: 'My favorite stuff from 2014 by brettterpstra.com'
 author: Jessica
 category: blog

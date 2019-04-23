@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: default_en
 ---
 
 <style>
+	.author { float: right }
 	pre, code {
 		background-color: #efefef;
 		border-color: #d6d6d6 !important;
@@ -15,21 +16,23 @@ layout: default
 		padding: 10px 2%;
 		border: 1px solid;
 	}
-	img {
-		padding-top: 5px;
-	}
+	img { max-width: 100% }
 	img.shadowed, iframe.shadowed {
 		box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
 		-webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 0px 5px);
 		-webkit-box-shadow: none;
 	}
+	blockquote { border-left: solid 3px; padding-left: 0.9em; }
+	em.caption { display: block; font-size: smaller }
 </style>
 
 <section class="content">
 	<div class="container">
 		<div class="cnt-txt">
 			<span class="date">{{ page.date | date_to_string }}</span>
-			<h2 class="post-title">{{ page.title }}</h2>
+			<span class="author">by {{ page.author }}</span>
+			<h1 class="post-title">{{ page.title }}</h1>
+			<br/>
 			{{ content }}
 		</div>
 	</div>
