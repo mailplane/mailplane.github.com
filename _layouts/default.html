@@ -62,7 +62,7 @@
         </ul>
         <p class="copy">
             &copy; 2007-{{ site.time | date: '%Y' }} <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/about.html">Mailplane GmbH</a><br/>
-            <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/legal/privacy_policy.html">Privacy Policy</a>&nbsp;|&nbsp;<a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/legal/eula.html">EULA</a>
+            <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/legal/privacy_policy.html">{{ layout.footer_privacy_policy_link_label }}</a>&nbsp;|&nbsp;<a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/legal/eula.html">{{ layout.footer_eula_link_label }}</a>
         </p>
     </footer>
 </body>
