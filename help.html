@@ -4,36 +4,7 @@ title: Help
 description: We're here for you. Contact us if you have questions about Gmail on your Mac.
 ---
 
-<style>
-	/* -------- replies.io Contact Form -------- */
-	#ioreplies_faqs_title {display:none;}
-	#ioreplies_faqs {margin:0 0 30px 0;}
-	.ioreplies_faq {padding-bottom: 10px;}
-	.ioreplies_faq_body {padding-top: 5px; padding-bottom: 20px}
-	#ioreplies_suggestions {margin:0 0 30px 0;}
-	.ioreplies_suggestion {padding-top: 15px;}
-	div.ioreplies_faq_question, .ioreplies_suggestion_question {font-weight:bold;}
-	#ioreplies_contactForm {padding-bottom: 40px}
-</style>
-
-<style>
-	/* --------- Videos --------- */
-	.videos {
-		height: 700px;
-		width: 100%;
-		display: grid;
-		grid-template-columns: auto auto;
-		grid-column-gap: 8px;
-		grid-row-gap: 8px;
-	}
-	@media only screen and (max-width: 750px) {
-        .videos {
-			display: grid;
-			grid-template-columns: auto;
-            height: 1400px;
-		}
-	}
-</style>
+<link rel="stylesheet" href="/assets/help/style.css" />
 
 <section class="content">
 	<div class="container">
@@ -45,7 +16,6 @@ description: We're here for you. Contact us if you have questions about Gmail on
 				<div style="margin-bottom: 20px">
 					<div style="font:normal 16px 'latolight'; text-align: right">Powered by <a href="https://replies.io">replies.io</a></div>
 					<textarea class="field" name="body" rows="5" required="true" style="width: 100%; height: inherit; text-align: inherit; padding: 10px; margin-bottom: 0" placeholder="How can we help?"></textarea>
-					<input type="file" name="attachments" multiple="true" />
 					<div id="ioreplies_suggestions"></div>
 				</div>
 				<input class="field" type="email" placeholder="your@email.com" name="email" required="true">
@@ -125,5 +95,3 @@ description: We're here for you. Contact us if you have questions about Gmail on
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="https://1b.replies.io/api-js/contact_form_4.min.js"></script>
 <script>RepliesContactForm.endpoint = "https://1b.replies.io/api/contact_forms/m8v0luaedv27htd643kbv9d7qs";</script>
-
-<script src="https://player.vimeo.com/api/player.js"></script>

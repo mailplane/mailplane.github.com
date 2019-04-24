@@ -1,0 +1,26 @@
+/* -------- replies.io Contact Form -------- */
+#ioreplies_faqs_title {display:none;}
+#ioreplies_faqs {margin:0 0 30px 0;}
+.ioreplies_faq {padding-bottom: 10px;}
+.ioreplies_faq_body {padding-top: 5px; padding-bottom: 20px}
+#ioreplies_suggestions {margin:0 0 30px 0;}
+.ioreplies_suggestion {padding-top: 15px;}
+div.ioreplies_faq_question, .ioreplies_suggestion_question {font-weight:bold;}
+#ioreplies_contactForm {padding-bottom: 40px}
+
+/* --------- Videos --------- */
+.videos {
+  height: 700px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+@media only screen and (max-width: 750px) {
+    .videos {
+        display: grid;
+        grid-template-columns: auto;
+        height: 1400px;
+    }
+}
