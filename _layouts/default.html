@@ -10,6 +10,11 @@
     <meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" name="viewport">
     <meta charset="utf-8"/>
     <title>Mailplane - {{ page.title }}</title>
+    {% if layout.lang == 'en' %}
+    <link rel="alternate" hreflang="de" href="/de{{ page.url }}" />
+    {% else %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | remove_first:'/de' }}" />
+    {% endif %}
 
     <link rel="stylesheet" href="/assets/css/html5reset-1.6.1.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
