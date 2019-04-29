@@ -1,0 +1,83 @@
+---
+layout: default_de
+title: Hilfe
+description: Kontaktieren Sie uns bei Fragen zu Gmail auf dem Mac.
+---
+
+<link rel="stylesheet" href="/assets/help/style.css" />
+
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+			<h2 id="ioreplies_faqs_title">
+				FAQ
+				<div style="font:normal 16px 'latolight';">Powered by <a href="https://replies.io">replies.io</a></div>
+			</h2>
+			<div id="ioreplies_faqs"></div>
+
+			<form id="ioreplies_contactForm" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" autocomplete="off">
+				<input type="hidden" name="product_name" value="Mailplane" />
+				<input type="hidden" name="metadata" value="{}" />
+				<input type="hidden" name="language" value="de" />
+				<input type="hidden" name="success_url" value="https://mailplaneapp.com/help/de/request_success.html" />
+			</form>
+
+			<h2>Nach Aktualisierungen suchen...</h2>
+			<p>Mailplane gibt es seit 2007 und wir verbessern es laufend. <strong>Lesen Sie unsere <a href="/releases/mailplane4.html">Release Notes</a></strong> und stellen sicher, dass Sie die aktuellste Version verwenden. Klicken Sie dazu <strong>'Mailplane > Nach Aktualisierungen suchen...'</strong>.</p>
+
+			<h2>Google Hilfe</h2>
+			<p>Erfahren Sie mehr über Gmail, Google Kalender and Kontakte.</p>
+			<p>
+				<a target="_blank" href="https://mail.google.com/support?hl=de">Gmail-Hilfe</a><br/>
+				<a target="_blank" href="https://calendar.google.com/support?hl=de">Google Kalender Hilfe</a><br/>
+				<a target="_blank" href="https://support.google.com/contacts?hl=de">Kontakte Hilfe</a>
+			</p>
+
+			<!--
+			<h2>Accounts</h2>
+			{% for post in site.tags.accounts %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Email</h2>
+			{% for post in site.tags.email %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Calendar</h2>
+			{% for post in site.tags.calendar %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Appearance</h2>
+			{% for post in site.tags.appearance %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Plug-Ins</h2>
+			{% for post in site.tags.plugins %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Licensing</h2>
+			{% for post in site.tags.licensing %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Integration</h2>
+			{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+
+			<h2>Tips &amp; Tricks</h2>
+			{% for post in site.tags.tricks %}{% if post.categories contains 'help' %}
+				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+			{% endif %}{% endfor %}
+			-->
+		</div>
+	</div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://1b.replies.io/api-js/contact_form_4.min.js"></script>
+<script>RepliesContactForm.endpoint = "https://1b.replies.io/api/contact_forms/m8v0luaedv27htd643kbv9d7qs";</script>
