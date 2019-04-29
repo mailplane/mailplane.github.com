@@ -4,54 +4,18 @@ title: Help
 description: We're here for you. Contact us if you have questions about Gmail on your Mac.
 ---
 
-<style>
-	/* -------- replies.io Contact Form -------- */
-	#ioreplies_faqs_title {display:none;}
-	#ioreplies_faqs {margin:0 0 30px 0;}
-	.ioreplies_faq {padding-bottom: 10px;}
-	.ioreplies_faq_body {padding-top: 5px; padding-bottom: 20px}
-	#ioreplies_suggestions {margin:0 0 30px 0;}
-	.ioreplies_suggestion {padding-top: 15px;}
-	div.ioreplies_faq_question, .ioreplies_suggestion_question {font-weight:bold;}
-	#ioreplies_contactForm {display:none}
-</style>
-
-<style>
-	/* --------- Videos --------- */
-	.videos {
-		height: 700px;
-		width: 100%;
-		display: grid;
-		grid-template-columns: auto auto;
-		grid-column-gap: 8px;
-		grid-row-gap: 8px;
-	}
-	@media only screen and (max-width: 750px) {
-        .videos {
-			display: grid;
-			grid-template-columns: auto;
-            height: 1400px;
-		}
-	}
-</style>
+<link rel="stylesheet" href="/assets/help/style.css" />
 
 <section class="content">
 	<div class="container">
 		<div class="cnt-txt">
-			<h2 id="ioreplies_faqs_title">FAQ</h2>
+			<h2 id="ioreplies_faqs_title">
+				FAQ
+				<div style="font:normal 16px 'latolight';">Powered by <a href="https://replies.io">replies.io</a></div>
+			</h2>
 			<div id="ioreplies_faqs"></div>
 
 			<form id="ioreplies_contactForm" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" autocomplete="off">
-				<div style="margin-bottom: 20px">
-					<div style="font:normal 16px 'latolight'; text-align: right">Powered by <a href="https://replies.io">replies.io</a></div>
-					<textarea class="field" name="body" rows="5" required="true" style="width: 100%; height: inherit; text-align: inherit; padding: 10px; margin-bottom: 0" placeholder="How can we help?"></textarea>
-					<input type="file" name="attachments" multiple="true" />
-					<div id="ioreplies_suggestions"></div>
-				</div>
-				<input class="field" type="email" placeholder="your@email.com" name="email" required="true">
-				<input class="field" type="text" placeholder="Your Name" name="name" />
-				<input class="bluebtn" style="width:250px;margin:25px auto" type="submit" value="Send" onclick="this.form.action = RepliesContactForm.endpoint">
-
 				<input type="hidden" name="product_name" value="Mailplane" />
 				<input type="hidden" name="metadata" value="{}" />
 				<input type="hidden" name="language" value="en" />
@@ -59,14 +23,14 @@ description: We're here for you. Contact us if you have questions about Gmail on
 			</form>
 
 			<h2>Check for Updates...</h2>
-			<p>Mailplane has been around since 2007 and is constantly improving. <strong>Read our <a href="/releases/mailplane4.html">release notes</a></strong> and ensure you're up to date by clicking <strong>'Mailplane 3 > Check for Updates...'</strong>.</p>
+			<p>Mailplane has been around since 2007 and is constantly improving. <strong>Read our <a href="/releases/mailplane4.html">release notes</a></strong> and ensure you're up to date by clicking <strong>'Mailplane > Check for Updates...'</strong>.</p>
 
 			<h2>Google Help Center</h2>
 			<p>Learn more about Gmail, Google Calendar and Google Contacts.</p>
 			<p>
 				<a target="_blank" href="https://mail.google.com/support">Gmail Help Center</a><br/>
 				<a target="_blank" href="https://calendar.google.com/support">Google Calendar Help Center</a><br/>
-				<a target="_blank" href="https://support.google.com/mail/answer/6164066">Google Contacts Help Center</a>
+				<a target="_blank" href="https://support.google.com/contacts/">Google Contacts Help Center</a>
 			</p>
 
 			<!--
