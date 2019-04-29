@@ -8,7 +8,7 @@ permalink: /blog/entry/mailplane_4_has_landed.html
 
 We hope you've been enjoying Mailplane over the past few years. We're happy to officially announce the release of Mailplane 4 today. It is a major update to our popular macOS application for Gmail, Calendar, Contacts & Google Inbox.
 
-Mailplane 4 is packed with new features and looks better than ever. Check out some of its new features [here](/mailplane_4_what_is_new.html)!
+Mailplane 4 is packed with new features and looks better than ever. Check out some of its new features [here](/releases/mailplane4_upgrade_what_is_new.html)!
 
 If you bought Mailplane 3 in 2018, you'll get a free upgrade. All existing customers are eligible for an upgrade discount.
 
