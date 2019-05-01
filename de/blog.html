@@ -1,0 +1,27 @@
+---
+layout: default_de
+title: Blog
+description: Lesen Sie Nachrichten, Tipps und Tricks rund um Mailplane und Gmail.
+---
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://mailplaneapp.com/blog/rss_2.0"/>
+<link rel="alternate" type="application/atom+xml" title="Atom" href="https://mailplaneapp.com/blog/atom"/>
+
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+			<ul class="blog-list">
+				{% for post in site.categories.blog limit:5 %}
+				<li>
+					<p class="date">{{ post.date | date_to_string }}</p>
+					<p class="title"><a href="{{ post.permalink }}">{{ post.title }}</a></p>
+					<p class="desc">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.permalink }}">Lesen...</a></p>
+				</li>
+				{% endfor %}
+                <li style="border-bottom:0; padding:0">
+                    <p class="desc"><a href="blog/all.html">Mehr ...</a></p>
+                </li>
+			</ul>
+		</div>
+	</div>
+</section>
