@@ -26,6 +26,18 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon-64x64.png" sizes="64x64">
     <link rel="icon" type="image/png" href="/assets/images/favicon-128x128.png" sizes="128x128">
 
+    <script>
+        if(location.pathname.indexOf("/blog/") < 0) {
+            var locale = !navigator.languages || navigator.languages.length === 0 ? "en" : navigator.languages[0];
+
+            if(locale === "de" || locale.indexOf("de-") === 0) {
+                if(location.pathname.indexOf("/de/") < 0) {
+                    location.pathname = "/de" + location.pathname;
+                }
+            }
+        }
+    </script>
+
     <script src="/assets/js/themes.1.js"></script>
     <script src="/assets/js/jquery-3.2.1.min.js"></script>
     <script src="/assets/js/testimonials.1.js"></script>
