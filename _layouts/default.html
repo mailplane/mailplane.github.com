@@ -53,6 +53,9 @@
                 <h3>Mailplane</h3>
             </a>
         </div>
+        {% if layout.lang != 'de' %}
+        <a class="language-switch" href="/de{{ page.url }}"><img src="/assets/images/language-de@2x.png" height="16" width="26" /></a>
+        {% endif %}
         <ul>
             <li>
                 <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/index.html">{{ layout.navigation_home_label }}</a>
