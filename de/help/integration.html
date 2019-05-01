@@ -1,0 +1,65 @@
+---
+layout: default_de
+title: Integrationen
+description: Erfahren Sie mehr über die Integrationsmöglichkeiten von Mailplane.
+---
+
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+            <ul class="two-col">
+				{% for post in site.tags.integration %}{% if post.categories contains 'help' %}
+				<li>
+					<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+					<p>{{ post.excerpt | strip_html }}</p>
+				</li>
+				{% endif %}{% endfor %}
+
+				<li>
+					<p><a href="https://www.grandtotal.biz/GrandTotal">GrandTotal</a></p>
+					<p>Die beliebte Rechnungssoftware für den Mac.</p>
+				</li>
+
+				<li>
+                    <p><a href="https://www.receipts-app.com">Receipts</a></p>
+                    <p>Receipts ist die perfekte Ergänzung zu Mailplane, falls Sie viele Belege via E-Mail bekommen. Receipts macht das Sammeln und Verwalten von Belegen einfach.</p>
+				</li>
+
+				<li>
+                    <p><a href="https://flexibits.com/fantastical">Fantastical 2</a></p>
+                    <p>Fantastical versendet Termine via Mailplane.</p>
+				</li>
+
+				<li>
+                    <p><a href="http://www.devontechnologies.com/products/devonthink/devonthink-pro.html">DEVONthink Pro</a></p>
+                    <p>DEVONthink Pro organisiert all Ihre Dokumente.</p>
+				</li>
+
+				<li>
+                    <p><a href="http://www.busymac.com/busycal">BusyCal</a></p>
+                    <p>BusyCal kann Termineinladungen via Mailplane senden.</p>
+				</li>
+
+				<li>
+                    <p><a href="http://www.busymac.com/busycontacts">BusyContacts</a></p>
+                    <p>BusyContacts kann Kontakte via Mailplane senden.</p>
+				</li>
+
+				<li>
+                    <p><a href="https://www.apple.com/macos/what-is/">macOS Contacts</a></p>
+                    <p>Use "Edit > Save to Contact" to save the sender to Contacts app and use "Mail > Insert > Email Address..." to lookup email addresses in Contacts app while composing or replying to a message.</p>
+				</li>
+
+				<li>
+                    <p><a href="http://www.lynapp.com">Lyn</a></p>
+                    <p>Bilder aus Lyn können direkt via Mailplane versendet werden.</p>
+				</li>
+
+				<li>
+                    <p><a href="https://www.lemkesoft.de/en/products/graphicconverter/">GraphicConverter</a></p>
+                    <p>GraphicConverter bietet Ihnen all das, was Sie von einer Allround-Bildbearbeitungssoftware für Ihren Mac erwarten: Einfache Nutzung, einen herausragenden Leistungsumfang sowie größte Stabilität und Zuverlässigkeit.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
