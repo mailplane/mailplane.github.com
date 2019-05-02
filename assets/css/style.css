@@ -80,11 +80,8 @@ NAV.main UL LI A:hover{color:#4f8cf8;}
 .logo{float:left;margin:15px 0 0 0;font-size:0;}
 .logo H3{float:right;font:normal 40px 'latoblack', helvetica, arial, sans-serif;color:#6c768a;margin:15px 0 0 30px;}
 .logo-icon{width:95px;height:97px;display:inline-block;background:transparent url('../images/mailplane-logo.png') no-repeat;background-size:95px;}
-.language-switch{position:absolute;top:20px;right: 30px;}
-.language-switch img:hover {
-    -webkit-box-shadow: 0 0 10px 0 rgba(31,107,246,0.25);
-    box-shadow: 0 0 10px 0 rgba(31,107,246,0.25);
-}
+.language-switch{position:absolute;top:20px;right:30px;font:normal 11px 'latoblack', helvetica, arial, sans-serif;color:#6c768a;letter-spacing:1px;}
+.language-switch a{text-decoration:none; color: #4f8bf8}
 
 /* -------- Banner -------- */
 SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background:linear-gradient(#eff7ff, #fff);}
