@@ -24,7 +24,7 @@ function setLocale(locale) {
     } catch(ignore) {}
 
     // Blog post pages aren't localized.
-    if(location.pathname.indexOf("/blog/") >= 0) {
+    if(location.pathname.indexOf("/blog/") >= 0 || location.pathname.indexOf("/faq/") >= 0 || location.pathname.indexOf("/howto/") >= 0) {
         return;
     }
 
