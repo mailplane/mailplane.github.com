@@ -97,6 +97,7 @@
 	.store-product-option-title P{margin:0 0 25px 40px;font-size:17px;line-height:22px;}
 	.store-product-option-title H3 SPAN{width:auto;margin:0;}
 	P.noTaxNote{font-size:15px;line-height:17px;}
+	.cnt-txt .form_row UL{margin-bottom:0}
 }
 
 @media screen and (max-width: 900px) {
@@ -262,6 +263,7 @@
 	.store-product-option-display INPUT{font-size:24px;margin:10px 0 15px 0;}
 	#license_type_site{margin:25px 0 20px 0;}
 	P.noTaxNote{font-size:14px;line-height:16px;margin:10px 0 20px 0;}
+	.cnt-txt .form_row UL{margin-bottom:0}
 }
 
 @media screen and (max-width: 356px) {
