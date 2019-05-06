@@ -14,8 +14,8 @@ description: Lesen Sie Nachrichten, Tipps und Tricks rund um Mailplane und Gmail
 				{% for post in site.categories.blog %}
 				<li>
 					<p class="date">{{ post.date | date_to_string }}</p>
-					<p class="title"><a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a></p>
-					<p class="desc">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.permalink }}" target="_blank">Lesen...</a></p>
+					<p class="title"><a href="{{ post.permalink }}">{{ post.title }}</a></p>
+					<p class="desc">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.permalink }}">Lesen...</a></p>
 				</li>
 				{% endfor %}
 			</ul>
