@@ -207,7 +207,7 @@ only screen and (min-device-pixel-ratio: 1.5)
 {
   .modalclose{background:transparent url('../images/icons@2x.png') no-repeat 0 -69px;background-size:40px;}
 }
-.smlnews H3{margin:0 0 10px 0;text-align:center;font:normal 32px 'latobold', arial, helvetica, sans-serif;color:#242834;}
+.smlnews H3{margin:0 0 20px 0;text-align:center;font:normal 24px 'latobold', arial, helvetica, sans-serif;color:#242834;}
 .smlnews H4{margin:0 0 20px 0;text-align:center;font:normal 18px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
 .smlnews P{text-align:center;font:normal 16px 'latolight', arial, helvetica, sans-serif;color:#6c768a;}
 .smlnews UL{list-style:none;margin:0;width:100%;}

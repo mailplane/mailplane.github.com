@@ -19,19 +19,6 @@ $(function() {
     nbrOfUpdates += $("#numberOfMailplaneUpdates").data("mp3"); // Mailplane 3
     nbrOfUpdates += $("#numberOfMailplaneUpdates").data("mp4"); // Mailplane 4
     $("#numberOfMailplaneUpdates").text(nbrOfUpdates);
-
-    $('#openmodal').click(function() {
-        $('#modal').removeClass('modal');
-        $('#modal').addClass('modalon');
-    });
-    $('#modalbg').click(function() {
-        $('#modal').removeClass('modalon');
-        $('#modal').addClass('modal');
-    });
-    $('#modalclose').click(function() {
-        $('#modal').removeClass('modalon');
-        $('#modal').addClass('modal');
-    });
 });
 
 function updateThemeButtonColor() {
