@@ -209,7 +209,8 @@
 	NAV.main UL LI{float:none;margin:0 5px;display:inline-block;}
 	.logo{float:none;width:100%;text-align:center;}
 	.logo-icon{display:inline-block;}
-	
+	.switches .language-switch{display:block;}
+
 	/* -------- Banner -------- */
 	SECTION.banner{padding:245px 0 100px 0;}
 	.a-post H2{font-size:38px;}

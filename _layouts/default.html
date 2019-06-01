@@ -48,19 +48,20 @@
         </div>
 
         <div class="switches">
-            <a id="lightThemeButton" href="#" onclick="setTheme('light'); updateThemeButtonColor();">LIGHT</a>
-            <span> | </span>
-            <a id="darkThemeButton" href="#" onclick="setTheme('dark'); updateThemeButtonColor();">DARK</a>
-
-            <span class="switch-separator"></span>
-
-            {% unless page_url_starts_with == '/blog/' %}
-            {% if layout.lang == 'en' %}
-            <span>EN | </span><a href="/de{{ page.url }}" onClick="setLocale('de'); return false;">DE</a>
-            {% else %}
-            <a href="{{ page.url | remove_first:'/de' }}" onClick="setLocale('en'); return false;">EN</a><span> | {{ layout.lang | upcase }}</span>
-            {% endif %}
-            {% endunless %}
+            <div class="theme-switch">
+                <a id="lightThemeButton" href="#" onclick="setTheme('light'); updateThemeButtonColor();">LIGHT</a>
+                <span> | </span>
+                <a id="darkThemeButton" href="#" onclick="setTheme('dark'); updateThemeButtonColor();">DARK</a>
+            </div>
+            <div class="language-switch">
+                {% unless page_url_starts_with == '/blog/' %}
+                {% if layout.lang == 'en' %}
+                <span>EN | </span><a href="/de{{ page.url }}" onClick="setLocale('de'); return false;">DE</a>
+                {% else %}
+                <a href="{{ page.url | remove_first:'/de' }}" onClick="setLocale('en'); return false;">EN</a><span> | {{ layout.lang | upcase }}</span>
+                {% endif %}
+                {% endunless %}
+            </div>
         </div>
 
         <ul>
