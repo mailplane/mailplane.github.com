@@ -1,3 +1,27 @@
+$(function() {
+    updateThemeButtonColor();
+});
+
+function updateThemeButtonColor() {
+    var theme = getTheme();
+    if (!theme) {
+        // See https://kevinchen.co/blog/support-macos-mojave-dark-mode-on-websites/
+        if (window.matchMedia && window.matchMedia("screen and (prefers-color-scheme: dark)").matches) {
+            theme = "dark";
+        } else {
+            theme = "light";
+        }
+    }
+
+    if (theme === "dark") {
+        $("#darkThemeButton").attr("style", null);
+        $("#lightThemeButton").attr("style", "color: #4f8bf8");
+    } else {
+        $("#darkThemeButton").attr("style", "color: #4f8bf8");
+        $("#lightThemeButton").attr("style", null);
+    }
+}
+
 function getTheme() {
     var name = "theme" + "=";
     var decodedCookie = decodeURIComponent(document.cookie);

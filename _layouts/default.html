@@ -11,6 +11,7 @@
     <meta content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" name="viewport">
     <meta charset="utf-8"/>
     <title>Mailplane - {{ page.title }}</title>
+
     {% unless page_url_starts_with == '/blog/' %}
     {% if layout.lang == 'en' %}
     <link rel="alternate" hreflang="de" href="/de{{ page.url }}" />
@@ -29,9 +30,9 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon-64x64.png" sizes="64x64">
     <link rel="icon" type="image/png" href="/assets/images/favicon-128x128.png" sizes="128x128">
 
-    <script src="/assets/js/i18n.1.js"></script>
-    <script src="/assets/js/themes.1.js"></script>
     <script src="/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="/assets/js/i18n.1.js"></script>
+    <script src="/assets/js/themes.2.js"></script>
     <script src="/assets/js/testimonials.1.js"></script>
     <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(100554681);</script>
     <script async src="//static.getclicky.com/js"></script>
@@ -45,17 +46,23 @@
                 <h3>Mailplane</h3>
             </a>
         </div>
-        {% unless page_url_starts_with == '/blog/' %}
-        {% if layout.lang == 'en' %}
-        <div class="language-switch">
-            EN | <a href="/de{{ page.url }}" onClick="setLocale('de'); return false;">DE</a>
+
+        <div class="switches">
+            <a id="lightThemeButton" href="#" onclick="setTheme('light'); updateThemeButtonColor();">LIGHT</a>
+            <span> | </span>
+            <a id="darkThemeButton" href="#" onclick="setTheme('dark'); updateThemeButtonColor();">DARK</a>
+
+            <span class="switch-separator"></span>
+
+            {% unless page_url_starts_with == '/blog/' %}
+            {% if layout.lang == 'en' %}
+            <span>EN | </span><a href="/de{{ page.url }}" onClick="setLocale('de'); return false;">DE</a>
+            {% else %}
+            <a href="{{ page.url | remove_first:'/de' }}" onClick="setLocale('en'); return false;">EN</a><span> | {{ layout.lang | upcase }}</span>
+            {% endif %}
+            {% endunless %}
         </div>
-        {% else %}
-        <div class="language-switch">
-            <a href="{{ page.url | remove_first:'/de' }}" onClick="setLocale('en'); return false;">EN</a> | {{ layout.lang | upcase }}
-        </div>
-        {% endif %}
-        {% endunless %}
+
         <ul>
             <li>
                 <a href="{% if layout.lang != 'en' %}/{{ layout.lang }}{% endif %}/index.html">{{ layout.navigation_home_label }}</a>
