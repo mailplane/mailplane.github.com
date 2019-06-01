@@ -49,9 +49,9 @@
 
         <div class="switches">
             <div class="theme-switch">
-                <a id="lightThemeButton" href="#" onclick="setTheme('light'); updateThemeButtonColor();">LIGHT</a>
+                <a id="lightThemeButton" href="#" onclick="setTheme('light'); updateThemeButtonColor();">{{ layout.theme_switch_light_label }}</a>
                 <span> | </span>
-                <a id="darkThemeButton" href="#" onclick="setTheme('dark'); updateThemeButtonColor();">DARK</a>
+                <a id="darkThemeButton" href="#" onclick="setTheme('dark'); updateThemeButtonColor();">{{ layout.theme_switch_dark_label }}</a>
             </div>
             <div class="language-switch">
                 {% unless page_url_starts_with == '/blog/' %}

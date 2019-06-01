@@ -82,7 +82,7 @@ NAV.main UL LI A:hover{color:#4f8cf8;}
 .logo-icon{width:95px;height:97px;display:inline-block;background:transparent url('../images/mailplane-logo.png') no-repeat;background-size:95px;}
 .switches{position:absolute;top:20px;right:30px;}
 .switches div{font:normal 11px 'latoblack', helvetica, arial, sans-serif;color:#6c768a;letter-spacing:1px;text-align:right;display:inline}
-.switches a{text-decoration:none;color: #4f8bf8}
+.switches a{text-transform:uppercase;text-decoration:none;color: #4f8bf8}
 .switches .theme-switch a{color:#6c768a}
 .switches .language-switch{padding-left:10px}
 
