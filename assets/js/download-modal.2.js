@@ -1,5 +1,5 @@
 $(function() {
-    var modalElementId = navigator.userAgent.indexOf("Macintosh") >= 0 ? "modal_non_macos" : "modal_non_macos";
+    var modalElementId = navigator.userAgent.indexOf("Macintosh") >= 0 ? "modal_macos" : "modal_non_macos";
 
     $("a.open-download-modal").click(function() {
         $("#"+modalElementId)
