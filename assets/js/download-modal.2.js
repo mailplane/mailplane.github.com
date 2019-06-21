@@ -8,6 +8,9 @@ $(function() {
 
         if(modalElementId === "modal_macos") {
             Arrow.show();
+        } else {
+            // Prevent starting to download
+            return false;
         }
     });
     $(".modalbg").click(function() {
