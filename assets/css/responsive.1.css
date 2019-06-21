@@ -280,4 +280,9 @@
 
 @media screen and (max-height: 620px) {
 	.modalon{padding-top:40px}
+
+	.modaldialog.smlnews h3{font-size:20px}
+	.modaldialog.smlnews h4{font-size:16px;}
+	.modaldialog .field{font-size:16px}
+	.modaldialog .bluebtn{font-size:13px}
 }
