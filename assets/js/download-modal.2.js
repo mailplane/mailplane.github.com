@@ -1,17 +1,24 @@
-$(function () {
-    $("a.open-download-modal").click(function () {
-        $("#modal").removeClass("modal");
-        $("#modal").addClass("modalon");
+$(function() {
+    var modalElementId = "modal_macos";
 
-        Arrow.show();
+    $("a.open-download-modal").click(function() {
+        $("#"+modalElementId)
+            .removeClass("modal")
+            .addClass("modalon");
+
+        if(modalElementId === "modal_macos") {
+            Arrow.show();
+        }
     });
-    $("#modalbg").click(function () {
-        $("#modal").removeClass("modalon");
-        $("#modal").addClass("modal");
+    $(".modalbg").click(function() {
+        $("#"+modalElementId)
+            .removeClass("modalon")
+            .addClass("modal");
     });
-    $("#modalclose").click(function () {
-        $("#modal").removeClass("modalon");
-        $("#modal").addClass("modal");
+    $(".modalclose").click(function() {
+        $("#"+modalElementId)
+            .removeClass("modalon")
+            .addClass("modal");
     });
 
     /*
@@ -29,26 +36,6 @@ $(function () {
 
     window.Arrow = function (window, document, undefined) {
         "use strict";
-
-        function _increaseOpacity(milliseconds) {
-            var arrow = document.getElementById("arrow-" + browser);
-            arrow.style.display = "block";
-            var i = 0, ieI = 0, x = setInterval(function () {
-                i += .1, ieI += 10, "msie" === browser && 8 >= browserVersion ? arrow.filters && (arrow.filters.item("DXImageTransform.Microsoft.Alpha").opacity = ieI) : arrow.style.opacity = i
-            }, 50);
-            setTimeout(function () {
-                clearInterval(x)
-            }, 600)
-        }
-
-        function _decreaseOpacity() {
-            var arrow = document.getElementById("arrow-" + browser), i = 1, ieI = 100, x = setInterval(function () {
-                i -= .1, ieI -= 10, "msie" === browser && 8 >= browserVersion ? arrow.filters && (arrow.filters.item("DXImageTransform.Microsoft.Alpha").opacity = ieI) : arrow.style.opacity = i
-            }, 50);
-            setTimeout(function () {
-                clearInterval(x), arrow.style.display = "none"
-            }, 600)
-        }
 
         function _applyStyleModern(node) {
             node.style.position = "fixed", node.style.zIndex = 999, node.style.display = "none", node.style.height = "309px", node.style.width = "186px", node.style.opacity = 0, node.style.backgroundImage = "url(/assets/images/arrowjs.png)", node.style.backgroundRepeat = "no-repeat", node.style.backgroundPositionX = "0", node.style.backgroundPositionY = "0"
@@ -88,7 +75,7 @@ $(function () {
         }
 
         function _injectNode(node) {
-            document.getElementById("arrowjs-root").appendChild(node)
+            document.getElementById(modalElementId + "_arrowjs-root").appendChild(node)
         }
 
         function _isExist() {
@@ -108,14 +95,14 @@ $(function () {
             "number" == typeof window.innerWidth ? (visibleWidth = window.innerWidth, visibleHeight = window.innerHeight) : document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight) && (visibleWidth = document.documentElement.clientWidth, visibleHeight = document.documentElement.clientHeight), "msie" === browser && 9 === browserVersion && (1005 > visibleWidth ? arrowNode.style.bottom = "85px" : visibleWidth > 1006 && (arrowNode.style.bottom = "50px"))
         }
 
-        function _hide() {
-            if (!_isExist()) throw"Invalid usage: There are no arrows on the page.";
-            _decreaseOpacity()
-        }
+        function show() {
+            if (!_isExist()) throw "Invalid usage: arrow does not exist";
 
-        function show(seconds) {
-            if (!_isExist()) throw"Invalid usage: arrow does not exist";
-            _increaseOpacity(seconds)
+            var arrow = document.getElementById("arrow-" + browser);
+            arrow.style.display = "block";
+            "msie" === browser && 8 >= browserVersion ?
+                arrow.filters && (arrow.filters.item("DXImageTransform.Microsoft.Alpha").opacity = 100) :
+                arrow.style.opacity = 1
         }
 
         var arrowNode, version = "0.1.7", Arrow = {}, browser = "", browserVersion = 0, visibleHeight = 0,
@@ -126,4 +113,5 @@ $(function () {
             M && null != (tem = ua.match(/version\/([\.\d]+)/i)) && (M[2] = tem[1]), M = M ? [M[1], M[2]] : [N, navigator.appVersion, "-?"], browser = "netscape" == M[0].toLowerCase() ? "IE11" : -1 != ua.toLowerCase().indexOf("edge") ? "edge" : M[0].toLowerCase(), browserVersion = parseInt(M[1], 10)
         }(), _initArrow(), Arrow._version = version, Arrow._browser = browser, Arrow._browserVersion = browserVersion, Arrow.show = show, Arrow
     }(window, window.document);
+
 });
