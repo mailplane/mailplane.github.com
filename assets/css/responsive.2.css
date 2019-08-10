@@ -10,7 +10,8 @@
 	.logo{margin:20px 0 0 0;}
 	.logo H3{font-size:34px;margin:20px 0 0 30px;}
 	.logo-icon{width:90px;height:92px;background-size:90px;}
-	
+	.switches{right:30px;}
+
 	/* -------- Banner -------- */
 	SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background:linear-gradient(#eff7ff, #fff);}
 	.banner .clouds{position:absolute;left:0;width:100%;}
