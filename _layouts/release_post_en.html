@@ -1,9 +1,17 @@
+---
+layout: default_en
+---
+
 <section class="content">
 	<div class="container">
 		<div class="cnt-txt">
-			<span class="date">Released on {{ page.date | date_to_string }}</span>
-			<h2 class="post-title">{{ page.title }}</h2>
-			{{ content }}
+			<ul class="blog-list">
+				<li id="{{ page.build_number }}">
+					<p class="date">{{ page.date | date_to_string }}</p>
+					<h2>Mailplane {{ page.title }}</h2>
+					{{ content }}
+				</li>
+			</ul>
 		</div>
 	</div>
 </section>
