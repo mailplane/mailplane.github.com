@@ -20,6 +20,10 @@
     {% endif %}
     {% endunless %}
 
+    {% if page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}" />
+    {% endif %}
+
     <link rel="stylesheet" href="/assets/css/html5reset-1.6.1.css" />
     <link rel="stylesheet" href="/assets/css/style.2.css" />
     <link rel="stylesheet" href="/assets/css/responsive.2.css" />
