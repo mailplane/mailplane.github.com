@@ -12,4 +12,4 @@ You can read a bit about the new features of macOS Catalina [here](https://www.a
 
 Attachment downloads didn't work in Mailplane 3 off the bat but we did release an update today. Please do check for updates via "Mailplane 3 > Check for Updates..." or grab the latest version from our [download page](https://mailplaneapp.com/download).
 
-Although Mailplane 3 runs on macOS Catalina, this will be the last forecasted update to Mailplane 3. Thank you for your understanding.
+Please keep in mind that we don't actively develop Mailplane 3 anymore and therefore have no plans for further updates at this time. Give [Mailplane 4](https://mailplaneapp.com/releases/mailplane4_upgrade_what_is_new.html) a try if you want to stay current.
