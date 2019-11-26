@@ -8,18 +8,6 @@ var testimonials = [
     {
         lang: "en",
         pubDate: "2019-01-03",
-        text: "I love the new Mailplane 4 – especially that I can use security keys to log in. This will keep so many people safer!",
-        author: "Andreas Fuchs"
-    },
-    {
-        lang: "de",
-        pubDate: "2019-01-03",
-        text: "Ich liebe das neue Mailplane 4 - vor allem, weil ich mich mit Sicherheitsschlüsseln anmelden kann. Das wird so viele sicherer machen!",
-        author: "Andreas Fuchs"
-    },
-    {
-        lang: "en",
-        pubDate: "2019-01-03",
         text: "I run a small business and manage multiple Gmail accounts. Mailplane has been a brilliant addition to my productivity tools.",
         author: "Michael Karst"
     },
