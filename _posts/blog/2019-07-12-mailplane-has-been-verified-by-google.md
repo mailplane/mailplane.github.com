@@ -11,3 +11,5 @@ In October last year, Google [announced new guidelines](https://cloud.google.com
 Mailplane uses the Gmail API for search everywhere functionality, navigation, image annotation, notifier actions, and most save clip options. Everything runs between your Mac and Google and no server of us is involved.
 
 We're happy to announce that the review was successful and we can continue to provide these functionalities without limitations.
+
+**Update 12/17/2019:** Google sent an email stating that they will turn off access to less secure apps. Mailplane is already using verified OAuth mechanisms (as mentioned above) and thus you're already covered.
