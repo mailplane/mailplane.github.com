@@ -1,0 +1,28 @@
+---
+layout: null
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Mailplane 4 Releases</title>
+  <link href="https://mailplaneapp.com/releases/mailplane4.html"/>
+  <link type="application/atom+xml" rel="self" href="https://mailplaneapp.com/releases/mailplane4/rss_2.0"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>https://mailplaneapp.com/releases/mailplane4</id>
+  <author>
+    <name>Mailplane Team</name>
+    <email>support@mailplaneapp.com</email>
+  </author>
+
+  {% assign sorted_posts = site.categories.release_mailplane4 | sort: "build_number" %}
+  {% for post in sorted_posts %}
+  <entry>
+    <id>https://mailplaneapp.com/releases/mailplane4/{{ post.build_number }}</id>
+    <title>Mailplane {{ post.title | xml_escape }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
