@@ -11,6 +11,7 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
     <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
     <webMaster>support@mailplaneapp.com</webMaster>
+    <managingEditor>Mailplane Team</managingEditor>
 
     {% assign sorted_posts = site.categories.release_mailplane4 | sort: "build_number" %}
     {% for post in sorted_posts %}
