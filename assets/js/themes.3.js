@@ -3,15 +3,7 @@ $(function() {
 });
 
 function updateThemeButtonColor() {
-    var theme = getTheme();
-    if (!theme) {
-        // See https://kevinchen.co/blog/support-macos-mojave-dark-mode-on-websites/
-        if (window.matchMedia && window.matchMedia("screen and (prefers-color-scheme: dark)").matches) {
-            theme = "dark";
-        } else {
-            theme = "light";
-        }
-    }
+    var theme = getTheme(getDefaultTheme());
 
     if (theme === "dark") {
         $("#darkThemeButton").attr("style", null);
@@ -22,7 +14,7 @@ function updateThemeButtonColor() {
     }
 }
 
-function getTheme() {
+function getTheme(defaultTheme) {
     var name = "theme" + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
     var ca = decodedCookie.split(';');
@@ -36,17 +28,21 @@ function getTheme() {
         }
     }
 
-    return "";
+    return defaultTheme;
+}
+
+function getDefaultTheme() {
+    // See https://kevinchen.co/blog/support-macos-mojave-dark-mode-on-websites/
+    if(window.matchMedia && window.matchMedia("screen and (prefers-color-scheme: dark)").matches) {
+        return "dark";
+    } else {
+        return "light";
+    }
 }
 
 function setTheme(theme) {
     if(!theme) {
-        // See https://kevinchen.co/blog/support-macos-mojave-dark-mode-on-websites/
-        if(window.matchMedia && window.matchMedia("screen and (prefers-color-scheme: dark)").matches) {
-            theme = "dark";
-        } else {
-            theme = "light";
-        }
+        theme = getDefaultTheme();
     } else {
         if(theme === "dark") {
             if(!$("#darkTheme")[0]) {
@@ -67,7 +63,7 @@ function setTheme(theme) {
             var expires = new Date();
             expires.setTime(+ expires + 365 * 24 * 60 * 60 * 1000);
 
-          document.cookie = "theme" + "=" + theme + ";expires=" + expires.toGMTString() + ";domain=.mailplaneapp.com;path=/";
+            document.cookie = "theme" + "=" + theme + ";expires=" + expires.toGMTString() + ";domain=.mailplaneapp.com;path=/";
         } catch(ignore) {}
     }
 
@@ -80,5 +76,5 @@ function setTheme(theme) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    setTheme(getTheme());
+    setTheme(getTheme(null));
 });
