@@ -17,6 +17,6 @@ Their email was referring to an old third-party access entry that goes back to M
 This isn't a problem because Mailplane 3 no longer requires that third-party access. We removed that requirement in [Mailplane 3.8.6](https://mailplaneapp.com/releases/mailplane3.html#5028) in order to get Mailplane 3 through their application review as well. 
 
 Our conclusion is that you don't have to do anything. [Mailplane 4 is still approved](/blog/entry/mailplane_has_been_verified_by_google.html) 
-and the [latest version of Mailplane 3](https://mailplaneapp.com/releases/mailplane3.html) doesn't need that expired third-party access anymore.
+and the [latest version of Mailplane 3](https://mailplaneapp.com/releases/mailplane3.html) no longer requires the expired third-party access.
 
 We hope it clears things up a bit. We will update this blog post if we get any new insights.
