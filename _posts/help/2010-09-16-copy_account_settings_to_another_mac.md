@@ -8,10 +8,11 @@ tags:
 - tricks
 ---
 
-Mailplane stores are its accounts settings in a single file. This file contains text snippets, signatures and account options. If you use Mailplane on multiple Macs, you can avoid reentering account information if you:
+Mailplane stores are its accounts settings in a single file. If you use Mailplane on multiple Macs, you can avoid reentering account information if you:
 
-1. Open Finder, Go > Go to Folder and enter `~/Library/Application Support/Mailplane 3`
-2. Copy just `Accounts.xml` to the other Mac
+1. Quit Mailplane
+2. Open Finder, Go > Go to Folder and enter `~/Library/Application Support/com.mailplaneapp.Mailplane3`
+3. Copy just `state.db` to the same location on the target machine
 
 
 ### Other settings
