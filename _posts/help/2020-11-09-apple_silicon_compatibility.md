@@ -11,7 +11,7 @@ tags:
 Unfortunately we haven't been able to make Mailplane 4 fully compatible with upcoming Apple Silicon Macs but we're working on it.
 
 It's a major undertaking and might take a few more months until we're ready to share something.
-Don't hesitate to write us to [mailto:support@mailplaneapp.com](support@mailplaneapp.com) if you're interested in a preview version.
+Don't hesitate to write us to [support@mailplaneapp.com](mailto:support@mailplaneapp.com) if you're interested in a preview version.
 
 #### Wait, I already own an Apple Silicon Mac. What should I do?
 
