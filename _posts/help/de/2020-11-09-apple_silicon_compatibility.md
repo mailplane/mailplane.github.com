@@ -3,7 +3,7 @@ layout: help_post_de
 title: 'Apple-Silicon-Kompatibilität'
 author: Lars
 category: help
-permalink: /help/de/apple_silicon_compatibility.html
+permalink: /de/help/apple_silicon_compatibility.html
 tags:
 - faq
 ---
