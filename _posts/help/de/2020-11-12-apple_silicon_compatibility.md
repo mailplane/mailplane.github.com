@@ -16,5 +16,5 @@ Schreiben Sie an [support@mailplaneapp.com](mailto:support@mailplaneapp.com), fa
 #### Ich besitze bereits einen Apple Silicon basierten Mac. Was muss ich tun?
 
 Wenn Sie bereits einen Apple Silicon basierten Mac besitzen, empfehlen wir Ihnen, in der Zwischenzeit Mailplane 3 zu verwenden.
-Es ist uns bewusst, dass es seltsam klingt, aber Mailplane 3 verwendet eine Web-Framework, die ohne Anpassungen auf Apple Silicon basierten Macs läuft.
+Es ist uns bewusst, dass es seltsam klingt, aber Mailplane 3 verwendet ein Web-Framework, welches ohne Anpassungen auf Apple Silicon basierten Macs läuft.
 Sie können [Mailplane 3 hier herunterladen](https://update.mailplaneapp.com/mailplane_3.php). Es funktioniert auch mit Mailplane 4 Lizenzen.
