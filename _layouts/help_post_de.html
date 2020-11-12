@@ -1,0 +1,36 @@
+---
+layout: default_de
+---
+
+<style>
+	pre, code {
+		background-color: #efefef;
+		border-color: #d6d6d6 !important;
+	}
+	pre {
+		width: 95%;
+		overflow: auto;
+		font-size: 14px;
+		margin: 0 0 20px 0;
+		padding: 10px 2%;
+		border: 1px solid;
+	}
+	img {
+		padding-top: 5px;
+	}
+	img.shadowed, iframe.shadowed {
+		box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+		-webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 0px 5px);
+		-webkit-box-shadow: none;
+	}
+</style>
+
+<section class="content">
+	<div class="container">
+		<div class="cnt-txt">
+			<span class="date">{{ page.date | date_to_string }}</span>
+			<h2 class="post-title">{{ page.title }}</h2>
+			{{ content }}
+		</div>
+	</div>
+</section>
