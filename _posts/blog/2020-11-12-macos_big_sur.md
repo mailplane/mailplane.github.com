@@ -8,6 +8,6 @@ permalink: /blog/entry/macos_big_sur.html
 
 Apple released macOS Big Sur (10.16) today.
 
-We tested [Mailplane 4.3](https://mailplaneapp.com/releases/mailplane4.html#4846) with MacOS Big Sur and made corrections to ensure compatibility. Unfortunately upcoming Apple Silicon based Macs aren't yet supported, but we're working on it. Read more [here](/help/apple_silicon_compatibility.html).
+We tested [Mailplane 4.3](https://mailplaneapp.com/releases/mailplane4.html#4846) with MacOS Big Sur and made corrections to ensure compatibility. Read more [here](/help/apple_silicon_compatibility.html).
 
-Read a bit about the new features of macOS Big Sur [here](https://www.apple.com/osx).
+**Update 11/20/2020:** We learned today that Mailplane 4 runs well on M1-based Macs. We haven't been able to test it ourselves yet because we're still waiting for our MacMini, but we're optimistic. Stay tuned.

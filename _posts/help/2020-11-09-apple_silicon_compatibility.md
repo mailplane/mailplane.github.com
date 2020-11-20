@@ -8,13 +8,13 @@ tags:
 - faq
 ---
 
+**11/20/2020**
+
+We learned today that Mailplane 4 runs well on M1-based Macs. We haven't been able to test it ourselves yet because we're still waiting for our MacMini, but we're optimistic. Stay tuned.
+
+**11/12/2020**
+
 Unfortunately we have not yet been able to make Mailplane 4 fully compatible with Apple Silicon based Macs, but we are working on it.
 
 It's a major undertaking and might take a few more months until we're ready to share something.
 Don't hesitate to write us to [support@mailplaneapp.com](mailto:support@mailplaneapp.com) if you're interested in a preview version.
-
-#### Wait, I already own an Apple Silicon based Mac. What should I do?
-
-If you are fortunate enough to already own a Apple Silicon based Mac, we suggest to use Mailplane 3 in the meantime.
-We know it sounds strange, but Mailplane 3 uses a web foundation that runs on Apple Silicon based Macs without requiring us to do any modifications.
-You can [download Mailplane 3 here](https://update.mailplaneapp.com/mailplane_3.php). It works with Mailplane 4 licenses as well.
