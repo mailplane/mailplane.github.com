@@ -8,4 +8,6 @@ tags:
 - faq
 ---
 
-Wir haben heute erfahren, dass Mailplane 4 auf M1-basierten Macs funktioniert. Wir warten noch auf unseren MacMini und konnten es daher noch nicht selbst testen, aber wir sind optimistisch. Wir informieren hier wieder, sobald wir unsere Tests durchgeführt haben.
+Wir haben heute erfahren, dass Mailplane 4 auf M1-basierten Macs funktioniert.
+
+Wir warten noch auf unseren MacMini und konnten es daher noch nicht selbst testen, aber wir sind optimistisch. Wir informieren hier wieder, sobald wir unsere Tests durchgeführt haben.
