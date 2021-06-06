@@ -9,7 +9,7 @@ permalink: /blog/entry/mailplane_stopped_selling_licenses.html
 If you're pressed for time, here's the short version:
 
 * We are no longer selling licenses for Mailplane
-* Mailplane will continue to function and we'll try our best to keep it running
+* Mailplane will continue to function for existing customers and we'll try our best to keep it running
 * If you have bought Mailplane in the last 60 days, [contact us](mailto:support@mailplaneapp.com) if you want a refund
 
 
