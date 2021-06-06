@@ -87,12 +87,12 @@ NAV.main UL LI A:hover{color:#4f8cf8;}
 .switches .language-switch{padding-left:10px}
 
 /* -------- Banner -------- */
-SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background:linear-gradient(#eff7ff, #fff);}
+SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background-image:url('/assets/landing_page_en/sunset.svg'), linear-gradient(#fbddc7, #fff);background-repeat:no-repeat;background-position:top center;}
 .banner .clouds{position:absolute;left:0;width:100%;}
 .banner .cwrap{bottom:0;overflow:hidden;}
 .banner .cblue{z-index:1;}
 .banner .cwhite{z-index:10;bottom:-1px;}
-.a-post-wrap{width:100%;padding:70px 20px 40px 20px;text-align:center;background-color:#fff;-webkit-box-shadow:0 0 10px 0 rgba(212,225,248,0.75);box-shadow:0 0 10px 0 rgba(212,225,248,0.75);-webkit-border-radius:3px;border-radius:3px;border-bottom:1px solid #d3e0f7;border-top:1px solid #e4eeff;border-left:1px solid #e4eeff;border-right:1px solid #e4eeff;position:relative;z-index:10;}
+.a-post-wrap{width:100%;padding:60px 20px 50px 20px;text-align:center;background-color:#fff;-webkit-box-shadow:0 0 10px 0 rgba(255,154,79,0.25);box-shadow:0 0 10px 0 rgba(255,154,79,0.25);-webkit-border-radius:3px;border-radius:3px;position:relative;z-index:10;}
 .a-post{margin:30px 100px 0 0;width:400px;display:inline-block;position:relative;}
 .a-post H2{font:normal 48px 'latoblack', helvetica, arial, sans-serif;line-height:50px;margin:0 0 25px 0;color:#4f8bf8;}
 .a-post H3{font:normal 44px 'latolight', helvetica, arial, sans-serif;line-height:50px;margin:0 0 20px 0;color:#242834;}
@@ -106,7 +106,7 @@ SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background:l
 .main-cta P{margin:22px 10px 0 10px;font:normal 16px 'latomedium', helvetica, arial, sans-serif;color:#6c768a;}
 .main-cta P A{color:#4f8cf8;text-decoration:underline;}
 .main-cta P A:hover{text-decoration:none;}
-.main-cta UL{list-style:none;}
+.main-cta UL{list-style:none;margin-left:0}
 .main-cta UL LI{width:210px;text-align:center;float:left;margin:0 20px 0 0;}
 .decoration{position:absolute;top:0;left:0;width:100%;height:100%;overflow:visible;width:400px;}
 .decoration SPAN{display:inline-block;opacity:0.5;background-color:transparent;position:absolute;z-index:1;}

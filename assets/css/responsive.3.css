@@ -13,7 +13,7 @@
 	.switches{right:30px;}
 
 	/* -------- Banner -------- */
-	SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background:linear-gradient(#eff7ff, #fff);}
+	SECTION.banner{width:100%;padding:180px 0 145px 0;position:relative;background-position:bottom center;}
 	.banner .clouds{position:absolute;left:0;width:100%;}
 	.banner .cblue{z-index:1;bottom:0;}
 	.banner .cwhite{z-index:10;bottom:-1px;}
