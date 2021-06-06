@@ -32,7 +32,7 @@ That's why we came to the painful decision to face the truth and pull the plug. 
 
 As of now, we are no longer selling licenses for Mailplane.
 
-We will continue trying to work around the blockade and keep Mailplane alive as long as possible.
+We will continue trying to work around the blockade and keep Mailplane alive for existing customers as long as possible.
 
 [Write to us](mailto:support@mailplaneapp.com) if you have purchased Mailplane in the last 60 days and want a refund. We completely understand if you no longer want to use an app which has an uncertain future.
 
