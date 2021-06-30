@@ -68,7 +68,7 @@ H5{font-size:22px;}
 .main-btn{width:100%;height:46px;padding:12px 0 0 0;display:block;letter-spacing:0.5px;text-decoration:none;text-transform:uppercase;text-align:center;font:normal 15px 'latoblack', helvetica, arial, sans-serif;-webkit-border-radius:23px;border-radius:23px;}
 .blue-btn{background-color:#4f8cf8;color:#fff;-webkit-box-shadow:0 0 10px 0 rgba(31,107,246,0.5);box-shadow:0 0 10px 0 rgba(31,107,246,0.5);border-bottom:1px solid #3d7df1;border-top:1px solid #4986f5;}
 .blue-btn:hover{text-decoration:none;background-color:#477ede;-webkit-box-shadow:0 0 15px 0 rgba(31,107,246,0.6);box-shadow:0 0 15px 0 rgba(31,107,246,0.6);}
-.white-btn{background-color:#fff;color:#242834;-webkit-box-shadow:0 0 10px 0 rgba(212,225,248,0.75);box-shadow:0 0 10px 0 rgba(212,225,248,0.75);border:1px solid #b2d3ff;}
+.white-btn{background-color:#fff;color:#242834;-webkit-box-shadow:0 0 10px 0 rgba(212,225,248,0.75);box-shadow:0 0 10px 0 rgba(212,225,248,0.75);border:1px solid #ccc;}
 .white-btn:hover{text-decoration:none;background-color:#fff;color:#477ede;-webkit-box-shadow:0 0 15px 0 rgba(31,107,246,0.25);box-shadow:0 0 15px 0 rgba(31,107,246,0.25);}
 
 /* -------- Navigation -------- */
